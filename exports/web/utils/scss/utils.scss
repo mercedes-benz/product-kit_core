@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: MIT
+// © Daimler TSS GmbH
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}

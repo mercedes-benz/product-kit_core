@@ -1,0 +1,42 @@
+{
+  "size": {
+    "line-height": {
+      "3xs": {
+        "value": "16",
+        "comment": "The smallest size of the line height."
+      },
+      "xxs": {
+        "value": "21",
+        "comment": "The smallest size of the line height."
+      },
+      "xs": {
+        "value": "24",
+        "comment": "The second most smalles size of the line height."
+      },
+      "s": {
+        "value": "28",
+        "comment": "The small size of the line height."
+      },
+      "m": {
+        "value": "36",
+        "comment": "The medium size of the line height."
+      },
+      "l": {
+        "value": "44",
+        "comment": "The large size of the line height."
+      },
+      "xl": {
+        "value": "60",
+        "comment": "The extra large size of the line height."
+      },
+      "xxl": {
+        "value": "72",
+        "comment": "The extra extra large size of the line height."
+      },
+      "3xl": {
+        "value": "93",
+        "comment": "The second most largest size of the line height."
+      }
+    }
+  }
+}

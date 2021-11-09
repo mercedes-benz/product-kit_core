@@ -1,0 +1,63 @@
+{
+  "size": {
+    "application": {
+      "spacing": {
+        "xs": {
+          "3xs": { "value": "{size.space.halfx.value}" },
+          "xxs": { "value": "{size.space.1x.value}" },
+          "xs": { "value": "{size.space.2x.value}" },
+          "s": { "value": "{size.space.3x.value}" },
+          "m": { "value": "{size.space.4x.value}" },
+          "l": { "value": "{size.space.6x.value}" },
+          "xl": { "value": "{size.space.8x.value}" },
+          "xxl": { "value": "{size.space.10x.value}" },
+          "3xl": { "value": "{size.space.11x.value}" }
+        },
+        "s": {
+          "3xs": { "value": "{size.space.halfx.value}" },
+          "xxs": { "value": "{size.space.1x.value}" },
+          "xs": { "value": "{size.space.2x.value}" },
+          "s": { "value": "{size.space.3x.value}" },
+          "m": { "value": "{size.space.4x.value}" },
+          "l": { "value": "{size.space.6x.value}" },
+          "xl": { "value": "{size.space.8x.value}" },
+          "xxl": { "value": "{size.space.10x.value}" },
+          "3xl": { "value": "{size.space.11x.value}" }
+        },
+        "m": {
+          "3xs": { "value": "{size.space.halfx.value}" },
+          "xxs": { "value": "{size.space.1x.value}" },
+          "xs": { "value": "{size.space.3x.value}" },
+          "s": { "value": "{size.space.4x.value}" },
+          "m": { "value": "{size.space.6x.value}" },
+          "l": { "value": "{size.space.8x.value}" },
+          "xl": { "value": "{size.space.10x.value}" },
+          "xxl": { "value": "{size.space.11x.value}" },
+          "3xl": { "value": "{size.space.16x.value}" }
+        },
+        "l": {
+          "3xs": { "value": "{size.space.halfx.value}" },
+          "xxs": { "value": "{size.space.1x.value}" },
+          "xs": { "value": "{size.space.3x.value}" },
+          "s": { "value": "{size.space.4x.value}" },
+          "m": { "value": "{size.space.6x.value}" },
+          "l": { "value": "{size.space.8x.value}" },
+          "xl": { "value": "{size.space.10x.value}" },
+          "xxl": { "value": "{size.space.11x.value}" },
+          "3xl": { "value": "{size.space.16x.value}" }
+        },
+        "xl": {
+          "3xs": { "value": "{size.space.halfx.value}" },
+          "xxs": { "value": "{size.space.1x.value}" },
+          "xs": { "value": "{size.space.3x.value}" },
+          "s": { "value": "{size.space.4x.value}" },
+          "m": { "value": "{size.space.6x.value}" },
+          "l": { "value": "{size.space.9x.value}" },
+          "xl": { "value": "{size.space.11x.value}" },
+          "xxl": { "value": "{size.space.12x.value}" },
+          "3xl": { "value": "{size.space.24x.value}" }
+        }
+      }
+    }
+  }
+}

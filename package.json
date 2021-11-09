@@ -1,0 +1,20 @@
+{
+  "name": "@daimler/productkit-core",
+  "version": "1.0.5",
+  "description": "Product Kit Core provides design tokens according to the Daimler TSS styleguide",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daimler/product-kit_core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daimler/product-kit_core/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "style-dictionary": "^3.0.1"
+  }
+}

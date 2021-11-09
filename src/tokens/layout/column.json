@@ -1,0 +1,18 @@
+{
+  "layout": {
+    "column": {
+      "1x": {
+        "value": "4",
+        "comment": "The least amount of columns in a layout. Used for phone screen sizes."
+      },
+      "2x": {
+        "value": "8",
+        "comment": "The amount of columns used for tablet screen sizes."
+      },
+      "3x": {
+        "value": "12",
+        "comment": "The most amount of columns in a layout. Used for laptop or desktop screen sizes."
+      }
+    }
+  }
+}

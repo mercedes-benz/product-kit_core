@@ -1,0 +1,10 @@
+{
+  "size": {
+    "shape": {
+      "radius": {
+        "value": "0",
+        "comment": "The value indicates the radius of the rounded corners in components."
+      }
+    }
+  }
+}
