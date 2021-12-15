@@ -13,8 +13,11 @@
     "url": "https://github.com/Daimler/product-kit_core/issues"
   },
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
   "devDependencies": {
     "fs-extra": "^10.0.0",
-    "style-dictionary": "^3.0.1"
+    "style-dictionary": "^3.0.3"
   }
 }
