@@ -8,7 +8,7 @@
 Product Kit Core provides design tokens according to the Daimler TSS styleguide. These tokens are used to create an export that can be used on web platforms using material design. The export is created with a build tool that is called [Style Dictionary](https://github.com/amzn/style-dictionary).
 
 You can use the export to apply the styling by yourself or use one of the following implementations for react or angular:
-* [React](https://github.com/daimler/product-kit_react)
+* [Web](https://github.com/daimler/product-kit_web)
 * [Angular](https://github.com/daimler/product-kit_angular)
 
 The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/Daimler/product-kit_core/issues) or provide a pull request with the desired export.
