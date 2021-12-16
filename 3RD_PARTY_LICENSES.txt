@@ -1,6 +1,6 @@
 Copyright 2021
 
-[productkit-core : 1.0.7]
+[product-kit-core : 1.0.7]
 
 Phase: RELEASED
 Distribution: OPENSOURCE
@@ -11,9 +11,10 @@ ansi-styles v4.3.0 : MIT License
 balanced-match 1.0.2 : MIT License
 brace-expansion 1.1.11 : MIT License
 camelcase 4.1.2 : MIT License
-Chalk 4.1.1 : MIT License
+Chalk 4.1.2 : MIT License
 change-case 4.1.2 : MIT License
 change-case v1.0.4 : MIT License
+color-name 1.1.4 : MIT License
 Commander.js v5.1.0 : MIT License
 constant-case 3.0.4 : MIT License
 dot-case 3.0.4 : MIT License
@@ -26,7 +27,6 @@ inflight 1.0.6 : ISC License
 inherits v2.0.4 : ISC License
 isaacs/once 1.4.0 : ISC License
 json5 v2.2.0 : MIT License
-kk-color-name 1.1.4 : MIT License
 Lodash 4.17.21 : MIT License
 lower-case 2.0.2 : MIT License
 minimatch 3.0.4 : ISC License
@@ -34,7 +34,7 @@ minimist 1.2.5 : MIT License
 no-case 3.0.4 : MIT License
 node-concat-map 0.0.1 : MIT License
 node-glob 7.1.7 : ISC License
-node-graceful-fs v4.2.6 : ISC License
+node-graceful-fs 4.2.8 : ISC License
 node-jsonfile 4.0.0 : MIT License
 node-jsonfile 6.1.0 : MIT License
 param-case 3.0.4 : MIT License
@@ -45,9 +45,9 @@ Qix-/color-convert 2.0.1 : MIT License
 sentence-case 3.0.4 : MIT License
 sindresorhus/supports-color v7.2.0 : MIT License
 snake-case 3.0.4 : MIT License
-style-dictionary 3.0.0 : Apache License 2.0
+style-dictionary 3.0.3 : Apache License 2.0
 TinyColor 1.4.2 : MIT License
-tslib 2.2.0 : BSD Zero Clause License
+tslib 2.3.1 : BSD Zero Clause License
 universalify 0.1.2 : MIT License
 universalify 2.0.0 : MIT License
 upper-case 2.0.2 : MIT License
@@ -59,6 +59,12 @@ Copyright Text:
 
 Commander.js v5.1.0 npmjs:commander/5.1.0
 	Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
+Lodash 4.17.21 npmjs:lodash/4.17.21
+	Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters */(function(){function n(n,t,r){switch(r.length){case 0:return n.call(t);case 1:return n.call(t,r[0]);case 2:return n.call(t,r[0]
+	Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+	Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters */;(function() {
+	copyright Jeremy Ashkenas,DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
+	Copyright OpenJS Foundation and other contributors <https://openjsf.org/> * Released under MIT license <https://lodash.com/license> * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
 Qix-/color-convert 2.0.1 npmjs:color-convert/2.0.1
 	Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
 	Copyright &copy; 2011-2016, Heather Arthur and Josh Junon. Licensed under the
@@ -68,9 +74,28 @@ TinyColor 1.4.2 npmjs:tinycolor2/1.4.2
 	Copyright (c) 2008 Ariel Flesler - aflesler(at)gmail(dot)com * http://flesler.blogspot.com Licensed under BSD * (http://www.opensource.org/licenses/bsd-license.php) Date: 5/15/2008 * * @projectDes
 ansi-styles v4.3.0 npmjs:ansi-styles/4.3.0
 	Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+balanced-match 1.0.2 npmjs:balanced-match/1.0.2
+	Copyright (c) 2013 Julian Gruber
 brace-expansion 1.1.11 npmjs:brace-expansion/1.1.11
 	Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 	Copyright (c) 2013 Julian Gruber
+camelcase 4.1.2 npmjs:camel-case/4.1.2
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+change-case 4.1.2 npmjs:change-case/4.1.2
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+change-case v1.0.4 npmjs:capital-case/1.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+color-name 1.1.4 npmjs:color-name/1.1.4
+	Copyright (c) 2015 Dmitry IvanovPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the So
+constant-case 3.0.4 npmjs:constant-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+dot-case 3.0.4 npmjs:dot-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+fs-extra 10.0.0 npmjs:fs-extra/10.0.0
+	Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation fi
+	Copyright (c) 2011-2017 JP Richardson
+	Copyright (c) 2014-2016 Jonathan Ong me@jongleberry.com and Contributorsconst u = require('universalify').fromCallbackconst fs = require('graceful-fs')
+	Copyright (c) 2011-2017
 fs-extra 8.1.0 npmjs:fs-extra/8.1.0
 	Copyright (c) 2011-2017 JP Richardson
 	Copyright (c) 2014-2016 Jonathan Ong me@jongleberry.com and Contributorsconst u = require('universalify').fromCallbackconst fs = require('graceful-fs')
@@ -81,15 +106,25 @@ fs.realpath 1.0.0 npmjs:fs.realpath/1.0.0
 has-flag 4.0.0 npmjs:has-flag/4.0.0
 	© [Sindre Sorhus
 	Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+header-case 2.0.4 npmjs:header-case/2.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 inflight 1.0.6 npmjs:inflight/1.0.6
 	Copyright (c) Isaac Z. Schlueter
 inherits v2.0.4 npmjs:inherits/2.0.4
 	Copyright (c) Isaac Z. Schlueter
 isaacs/once 1.4.0 npmjs:once/1.4.0
 	Copyright (c) Isaac Z. Schlueter and Contributors
-kk-color-name 1.1.4 npmjs:color-name/1.1.4
-	Copyright (c) 2015 Dmitry IvanovPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the So
+json5 v2.2.0 npmjs:json5/2.2.0
+	© 2019 Denis Pushkarev (zloirock.ru)"
+	Copyright (c) 2012-2018 Aseem Kishore, and
+	copyright: '© 2019 Denis Pushkarev (zloirock.ru)	});
+lower-case 2.0.2 npmjs:lower-case/2.0.2
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 minimatch 3.0.4 npmjs:minimatch/3.0.4
+	Copyright (c) Isaac Z. Schlueter and Contributors
+no-case 3.0.4 npmjs:no-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+node-glob 7.1.7 npmjs:glob/7.1.7
 	Copyright (c) Isaac Z. Schlueter and Contributors
 node-jsonfile 4.0.0 npmjs:jsonfile/4.0.0
 	Copyright 2012-2016, JP Richardson  <jprichardson@gmail.com>
@@ -97,15 +132,27 @@ node-jsonfile 4.0.0 npmjs:jsonfile/4.0.0
 node-jsonfile 6.1.0 npmjs:jsonfile/6.1.0
 	Copyright 2012-2016, JP Richardson  <jprichardson@gmail.com>
 	Copyright (c) 2012-2015, JP Richardson <jprichardson@gmail.com>
+param-case 3.0.4 npmjs:param-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+pascal-case 3.1.2 npmjs:pascal-case/3.1.2
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+path-case 3.0.4 npmjs:path-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 path-is-absolute 1.0.1 npmjs:path-is-absolute/1.0.1
 	© [Sindre Sorhus
 	Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+sentence-case 3.0.4 npmjs:sentence-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 sindresorhus/supports-color v7.2.0 npmjs:supports-color/7.2.0
 	Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+snake-case 3.0.4 npmjs:snake-case/3.0.4
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 universalify 0.1.2 npmjs:universalify/0.1.2
 	Copyright (c) 2017, Ryan Zimmerman <opensrc@ryanzim.com>
 universalify 2.0.0 npmjs:universalify/2.0.0
 	Copyright (c) 2017, Ryan Zimmerman <opensrc@ryanzim.com>
+upper-case-first 2.0.2 npmjs:upper-case-first/2.0.2
+	Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 wrappy 1.0.2 npmjs:wrappy/1.0.2
 	Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -113,7 +160,7 @@ wrappy 1.0.2 npmjs:wrappy/1.0.2
 Licenses: 
 
 Apache License 2.0
-(style-dictionary 3.0.0)
+(style-dictionary 3.0.3)
 
 Apache License
 Version 2.0, January 2004
@@ -300,7 +347,7 @@ third-party archives.
 ---
 
 BSD Zero Clause License
-(tslib 2.2.0)
+(tslib 2.3.1)
 
 BSD Zero Clause License
 =======================
@@ -321,7 +368,7 @@ THIS SOFTWARE.
 ---
 
 ISC License
-(node-graceful-fs v4.2.6)
+(node-graceful-fs 4.2.8)
 
 ISC License (ISCL)
 ==================
@@ -620,7 +667,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 
 MIT License
-(balanced-match 1.0.2, camelcase 4.1.2, Chalk 4.1.1, change-case 4.1.2, constant-case 3.0.4, dot-case 3.0.4, fs-extra 10.0.0, header-case 2.0.4, json5 v2.2.0, Lodash 4.17.21, lower-case 2.0.2, no-case 3.0.4, param-case 3.0.4, pascal-case 3.1.2, path-case 3.0.4, sentence-case 3.0.4, snake-case 3.0.4, upper-case 2.0.2, upper-case-first 2.0.2)
+(@daimler/productkit-core 1.0.6, balanced-match 1.0.2, camelcase 4.1.2, Chalk 4.1.2, change-case 4.1.2, constant-case 3.0.4, dot-case 3.0.4, fs-extra 10.0.0, header-case 2.0.4, json5 v2.2.0, Lodash 4.17.21, lower-case 2.0.2, no-case 3.0.4, param-case 3.0.4, pascal-case 3.1.2, path-case 3.0.4, sentence-case 3.0.4, snake-case 3.0.4, upper-case 2.0.2, upper-case-first 2.0.2)
 
 The MIT License
 ===============
@@ -674,7 +721,7 @@ THE SOFTWARE
 ---
 
 MIT License
-(kk-color-name 1.1.4)
+(color-name 1.1.4)
 
 The MIT License (MIT)
 
