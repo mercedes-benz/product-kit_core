@@ -77,7 +77,8 @@ styleDictionary.extend({
                 destination: `css/variables-dark.css`,
                 format: `css/variables`,
                 options: {
-                    outputReferences: true
+                    outputReferences: true,
+                    selector: `.dark`,
                 }
             }]
         },

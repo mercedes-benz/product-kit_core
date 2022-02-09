@@ -1,12 +1,13 @@
-Copyright 2021
+Copyright 2022
 
-[product-kit-core : 1.0.7]
+[product-kit-core : 1.0.8]
 
 Phase: RELEASED
 Distribution: OPENSOURCE
 
 Components: 
 
+@daimler/productkit-core 1.0.8 : MIT License
 ansi-styles v4.3.0 : MIT License
 balanced-match 1.0.2 : MIT License
 brace-expansion 1.1.11 : MIT License
@@ -29,6 +30,7 @@ isaacs/once 1.4.0 : ISC License
 json5 v2.2.0 : MIT License
 Lodash 4.17.21 : MIT License
 lower-case 2.0.2 : MIT License
+Microsoft/tslib 2.3.1 : BSD Zero Clause License
 minimatch 3.0.4 : ISC License
 minimist 1.2.5 : MIT License
 no-case 3.0.4 : MIT License
@@ -47,7 +49,6 @@ sindresorhus/supports-color v7.2.0 : MIT License
 snake-case 3.0.4 : MIT License
 style-dictionary 3.0.3 : Apache License 2.0
 TinyColor 1.4.2 : MIT License
-tslib 2.3.1 : BSD Zero Clause License
 universalify 0.1.2 : MIT License
 universalify 2.0.0 : MIT License
 upper-case 2.0.2 : MIT License
@@ -347,7 +348,7 @@ third-party archives.
 ---
 
 BSD Zero Clause License
-(tslib 2.3.1)
+(Microsoft/tslib 2.3.1)
 
 BSD Zero Clause License
 =======================
@@ -364,6 +365,29 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
 OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
 TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
+
+---
+
+ISC License
+(fs.realpath 1.0.0)
+
+Files: debian/*
+Copyright: 2016 Sruthi Chandran <srud@disroot.org>
+License: ISC
+
+License: ISC
+
+Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE
 
 ---
 
@@ -390,7 +414,7 @@ THIS SOFTWARE.
 ---
 
 ISC License
-(fs.realpath 1.0.0, isaacs/once 1.4.0, minimatch 3.0.4, node-glob 7.1.7, wrappy 1.0.2)
+(isaacs/once 1.4.0, minimatch 3.0.4, node-glob 7.1.7, wrappy 1.0.2)
 
 The ISC License
 
@@ -492,6 +516,27 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 ---
 
 MIT License
+(fs-extra 10.0.0)
+
+(The MIT License)
+
+Copyright (c) 2011-2017 JP Richardson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+(the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,
+ merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+---
+
+MIT License
 (node-jsonfile 4.0.0)
 
 (The MIT License)
@@ -539,6 +584,32 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 ---
 
 MIT License
+(Lodash 4.17.21)
+
+====
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+---
+
+MIT License
 (Qix-/color-convert 2.0.1)
 
 Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
@@ -561,6 +632,31 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+---
+
+MIT License
+(balanced-match 1.0.2)
+
+Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE
 
 ---
 
@@ -625,6 +721,33 @@ Permission is hereby granted, free of charge, to any person
 ---
 
 MIT License
+(json5 v2.2.0)
+
+MIT License
+
+Copyright (c) 2012-2018 Aseem Kishore, and [others].
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE
+
+---
+
+MIT License
 (brace-expansion 1.1.11)
 
 MIT License
@@ -667,12 +790,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 
 MIT License
-(@daimler/productkit-core 1.0.6, balanced-match 1.0.2, camelcase 4.1.2, Chalk 4.1.2, change-case 4.1.2, constant-case 3.0.4, dot-case 3.0.4, fs-extra 10.0.0, header-case 2.0.4, json5 v2.2.0, Lodash 4.17.21, lower-case 2.0.2, no-case 3.0.4, param-case 3.0.4, pascal-case 3.1.2, path-case 3.0.4, sentence-case 3.0.4, snake-case 3.0.4, upper-case 2.0.2, upper-case-first 2.0.2)
+(@daimler/productkit-core 1.0.8, Chalk 4.1.2, upper-case 2.0.2)
 
 The MIT License
 ===============
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2022 Daimler-TSS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in the
@@ -694,11 +817,11 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ---
 
 MIT License
-(change-case v1.0.4)
+(camelcase 4.1.2, change-case 4.1.2, change-case v1.0.4, constant-case 3.0.4, dot-case 3.0.4, header-case 2.0.4, lower-case 2.0.2, no-case 3.0.4, param-case 3.0.4, pascal-case 3.1.2, path-case 3.0.4, sentence-case 3.0.4, snake-case 3.0.4, upper-case-first 2.0.2)
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Blake Embrey (hello@blakeembrey.com)
+Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
