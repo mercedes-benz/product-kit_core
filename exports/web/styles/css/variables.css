@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 07 Feb 2022 09:15:32 GMT
+ * Generated on Fri, 11 Feb 2022 13:12:00 GMT
  */
 
 :root {
@@ -79,8 +79,8 @@
   --font-weight-bold: 700; /* The bold weight of the font. */
   --font-weight-regular: 400; /* The regular weight of the font. */
   --font-weight-light: 300; /* The light weight of the font. */
-  --font-family-monospace: SourceCodePro; /* The monospace font family that has to be used when displaying code . */
-  --font-family-brand: SourceSansPro; /* The brand font family for every content that is not code. */
+  --font-family-monospace: 'Source Code Pro'; /* The monospace font family that has to be used when displaying code . */
+  --font-family-brand: 'Source Sans Pro'; /* The brand font family for every content that is not code. */
   --font-application-l-overline-text-transform: uppercase;
   --font-application-l-caption-text-transform: capitalize;
   --font-application-l-button-text-transform: uppercase;

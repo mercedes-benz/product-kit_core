@@ -2,11 +2,11 @@
   "font": {
     "family": {
       "brand": {
-        "value": "SourceSansPro",
+        "value": "'Source Sans Pro'",
         "comment": "The brand font family for every content that is not code."
       },
       "monospace": {
-        "value": "SourceCodePro",
+        "value": "'Source Code Pro'",
         "comment": "The monospace font family that has to be used when displaying code ."
       }
     }

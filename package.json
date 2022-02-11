@@ -7,10 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Daimler/product-kit_core.git"
+    "url": "https://github.com/mercedes-benz/product-kit_core.git"
   },
   "bugs": {
-    "url": "https://github.com/Daimler/product-kit_core/issues"
+    "url": "https://github.com/mercedes-benz/product-kit_core/issues"
   },
   "license": "MIT",
   "engines": {
