@@ -39,7 +39,7 @@
           "comment": "The primary contrast color is used for elements like text that is displayed on a background with the primary color."
         },
         "secondary": {
-          "value": "{color.brand.pink.contrast.400.value}",
+          "value": "{color.brand.neutral.white.value}",
           "comment": "The secondary contrast color is used for elements like text that is displayed on a background with the secondary color."
         },
         "tertiary": {
