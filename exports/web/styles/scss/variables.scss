@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 23 Feb 2022 10:13:18 GMT
+ * Generated on Wed, 09 Mar 2022 08:13:31 GMT
  */
 
 $color-application-primary: #1b4e8e !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -35,7 +35,7 @@ $color-brand-neutral-contrast-100: #061a38 !default;
 $color-brand-neutral-contrast-200: #061a38 !default;
 $color-brand-neutral-contrast-300: #061a38 !default;
 $color-brand-neutral-contrast-400: #061a38 !default;
-$color-brand-neutral-contrast-500: #ffffff !default;
+$color-brand-neutral-contrast-500: #061a38 !default;
 $color-brand-neutral-contrast-600: #ffffff !default;
 $color-brand-neutral-contrast-700: #ffffff !default;
 $color-brand-neutral-contrast-800: #ffffff !default;
@@ -53,8 +53,8 @@ $color-brand-blue-900: #1b4e8e !default;
 $color-brand-blue-contrast-50: #061a38 !default;
 $color-brand-blue-contrast-100: #061a38 !default;
 $color-brand-blue-contrast-200: #061a38 !default;
-$color-brand-blue-contrast-300: #ffffff !default;
-$color-brand-blue-contrast-400: #ffffff !default;
+$color-brand-blue-contrast-300: #061a38 !default;
+$color-brand-blue-contrast-400: #061a38 !default;
 $color-brand-blue-contrast-500: #ffffff !default;
 $color-brand-blue-contrast-600: #ffffff !default;
 $color-brand-blue-contrast-700: #ffffff !default;
@@ -72,7 +72,7 @@ $color-brand-deepblue-800: #0b2950 !default;
 $color-brand-deepblue-900: #061a38 !default;
 $color-brand-deepblue-contrast-50: #061a38 !default;
 $color-brand-deepblue-contrast-100: #061a38 !default;
-$color-brand-deepblue-contrast-200: #ffffff !default;
+$color-brand-deepblue-contrast-200: #061a38 !default;
 $color-brand-deepblue-contrast-300: #ffffff !default;
 $color-brand-deepblue-contrast-400: #ffffff !default;
 $color-brand-deepblue-contrast-500: #ffffff !default;
@@ -93,7 +93,7 @@ $color-brand-grayblue-900: #13151b !default;
 $color-brand-grayblue-contrast-50: #061a38 !default;
 $color-brand-grayblue-contrast-100: #061a38 !default;
 $color-brand-grayblue-contrast-200: #061a38 !default;
-$color-brand-grayblue-contrast-300: #ffffff !default;
+$color-brand-grayblue-contrast-300: #061a38 !default;
 $color-brand-grayblue-contrast-400: #ffffff !default;
 $color-brand-grayblue-contrast-500: #ffffff !default;
 $color-brand-grayblue-contrast-600: #ffffff !default;
@@ -113,7 +113,7 @@ $color-brand-pink-900: #970051 !default;
 $color-brand-pink-contrast-50: #061a38 !default;
 $color-brand-pink-contrast-100: #061a38 !default;
 $color-brand-pink-contrast-200: #061a38 !default;
-$color-brand-pink-contrast-300: #ffffff !default;
+$color-brand-pink-contrast-300: #061a38 !default;
 $color-brand-pink-contrast-400: #ffffff !default;
 $color-brand-pink-contrast-500: #ffffff !default;
 $color-brand-pink-contrast-600: #ffffff !default;
@@ -153,8 +153,8 @@ $color-brand-red-900: #c90000 !default;
 $color-brand-red-contrast-50: #061a38 !default;
 $color-brand-red-contrast-100: #061a38 !default;
 $color-brand-red-contrast-200: #061a38 !default;
-$color-brand-red-contrast-300: #ffffff !default;
-$color-brand-red-contrast-400: #ffffff !default;
+$color-brand-red-contrast-300: #061a38 !default;
+$color-brand-red-contrast-400: #061a38 !default;
 $color-brand-red-contrast-500: #ffffff !default;
 $color-brand-red-contrast-600: #ffffff !default;
 $color-brand-red-contrast-700: #ffffff !default;
@@ -173,9 +173,9 @@ $color-brand-green-900: #006307 !default;
 $color-brand-green-contrast-50: #061a38 !default;
 $color-brand-green-contrast-100: #061a38 !default;
 $color-brand-green-contrast-200: #061a38 !default;
-$color-brand-green-contrast-300: #ffffff !default;
-$color-brand-green-contrast-400: #ffffff !default;
-$color-brand-green-contrast-500: #ffffff !default;
+$color-brand-green-contrast-300: #061a38 !default;
+$color-brand-green-contrast-400: #061a38 !default;
+$color-brand-green-contrast-500: #061a38 !default;
 $color-brand-green-contrast-600: #ffffff !default;
 $color-brand-green-contrast-700: #ffffff !default;
 $color-brand-green-contrast-800: #ffffff !default;
@@ -294,36 +294,66 @@ $font-weight-light: 300 !default; // The light weight of the font.
 $font-weight-regular: 400 !default; // The regular weight of the font.
 $font-weight-bold: 700 !default; // The bold weight of the font.
 $font-weight-black: 900 !default; // The extra bold weight of the font.
-$layout-application-xs-screen-min-width: 0px !default;
-$layout-application-xs-gutter-size: 16px !default;
-$layout-application-xs-column-amount: 4 !default;
-$layout-application-xs-margin-size: 16px !default;
-$layout-application-xs-typography-scale: s !default;
-$layout-application-xs-spacing-scale: xs !default;
-$layout-application-s-screen-min-width: 600px !default;
-$layout-application-s-gutter-size: 16px !default;
-$layout-application-s-column-amount: 8 !default;
-$layout-application-s-margin-size: 32px !default;
-$layout-application-s-typography-scale: s !default;
-$layout-application-s-spacing-scale: s !default;
-$layout-application-m-screen-min-width: 905px !default;
-$layout-application-m-gutter-size: 16px !default;
-$layout-application-m-column-amount: 12 !default;
-$layout-application-m-body-max-size: 840px !default;
-$layout-application-m-typography-scale: l !default;
-$layout-application-m-spacing-scale: m !default;
-$layout-application-l-screen-min-width: 1240px !default;
-$layout-application-l-gutter-size: 24px !default;
-$layout-application-l-column-amount: 12 !default;
-$layout-application-l-margin-size: 192px !default;
-$layout-application-l-typography-scale: l !default;
-$layout-application-l-spacing-scale: l !default;
-$layout-application-xl-screen-min-width: 1440px !default;
-$layout-application-xl-gutter-size: 24px !default;
-$layout-application-xl-column-amount: 12 !default;
-$layout-application-xl-body-max-size: 1040px !default;
-$layout-application-xl-typography-scale: l !default;
-$layout-application-xl-spacing-scale: xl !default;
+$layout-application-wide-xs-screen-min-width: 0px !default;
+$layout-application-wide-xs-gutter-size: 16px !default;
+$layout-application-wide-xs-column-amount: 4 !default;
+$layout-application-wide-xs-body-max-size: 90% !default;
+$layout-application-wide-xs-typography-scale: s !default;
+$layout-application-wide-xs-spacing-scale: xs !default;
+$layout-application-wide-s-screen-min-width: 600px !default;
+$layout-application-wide-s-gutter-size: 16px !default;
+$layout-application-wide-s-column-amount: 8 !default;
+$layout-application-wide-s-body-max-size: 90% !default;
+$layout-application-wide-s-typography-scale: s !default;
+$layout-application-wide-s-spacing-scale: s !default;
+$layout-application-wide-m-screen-min-width: 905px !default;
+$layout-application-wide-m-gutter-size: 16px !default;
+$layout-application-wide-m-column-amount: 12 !default;
+$layout-application-wide-m-body-max-size: 86% !default;
+$layout-application-wide-m-typography-scale: l !default;
+$layout-application-wide-m-spacing-scale: m !default;
+$layout-application-wide-l-screen-min-width: 1240px !default;
+$layout-application-wide-l-gutter-size: 24px !default;
+$layout-application-wide-l-column-amount: 12 !default;
+$layout-application-wide-l-body-max-size: 86% !default;
+$layout-application-wide-l-typography-scale: l !default;
+$layout-application-wide-l-spacing-scale: l !default;
+$layout-application-wide-xl-screen-min-width: 1440px !default;
+$layout-application-wide-xl-gutter-size: 24px !default;
+$layout-application-wide-xl-column-amount: 12 !default;
+$layout-application-wide-xl-body-max-size: 86% !default;
+$layout-application-wide-xl-typography-scale: l !default;
+$layout-application-wide-xl-spacing-scale: xl !default;
+$layout-application-compact-xs-screen-min-width: 0px !default;
+$layout-application-compact-xs-gutter-size: 16px !default;
+$layout-application-compact-xs-column-amount: 4 !default;
+$layout-application-compact-xs-margin-size: 16px !default;
+$layout-application-compact-xs-typography-scale: s !default;
+$layout-application-compact-xs-spacing-scale: xs !default;
+$layout-application-compact-s-screen-min-width: 600px !default;
+$layout-application-compact-s-gutter-size: 16px !default;
+$layout-application-compact-s-column-amount: 8 !default;
+$layout-application-compact-s-margin-size: 32px !default;
+$layout-application-compact-s-typography-scale: s !default;
+$layout-application-compact-s-spacing-scale: s !default;
+$layout-application-compact-m-screen-min-width: 905px !default;
+$layout-application-compact-m-gutter-size: 16px !default;
+$layout-application-compact-m-column-amount: 12 !default;
+$layout-application-compact-m-body-max-size: 840px !default;
+$layout-application-compact-m-typography-scale: l !default;
+$layout-application-compact-m-spacing-scale: m !default;
+$layout-application-compact-l-screen-min-width: 1240px !default;
+$layout-application-compact-l-gutter-size: 24px !default;
+$layout-application-compact-l-column-amount: 12 !default;
+$layout-application-compact-l-margin-size: 192px !default;
+$layout-application-compact-l-typography-scale: l !default;
+$layout-application-compact-l-spacing-scale: l !default;
+$layout-application-compact-xl-screen-min-width: 1440px !default;
+$layout-application-compact-xl-gutter-size: 24px !default;
+$layout-application-compact-xl-column-amount: 12 !default;
+$layout-application-compact-xl-body-max-size: 1040px !default;
+$layout-application-compact-xl-typography-scale: l !default;
+$layout-application-compact-xl-spacing-scale: xl !default;
 $layout-column-1x: 4 !default; // The least amount of columns in a layout. Used for phone screen sizes.
 $layout-column-2x: 8 !default; // The amount of columns used for tablet screen sizes.
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -841,45 +871,89 @@ $tokens: (
   ),
   'layout': (
     'application': (
-      'xs': (
-        'screen-min-width': $layout-application-xs-screen-min-width,
-        'gutter-size': $layout-application-xs-gutter-size,
-        'column-amount': $layout-application-xs-column-amount,
-        'margin-size': $layout-application-xs-margin-size,
-        'typography-scale': $layout-application-xs-typography-scale,
-        'spacing-scale': $layout-application-xs-spacing-scale
+      'wide': (
+        'xs': (
+          'screen-min-width': $layout-application-wide-xs-screen-min-width,
+          'gutter-size': $layout-application-wide-xs-gutter-size,
+          'column-amount': $layout-application-wide-xs-column-amount,
+          'body-max-size': $layout-application-wide-xs-body-max-size,
+          'typography-scale': $layout-application-wide-xs-typography-scale,
+          'spacing-scale': $layout-application-wide-xs-spacing-scale
+        ),
+        's': (
+          'screen-min-width': $layout-application-wide-s-screen-min-width,
+          'gutter-size': $layout-application-wide-s-gutter-size,
+          'column-amount': $layout-application-wide-s-column-amount,
+          'body-max-size': $layout-application-wide-s-body-max-size,
+          'typography-scale': $layout-application-wide-s-typography-scale,
+          'spacing-scale': $layout-application-wide-s-spacing-scale
+        ),
+        'm': (
+          'screen-min-width': $layout-application-wide-m-screen-min-width,
+          'gutter-size': $layout-application-wide-m-gutter-size,
+          'column-amount': $layout-application-wide-m-column-amount,
+          'body-max-size': $layout-application-wide-m-body-max-size,
+          'typography-scale': $layout-application-wide-m-typography-scale,
+          'spacing-scale': $layout-application-wide-m-spacing-scale
+        ),
+        'l': (
+          'screen-min-width': $layout-application-wide-l-screen-min-width,
+          'gutter-size': $layout-application-wide-l-gutter-size,
+          'column-amount': $layout-application-wide-l-column-amount,
+          'body-max-size': $layout-application-wide-l-body-max-size,
+          'typography-scale': $layout-application-wide-l-typography-scale,
+          'spacing-scale': $layout-application-wide-l-spacing-scale
+        ),
+        'xl': (
+          'screen-min-width': $layout-application-wide-xl-screen-min-width,
+          'gutter-size': $layout-application-wide-xl-gutter-size,
+          'column-amount': $layout-application-wide-xl-column-amount,
+          'body-max-size': $layout-application-wide-xl-body-max-size,
+          'typography-scale': $layout-application-wide-xl-typography-scale,
+          'spacing-scale': $layout-application-wide-xl-spacing-scale
+        )
       ),
-      's': (
-        'screen-min-width': $layout-application-s-screen-min-width,
-        'gutter-size': $layout-application-s-gutter-size,
-        'column-amount': $layout-application-s-column-amount,
-        'margin-size': $layout-application-s-margin-size,
-        'typography-scale': $layout-application-s-typography-scale,
-        'spacing-scale': $layout-application-s-spacing-scale
-      ),
-      'm': (
-        'screen-min-width': $layout-application-m-screen-min-width,
-        'gutter-size': $layout-application-m-gutter-size,
-        'column-amount': $layout-application-m-column-amount,
-        'body-max-size': $layout-application-m-body-max-size,
-        'typography-scale': $layout-application-m-typography-scale,
-        'spacing-scale': $layout-application-m-spacing-scale
-      ),
-      'l': (
-        'screen-min-width': $layout-application-l-screen-min-width,
-        'gutter-size': $layout-application-l-gutter-size,
-        'column-amount': $layout-application-l-column-amount,
-        'margin-size': $layout-application-l-margin-size,
-        'typography-scale': $layout-application-l-typography-scale,
-        'spacing-scale': $layout-application-l-spacing-scale
-      ),
-      'xl': (
-        'screen-min-width': $layout-application-xl-screen-min-width,
-        'gutter-size': $layout-application-xl-gutter-size,
-        'column-amount': $layout-application-xl-column-amount,
-        'body-max-size': $layout-application-xl-body-max-size,
-        'typography-scale': $layout-application-xl-typography-scale,
-        'spacing-scale': $layout-application-xl-spacing-scale
+      'compact': (
+        'xs': (
+          'screen-min-width': $layout-application-compact-xs-screen-min-width,
+          'gutter-size': $layout-application-compact-xs-gutter-size,
+          'column-amount': $layout-application-compact-xs-column-amount,
+          'margin-size': $layout-application-compact-xs-margin-size,
+          'typography-scale': $layout-application-compact-xs-typography-scale,
+          'spacing-scale': $layout-application-compact-xs-spacing-scale
+        ),
+        's': (
+          'screen-min-width': $layout-application-compact-s-screen-min-width,
+          'gutter-size': $layout-application-compact-s-gutter-size,
+          'column-amount': $layout-application-compact-s-column-amount,
+          'margin-size': $layout-application-compact-s-margin-size,
+          'typography-scale': $layout-application-compact-s-typography-scale,
+          'spacing-scale': $layout-application-compact-s-spacing-scale
+        ),
+        'm': (
+          'screen-min-width': $layout-application-compact-m-screen-min-width,
+          'gutter-size': $layout-application-compact-m-gutter-size,
+          'column-amount': $layout-application-compact-m-column-amount,
+          'body-max-size': $layout-application-compact-m-body-max-size,
+          'typography-scale': $layout-application-compact-m-typography-scale,
+          'spacing-scale': $layout-application-compact-m-spacing-scale
+        ),
+        'l': (
+          'screen-min-width': $layout-application-compact-l-screen-min-width,
+          'gutter-size': $layout-application-compact-l-gutter-size,
+          'column-amount': $layout-application-compact-l-column-amount,
+          'margin-size': $layout-application-compact-l-margin-size,
+          'typography-scale': $layout-application-compact-l-typography-scale,
+          'spacing-scale': $layout-application-compact-l-spacing-scale
+        ),
+        'xl': (
+          'screen-min-width': $layout-application-compact-xl-screen-min-width,
+          'gutter-size': $layout-application-compact-xl-gutter-size,
+          'column-amount': $layout-application-compact-xl-column-amount,
+          'body-max-size': $layout-application-compact-xl-body-max-size,
+          'typography-scale': $layout-application-compact-xl-typography-scale,
+          'spacing-scale': $layout-application-compact-xl-spacing-scale
+        )
       )
     ),
     'column': (

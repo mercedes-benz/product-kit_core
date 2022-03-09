@@ -18,9 +18,9 @@ jobs:
       - name: install npm
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16
       - name: increment package version
-        run: npm version ${{ github.event.inputs.version }} --no-git-tag-version
+        run: npm version ${{ github.event.inputs.version }} --no-git-tag-version --allow-same-version
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
@@ -34,11 +34,11 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release v${{ github.event.inputs.version }}
           body: |
-            Official version release
+            See CHANGELOG file to see what's changed in new release.
           draft: false
           prerelease: false

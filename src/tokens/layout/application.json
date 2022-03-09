@@ -1,51 +1,100 @@
 {
   "layout": {
     "application": {
-      "xs": {
-        "screen-min-width": { "value": "{size.screen.xs.value}" },
-        "gutter-size": { "value": "{size.gutter.s.value}" },
-        "column-amount": { "value": "{layout.column.1x.value}" },
-        "margin-size": { "value": "{size.space.2x.value}" },
-        "typography-scale": { "value": "s" },
-        "spacing-scale": { "value": "xs" },
-        "comment": "The smallest layout. Used for very small screens like phones or other small mobile devices."
+      "wide": {
+        "xs": {
+          "screen-min-width": { "value": "{size.screen.xs.value}" },
+          "gutter-size": { "value": "{size.gutter.s.value}" },
+          "column-amount": { "value": "{layout.column.1x.value}" },
+          "body-max-size": { "value": "90%" },
+          "typography-scale": { "value": "s" },
+          "spacing-scale": { "value": "xs" },
+          "comment": "The smallest layout. Used for very small screens like phones or other small mobile devices."
+        },
+        "s": {
+          "screen-min-width": { "value": "{size.screen.s.value}" },
+          "gutter-size": { "value": "{size.gutter.s.value}" },
+          "column-amount": { "value": "{layout.column.2x.value}" },
+          "body-max-size": { "value": "90%" },
+          "typography-scale": { "value": "s" },
+          "spacing-scale": { "value": "s" },
+          "comment": "The small layout. Used for smaller screens like big phones or small tablets."
+        },
+        "m": {
+          "screen-min-width": { "value": "{size.screen.m.value}" },
+          "gutter-size": { "value": "{size.gutter.s.value}" },
+          "column-amount": { "value": "{layout.column.3x.value}" },
+          "body-max-size": { "value": "86%" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "m" },
+          "comment": "The medium layout. Used for medium screens like tablets."
+        },
+        "l": {
+          "screen-min-width": { "value": "{size.screen.l.value}" },
+          "gutter-size": { "value": "{size.gutter.m.value}" },
+          "column-amount": { "value": "{layout.column.3x.value}" },
+          "body-max-size": { "value": "86%" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "l" },
+          "comment": "The large layout. Used for large screens like laptops or small desktops."
+        },
+        "xl": {
+          "screen-min-width": { "value": "{size.screen.xl.value}" },
+          "gutter-size": { "value": "{size.gutter.m.value}" },
+          "column-amount": { "value": "{layout.column.3x.value}" },
+          "body-max-size": { "value": "86%" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "xl" },
+          "comment": "The largest layout. Used for very large screens like desktops."
+        }
       },
-      "s": {
-        "screen-min-width": { "value": "{size.screen.s.value}" },
-        "gutter-size": { "value": "{size.gutter.s.value}" },
-        "column-amount": { "value": "{layout.column.2x.value}" },
-        "margin-size": { "value": "{size.space.4x.value}" },
-        "typography-scale": { "value": "s" },
-        "spacing-scale": { "value": "s" },
-        "comment": "The small layout. Used for smaller screens like big phones or small tablets."
-      },
-      "m": {
-        "screen-min-width": { "value": "{size.screen.m.value}" },
-        "gutter-size": { "value": "{size.gutter.s.value}" },
-        "column-amount": { "value": "{layout.column.3x.value}" },
-        "body-max-size": { "value": "840px" },
-        "typography-scale": { "value": "l" },
-        "spacing-scale": { "value": "m" },
-        "comment": "The medium layout. Used for medium screens like tablets."
-      },
-      "l": {
-        "screen-min-width": { "value": "{size.screen.l.value}" },
-        "gutter-size": { "value": "{size.gutter.m.value}" },
-        "column-amount": { "value": "{layout.column.3x.value}" },
-        "margin-size": { "value": "{size.space.24x.value}" },
-        "typography-scale": { "value": "l" },
-        "spacing-scale": { "value": "l" },
-        "comment": "The large layout. Used for large screens like laptops or small desktops."
-      },
-      "xl": {
-        "screen-min-width": { "value": "{size.screen.xl.value}" },
-        "gutter-size": { "value": "{size.gutter.m.value}" },
-        "column-amount": { "value": "{layout.column.3x.value}" },
-        "body-max-size": { "value": "1040px" },
-        "typography-scale": { "value": "l" },
-        "spacing-scale": { "value": "xl" },
-        "comment": "The largest layout. Used for very large screens like desktops."
+      "compact": {
+        "xs": {
+          "screen-min-width": { "value": "{size.screen.xs.value}" },
+          "gutter-size": { "value": "{size.gutter.s.value}" },
+          "column-amount": { "value": "{layout.column.1x.value}" },
+          "margin-size": { "value": "{size.space.2x.value}" },
+          "typography-scale": { "value": "s" },
+          "spacing-scale": { "value": "xs" },
+          "comment": "The smallest layout. Used for very small screens like phones or other small mobile devices."
+        },
+        "s": {
+          "screen-min-width": { "value": "{size.screen.s.value}" },
+          "gutter-size": { "value": "{size.gutter.s.value}" },
+          "column-amount": { "value": "{layout.column.2x.value}" },
+          "margin-size": { "value": "{size.space.4x.value}" },
+          "typography-scale": { "value": "s" },
+          "spacing-scale": { "value": "s" },
+          "comment": "The small layout. Used for smaller screens like big phones or small tablets."
+        },
+        "m": {
+          "screen-min-width": { "value": "{size.screen.m.value}" },
+          "gutter-size": { "value": "{size.gutter.s.value}" },
+          "column-amount": { "value": "{layout.column.3x.value}" },
+          "body-max-size": { "value": "840px" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "m" },
+          "comment": "The medium layout. Used for medium screens like tablets."
+        },
+        "l": {
+          "screen-min-width": { "value": "{size.screen.l.value}" },
+          "gutter-size": { "value": "{size.gutter.m.value}" },
+          "column-amount": { "value": "{layout.column.3x.value}" },
+          "margin-size": { "value": "{size.space.24x.value}" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "l" },
+          "comment": "The large layout. Used for large screens like laptops or small desktops."
+        },
+        "xl": {
+          "screen-min-width": { "value": "{size.screen.xl.value}" },
+          "gutter-size": { "value": "{size.gutter.m.value}" },
+          "column-amount": { "value": "{layout.column.3x.value}" },
+          "body-max-size": { "value": "1040px" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "xl" },
+          "comment": "The largest layout. Used for very large screens like desktops."
+        }
       }
-    }
+    }  
   }
 }
