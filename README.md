@@ -12,7 +12,7 @@ You can use the export to apply the styling by yourself or use one of the follow
 * [Tailwind](https://github.com/daimler/product-kit_tailwind)
 * [Web Components](https://github.com/daimler/product-kit_web)
 * [Angular](https://github.com/daimler/product-kit_angular)
-* [Vue](https://github.com/daimler/product-kit_vue)
+* [Vue](https://github.com/mercedes-benz/product-kit_vue)
 
 The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/Daimler/product-kit_core/issues) or provide a pull request with the desired export.
 
