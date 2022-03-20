@@ -12,6 +12,7 @@ fs.removeSync(webPath);
 
 const modes = [`light`, `dark`];
 const transforms = [`attribute/cti`, `color/hex`, `name/cti/kebab`, `size/px`]
+const transforms_js = [`attribute/cti`, `color/hex`, `name/cti/camel`, `size/px`]
 
 // Light Mode
 console.log(`\n\n☀️ Building light mode...`);
@@ -51,7 +52,21 @@ styleDictionary.extend({
                     outputReferences: true
                 }
             }]
-        }
+        },
+        js: {
+            transforms: transforms_js,
+            transformGroup: `js`,
+            buildPath: webPath,
+            files: [{
+                destination: `js/variables.js`,
+                format: `javascript/es6`,
+                filter: function(token) {
+                    if( token.path.includes(`neutral`) && 
+                        (token.path.includes(`black`) || token.path.includes(`white`))) return false
+                    return true
+                }
+            }]
+        },
     }
 }).buildAllPlatforms();
 
@@ -98,6 +113,20 @@ styleDictionary.extend({
                     outputReferences: true
                 }
             }]
-        }
+        },
+        js: {
+            transforms: transforms_js,
+            transformGroup: `js`,
+            buildPath: webPath,
+            files: [{
+                destination: `js/variables-dark.js`,
+                format: `javascript/es6`,
+                filter: function(token) {
+                    if( token.path.includes(`neutral`) && 
+                        (token.path.includes(`black`) || token.path.includes(`white`))) return false
+                    return true
+                },
+            }]
+        },
     }
 }).buildAllPlatforms();
