@@ -1,0 +1,39 @@
+name: Update Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number'
+        required: true
+        default: '1.0.0'
+  workflow_call:
+    inputs:
+      version:
+        type: string
+        required: true
+
+
+jobs:
+  build:
+    name: Update Version
+    runs-on: ubuntu-latest
+    steps:
+      - name: ☁ Checkout
+        uses: actions/checkout@v2
+      - name: ⬇ Install npm
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: ⬆ Increment Package Version
+        run: npm version ${{ github.event.inputs.version }} --no-git-tag-version --allow-same-version
+      - name: ☁ Commit Changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: CI release script
+          author_email: ci@automate.bot
+          message: "Version increment to: ${{ github.event.inputs.version }}"
+          add: "package*"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          

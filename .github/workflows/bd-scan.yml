@@ -1,0 +1,50 @@
+name: Blackduck Scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        required: true
+        description: "Branch that should be scanned"
+        default: "main"
+      version:
+        description: 'Version number'
+        required: true
+        default: '1.0.0'
+  workflow_call:
+    inputs:
+      branch:
+        type: string
+        required: true
+      version:
+        type: string
+        required: true
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ☁ Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.inputs.branch }}
+      - name: ⬇ Install npm
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: npm install
+      - name: 🤞 Synopsys Detect
+        uses: blackducksoftware/github-action@v2
+        with: 
+          args: 
+            '--blackduck.url="https://bdscan.daimler.com" --blackduck.api.token="${{ secrets.BD_SCAN_API_TOKEN }}" --detect.policy.check.fail.on.severities="MAJOR,CRITICAL,BLOCKER" --detect.npm.include.dev.dependencies=true --detect.project.name="product-kit-vue" --detect.project.version.name="${{ github.event.inputs.version }}" --detect.project.version.phase=RELEASED --detect.notices.report=true --detect.notices.report.path="./notices"'
+      - name: 🔀 Rename notices
+        run: for f in ./notices/product_kit_vue*.txt; do mv "$f" 3RD_PARTY_LICENSES.txt; done
+      - name: ☁ Commit report
+        run: |
+          git config --global user.name 'automated[bot]'
+          git config --global user.email 'lukashar@users.noreply.github.com'
+          git add 3RD_PARTY_LICENSES.txt
+          git commit -m "Automated report"
+          git push
