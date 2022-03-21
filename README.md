@@ -26,7 +26,7 @@ You can get the style dictionary for web as package through npm:
 npm -i @daimler/productkit-core
 ```
 
-This package currently includes `.css` and `.scss` exports of the design tokens to be included in your web frontend. Exports can be found in the `exports` directory.
+Exports for web can be found in the `exports` directory. Feel free to contribute any missing platforms.
 
 If you don't want to use the npm package clone the repository and get the files from the `exports` directory directly.
 
