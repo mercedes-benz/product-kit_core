@@ -1,0 +1,39 @@
+name: Scan, Release and Publish 
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number'
+        required: true
+        default: '1.0.0'
+      branch:
+        required: true
+        description: "Branch that should be scanned"
+        default: "main"
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+  update-version:
+    name: 🙈 Update Version
+    uses: ./.github/workflows/update-version.yml
+    with:
+      version: ${{ github.event.inputs.version }}
+  bd-scan:
+    name: 🙉 Perform Blackduck Scan
+    uses: ./.github/workflows/bd-scan.yml
+    with:
+      branch: ${{ github.event.inputs.branch }}
+      version: ${{ github.event.inputs.version }}
+  release:
+    name: 🙊 Release on Github
+    uses: ./.github/workflows/release.yml
+    with:
+      version: ${{ github.event.inputs.version }}
+  npm-publish:
+    name: 🏁 Publish on npm
+    uses: ./.github/workflows/npm-publish.yml
