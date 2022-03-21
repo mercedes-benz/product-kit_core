@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.3.0
+
+### Improvements
+* Added export for Javascript variables
+
 # 1.2.0
 
 ### Bug Fixes
