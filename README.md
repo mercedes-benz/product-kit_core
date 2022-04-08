@@ -11,6 +11,7 @@ You can use the export to apply the styling by yourself or use one of the follow
 
 * [Tailwind](https://github.com/daimler/product-kit_tailwind)
 * [Web Components](https://github.com/daimler/product-kit_web)
+* [React](https://github.com/daimler/product-kit_react)
 * [Angular](https://github.com/daimler/product-kit_angular)
 * [Vue](https://github.com/mercedes-benz/product-kit_vue)
 
