@@ -24,43 +24,43 @@
           "font-size": { "value": "{size.font.l.value}" },
           "line-height": { "value": "{size.line-height.m.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.m.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "headline5": {
           "font-size": { "value": "{size.font.m.value}" },
           "line-height": { "value": "{size.line-height.s.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "headline6": {
           "font-size": { "value": "{size.font.s.value}" },
           "line-height": { "value": "{size.line-height.xs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "subtitle1": {
           "font-size": { "value": "{size.font.xs.value}" },
           "line-height": { "value": "{size.line-height.s.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "subtitle2": {
           "font-size": { "value": "{size.font.xxs.value}" },
           "line-height": { "value": "{size.line-height.xs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.m.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "body1": {
           "font-size": { "value": "{size.font.xs.value}" },
           "line-height": { "value": "{size.line-height.xs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.xxl.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "body2": {
           "font-size": { "value": "{size.font.xxs.value}" },
           "line-height": { "value": "{size.line-height.xxs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "button": {
           "font-size": { "value": "{size.font.xs.value}" },
@@ -72,7 +72,7 @@
           "font-size": { "value": "{size.font.3xs.value}" },
           "line-height": { "value": "{size.line-height.xxs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "overline": {
           "font-size": { "value": "{size.font.3xs.value}" },
@@ -106,43 +106,43 @@
           "font-size": { "value": "{size.font.xl.value}" },
           "line-height": { "value": "{size.line-height.l.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.s.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "headline5": {
           "font-size": { "value": "{size.font.l.value}" },
           "line-height": { "value": "{size.line-height.m.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.m.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "headline6": {
           "font-size": { "value": "{size.font.m.value}" },
           "line-height": { "value": "{size.line-height.s.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "subtitle1": {
           "font-size": { "value": "{size.font.s.value}" },
           "line-height": { "value": "{size.line-height.m.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.m.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "subtitle2": {
           "font-size": { "value": "{size.font.xs.value}" },
           "line-height": { "value": "{size.line-height.s.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.s.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "body1": {
           "font-size": { "value": "{size.font.s.value}" },
           "line-height": { "value": "{size.line-height.s.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.xxl.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "body2": {
           "font-size": { "value": "{size.font.xs.value}" },
           "line-height": { "value": "{size.line-height.xs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "button": {
           "font-size": { "value": "{size.font.xs.value}" },
@@ -154,7 +154,7 @@
           "font-size": { "value": "{size.font.3xs.value}" },
           "line-height": { "value": "{size.line-height.xxs.value}" },
           "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
-          "text-transform": { "value": "capitalize" }
+          "text-transform": { "value": "none" }
         },
         "overline": {
           "font-size": { "value": "{size.font.3xs.value}" },
@@ -165,7 +165,6 @@
           "color": { "value": "{color.application.secondary.value}" }
         }
       }
-      
     }
   }
 }
