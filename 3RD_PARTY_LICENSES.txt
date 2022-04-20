@@ -1,13 +1,12 @@
 Copyright 2022
 
-[product-kit-core : 1.3.1]
+[product-kit-core : 1.3.2]
 
 Phase: RELEASED
 Distribution: OPENSOURCE
 
 Components: 
 
-@daimler/productkit-core 1.2.0 : MIT License
 @daimler/productkit-core 1.3.0 : MIT License
 ansi-styles v4.3.0 : MIT License
 balanced-match 1.0.2 : MIT License
@@ -587,7 +586,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 
 MIT License
-(@daimler/productkit-core 1.2.0, @daimler/productkit-core 1.3.0, Chalk 4.1.2, Commander.js 8.3.0, json5 2.2.1, upper-case 2.0.2)
+(@daimler/productkit-core 1.3.0, Chalk 4.1.2, Commander.js 8.3.0, json5 2.2.1, upper-case 2.0.2)
 
 The MIT License
 ===============
