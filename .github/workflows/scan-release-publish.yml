@@ -12,12 +12,7 @@ on:
         description: "Branch that should be scanned"
         default: "main"
 
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 1
   update-version:
     name: 🙈 Update Version
     uses: ./.github/workflows/update-version.yml
@@ -25,15 +20,18 @@ jobs:
       version: ${{ github.event.inputs.version }}
   bd-scan:
     name: 🙉 Perform Blackduck Scan
+    needs: update-version
     uses: ./.github/workflows/bd-scan.yml
     with:
       branch: ${{ github.event.inputs.branch }}
       version: ${{ github.event.inputs.version }}
   release:
     name: 🙊 Release on Github
+    needs: bd-scan
     uses: ./.github/workflows/release.yml
     with:
       version: ${{ github.event.inputs.version }}
   npm-publish:
     name: 🏁 Publish on npm
+    needs: release
     uses: ./.github/workflows/npm-publish.yml
