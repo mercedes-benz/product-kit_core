@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Apr 2022 10:54:31 GMT
+ * Generated on Wed, 20 Apr 2022 12:34:29 GMT
  */
 
 export const colorApplicationPrimary = "#83cef5"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 export const colorApplicationSecondary = "#fd90b1"; // The secondary color is used to indicate selection controls, floating actions or overline text.
 export const colorApplicationTertiary = "#ce8dce"; // The tertiary color is used to colorize information graphics.
 export const colorApplicationQuaternary = "#1b4e8e"; // The quaternary color is used to colorize information graphics or primary actions in snackbars.
-export const colorApplicationBackground = "#13151b"; // The quaternary color is used to colorize information graphics or primary actions in snackbars.
+export const colorApplicationBackground = "#13151b"; // The background color is used for the content background.
 export const colorApplicationSurface = "#13151b"; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
 export const colorApplicationError = "#f9a9ab"; // The error color is used for error text.
 export const colorApplicationOutline = "#5d687f"; // The outline color is used for components with an outline like cards, text fields or buttons.
@@ -19,6 +19,8 @@ export const colorApplicationContrastBackground = "#ffffff"; // The background c
 export const colorApplicationContrastSurface = "#ffffff"; // The surface contrast color is used for elements like text that is displayed on a background with the surface color.
 export const colorApplicationContrastError = "#061a38"; // The error contrast color is used for elements like text that is displayed on a background with the error color.
 export const colorApplicationContrastOutline = "#061a38"; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
+export const colorBrandWhite = "#ffffff";
+export const colorBrandBlack = "#000000";
 export const colorBrandNeutral50 = "#fafafa";
 export const colorBrandNeutral100 = "#f5f5f5";
 export const colorBrandNeutral200 = "#eeeeee";

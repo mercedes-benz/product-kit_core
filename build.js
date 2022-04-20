@@ -44,8 +44,6 @@ styleDictionary.extend({
                 destination: `scss/variables.scss`,
                 format: `scss/map-deep`,
                 filter: function(token) {
-                    if( token.path.includes(`neutral`) && 
-                        (token.path.includes(`black`) || token.path.includes(`white`))) return false
                     return true
                 },
                 options: {
@@ -60,11 +58,6 @@ styleDictionary.extend({
             files: [{
                 destination: `js/variables.js`,
                 format: `javascript/es6`,
-                filter: function(token) {
-                    if( token.path.includes(`neutral`) && 
-                        (token.path.includes(`black`) || token.path.includes(`white`))) return false
-                    return true
-                }
             }]
         },
     }
@@ -105,8 +98,6 @@ styleDictionary.extend({
                 destination: `scss/variables-dark.scss`,
                 format: `scss/map-deep`,
                 filter: function(token) {
-                    if( token.path.includes(`neutral`) && 
-                        (token.path.includes(`black`) || token.path.includes(`white`))) return false
                     return true
                 },
                 options: {
@@ -121,11 +112,6 @@ styleDictionary.extend({
             files: [{
                 destination: `js/variables-dark.js`,
                 format: `javascript/es6`,
-                filter: function(token) {
-                    if( token.path.includes(`neutral`) && 
-                        (token.path.includes(`black`) || token.path.includes(`white`))) return false
-                    return true
-                },
             }]
         },
     }

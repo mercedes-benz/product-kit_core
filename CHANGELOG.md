@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.3.2
+
+### Breaking Changes
+* Changed white and black color variable names in exports
+
 # 1.3.1
 
 ### Bug Fixes

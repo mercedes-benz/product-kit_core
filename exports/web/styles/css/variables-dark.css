@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Apr 2022 10:54:31 GMT
+ * Generated on Wed, 20 Apr 2022 12:34:29 GMT
  */
 
 .dark {
@@ -272,8 +272,6 @@
   --color-brand-neutral-contrast-200: #061a38;
   --color-brand-neutral-contrast-100: #061a38;
   --color-brand-neutral-contrast-50: #061a38;
-  --color-brand-neutral-black: #000000;
-  --color-brand-neutral-white: #ffffff;
   --color-brand-neutral-900: #212121;
   --color-brand-neutral-800: #424242;
   --color-brand-neutral-700: #555555;
@@ -284,6 +282,8 @@
   --color-brand-neutral-200: #eeeeee;
   --color-brand-neutral-100: #f5f5f5;
   --color-brand-neutral-50: #fafafa;
+  --color-brand-black: #000000;
+  --color-brand-white: #ffffff;
   --size-application-spacing-xl-3xl: var(--size-space-24x);
   --size-application-spacing-xl-xxl: var(--size-space-12x);
   --size-application-spacing-xl-xl: var(--size-space-11x);
@@ -465,16 +465,16 @@
   --font-application-s-headline1-font-size: var(--size-font-3xl);
   --color-application-contrast-outline: var(--color-brand-deepblue-900); /* The outline contrast color is used for elements like text that is displayed on a background with the outline color. */
   --color-application-contrast-error: var(--color-brand-deepblue-900); /* The error contrast color is used for elements like text that is displayed on a background with the error color. */
-  --color-application-contrast-surface: var(--color-brand-neutral-white); /* The surface contrast color is used for elements like text that is displayed on a background with the surface color. */
-  --color-application-contrast-background: var(--color-brand-neutral-white); /* The background contrast color is used for elements like text that is displayed on a background with the background color. */
-  --color-application-contrast-quaternary: var(--color-brand-neutral-white); /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
+  --color-application-contrast-surface: var(--color-brand-white); /* The surface contrast color is used for elements like text that is displayed on a background with the surface color. */
+  --color-application-contrast-background: var(--color-brand-white); /* The background contrast color is used for elements like text that is displayed on a background with the background color. */
+  --color-application-contrast-quaternary: var(--color-brand-white); /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
   --color-application-contrast-tertiary: var(--color-brand-deepblue-900); /* The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color. */
   --color-application-contrast-secondary: var(--color-brand-deepblue-900); /* The secondary contrast color is used for elements like text that is displayed on a background with the secondary color. */
   --color-application-contrast-primary: var(--color-brand-deepblue-900); /* The primary contrast color is used for elements like text that is displayed on a background with the primary color. */
   --color-application-outline: var(--color-brand-grayblue-600); /* The outline color is used for components with an outline like cards, text fields or buttons. */
   --color-application-error: var(--color-brand-red-200); /* The error color is used for error text. */
   --color-application-surface: var(--color-brand-grayblue-900); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
-  --color-application-background: var(--color-brand-grayblue-900); /* The quaternary color is used to colorize information graphics or primary actions in snackbars. */
+  --color-application-background: var(--color-brand-grayblue-900); /* The background color is used for the content background. */
   --color-application-quaternary: var(--color-brand-blue-900); /* The quaternary color is used to colorize information graphics or primary actions in snackbars. */
   --color-application-tertiary: var(--color-brand-purple-200); /* The tertiary color is used to colorize information graphics. */
   --color-application-secondary: var(--color-brand-pink-200); /* The secondary color is used to indicate selection controls, floating actions or overline text. */

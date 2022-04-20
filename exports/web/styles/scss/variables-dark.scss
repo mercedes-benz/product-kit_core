@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 20 Apr 2022 10:54:31 GMT
+ * Generated on Wed, 20 Apr 2022 12:34:29 GMT
  */
 
 $size-space-24x: 192px !default;
@@ -282,6 +282,8 @@ $color-brand-neutral-300: #e0e0e0 !default;
 $color-brand-neutral-200: #eeeeee !default;
 $color-brand-neutral-100: #f5f5f5 !default;
 $color-brand-neutral-50: #fafafa !default;
+$color-brand-black: #000000 !default;
+$color-brand-white: #ffffff !default;
 $size-application-spacing-xl-3xl: $size-space-24x !default;
 $size-application-spacing-xl-xxl: $size-space-12x !default;
 $size-application-spacing-xl-xl: $size-space-11x !default;
@@ -463,16 +465,16 @@ $font-application-s-headline1-line-height: $size-line-height-xxl !default;
 $font-application-s-headline1-font-size: $size-font-3xl !default;
 $color-application-contrast-outline: $color-brand-deepblue-900 !default; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
 $color-application-contrast-error: $color-brand-deepblue-900 !default; // The error contrast color is used for elements like text that is displayed on a background with the error color.
-$color-application-contrast-surface: $color-brand-neutral-white !default; // The surface contrast color is used for elements like text that is displayed on a background with the surface color.
-$color-application-contrast-background: $color-brand-neutral-white !default; // The background contrast color is used for elements like text that is displayed on a background with the background color.
-$color-application-contrast-quaternary: $color-brand-neutral-white !default; // The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color.
+$color-application-contrast-surface: $color-brand-white !default; // The surface contrast color is used for elements like text that is displayed on a background with the surface color.
+$color-application-contrast-background: $color-brand-white !default; // The background contrast color is used for elements like text that is displayed on a background with the background color.
+$color-application-contrast-quaternary: $color-brand-white !default; // The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color.
 $color-application-contrast-tertiary: $color-brand-deepblue-900 !default; // The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color.
 $color-application-contrast-secondary: $color-brand-deepblue-900 !default; // The secondary contrast color is used for elements like text that is displayed on a background with the secondary color.
 $color-application-contrast-primary: $color-brand-deepblue-900 !default; // The primary contrast color is used for elements like text that is displayed on a background with the primary color.
 $color-application-outline: $color-brand-grayblue-600 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
 $color-application-error: $color-brand-red-200 !default; // The error color is used for error text.
 $color-application-surface: $color-brand-grayblue-900 !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
-$color-application-background: $color-brand-grayblue-900 !default; // The quaternary color is used to colorize information graphics or primary actions in snackbars.
+$color-application-background: $color-brand-grayblue-900 !default; // The background color is used for the content background.
 $color-application-quaternary: $color-brand-blue-900 !default; // The quaternary color is used to colorize information graphics or primary actions in snackbars.
 $color-application-tertiary: $color-brand-purple-200 !default; // The tertiary color is used to colorize information graphics.
 $color-application-secondary: $color-brand-pink-200 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
@@ -503,6 +505,8 @@ $tokens: (
       )
     ),
     'brand': (
+      'white': $color-brand-white,
+      'black': $color-brand-black,
       'neutral': (
         '50': $color-brand-neutral-50,
         '100': $color-brand-neutral-100,

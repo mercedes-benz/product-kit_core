@@ -2,68 +2,68 @@
   "color": {
     "application": {
       "primary": {
-        "value": "{color.brand.blue.200.value}",
+        "value": "{color.brand.blue.200}",
         "comment": "The primary color is used to indicate primary actions, selected elements or as background color for app bars."
       },
       "secondary": {
-        "value": "{color.brand.pink.200.value}",
+        "value": "{color.brand.pink.200}",
         "comment": "The secondary color is used to indicate selection controls, floating actions or overline text."
       },
       "tertiary": {
-        "value": "{color.brand.purple.200.value}",
+        "value": "{color.brand.purple.200}",
         "comment": "The tertiary color is used to colorize information graphics."
       },
       "quaternary": {
-        "value": "{color.brand.blue.900.value}",
+        "value": "{color.brand.blue.900}",
         "comment": "The quaternary color is used to colorize information graphics or primary actions in snackbars."
       },
       "background": {
-        "value": "{color.brand.grayblue.900.value}",
-        "comment": "The quaternary color is used to colorize information graphics or primary actions in snackbars."
+        "value": "{color.brand.grayblue.900}",
+        "comment": "The background color is used for the content background."
       },
       "surface": {
-        "value": "{color.brand.grayblue.900.value}",
+        "value": "{color.brand.grayblue.900}",
         "comment": "The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips."
       },
       "error": {
-        "value": "{color.brand.red.200.value}",
+        "value": "{color.brand.red.200}",
         "comment": "The error color is used for error text."
       },
       "outline": {
-        "value": "{color.brand.grayblue.600.value}",
+        "value": "{color.brand.grayblue.600}",
         "comment": "The outline color is used for components with an outline like cards, text fields or buttons."
       },
       "contrast": {
         "primary": {
-          "value": "{color.brand.deepblue.900.value}",
+          "value": "{color.brand.deepblue.900}",
           "comment": "The primary contrast color is used for elements like text that is displayed on a background with the primary color."
         },
         "secondary": {
-          "value": "{color.brand.deepblue.900.value}",
+          "value": "{color.brand.deepblue.900}",
           "comment": "The secondary contrast color is used for elements like text that is displayed on a background with the secondary color."
         },
         "tertiary": {
-          "value": "{color.brand.deepblue.900.value}",
+          "value": "{color.brand.deepblue.900}",
           "comment": "The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color."
         },
         "quaternary": {
-          "value": "{color.brand.neutral.white.value}",
+          "value": "{color.brand.white}",
           "comment": "The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color."
         },
         "background": {
-          "value": "{color.brand.neutral.white.value}",
+          "value": "{color.brand.white}",
           "comment": "The background contrast color is used for elements like text that is displayed on a background with the background color."
         },
         "surface": {
-          "value": "{color.brand.neutral.white.value}",
+          "value": "{color.brand.white}",
           "comment": "The surface contrast color is used for elements like text that is displayed on a background with the surface color."
         },
         "error": {
-          "value": "{color.brand.deepblue.900.value}",
+          "value": "{color.brand.deepblue.900}",
           "comment": "The error contrast color is used for elements like text that is displayed on a background with the error color."
         },
         "outline": {
-          "value": "{color.brand.deepblue.900.value}",
+          "value": "{color.brand.deepblue.900}",
           "comment": "The outline contrast color is used for elements like text that is displayed on a background with the outline color."
         }
       }
