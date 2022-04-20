@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.3.1
+
+### Bug Fixes
+* Updated text transform capitalized to none
+
 # 1.3.0
 
 ### Improvements
