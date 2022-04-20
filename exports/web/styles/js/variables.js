@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 Apr 2022 22:23:39 GMT
+ * Generated on Wed, 20 Apr 2022 10:54:31 GMT
  */
 
 export const colorApplicationPrimary = "#1b4e8e"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
