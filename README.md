@@ -23,7 +23,7 @@ The export can be extended to support other platforms like iOS or Android. Feel 
 You can get the style dictionary for web as package through npm:
 
 ```bash
-npm -i @daimler/productkit-core
+npm install @daimler/productkit-core
 ```
 
 Exports for web can be found in the `exports` directory. Feel free to contribute any missing platforms.
