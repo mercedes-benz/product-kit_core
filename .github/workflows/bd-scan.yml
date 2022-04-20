@@ -38,7 +38,7 @@ jobs:
         uses: blackducksoftware/github-action@v2
         with: 
           args: 
-            '--blackduck.url="https://bdscan.daimler.com" --blackduck.api.token="${{ secrets.BLACKDUCK_API_TOKEN }}" --detect.policy.check.fail.on.severities="MAJOR,CRITICAL,BLOCKER" --detect.npm.include.dev.dependencies=true --detect.project.name="product-kit-core" --detect.project.version.name="${{ github.event.inputs.version }}" --detect.project.version.phase=RELEASED --detect.project.version.distribution=OPENSOURCE --detect.notices.report=true --detect.notices.report.path="./notices"'
+            '--blackduck.url="https://bdscan.i.mercedes-benz.com" --blackduck.api.token="${{ secrets.BLACKDUCK_API_TOKEN }}" --detect.policy.check.fail.on.severities="MAJOR,CRITICAL,BLOCKER" --detect.npm.include.dev.dependencies=true --detect.project.name="product-kit-core" --detect.project.version.name="${{ github.event.inputs.version }}" --detect.project.version.phase=RELEASED --detect.project.version.distribution=OPENSOURCE --detect.notices.report=true --detect.notices.report.path="./notices"'
       - name: 🔀 Rename notices
         run: for f in ./notices/product_kit*.txt; do mv "$f" 3RD_PARTY_LICENSES.txt; done
       - name: ☁ Commit Changes
