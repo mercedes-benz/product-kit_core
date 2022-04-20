@@ -10,7 +10,6 @@ Product Kit Core provides design tokens according to the Daimler TSS styleguide.
 You can use the export to apply the styling by yourself or use one of the following implementations:
 
 * [Tailwind](https://github.com/daimler/product-kit_tailwind)
-* [Web Components](https://github.com/daimler/product-kit_web)
 * [React](https://github.com/daimler/product-kit_react)
 * [Angular](https://github.com/daimler/product-kit_angular)
 * [Vue](https://github.com/mercedes-benz/product-kit_vue)
