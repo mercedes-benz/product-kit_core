@@ -1,35 +1,44 @@
 {
   "size": {
     "font": {
-      "3xs": {
+      "xxs": {
         "value": "12"
       },
-      "xxs": {
+      "xs": {
         "value": "14"
       },
-      "xs": {
+      "s": {
         "value": "16"
       },
-      "s": {
+      "m": {
         "value": "18"
       },
-      "m": {
+      "l": {
         "value": "20"
       },
-      "l": {
+      "xl": {
         "value": "24"
       },
-      "xl": {
-        "value": "34"
-      },
       "xxl": {
-        "value": "48"
+        "value": "26"
       },
       "3xl": {
-        "value": "64"
+        "value": "32"
       },
       "4xl": {
-        "value": "80"
+        "value": "34"
+      },
+      "5xl": {
+        "value": "40"
+      },
+      "6xl": {
+        "value": "48"
+      },
+      "7xl": {
+        "value": "64"
+      },
+      "8xl": {
+        "value": "72"
       }
     }
   }

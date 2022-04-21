@@ -2,12 +2,14 @@
   "font": {
     "family": {
       "brand": {
-        "value": "'Source Sans Pro'",
-        "comment": "The brand font family for every content that is not code."
-      },
-      "monospace": {
-        "value": "'Source Code Pro'",
-        "comment": "The monospace font family that has to be used when displaying code ."
+        "title": {
+          "value": "'MB Corpo A Title Cond', 'Arial'",
+          "comment": "The brand font family for large headlines."
+        },
+        "text": {
+          "value": "'MB Corpo S Text', 'Arial'",
+          "comment": "The brand font family for large headlines."
+        }
       }
     }
   }

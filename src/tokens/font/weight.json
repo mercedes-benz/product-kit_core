@@ -1,10 +1,6 @@
 {
   "font": {
     "weight": {
-      "light": {
-        "value": "300",
-        "comment": "The light weight of the font."
-      },
       "regular": {
         "value": "400",
         "comment": "The regular weight of the font."
@@ -12,10 +8,6 @@
       "bold": {
         "value": "700",
         "comment": "The bold weight of the font."
-      },
-      "black": {
-        "value": "900",
-        "comment": "The extra bold weight of the font."
       }
     }
   }

@@ -2,24 +2,22 @@
   "size": {
     "screen": {
       "xs": {
-        "value": "0",
-        "comment": "The smallest possible screen size. Describing screens for phones and small mobile devices."
+        "value": "320"
       },
       "s": {
-        "value": "600",
-        "comment": "The small screen size. Describing screens for big phones and tables."
+        "value": "480"
       },
       "m": {
-        "value": "905",
-        "comment": "The medium screen size. Describing screens for tablets and very small laptops."
+        "value": "768"
       },
       "l": {
-        "value": "1240",
-        "comment": "The large screen size. Describing screens for laptops."
+        "value": "1024"
       },
       "xl": {
-        "value": "1440",
-        "comment": "The largest screen size. Describing big laptops or desktops."
+        "value": "1280"
+      },
+      "xxl": {
+        "value": "1440"
       }
     }
   }

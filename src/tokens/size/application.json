@@ -27,13 +27,13 @@
         "m": {
           "3xs": { "value": "{size.space.halfx}" },
           "xxs": { "value": "{size.space.1x}" },
-          "xs": { "value": "{size.space.3x}" },
-          "s": { "value": "{size.space.4x}" },
-          "m": { "value": "{size.space.6x}" },
-          "l": { "value": "{size.space.8x}" },
-          "xl": { "value": "{size.space.10x}" },
-          "xxl": { "value": "{size.space.11x}" },
-          "3xl": { "value": "{size.space.16x}" }
+          "xs": { "value": "{size.space.2x}" },
+          "s": { "value": "{size.space.3x}" },
+          "m": { "value": "{size.space.4x}" },
+          "l": { "value": "{size.space.6x}" },
+          "xl": { "value": "{size.space.8x}" },
+          "xxl": { "value": "{size.space.10x}" },
+          "3xl": { "value": "{size.space.11x}" }
         },
         "l": {
           "3xs": { "value": "{size.space.halfx}" },
@@ -47,6 +47,17 @@
           "3xl": { "value": "{size.space.16x}" }
         },
         "xl": {
+          "3xs": { "value": "{size.space.halfx}" },
+          "xxs": { "value": "{size.space.1x}" },
+          "xs": { "value": "{size.space.3x}" },
+          "s": { "value": "{size.space.4x}" },
+          "m": { "value": "{size.space.6x}" },
+          "l": { "value": "{size.space.8x}" },
+          "xl": { "value": "{size.space.10x}" },
+          "xxl": { "value": "{size.space.11x}" },
+          "3xl": { "value": "{size.space.16x}" }
+        },
+        "xxl": {
           "3xs": { "value": "{size.space.halfx}" },
           "xxs": { "value": "{size.space.1x}" },
           "xs": { "value": "{size.space.3x}" },

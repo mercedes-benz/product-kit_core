@@ -3,7 +3,7 @@
     "application": {
       "icon": {
         "high": {
-          "value": "{opacity.brand.5}",
+          "value": "{opacity.brand.4}",
           "comment": "The opacity value for icons with a high emphasis."
         },
         "medium": {
@@ -16,7 +16,7 @@
         },
         "constrast": {
           "high": {
-            "value": "{opacity.brand.5}",
+            "value": "{opacity.brand.4}",
             "comment": "The opacity value for icons with a high emphasis on a colored or light background."
           },
           "medium": {
@@ -44,7 +44,7 @@
         },
         "constrast": {
           "high": {
-            "value": "{opacity.brand.5}",
+            "value": "{opacity.brand.4}",
             "comment": "The opacity value for error text or normal text on a colored or light background."
           },
           "medium": {
@@ -59,7 +59,7 @@
       },
       "surface": {
         "high": {
-          "value": "{opacity.brand.5}",
+          "value": "{opacity.brand.4}",
           "comment": "The opacity value for surfaces with a high emphasis."
         },
         "medium": {

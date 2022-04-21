@@ -8,8 +8,7 @@
           "column-amount": { "value": "{layout.column.1x}" },
           "body-max-size": { "value": "90%" },
           "typography-scale": { "value": "s" },
-          "spacing-scale": { "value": "xs" },
-          "comment": "The smallest layout. Used for very small screens like phones or other small mobile devices."
+          "spacing-scale": { "value": "xs" }
         },
         "s": {
           "screen-min-width": { "value": "{size.screen.s}" },
@@ -17,17 +16,15 @@
           "column-amount": { "value": "{layout.column.2x}" },
           "body-max-size": { "value": "90%" },
           "typography-scale": { "value": "s" },
-          "spacing-scale": { "value": "s" },
-          "comment": "The small layout. Used for smaller screens like big phones or small tablets."
+          "spacing-scale": { "value": "s" }
         },
         "m": {
           "screen-min-width": { "value": "{size.screen.m}" },
-          "gutter-size": { "value": "{size.gutter.s}" },
-          "column-amount": { "value": "{layout.column.3x}" },
+          "gutter-size": { "value": "{size.gutter.m}" },
+          "column-amount": { "value": "{layout.column.2x}" },
           "body-max-size": { "value": "86%" },
-          "typography-scale": { "value": "l" },
-          "spacing-scale": { "value": "m" },
-          "comment": "The medium layout. Used for medium screens like tablets."
+          "typography-scale": { "value": "s" },
+          "spacing-scale": { "value": "m" }
         },
         "l": {
           "screen-min-width": { "value": "{size.screen.l}" },
@@ -35,17 +32,23 @@
           "column-amount": { "value": "{layout.column.3x}" },
           "body-max-size": { "value": "86%" },
           "typography-scale": { "value": "l" },
-          "spacing-scale": { "value": "l" },
-          "comment": "The large layout. Used for large screens like laptops or small desktops."
+          "spacing-scale": { "value": "l" }
         },
         "xl": {
           "screen-min-width": { "value": "{size.screen.xl}" },
-          "gutter-size": { "value": "{size.gutter.m}" },
+          "gutter-size": { "value": "{size.gutter.l}" },
           "column-amount": { "value": "{layout.column.3x}" },
           "body-max-size": { "value": "86%" },
           "typography-scale": { "value": "l" },
-          "spacing-scale": { "value": "xl" },
-          "comment": "The largest layout. Used for very large screens like desktops."
+          "spacing-scale": { "value": "xl" }
+        },
+        "xxl": {
+          "screen-min-width": { "value": "{size.screen.xxl}" },
+          "gutter-size": { "value": "{size.gutter.xl}" },
+          "column-amount": { "value": "{layout.column.3x}" },
+          "body-max-size": { "value": "86%" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "xxl" }
         }
       },
       "compact": {
@@ -53,48 +56,51 @@
           "screen-min-width": { "value": "{size.screen.xs}" },
           "gutter-size": { "value": "{size.gutter.s}" },
           "column-amount": { "value": "{layout.column.1x}" },
-          "margin-size": { "value": "{size.space.2x}" },
+          "body-max-size": { "value": "90%" },
           "typography-scale": { "value": "s" },
-          "spacing-scale": { "value": "xs" },
-          "comment": "The smallest layout. Used for very small screens like phones or other small mobile devices."
+          "spacing-scale": { "value": "xs" }
         },
         "s": {
           "screen-min-width": { "value": "{size.screen.s}" },
           "gutter-size": { "value": "{size.gutter.s}" },
           "column-amount": { "value": "{layout.column.2x}" },
-          "margin-size": { "value": "{size.space.4x}" },
+          "body-max-size": { "value": "90%" },
           "typography-scale": { "value": "s" },
-          "spacing-scale": { "value": "s" },
-          "comment": "The small layout. Used for smaller screens like big phones or small tablets."
+          "spacing-scale": { "value": "s" }
         },
         "m": {
           "screen-min-width": { "value": "{size.screen.m}" },
-          "gutter-size": { "value": "{size.gutter.s}" },
-          "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "840px" },
-          "typography-scale": { "value": "l" },
-          "spacing-scale": { "value": "m" },
-          "comment": "The medium layout. Used for medium screens like tablets."
+          "gutter-size": { "value": "{size.gutter.m}" },
+          "column-amount": { "value": "{layout.column.2x}" },
+          "body-max-size": { "value": "86%" },
+          "typography-scale": { "value": "s" },
+          "spacing-scale": { "value": "m" }
         },
         "l": {
           "screen-min-width": { "value": "{size.screen.l}" },
           "gutter-size": { "value": "{size.gutter.m}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "margin-size": { "value": "{size.space.24x}" },
+          "body-max-size": { "value": "86%" },
           "typography-scale": { "value": "l" },
-          "spacing-scale": { "value": "l" },
-          "comment": "The large layout. Used for large screens like laptops or small desktops."
+          "spacing-scale": { "value": "l" }
         },
         "xl": {
           "screen-min-width": { "value": "{size.screen.xl}" },
-          "gutter-size": { "value": "{size.gutter.m}" },
+          "gutter-size": { "value": "{size.gutter.l}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "1040px" },
+          "body-max-size": { "value": "86%" },
           "typography-scale": { "value": "l" },
-          "spacing-scale": { "value": "xl" },
-          "comment": "The largest layout. Used for very large screens like desktops."
+          "spacing-scale": { "value": "xl" }
+        },
+        "xxl": {
+          "screen-min-width": { "value": "{size.screen.xxl}" },
+          "gutter-size": { "value": "{size.gutter.xl}" },
+          "column-amount": { "value": "{layout.column.3x}" },
+          "body-max-size": { "value": "1680px" },
+          "typography-scale": { "value": "l" },
+          "spacing-scale": { "value": "xxl" }
         }
       }
-    }  
+    }
   }
 }

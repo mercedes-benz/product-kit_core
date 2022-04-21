@@ -2,16 +2,16 @@
   "size": {
     "gutter": {
       "s": {
-        "value": "16",
-        "comment": "The smallest gutter size in a layout. Used in layouts for small and medium screen sizes."
+        "value": "16"
       },
       "m": {
-        "value": "24",
-        "comment": "The medium gutter size in a layout. Used in layouts for large screen sizes."
+        "value": "24"
       },
       "l": {
-        "value": "32",
-        "comment": "The largest gutter size in a layout. Used in layouts for large screens with emphasis on content and information."
+        "value": "32"
+      },
+      "xl": {
+        "value": "40"
       }
     }
   }

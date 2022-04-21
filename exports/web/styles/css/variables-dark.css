@@ -1,9 +1,36 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Apr 2022 12:34:29 GMT
+ * Generated on Thu, 21 Apr 2022 15:47:37 GMT
  */
 
 .dark {
+  --size-sup-offset-12xl: -7.2px;
+  --size-sup-offset-11xl: -8.1px;
+  --size-sup-offset-10xl: -8.5px;
+  --size-sup-offset-9xl: -9px;
+  --size-sup-offset-8xl: -9.9px;
+  --size-sup-offset-7xl: -10.3px;
+  --size-sup-offset-6xl: -10.8px;
+  --size-sup-offset-5xl: -12.1px;
+  --size-sup-offset-4xl: -12.6px;
+  --size-sup-offset-3xl: -13.5px;
+  --size-sup-offset-xxl: -16.2px;
+  --size-sup-offset-xl: -21.1px;
+  --size-sup-offset-l: -21.4px;
+  --size-sup-offset-m: -24px;
+  --size-sup-offset-s: -27.4px;
+  --size-sup-offset-xs: -28.7px;
+  --size-sup-offset-xxs: -36.8px;
+  --size-sup-offset-3xs: -42.3px;
+  --size-sup-font-4xl: 15.1px;
+  --size-sup-font-3xl: 14.4px;
+  --size-sup-font-xxl: 13.4px;
+  --size-sup-font-xl: 12.5px;
+  --size-sup-font-l: 12.2px;
+  --size-sup-font-m: 12px;
+  --size-sup-font-s: 10.2px;
+  --size-sup-font-xs: 9.6px;
+  --size-sup-font-xxs: 9px;
   --size-space-24x: 192px;
   --size-space-16x: 128px;
   --size-space-12x: 96px;
@@ -17,64 +44,75 @@
   --size-space-2x: 16px;
   --size-space-1x: 8px;
   --size-space-halfx: 4px;
-  --size-shape-radius: 0px; /* The value indicates the radius of the rounded corners in components. */
-  --size-screen-xl: 1440px; /* The largest screen size. Describing big laptops or desktops. */
-  --size-screen-l: 1240px; /* The large screen size. Describing screens for laptops. */
-  --size-screen-m: 905px; /* The medium screen size. Describing screens for tablets and very small laptops. */
-  --size-screen-s: 600px; /* The small screen size. Describing screens for big phones and tables. */
-  --size-screen-xs: 0px; /* The smallest possible screen size. Describing screens for phones and small mobile devices. */
-  --size-line-height-3xl: 93px; /* The second most largest size of the line height. */
-  --size-line-height-xxl: 72px; /* The extra extra large size of the line height. */
-  --size-line-height-xl: 60px; /* The extra large size of the line height. */
-  --size-line-height-l: 44px; /* The large size of the line height. */
-  --size-line-height-m: 36px; /* The medium size of the line height. */
-  --size-line-height-s: 28px; /* The small size of the line height. */
-  --size-line-height-xs: 24px; /* The second most smalles size of the line height. */
-  --size-line-height-xxs: 21px; /* The smallest size of the line height. */
-  --size-line-height-3xs: 16px; /* The smallest size of the line height. */
-  --size-letter-spacing-4xl: 1.5px; /* The largest size of the font spacing. */
-  --size-letter-spacing-3xl: 1.25px; /* The second most largest size of the font spacing. */
-  --size-letter-spacing-xxl: 0.5px; /* The extra extra large size of the font spacing. */
-  --size-letter-spacing-xl: 0.4px; /* The extra large size of the font spacing. */
-  --size-letter-spacing-l: 0.25px; /* The large size of the font spacing. */
-  --size-letter-spacing-m: 0.15px; /* The medium size of the font spacing. */
-  --size-letter-spacing-s: 0.1px; /* The small size of the font spacing. */
-  --size-letter-spacing-xs: 0px; /* The extra small size of the font spacing. */
-  --size-letter-spacing-xxs: -0.5px; /* The second smallest size of the font spacing. */
-  --size-letter-spacing-3xs: -1px; /* The smallest size of the font spacing. */
-  --size-gutter-l: 32px; /* The largest gutter size in a layout. Used in layouts for large screens with emphasis on content and information. */
-  --size-gutter-m: 24px; /* The medium gutter size in a layout. Used in layouts for large screen sizes. */
-  --size-gutter-s: 16px; /* The smallest gutter size in a layout. Used in layouts for small and medium screen sizes. */
-  --size-font-4xl: 80px;
-  --size-font-3xl: 64px;
-  --size-font-xxl: 48px;
-  --size-font-xl: 34px;
-  --size-font-l: 24px;
-  --size-font-m: 20px;
-  --size-font-s: 18px;
-  --size-font-xs: 16px;
-  --size-font-xxs: 14px;
-  --size-font-3xs: 12px;
-  --opacity-brand-5: 1;
-  --opacity-brand-4: 0.87;
+  --size-shape-radius: 2px; /* The value indicates the radius of the rounded corners in components. */
+  --size-screen-xxl: 1440px;
+  --size-screen-xl: 1280px;
+  --size-screen-l: 1024px;
+  --size-screen-m: 768px;
+  --size-screen-s: 480px;
+  --size-screen-xs: 320px;
+  --size-line-height-7xl: 80px;
+  --size-line-height-6xl: 72px;
+  --size-line-height-5xl: 60px;
+  --size-line-height-4xl: 56px;
+  --size-line-height-3xl: 48px;
+  --size-line-height-xxl: 44px;
+  --size-line-height-xl: 40px;
+  --size-line-height-l: 36px;
+  --size-line-height-m: 32px;
+  --size-line-height-s: 28px;
+  --size-line-height-xs: 24px;
+  --size-line-height-xxs: 20px;
+  --size-line-height-3xs: 16px;
+  --size-letter-spacing-xl: 0.4px;
+  --size-letter-spacing-l: 0.3px;
+  --size-letter-spacing-m: 0.2px;
+  --size-letter-spacing-s: 0px;
+  --size-gutter-xl: 40px;
+  --size-gutter-l: 32px;
+  --size-gutter-m: 24px;
+  --size-gutter-s: 16px;
+  --size-font-8xl: 72px;
+  --size-font-7xl: 64px;
+  --size-font-6xl: 48px;
+  --size-font-5xl: 40px;
+  --size-font-4xl: 34px;
+  --size-font-3xl: 32px;
+  --size-font-xxl: 26px;
+  --size-font-xl: 24px;
+  --size-font-l: 20px;
+  --size-font-m: 18px;
+  --size-font-s: 16px;
+  --size-font-xs: 14px;
+  --size-font-xxs: 12px;
+  --opacity-brand-4: 1;
   --opacity-brand-3: 0.74;
   --opacity-brand-2: 0.6;
   --opacity-brand-1: 0.38;
   --layout-column-3x: 12; /* The most amount of columns in a layout. Used for laptop or desktop screen sizes. */
   --layout-column-2x: 8; /* The amount of columns used for tablet screen sizes. */
   --layout-column-1x: 4; /* The least amount of columns in a layout. Used for phone screen sizes. */
+  --layout-application-compact-xxl-spacing-scale: xxl;
+  --layout-application-compact-xxl-typography-scale: l;
+  --layout-application-compact-xxl-body-max-size: 1680px;
   --layout-application-compact-xl-spacing-scale: xl;
   --layout-application-compact-xl-typography-scale: l;
-  --layout-application-compact-xl-body-max-size: 1040px;
+  --layout-application-compact-xl-body-max-size: 86%;
   --layout-application-compact-l-spacing-scale: l;
   --layout-application-compact-l-typography-scale: l;
+  --layout-application-compact-l-body-max-size: 86%;
   --layout-application-compact-m-spacing-scale: m;
-  --layout-application-compact-m-typography-scale: l;
-  --layout-application-compact-m-body-max-size: 840px;
+  --layout-application-compact-m-typography-scale: s;
+  --layout-application-compact-m-body-max-size: 86%;
   --layout-application-compact-s-spacing-scale: s;
   --layout-application-compact-s-typography-scale: s;
+  --layout-application-compact-s-body-max-size: 90%;
   --layout-application-compact-xs-spacing-scale: xs;
   --layout-application-compact-xs-typography-scale: s;
+  --layout-application-compact-xs-body-max-size: 90%;
+  --layout-application-wide-xxl-spacing-scale: xxl;
+  --layout-application-wide-xxl-typography-scale: l;
+  --layout-application-wide-xxl-body-max-size: 86%;
   --layout-application-wide-xl-spacing-scale: xl;
   --layout-application-wide-xl-typography-scale: l;
   --layout-application-wide-xl-body-max-size: 86%;
@@ -82,7 +120,7 @@
   --layout-application-wide-l-typography-scale: l;
   --layout-application-wide-l-body-max-size: 86%;
   --layout-application-wide-m-spacing-scale: m;
-  --layout-application-wide-m-typography-scale: l;
+  --layout-application-wide-m-typography-scale: s;
   --layout-application-wide-m-body-max-size: 86%;
   --layout-application-wide-s-spacing-scale: s;
   --layout-application-wide-s-typography-scale: s;
@@ -90,15 +128,13 @@
   --layout-application-wide-xs-spacing-scale: xs;
   --layout-application-wide-xs-typography-scale: s;
   --layout-application-wide-xs-body-max-size: 90%;
-  --font-weight-black: 900; /* The extra bold weight of the font. */
   --font-weight-bold: 700; /* The bold weight of the font. */
   --font-weight-regular: 400; /* The regular weight of the font. */
-  --font-weight-light: 300; /* The light weight of the font. */
-  --font-family-monospace: 'Source Code Pro'; /* The monospace font family that has to be used when displaying code . */
-  --font-family-brand: 'Source Sans Pro'; /* The brand font family for every content that is not code. */
-  --font-application-l-overline-text-transform: uppercase;
+  --font-family-brand-text: 'MB Corpo S Text', 'Arial'; /* The brand font family for large headlines. */
+  --font-family-brand-title: 'MB Corpo A Title Cond', 'Arial'; /* The brand font family for large headlines. */
+  --font-application-l-overline-text-transform: none;
   --font-application-l-caption-text-transform: none;
-  --font-application-l-button-text-transform: uppercase;
+  --font-application-l-button-text-transform: none;
   --font-application-l-body2-text-transform: none;
   --font-application-l-body1-text-transform: none;
   --font-application-l-subtitle2-text-transform: none;
@@ -106,12 +142,12 @@
   --font-application-l-headline6-text-transform: none;
   --font-application-l-headline5-text-transform: none;
   --font-application-l-headline4-text-transform: none;
-  --font-application-l-headline3-text-transform: uppercase;
-  --font-application-l-headline2-text-transform: uppercase;
-  --font-application-l-headline1-text-transform: uppercase;
-  --font-application-s-overline-text-transform: uppercase;
+  --font-application-l-headline3-text-transform: none;
+  --font-application-l-headline2-text-transform: none;
+  --font-application-l-headline1-text-transform: none;
+  --font-application-s-overline-text-transform: none;
   --font-application-s-caption-text-transform: none;
-  --font-application-s-button-text-transform: uppercase;
+  --font-application-s-button-text-transform: none;
   --font-application-s-body2-text-transform: none;
   --font-application-s-body1-text-transform: none;
   --font-application-s-subtitle2-text-transform: none;
@@ -119,19 +155,19 @@
   --font-application-s-headline6-text-transform: none;
   --font-application-s-headline5-text-transform: none;
   --font-application-s-headline4-text-transform: none;
-  --font-application-s-headline3-text-transform: uppercase;
-  --font-application-s-headline2-text-transform: uppercase;
-  --font-application-s-headline1-text-transform: uppercase;
+  --font-application-s-headline3-text-transform: none;
+  --font-application-s-headline2-text-transform: none;
+  --font-application-s-headline1-text-transform: none;
   --color-brand-green-contrast-900: #ffffff;
   --color-brand-green-contrast-800: #ffffff;
-  --color-brand-green-contrast-700: #ffffff;
-  --color-brand-green-contrast-600: #ffffff;
-  --color-brand-green-contrast-500: #061a38;
-  --color-brand-green-contrast-400: #061a38;
-  --color-brand-green-contrast-300: #061a38;
-  --color-brand-green-contrast-200: #061a38;
-  --color-brand-green-contrast-100: #061a38;
-  --color-brand-green-contrast-50: #061a38;
+  --color-brand-green-contrast-700: #000000;
+  --color-brand-green-contrast-600: #000000;
+  --color-brand-green-contrast-500: #000000;
+  --color-brand-green-contrast-400: #000000;
+  --color-brand-green-contrast-300: #000000;
+  --color-brand-green-contrast-200: #000000;
+  --color-brand-green-contrast-100: #000000;
+  --color-brand-green-contrast-50: #000000;
   --color-brand-green-900: #006307;
   --color-brand-green-800: #008220;
   --color-brand-green-700: #00932c;
@@ -145,13 +181,13 @@
   --color-brand-red-contrast-900: #ffffff;
   --color-brand-red-contrast-800: #ffffff;
   --color-brand-red-contrast-700: #ffffff;
-  --color-brand-red-contrast-600: #ffffff;
-  --color-brand-red-contrast-500: #ffffff;
-  --color-brand-red-contrast-400: #061a38;
-  --color-brand-red-contrast-300: #061a38;
-  --color-brand-red-contrast-200: #061a38;
-  --color-brand-red-contrast-100: #061a38;
-  --color-brand-red-contrast-50: #061a38;
+  --color-brand-red-contrast-600: #000000;
+  --color-brand-red-contrast-500: #000000;
+  --color-brand-red-contrast-400: #000000;
+  --color-brand-red-contrast-300: #000000;
+  --color-brand-red-contrast-200: #000000;
+  --color-brand-red-contrast-100: #000000;
+  --color-brand-red-contrast-50: #000000;
   --color-brand-red-900: #c90000;
   --color-brand-red-800: #d6000b;
   --color-brand-red-700: #e30613;
@@ -159,69 +195,89 @@
   --color-brand-red-500: #ff2d17;
   --color-brand-red-400: #ff443c;
   --color-brand-red-300: #f46a66;
-  --color-brand-red-200: #f9a9ab;
+  --color-brand-red-200: #fb9691;
   --color-brand-red-100: #ffcbce;
   --color-brand-red-50: #ffeaed;
-  --color-brand-purple-contrast-900: #ffffff;
-  --color-brand-purple-contrast-800: #ffffff;
-  --color-brand-purple-contrast-700: #ffffff;
-  --color-brand-purple-contrast-600: #ffffff;
-  --color-brand-purple-contrast-500: #ffffff;
-  --color-brand-purple-contrast-400: #ffffff;
-  --color-brand-purple-contrast-300: #ffffff;
-  --color-brand-purple-contrast-200: #061a38;
-  --color-brand-purple-contrast-100: #061a38;
-  --color-brand-purple-contrast-50: #061a38;
-  --color-brand-purple-900: #4e007d;
-  --color-brand-purple-800: #6b008a;
-  --color-brand-purple-700: #7c0392;
-  --color-brand-purple-600: #8e0a99;
-  --color-brand-purple-500: #9c0d9e;
-  --color-brand-purple-400: #ab3aac;
-  --color-brand-purple-300: #ba5fba;
-  --color-brand-purple-200: #ce8dce;
-  --color-brand-purple-100: #e1bae1;
-  --color-brand-purple-50: #f3e4f3;
-  --color-brand-pink-contrast-900: #ffffff;
-  --color-brand-pink-contrast-800: #ffffff;
-  --color-brand-pink-contrast-700: #ffffff;
-  --color-brand-pink-contrast-600: #ffffff;
-  --color-brand-pink-contrast-500: #ffffff;
-  --color-brand-pink-contrast-400: #ffffff;
-  --color-brand-pink-contrast-300: #061a38;
-  --color-brand-pink-contrast-200: #061a38;
-  --color-brand-pink-contrast-100: #061a38;
-  --color-brand-pink-contrast-50: #061a38;
-  --color-brand-pink-900: #970051;
-  --color-brand-pink-800: #bc0057;
-  --color-brand-pink-700: #d1045a;
-  --color-brand-pink-600: #e70a5e;
-  --color-brand-pink-500: #f81060;
-  --color-brand-pink-400: #fa3c78;
-  --color-brand-pink-300: #fc6191;
-  --color-brand-pink-200: #fd90b1;
-  --color-brand-pink-100: #febcd0;
-  --color-brand-pink-50: #ffe4ec;
-  --color-brand-grayblue-contrast-900: #ffffff;
-  --color-brand-grayblue-contrast-800: #ffffff;
-  --color-brand-grayblue-contrast-700: #ffffff;
-  --color-brand-grayblue-contrast-600: #ffffff;
-  --color-brand-grayblue-contrast-500: #ffffff;
-  --color-brand-grayblue-contrast-400: #ffffff;
-  --color-brand-grayblue-contrast-300: #061a38;
-  --color-brand-grayblue-contrast-200: #061a38;
-  --color-brand-grayblue-contrast-100: #061a38;
-  --color-brand-grayblue-contrast-50: #061a38;
-  --color-brand-grayblue-900: #13151b;
-  --color-brand-grayblue-800: #292e3b;
-  --color-brand-grayblue-700: #4c5568;
-  --color-brand-grayblue-600: #5d687f;
-  --color-brand-grayblue-500: #6c7690;
-  --color-brand-grayblue-400: #818aa1;
-  --color-brand-grayblue-300: #979fb3;
-  --color-brand-grayblue-200: #b4baca;
-  --color-brand-grayblue-100: #d0d6e2;
-  --color-brand-grayblue-50: #edeef6;
+  --color-brand-mako-contrast-900: #ffffff;
+  --color-brand-mako-contrast-800: #ffffff;
+  --color-brand-mako-contrast-700: #ffffff;
+  --color-brand-mako-contrast-600: #ffffff;
+  --color-brand-mako-contrast-500: #000000;
+  --color-brand-mako-contrast-400: #000000;
+  --color-brand-mako-contrast-300: #000000;
+  --color-brand-mako-contrast-200: #000000;
+  --color-brand-mako-contrast-100: #000000;
+  --color-brand-mako-contrast-50: #000000;
+  --color-brand-mako-900: #2e333d;
+  --color-brand-mako-800: #414855;
+  --color-brand-mako-700: #515b6b;
+  --color-brand-mako-600: #626e82;
+  --color-brand-mako-500: #707d93;
+  --color-brand-mako-400: #8690a3;
+  --color-brand-mako-300: #9ba4b5;
+  --color-brand-mako-200: #b8beca;
+  --color-brand-mako-100: #d3d8e0;
+  --color-brand-mako-50: #eeeff3;
+  --color-brand-lividbrown-contrast-900: #ffffff;
+  --color-brand-lividbrown-contrast-800: #ffffff;
+  --color-brand-lividbrown-contrast-700: #ffffff;
+  --color-brand-lividbrown-contrast-600: #ffffff;
+  --color-brand-lividbrown-contrast-500: #ffffff;
+  --color-brand-lividbrown-contrast-400: #000000;
+  --color-brand-lividbrown-contrast-300: #000000;
+  --color-brand-lividbrown-contrast-200: #000000;
+  --color-brand-lividbrown-contrast-100: #000000;
+  --color-brand-lividbrown-contrast-50: #000000;
+  --color-brand-lividbrown-900: #4b2534;
+  --color-brand-lividbrown-800: #5d3240;
+  --color-brand-lividbrown-700: #6e3d4a;
+  --color-brand-lividbrown-600: #7f4956;
+  --color-brand-lividbrown-500: #8d525f;
+  --color-brand-lividbrown-400: #a06b76;
+  --color-brand-lividbrown-300: #b4868e;
+  --color-brand-lividbrown-200: #cea7af;
+  --color-brand-lividbrown-100: #e9c8cd;
+  --color-brand-lividbrown-50: #ffe7e8;
+  --color-brand-xanadu-contrast-900: #ffffff;
+  --color-brand-xanadu-contrast-800: #ffffff;
+  --color-brand-xanadu-contrast-700: #ffffff;
+  --color-brand-xanadu-contrast-600: #ffffff;
+  --color-brand-xanadu-contrast-500: #ffffff;
+  --color-brand-xanadu-contrast-400: #000000;
+  --color-brand-xanadu-contrast-300: #000000;
+  --color-brand-xanadu-contrast-200: #000000;
+  --color-brand-xanadu-contrast-100: #000000;
+  --color-brand-xanadu-contrast-50: #000000;
+  --color-brand-xanadu-900: #252e27;
+  --color-brand-xanadu-800: #37433a;
+  --color-brand-xanadu-700: #47564a;
+  --color-brand-xanadu-600: #576a5b;
+  --color-brand-xanadu-500: #637968;
+  --color-brand-xanadu-400: #7a8c7e;
+  --color-brand-xanadu-300: #91a094;
+  --color-brand-xanadu-200: #b1bbb2;
+  --color-brand-xanadu-100: #d0d6d0;
+  --color-brand-xanadu-50: #eceeed;
+  --color-brand-deluge-contrast-900: #ffffff;
+  --color-brand-deluge-contrast-800: #ffffff;
+  --color-brand-deluge-contrast-700: #ffffff;
+  --color-brand-deluge-contrast-600: #ffffff;
+  --color-brand-deluge-contrast-500: #ffffff;
+  --color-brand-deluge-contrast-400: #ffffff;
+  --color-brand-deluge-contrast-300: #000000;
+  --color-brand-deluge-contrast-200: #000000;
+  --color-brand-deluge-contrast-100: #000000;
+  --color-brand-deluge-contrast-50: #000000;
+  --color-brand-deluge-900: #342e6e;
+  --color-brand-deluge-800: #43397c;
+  --color-brand-deluge-700: #4c4084;
+  --color-brand-deluge-600: #57488d;
+  --color-brand-deluge-500: #5e4d93;
+  --color-brand-deluge-400: #74679b;
+  --color-brand-deluge-300: #8c81ad;
+  --color-brand-deluge-200: #aca5c5;
+  --color-brand-deluge-100: #cdc8dc;
+  --color-brand-deluge-50: #ebe9f0;
   --color-brand-deepblue-contrast-900: #ffffff;
   --color-brand-deepblue-contrast-800: #ffffff;
   --color-brand-deepblue-contrast-700: #ffffff;
@@ -229,9 +285,9 @@
   --color-brand-deepblue-contrast-500: #ffffff;
   --color-brand-deepblue-contrast-400: #ffffff;
   --color-brand-deepblue-contrast-300: #ffffff;
-  --color-brand-deepblue-contrast-200: #061a38;
-  --color-brand-deepblue-contrast-100: #061a38;
-  --color-brand-deepblue-contrast-50: #061a38;
+  --color-brand-deepblue-contrast-200: #000000;
+  --color-brand-deepblue-contrast-100: #000000;
+  --color-brand-deepblue-contrast-50: #000000;
   --color-brand-deepblue-900: #061a38;
   --color-brand-deepblue-800: #0b2950;
   --color-brand-deepblue-700: #11325c;
@@ -242,26 +298,26 @@
   --color-brand-deepblue-200: #8d9cb2;
   --color-brand-deepblue-100: #b9c3d1;
   --color-brand-deepblue-50: #e4e7ec;
-  --color-brand-blue-contrast-900: #ffffff;
-  --color-brand-blue-contrast-800: #ffffff;
-  --color-brand-blue-contrast-700: #ffffff;
-  --color-brand-blue-contrast-600: #ffffff;
-  --color-brand-blue-contrast-500: #ffffff;
-  --color-brand-blue-contrast-400: #061a38;
-  --color-brand-blue-contrast-300: #061a38;
-  --color-brand-blue-contrast-200: #061a38;
-  --color-brand-blue-contrast-100: #061a38;
-  --color-brand-blue-contrast-50: #061a38;
-  --color-brand-blue-900: #1b4e8e;
-  --color-brand-blue-800: #216eb1;
-  --color-brand-blue-700: #257fc5;
-  --color-brand-blue-600: #2892d9;
-  --color-brand-blue-500: #2b9fe8;
-  --color-brand-blue-400: #3aadec;
-  --color-brand-blue-300: #56bbef;
-  --color-brand-blue-200: #83cef5;
-  --color-brand-blue-100: #b3e2f9;
-  --color-brand-blue-50: #e1f4fd;
+  --color-brand-goldentainoi-contrast-900: #000000;
+  --color-brand-goldentainoi-contrast-800: #000000;
+  --color-brand-goldentainoi-contrast-700: #000000;
+  --color-brand-goldentainoi-contrast-600: #000000;
+  --color-brand-goldentainoi-contrast-500: #000000;
+  --color-brand-goldentainoi-contrast-400: #000000;
+  --color-brand-goldentainoi-contrast-300: #000000;
+  --color-brand-goldentainoi-contrast-200: #000000;
+  --color-brand-goldentainoi-contrast-100: #000000;
+  --color-brand-goldentainoi-contrast-50: #000000;
+  --color-brand-goldentainoi-900: #f67730;
+  --color-brand-goldentainoi-800: #f89438;
+  --color-brand-goldentainoi-700: #faa33c;
+  --color-brand-goldentainoi-600: #fcb540;
+  --color-brand-goldentainoi-500: #fec245;
+  --color-brand-goldentainoi-400: #fecb54;
+  --color-brand-goldentainoi-300: #ffd56b;
+  --color-brand-goldentainoi-200: #ffe092;
+  --color-brand-goldentainoi-100: #ffecbc;
+  --color-brand-goldentainoi-50: #fff8e5;
   --color-brand-neutral-contrast-900: #ffffff;
   --color-brand-neutral-contrast-800: #ffffff;
   --color-brand-neutral-contrast-700: #ffffff;
@@ -284,201 +340,317 @@
   --color-brand-neutral-50: #fafafa;
   --color-brand-black: #000000;
   --color-brand-white: #ffffff;
-  --size-application-spacing-xl-3xl: var(--size-space-24x);
-  --size-application-spacing-xl-xxl: var(--size-space-12x);
-  --size-application-spacing-xl-xl: var(--size-space-11x);
-  --size-application-spacing-xl-l: var(--size-space-9x);
-  --size-application-spacing-xl-m: var(--size-space-6x);
-  --size-application-spacing-xl-s: var(--size-space-4x);
-  --size-application-spacing-xl-xs: var(--size-space-3x);
-  --size-application-spacing-xl-xxs: var(--size-space-1x);
-  --size-application-spacing-xl-3xs: var(--size-space-halfx);
-  --size-application-spacing-l-3xl: var(--size-space-16x);
-  --size-application-spacing-l-xxl: var(--size-space-11x);
-  --size-application-spacing-l-xl: var(--size-space-10x);
-  --size-application-spacing-l-l: var(--size-space-8x);
-  --size-application-spacing-l-m: var(--size-space-6x);
-  --size-application-spacing-l-s: var(--size-space-4x);
-  --size-application-spacing-l-xs: var(--size-space-3x);
-  --size-application-spacing-l-xxs: var(--size-space-1x);
-  --size-application-spacing-l-3xs: var(--size-space-halfx);
-  --size-application-spacing-m-3xl: var(--size-space-16x);
-  --size-application-spacing-m-xxl: var(--size-space-11x);
-  --size-application-spacing-m-xl: var(--size-space-10x);
-  --size-application-spacing-m-l: var(--size-space-8x);
-  --size-application-spacing-m-m: var(--size-space-6x);
-  --size-application-spacing-m-s: var(--size-space-4x);
-  --size-application-spacing-m-xs: var(--size-space-3x);
-  --size-application-spacing-m-xxs: var(--size-space-1x);
-  --size-application-spacing-m-3xs: var(--size-space-halfx);
-  --size-application-spacing-s-3xl: var(--size-space-11x);
-  --size-application-spacing-s-xxl: var(--size-space-10x);
-  --size-application-spacing-s-xl: var(--size-space-8x);
-  --size-application-spacing-s-l: var(--size-space-6x);
-  --size-application-spacing-s-m: var(--size-space-4x);
-  --size-application-spacing-s-s: var(--size-space-3x);
-  --size-application-spacing-s-xs: var(--size-space-2x);
-  --size-application-spacing-s-xxs: var(--size-space-1x);
-  --size-application-spacing-s-3xs: var(--size-space-halfx);
-  --size-application-spacing-xs-3xl: var(--size-space-11x);
-  --size-application-spacing-xs-xxl: var(--size-space-10x);
-  --size-application-spacing-xs-xl: var(--size-space-8x);
-  --size-application-spacing-xs-l: var(--size-space-6x);
-  --size-application-spacing-xs-m: var(--size-space-4x);
-  --size-application-spacing-xs-s: var(--size-space-3x);
-  --size-application-spacing-xs-xs: var(--size-space-2x);
-  --size-application-spacing-xs-xxs: var(--size-space-1x);
-  --size-application-spacing-xs-3xs: var(--size-space-halfx);
-  --opacity-application-surface-low: 0.38; /* The opacity value for surfaces that should appear disabled or inactive. */
-  --opacity-application-surface-medium: 0.74; /* The opacity value for surfaces with a medium emphasis. */
-  --opacity-application-surface-high: 1; /* The opacity value for surfaces with a high emphasis. */
-  --opacity-application-text-constrast-low: 0.38; /* The opacity value for disabled text on a colored or light background. */
-  --opacity-application-text-constrast-medium: 0.74; /* The opacity value for medium emphasis text on a colored or light background. */
-  --opacity-application-text-constrast-high: 1; /* The opacity value for error text or normal text on a colored or light background. */
-  --opacity-application-text-contrast-low: 0.38; /* The opacity value for disabled text on a colored or dark background. */
-  --opacity-application-text-contrast-medium: 0.74; /* The opacity value for medium emphasis text on a colored or dark background. */
-  --opacity-application-text-contrast-high: 1; /* The opacity value for error text or normal text on a colored or dark background. */
-  --opacity-application-text-low: 0.38; /* The opacity value for disabled text. */
-  --opacity-application-text-medium: 0.6; /* The opacity value for medium emphasis text or helper text. */
-  --opacity-application-text-high: 0.87; /* The opacity value for normal text or helper text with a high emphasis. */
-  --opacity-application-icon-constrast-low: 0.38; /* The opacity value for inactive or disabled icons on a colored or light background. */
-  --opacity-application-icon-constrast-medium: 0.74; /* The opacity value for icons with a medium emphasis on a colored or light background. */
-  --opacity-application-icon-constrast-high: 1; /* The opacity value for icons with a high emphasis on a colored or light background. */
-  --opacity-application-icon-contrast-low: 0.38; /* The opacity value for inactive or disabled icons on a colored or dark background. */
-  --opacity-application-icon-contrast-medium: 0.74; /* The opacity value for icons with a medium emphasis on a colored or dark background. */
-  --opacity-application-icon-contrast-high: 1; /* The opacity value for icons with a high emphasis on a colored or dark background. */
-  --opacity-application-icon-low: 0.38; /* The opacity value for inactive or disabled icons. */
-  --opacity-application-icon-medium: 0.6; /* The opacity value for icons with a medium emphasis. */
-  --opacity-application-icon-high: 1; /* The opacity value for icons with a high emphasis. */
-  --layout-application-compact-xl-column-amount: var(--layout-column-3x);
-  --layout-application-compact-xl-gutter-size: var(--size-gutter-m);
-  --layout-application-compact-xl-screen-min-width: var(--size-screen-xl);
-  --layout-application-compact-l-margin-size: var(--size-space-24x);
-  --layout-application-compact-l-column-amount: var(--layout-column-3x);
-  --layout-application-compact-l-gutter-size: var(--size-gutter-m);
-  --layout-application-compact-l-screen-min-width: var(--size-screen-l);
-  --layout-application-compact-m-column-amount: var(--layout-column-3x);
-  --layout-application-compact-m-gutter-size: var(--size-gutter-s);
-  --layout-application-compact-m-screen-min-width: var(--size-screen-m);
-  --layout-application-compact-s-margin-size: var(--size-space-4x);
-  --layout-application-compact-s-column-amount: var(--layout-column-2x);
-  --layout-application-compact-s-gutter-size: var(--size-gutter-s);
-  --layout-application-compact-s-screen-min-width: var(--size-screen-s);
-  --layout-application-compact-xs-margin-size: var(--size-space-2x);
-  --layout-application-compact-xs-column-amount: var(--layout-column-1x);
-  --layout-application-compact-xs-gutter-size: var(--size-gutter-s);
-  --layout-application-compact-xs-screen-min-width: var(--size-screen-xs);
-  --layout-application-wide-xl-column-amount: var(--layout-column-3x);
-  --layout-application-wide-xl-gutter-size: var(--size-gutter-m);
-  --layout-application-wide-xl-screen-min-width: var(--size-screen-xl);
-  --layout-application-wide-l-column-amount: var(--layout-column-3x);
-  --layout-application-wide-l-gutter-size: var(--size-gutter-m);
-  --layout-application-wide-l-screen-min-width: var(--size-screen-l);
-  --layout-application-wide-m-column-amount: var(--layout-column-3x);
-  --layout-application-wide-m-gutter-size: var(--size-gutter-s);
-  --layout-application-wide-m-screen-min-width: var(--size-screen-m);
-  --layout-application-wide-s-column-amount: var(--layout-column-2x);
-  --layout-application-wide-s-gutter-size: var(--size-gutter-s);
-  --layout-application-wide-s-screen-min-width: var(--size-screen-s);
-  --layout-application-wide-xs-column-amount: var(--layout-column-1x);
-  --layout-application-wide-xs-gutter-size: var(--size-gutter-s);
-  --layout-application-wide-xs-screen-min-width: var(--size-screen-xs);
-  --font-application-l-overline-font-weight: var(--font-weight-bold);
-  --font-application-l-overline-letter-spacing: var(--size-letter-spacing-4xl);
-  --font-application-l-overline-line-height: var(--size-line-height-xxs);
-  --font-application-l-overline-font-size: var(--size-font-3xs);
-  --font-application-l-caption-letter-spacing: var(--size-letter-spacing-xl);
-  --font-application-l-caption-line-height: var(--size-line-height-xxs);
-  --font-application-l-caption-font-size: var(--size-font-3xs);
-  --font-application-l-button-letter-spacing: var(--size-letter-spacing-3xl);
-  --font-application-l-button-line-height: var(--size-line-height-xxs);
-  --font-application-l-button-font-size: var(--size-font-xs);
-  --font-application-l-body2-letter-spacing: var(--size-letter-spacing-l);
-  --font-application-l-body2-line-height: var(--size-line-height-xs);
-  --font-application-l-body2-font-size: var(--size-font-xs);
-  --font-application-l-body1-letter-spacing: var(--size-letter-spacing-xxl);
-  --font-application-l-body1-line-height: var(--size-line-height-s);
-  --font-application-l-body1-font-size: var(--size-font-s);
-  --font-application-l-subtitle2-letter-spacing: var(--size-letter-spacing-s);
-  --font-application-l-subtitle2-line-height: var(--size-line-height-s);
-  --font-application-l-subtitle2-font-size: var(--size-font-xs);
-  --font-application-l-subtitle1-letter-spacing: var(--size-letter-spacing-m);
-  --font-application-l-subtitle1-line-height: var(--size-line-height-m);
-  --font-application-l-subtitle1-font-size: var(--size-font-s);
-  --font-application-l-headline6-letter-spacing: var(--size-letter-spacing-l);
-  --font-application-l-headline6-line-height: var(--size-line-height-s);
-  --font-application-l-headline6-font-size: var(--size-font-m);
-  --font-application-l-headline5-letter-spacing: var(--size-letter-spacing-m);
-  --font-application-l-headline5-line-height: var(--size-line-height-m);
-  --font-application-l-headline5-font-size: var(--size-font-l);
-  --font-application-l-headline4-letter-spacing: var(--size-letter-spacing-s);
-  --font-application-l-headline4-line-height: var(--size-line-height-l);
-  --font-application-l-headline4-font-size: var(--size-font-xl);
-  --font-application-l-headline3-letter-spacing: var(--size-letter-spacing-xs);
-  --font-application-l-headline3-line-height: var(--size-line-height-xl);
-  --font-application-l-headline3-font-size: var(--size-font-xxl);
-  --font-application-l-headline2-letter-spacing: var(--size-letter-spacing-xxs);
-  --font-application-l-headline2-line-height: var(--size-line-height-xxl);
-  --font-application-l-headline2-font-size: var(--size-font-3xl);
-  --font-application-l-headline1-letter-spacing: var(--size-letter-spacing-3xs);
-  --font-application-l-headline1-line-height: var(--size-line-height-3xl);
-  --font-application-l-headline1-font-size: var(--size-font-4xl);
-  --font-application-s-overline-font-weight: var(--font-weight-bold);
-  --font-application-s-overline-letter-spacing: var(--size-letter-spacing-4xl);
-  --font-application-s-overline-line-height: var(--size-line-height-xxs);
-  --font-application-s-overline-font-size: var(--size-font-3xs);
-  --font-application-s-caption-letter-spacing: var(--size-letter-spacing-xl);
-  --font-application-s-caption-line-height: var(--size-line-height-xxs);
-  --font-application-s-caption-font-size: var(--size-font-3xs);
-  --font-application-s-button-letter-spacing: var(--size-letter-spacing-3xl);
-  --font-application-s-button-line-height: var(--size-line-height-xxs);
-  --font-application-s-button-font-size: var(--size-font-xs);
-  --font-application-s-body2-letter-spacing: var(--size-letter-spacing-xl);
-  --font-application-s-body2-line-height: var(--size-line-height-xxs);
-  --font-application-s-body2-font-size: var(--size-font-xxs);
-  --font-application-s-body1-letter-spacing: var(--size-letter-spacing-xxl);
-  --font-application-s-body1-line-height: var(--size-line-height-xs);
-  --font-application-s-body1-font-size: var(--size-font-xs);
-  --font-application-s-subtitle2-letter-spacing: var(--size-letter-spacing-m);
-  --font-application-s-subtitle2-line-height: var(--size-line-height-xs);
-  --font-application-s-subtitle2-font-size: var(--size-font-xxs);
-  --font-application-s-subtitle1-letter-spacing: var(--size-letter-spacing-l);
-  --font-application-s-subtitle1-line-height: var(--size-line-height-s);
-  --font-application-s-subtitle1-font-size: var(--size-font-xs);
-  --font-application-s-headline6-letter-spacing: var(--size-letter-spacing-xl);
-  --font-application-s-headline6-line-height: var(--size-line-height-xs);
-  --font-application-s-headline6-font-size: var(--size-font-s);
-  --font-application-s-headline5-letter-spacing: var(--size-letter-spacing-l);
-  --font-application-s-headline5-line-height: var(--size-line-height-s);
-  --font-application-s-headline5-font-size: var(--size-font-m);
-  --font-application-s-headline4-letter-spacing: var(--size-letter-spacing-m);
-  --font-application-s-headline4-line-height: var(--size-line-height-m);
-  --font-application-s-headline4-font-size: var(--size-font-l);
-  --font-application-s-headline3-letter-spacing: var(--size-letter-spacing-s);
-  --font-application-s-headline3-line-height: var(--size-line-height-l);
-  --font-application-s-headline3-font-size: var(--size-font-xl);
-  --font-application-s-headline2-letter-spacing: var(--size-letter-spacing-xs);
-  --font-application-s-headline2-line-height: var(--size-line-height-xl);
-  --font-application-s-headline2-font-size: var(--size-font-xxl);
-  --font-application-s-headline1-letter-spacing: var(--size-letter-spacing-xxs);
-  --font-application-s-headline1-line-height: var(--size-line-height-xxl);
-  --font-application-s-headline1-font-size: var(--size-font-3xl);
-  --color-application-contrast-outline: var(--color-brand-deepblue-900); /* The outline contrast color is used for elements like text that is displayed on a background with the outline color. */
-  --color-application-contrast-error: var(--color-brand-deepblue-900); /* The error contrast color is used for elements like text that is displayed on a background with the error color. */
-  --color-application-contrast-surface: var(--color-brand-white); /* The surface contrast color is used for elements like text that is displayed on a background with the surface color. */
-  --color-application-contrast-background: var(--color-brand-white); /* The background contrast color is used for elements like text that is displayed on a background with the background color. */
-  --color-application-contrast-quaternary: var(--color-brand-white); /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
-  --color-application-contrast-tertiary: var(--color-brand-deepblue-900); /* The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color. */
-  --color-application-contrast-secondary: var(--color-brand-deepblue-900); /* The secondary contrast color is used for elements like text that is displayed on a background with the secondary color. */
-  --color-application-contrast-primary: var(--color-brand-deepblue-900); /* The primary contrast color is used for elements like text that is displayed on a background with the primary color. */
-  --color-application-outline: var(--color-brand-grayblue-600); /* The outline color is used for components with an outline like cards, text fields or buttons. */
-  --color-application-error: var(--color-brand-red-200); /* The error color is used for error text. */
-  --color-application-surface: var(--color-brand-grayblue-900); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
-  --color-application-background: var(--color-brand-grayblue-900); /* The background color is used for the content background. */
-  --color-application-quaternary: var(--color-brand-blue-900); /* The quaternary color is used to colorize information graphics or primary actions in snackbars. */
-  --color-application-tertiary: var(--color-brand-purple-200); /* The tertiary color is used to colorize information graphics. */
-  --color-application-secondary: var(--color-brand-pink-200); /* The secondary color is used to indicate selection controls, floating actions or overline text. */
-  --color-application-primary: var(--color-brand-blue-200); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
-  --font-application-l-overline-color: var(--color-application-secondary);
-  --font-application-s-overline-color: var(--color-application-secondary);
+  --size-application-spacing-xxl-3xl: [object Object];
+  --size-application-spacing-xxl-xxl: [object Object];
+  --size-application-spacing-xxl-xl: [object Object];
+  --size-application-spacing-xxl-l: [object Object];
+  --size-application-spacing-xxl-m: [object Object];
+  --size-application-spacing-xxl-s: [object Object];
+  --size-application-spacing-xxl-xs: [object Object];
+  --size-application-spacing-xxl-xxs: [object Object];
+  --size-application-spacing-xxl-3xs: [object Object];
+  --size-application-spacing-xl-3xl: [object Object];
+  --size-application-spacing-xl-xxl: [object Object];
+  --size-application-spacing-xl-xl: [object Object];
+  --size-application-spacing-xl-l: [object Object];
+  --size-application-spacing-xl-m: [object Object];
+  --size-application-spacing-xl-s: [object Object];
+  --size-application-spacing-xl-xs: [object Object];
+  --size-application-spacing-xl-xxs: [object Object];
+  --size-application-spacing-xl-3xs: [object Object];
+  --size-application-spacing-l-3xl: [object Object];
+  --size-application-spacing-l-xxl: [object Object];
+  --size-application-spacing-l-xl: [object Object];
+  --size-application-spacing-l-l: [object Object];
+  --size-application-spacing-l-m: [object Object];
+  --size-application-spacing-l-s: [object Object];
+  --size-application-spacing-l-xs: [object Object];
+  --size-application-spacing-l-xxs: [object Object];
+  --size-application-spacing-l-3xs: [object Object];
+  --size-application-spacing-m-3xl: [object Object];
+  --size-application-spacing-m-xxl: [object Object];
+  --size-application-spacing-m-xl: [object Object];
+  --size-application-spacing-m-l: [object Object];
+  --size-application-spacing-m-m: [object Object];
+  --size-application-spacing-m-s: [object Object];
+  --size-application-spacing-m-xs: [object Object];
+  --size-application-spacing-m-xxs: [object Object];
+  --size-application-spacing-m-3xs: [object Object];
+  --size-application-spacing-s-3xl: [object Object];
+  --size-application-spacing-s-xxl: [object Object];
+  --size-application-spacing-s-xl: [object Object];
+  --size-application-spacing-s-l: [object Object];
+  --size-application-spacing-s-m: [object Object];
+  --size-application-spacing-s-s: [object Object];
+  --size-application-spacing-s-xs: [object Object];
+  --size-application-spacing-s-xxs: [object Object];
+  --size-application-spacing-s-3xs: [object Object];
+  --size-application-spacing-xs-3xl: [object Object];
+  --size-application-spacing-xs-xxl: [object Object];
+  --size-application-spacing-xs-xl: [object Object];
+  --size-application-spacing-xs-l: [object Object];
+  --size-application-spacing-xs-m: [object Object];
+  --size-application-spacing-xs-s: [object Object];
+  --size-application-spacing-xs-xs: [object Object];
+  --size-application-spacing-xs-xxs: [object Object];
+  --size-application-spacing-xs-3xs: [object Object];
+  --opacity-application-surface-low: [object Object]; /* The opacity value for surfaces that should appear disabled or inactive. */
+  --opacity-application-surface-medium: [object Object]; /* The opacity value for surfaces with a medium emphasis. */
+  --opacity-application-surface-high: [object Object]; /* The opacity value for surfaces with a high emphasis. */
+  --opacity-application-text-constrast-low: [object Object]; /* The opacity value for disabled text on a colored or light background. */
+  --opacity-application-text-constrast-medium: [object Object]; /* The opacity value for medium emphasis text on a colored or light background. */
+  --opacity-application-text-constrast-high: [object Object]; /* The opacity value for error text or normal text on a colored or light background. */
+  --opacity-application-text-contrast-low: [object Object]; /* The opacity value for disabled text on a colored or dark background. */
+  --opacity-application-text-contrast-medium: [object Object]; /* The opacity value for medium emphasis text on a colored or dark background. */
+  --opacity-application-text-contrast-high: [object Object]; /* The opacity value for error text or normal text on a colored or dark background. */
+  --opacity-application-text-low: [object Object]; /* The opacity value for disabled text. */
+  --opacity-application-text-medium: [object Object]; /* The opacity value for medium emphasis text or helper text. */
+  --opacity-application-text-high: [object Object]; /* The opacity value for normal text or helper text with a high emphasis. */
+  --opacity-application-icon-constrast-low: [object Object]; /* The opacity value for inactive or disabled icons on a colored or light background. */
+  --opacity-application-icon-constrast-medium: [object Object]; /* The opacity value for icons with a medium emphasis on a colored or light background. */
+  --opacity-application-icon-constrast-high: [object Object]; /* The opacity value for icons with a high emphasis on a colored or light background. */
+  --opacity-application-icon-contrast-low: [object Object]; /* The opacity value for inactive or disabled icons on a colored or dark background. */
+  --opacity-application-icon-contrast-medium: [object Object]; /* The opacity value for icons with a medium emphasis on a colored or dark background. */
+  --opacity-application-icon-contrast-high: [object Object]; /* The opacity value for icons with a high emphasis on a colored or dark background. */
+  --opacity-application-icon-low: [object Object]; /* The opacity value for inactive or disabled icons. */
+  --opacity-application-icon-medium: [object Object]; /* The opacity value for icons with a medium emphasis. */
+  --opacity-application-icon-high: [object Object]; /* The opacity value for icons with a high emphasis. */
+  --layout-application-compact-xxl-column-amount: [object Object];
+  --layout-application-compact-xxl-gutter-size: [object Object];
+  --layout-application-compact-xxl-screen-min-width: [object Object];
+  --layout-application-compact-xl-column-amount: [object Object];
+  --layout-application-compact-xl-gutter-size: [object Object];
+  --layout-application-compact-xl-screen-min-width: [object Object];
+  --layout-application-compact-l-column-amount: [object Object];
+  --layout-application-compact-l-gutter-size: [object Object];
+  --layout-application-compact-l-screen-min-width: [object Object];
+  --layout-application-compact-m-column-amount: [object Object];
+  --layout-application-compact-m-gutter-size: [object Object];
+  --layout-application-compact-m-screen-min-width: [object Object];
+  --layout-application-compact-s-column-amount: [object Object];
+  --layout-application-compact-s-gutter-size: [object Object];
+  --layout-application-compact-s-screen-min-width: [object Object];
+  --layout-application-compact-xs-column-amount: [object Object];
+  --layout-application-compact-xs-gutter-size: [object Object];
+  --layout-application-compact-xs-screen-min-width: [object Object];
+  --layout-application-wide-xxl-column-amount: [object Object];
+  --layout-application-wide-xxl-gutter-size: [object Object];
+  --layout-application-wide-xxl-screen-min-width: [object Object];
+  --layout-application-wide-xl-column-amount: [object Object];
+  --layout-application-wide-xl-gutter-size: [object Object];
+  --layout-application-wide-xl-screen-min-width: [object Object];
+  --layout-application-wide-l-column-amount: [object Object];
+  --layout-application-wide-l-gutter-size: [object Object];
+  --layout-application-wide-l-screen-min-width: [object Object];
+  --layout-application-wide-m-column-amount: [object Object];
+  --layout-application-wide-m-gutter-size: [object Object];
+  --layout-application-wide-m-screen-min-width: [object Object];
+  --layout-application-wide-s-column-amount: [object Object];
+  --layout-application-wide-s-gutter-size: [object Object];
+  --layout-application-wide-s-screen-min-width: [object Object];
+  --layout-application-wide-xs-column-amount: [object Object];
+  --layout-application-wide-xs-gutter-size: [object Object];
+  --layout-application-wide-xs-screen-min-width: [object Object];
+  --font-application-l-overline-sup-offset: [object Object];
+  --font-application-l-overline-sup-size: [object Object];
+  --font-application-l-overline-letter-spacing: [object Object];
+  --font-application-l-overline-line-height: [object Object];
+  --font-application-l-overline-font-size: [object Object];
+  --font-application-l-overline-font-weight: [object Object];
+  --font-application-l-overline-font-family: [object Object];
+  --font-application-l-caption-sup-offset: [object Object];
+  --font-application-l-caption-sup-size: [object Object];
+  --font-application-l-caption-letter-spacing: [object Object];
+  --font-application-l-caption-line-height: [object Object];
+  --font-application-l-caption-font-size: [object Object];
+  --font-application-l-caption-font-weight: [object Object];
+  --font-application-l-caption-font-family: [object Object];
+  --font-application-l-button-sup-offset: [object Object];
+  --font-application-l-button-sup-size: [object Object];
+  --font-application-l-button-letter-spacing: [object Object];
+  --font-application-l-button-line-height: [object Object];
+  --font-application-l-button-font-size: [object Object];
+  --font-application-l-button-font-weight: [object Object];
+  --font-application-l-button-font-family: [object Object];
+  --font-application-l-body2-sup-offset: [object Object];
+  --font-application-l-body2-sup-size: [object Object];
+  --font-application-l-body2-letter-spacing: [object Object];
+  --font-application-l-body2-line-height: [object Object];
+  --font-application-l-body2-font-size: [object Object];
+  --font-application-l-body2-font-weight: [object Object];
+  --font-application-l-body2-font-family: [object Object];
+  --font-application-l-body1-sup-offset: [object Object];
+  --font-application-l-body1-sup-size: [object Object];
+  --font-application-l-body1-letter-spacing: [object Object];
+  --font-application-l-body1-line-height: [object Object];
+  --font-application-l-body1-font-size: [object Object];
+  --font-application-l-body1-font-weight: [object Object];
+  --font-application-l-body1-font-family: [object Object];
+  --font-application-l-subtitle2-sup-offset: [object Object];
+  --font-application-l-subtitle2-sup-size: [object Object];
+  --font-application-l-subtitle2-letter-spacing: [object Object];
+  --font-application-l-subtitle2-line-height: [object Object];
+  --font-application-l-subtitle2-font-size: [object Object];
+  --font-application-l-subtitle2-font-weight: [object Object];
+  --font-application-l-subtitle2-font-family: [object Object];
+  --font-application-l-subtitle1-sup-offset: [object Object];
+  --font-application-l-subtitle1-sup-size: [object Object];
+  --font-application-l-subtitle1-letter-spacing: [object Object];
+  --font-application-l-subtitle1-line-height: [object Object];
+  --font-application-l-subtitle1-font-size: [object Object];
+  --font-application-l-subtitle1-font-weight: [object Object];
+  --font-application-l-subtitle1-font-family: [object Object];
+  --font-application-l-headline6-sup-offset: [object Object];
+  --font-application-l-headline6-sup-size: [object Object];
+  --font-application-l-headline6-letter-spacing: [object Object];
+  --font-application-l-headline6-line-height: [object Object];
+  --font-application-l-headline6-font-size: [object Object];
+  --font-application-l-headline6-font-weight: [object Object];
+  --font-application-l-headline6-font-family: [object Object];
+  --font-application-l-headline5-sup-offset: [object Object];
+  --font-application-l-headline5-sup-size: [object Object];
+  --font-application-l-headline5-letter-spacing: [object Object];
+  --font-application-l-headline5-line-height: [object Object];
+  --font-application-l-headline5-font-size: [object Object];
+  --font-application-l-headline5-font-weight: [object Object];
+  --font-application-l-headline5-font-family: [object Object];
+  --font-application-l-headline4-sup-offset: [object Object];
+  --font-application-l-headline4-sup-size: [object Object];
+  --font-application-l-headline4-letter-spacing: [object Object];
+  --font-application-l-headline4-line-height: [object Object];
+  --font-application-l-headline4-font-size: [object Object];
+  --font-application-l-headline4-font-weight: [object Object];
+  --font-application-l-headline4-font-family: [object Object];
+  --font-application-l-headline3-sup-offset: [object Object];
+  --font-application-l-headline3-sup-size: [object Object];
+  --font-application-l-headline3-letter-spacing: [object Object];
+  --font-application-l-headline3-line-height: [object Object];
+  --font-application-l-headline3-font-size: [object Object];
+  --font-application-l-headline3-font-weight: [object Object];
+  --font-application-l-headline3-font-family: [object Object];
+  --font-application-l-headline2-sup-offset: [object Object];
+  --font-application-l-headline2-sup-size: [object Object];
+  --font-application-l-headline2-letter-spacing: [object Object];
+  --font-application-l-headline2-line-height: [object Object];
+  --font-application-l-headline2-font-size: [object Object];
+  --font-application-l-headline2-font-weight: [object Object];
+  --font-application-l-headline2-font-family: [object Object];
+  --font-application-l-headline1-sup-offset: [object Object];
+  --font-application-l-headline1-sup-size: [object Object];
+  --font-application-l-headline1-letter-spacing: [object Object];
+  --font-application-l-headline1-line-height: [object Object];
+  --font-application-l-headline1-font-size: [object Object];
+  --font-application-l-headline1-font-weight: [object Object];
+  --font-application-l-headline1-font-family: [object Object];
+  --font-application-s-overline-sup-offset: [object Object];
+  --font-application-s-overline-sup-size: [object Object];
+  --font-application-s-overline-letter-spacing: [object Object];
+  --font-application-s-overline-line-height: [object Object];
+  --font-application-s-overline-font-size: [object Object];
+  --font-application-s-overline-font-weight: [object Object];
+  --font-application-s-overline-font-family: [object Object];
+  --font-application-s-caption-sup-offset: [object Object];
+  --font-application-s-caption-sup-size: [object Object];
+  --font-application-s-caption-letter-spacing: [object Object];
+  --font-application-s-caption-line-height: [object Object];
+  --font-application-s-caption-font-size: [object Object];
+  --font-application-s-caption-font-weight: [object Object];
+  --font-application-s-caption-font-family: [object Object];
+  --font-application-s-button-sup-offset: [object Object];
+  --font-application-s-button-sup-size: [object Object];
+  --font-application-s-button-letter-spacing: [object Object];
+  --font-application-s-button-line-height: [object Object];
+  --font-application-s-button-font-size: [object Object];
+  --font-application-s-button-font-weight: [object Object];
+  --font-application-s-button-font-family: [object Object];
+  --font-application-s-body2-sup-offset: [object Object];
+  --font-application-s-body2-sup-size: [object Object];
+  --font-application-s-body2-letter-spacing: [object Object];
+  --font-application-s-body2-line-height: [object Object];
+  --font-application-s-body2-font-size: [object Object];
+  --font-application-s-body2-font-weight: [object Object];
+  --font-application-s-body2-font-family: [object Object];
+  --font-application-s-body1-sup-offset: [object Object];
+  --font-application-s-body1-sup-size: [object Object];
+  --font-application-s-body1-letter-spacing: [object Object];
+  --font-application-s-body1-line-height: [object Object];
+  --font-application-s-body1-font-size: [object Object];
+  --font-application-s-body1-font-weight: [object Object];
+  --font-application-s-body1-font-family: [object Object];
+  --font-application-s-subtitle2-sup-offset: [object Object];
+  --font-application-s-subtitle2-sup-size: [object Object];
+  --font-application-s-subtitle2-letter-spacing: [object Object];
+  --font-application-s-subtitle2-line-height: [object Object];
+  --font-application-s-subtitle2-font-size: [object Object];
+  --font-application-s-subtitle2-font-weight: [object Object];
+  --font-application-s-subtitle2-font-family: [object Object];
+  --font-application-s-subtitle1-sup-offset: [object Object];
+  --font-application-s-subtitle1-sup-size: [object Object];
+  --font-application-s-subtitle1-letter-spacing: [object Object];
+  --font-application-s-subtitle1-line-height: [object Object];
+  --font-application-s-subtitle1-font-size: [object Object];
+  --font-application-s-subtitle1-font-weight: [object Object];
+  --font-application-s-subtitle1-font-family: [object Object];
+  --font-application-s-headline6-sup-offset: [object Object];
+  --font-application-s-headline6-sup-size: [object Object];
+  --font-application-s-headline6-letter-spacing: [object Object];
+  --font-application-s-headline6-line-height: [object Object];
+  --font-application-s-headline6-font-size: [object Object];
+  --font-application-s-headline6-font-weight: [object Object];
+  --font-application-s-headline6-font-family: [object Object];
+  --font-application-s-headline5-sup-offset: [object Object];
+  --font-application-s-headline5-sup-size: [object Object];
+  --font-application-s-headline5-letter-spacing: [object Object];
+  --font-application-s-headline5-line-height: [object Object];
+  --font-application-s-headline5-font-size: [object Object];
+  --font-application-s-headline5-font-weight: [object Object];
+  --font-application-s-headline5-font-family: [object Object];
+  --font-application-s-headline4-sup-offset: [object Object];
+  --font-application-s-headline4-sup-size: [object Object];
+  --font-application-s-headline4-letter-spacing: [object Object];
+  --font-application-s-headline4-line-height: [object Object];
+  --font-application-s-headline4-font-size: [object Object];
+  --font-application-s-headline4-font-weight: [object Object];
+  --font-application-s-headline4-font-family: [object Object];
+  --font-application-s-headline3-sup-offset: [object Object];
+  --font-application-s-headline3-sup-size: [object Object];
+  --font-application-s-headline3-letter-spacing: [object Object];
+  --font-application-s-headline3-line-height: [object Object];
+  --font-application-s-headline3-font-size: [object Object];
+  --font-application-s-headline3-font-weight: [object Object];
+  --font-application-s-headline3-font-family: [object Object];
+  --font-application-s-headline2-sup-offset: [object Object];
+  --font-application-s-headline2-sup-size: [object Object];
+  --font-application-s-headline2-letter-spacing: [object Object];
+  --font-application-s-headline2-line-height: [object Object];
+  --font-application-s-headline2-font-size: [object Object];
+  --font-application-s-headline2-font-weight: [object Object];
+  --font-application-s-headline2-font-family: [object Object];
+  --font-application-s-headline1-sup-offset: [object Object];
+  --font-application-s-headline1-sup-size: [object Object];
+  --font-application-s-headline1-letter-spacing: [object Object];
+  --font-application-s-headline1-line-height: [object Object];
+  --font-application-s-headline1-font-size: [object Object];
+  --font-application-s-headline1-font-weight: [object Object];
+  --font-application-s-headline1-font-family: [object Object];
+  --color-application-contrast-success: [object Object]; /* The error contrast color is used for elements like text that is displayed on a background with the success color. */
+  --color-application-contrast-error: [object Object]; /* The error contrast color is used for elements like text that is displayed on a background with the error color. */
+  --color-application-contrast-outline: [object Object]; /* The outline contrast color is used for elements like text that is displayed on a background with the outline color. */
+  --color-application-contrast-surface: [object Object]; /* The surface contrast color is used for elements like text that is displayed on a background with the surface color. */
+  --color-application-contrast-background: [object Object]; /* The background contrast color is used for elements like text that is displayed on a background with the background color. */
+  --color-application-contrast-quaternary: [object Object]; /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
+  --color-application-contrast-tertiary: [object Object]; /* The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color. */
+  --color-application-contrast-secondary: [object Object]; /* The secondary contrast color is used for elements like text that is displayed on a background with the secondary color. */
+  --color-application-contrast-primary-variant: [object Object]; /* The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color. */
+  --color-application-contrast-primary: [object Object]; /* The primary contrast color is used for elements like text that is displayed on a background with the primary color. */
+  --color-application-success: [object Object]; /* The success color is used for success text. */
+  --color-application-error: [object Object]; /* The error color is used for error text. */
+  --color-application-outline: [object Object]; /* The outline color is used for components with an outline like cards, text fields or buttons. */
+  --color-application-surface: [object Object]; /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
+  --color-application-background: [object Object]; /* The background color is used for the content background. */
+  --color-application-quaternary: [object Object]; /* The quaternary color is used to colorize information graphics. */
+  --color-application-tertiary: [object Object]; /* The tertiary color is used to colorize information graphics. */
+  --color-application-secondary: [object Object]; /* The secondary color is used to indicate selection controls, floating actions or overline text. */
+  --color-application-primary-variant: [object Object]; /* The primary variant color is used for actions on a light background. */
+  --color-application-primary: [object Object]; /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
 }

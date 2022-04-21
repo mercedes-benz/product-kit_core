@@ -2,40 +2,43 @@
   "size": {
     "line-height": {
       "3xs": {
-        "value": "16",
-        "comment": "The smallest size of the line height."
+        "value": "16"
       },
       "xxs": {
-        "value": "21",
-        "comment": "The smallest size of the line height."
+        "value": "20"
       },
       "xs": {
-        "value": "24",
-        "comment": "The second most smalles size of the line height."
+        "value": "24"
       },
       "s": {
-        "value": "28",
-        "comment": "The small size of the line height."
+        "value": "28"
       },
       "m": {
-        "value": "36",
-        "comment": "The medium size of the line height."
+        "value": "32"
       },
       "l": {
-        "value": "44",
-        "comment": "The large size of the line height."
+        "value": "36"
       },
       "xl": {
-        "value": "60",
-        "comment": "The extra large size of the line height."
+        "value": "40"
       },
       "xxl": {
-        "value": "72",
-        "comment": "The extra extra large size of the line height."
+        "value": "44"
       },
       "3xl": {
-        "value": "93",
-        "comment": "The second most largest size of the line height."
+        "value": "48"
+      },
+      "4xl": {
+        "value": "56"
+      },
+      "5xl": {
+        "value": "60"
+      },
+      "6xl": {
+        "value": "72"
+      },
+      "7xl": {
+        "value": "80"
       }
     }
   }
