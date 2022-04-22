@@ -1,0 +1,76 @@
+{
+  "opacity": {
+    "application": {
+      "icon": {
+        "high": {
+          "value": "{opacity.base.4}",
+          "comment": "The opacity value for icons with a high emphasis."
+        },
+        "medium": {
+          "value": "{opacity.base.2}",
+          "comment": "The opacity value for icons with a medium emphasis."
+        },
+        "low": {
+          "value": "{opacity.base.1}",
+          "comment": "The opacity value for inactive or disabled icons."
+        },
+        "constrast": {
+          "high": {
+            "value": "{opacity.base.4}",
+            "comment": "The opacity value for icons with a high emphasis on a colored or light background."
+          },
+          "medium": {
+            "value": "{opacity.base.3}",
+            "comment": "The opacity value for icons with a medium emphasis on a colored or light background."
+          },
+          "low": {
+            "value": "{opacity.base.1}",
+            "comment": "The opacity value for inactive or disabled icons on a colored or light background."
+          }
+        }
+      },
+      "text": {
+        "high": {
+          "value": "{opacity.base.4}",
+          "comment": "The opacity value for normal text or helper text with a high emphasis."
+        },
+        "medium": {
+          "value": "{opacity.base.2}",
+          "comment": "The opacity value for medium emphasis text or helper text."
+        },
+        "low": {
+          "value": "{opacity.base.1}",
+          "comment": "The opacity value for disabled text."
+        },
+        "constrast": {
+          "high": {
+            "value": "{opacity.base.4}",
+            "comment": "The opacity value for error text or normal text on a colored or light background."
+          },
+          "medium": {
+            "value": "{opacity.base.3}",
+            "comment": "The opacity value for medium emphasis text on a colored or light background."
+          },
+          "low": {
+            "value": "{opacity.base.1}",
+            "comment": "The opacity value for disabled text on a colored or light background."
+          }
+        }
+      },
+      "surface": {
+        "high": {
+          "value": "{opacity.base.4}",
+          "comment": "The opacity value for surfaces with a high emphasis."
+        },
+        "medium": {
+          "value": "{opacity.base.3}",
+          "comment": "The opacity value for surfaces with a medium emphasis."
+        },
+        "low": {
+          "value": "{opacity.base.1}",
+          "comment": "The opacity value for surfaces that should appear disabled or inactive."
+        }
+      }
+    }
+  }
+}
