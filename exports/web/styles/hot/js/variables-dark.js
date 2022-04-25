@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 22 Apr 2022 14:35:43 GMT
+ * Generated on Mon, 25 Apr 2022 11:36:28 GMT
  */
 
 export const colorApplicationPrimary = "#1998fc"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -309,6 +309,7 @@ export const fontApplicationSOverlineLetterSpacing = "0.2px";
 export const fontApplicationSOverlineTextTransform = "none";
 export const fontApplicationSOverlineSupSize = "9px";
 export const fontApplicationSOverlineSupOffset = "-8.1px";
+export const fontApplicationSOverlineColor = "#1998fc";
 export const fontApplicationLHeadline1FontFamily = "'MB Corpo A Title Cond'";
 export const fontApplicationLHeadline1FontWeight = "400";
 export const fontApplicationLHeadline1FontSize = "72px";
@@ -413,6 +414,7 @@ export const fontApplicationLOverlineLetterSpacing = "0.2px";
 export const fontApplicationLOverlineTextTransform = "none";
 export const fontApplicationLOverlineSupSize = "9px";
 export const fontApplicationLOverlineSupOffset = "-8.1px";
+export const fontApplicationLOverlineColor = "#1998fc";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.
 export const fontFamilyText = "'MB Corpo S Text'"; // The brand font family for large headlines.
 export const fontFamilyPlatformTitle = "'MB Corpo A Title Cond', Arial"; // The brand font family for large headlines.

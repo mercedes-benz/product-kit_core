@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Fri, 22 Apr 2022 14:35:43 GMT
+ * Generated on Mon, 25 Apr 2022 11:36:29 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -735,6 +735,8 @@ $color-application-tertiary: $color-brand-xanadu-300 !default; // The tertiary c
 $color-application-secondary: $color-brand-deluge-300 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
 $color-application-primary-variant: $color-brand-goldentainoi-600 !default; // The primary variant color is used for actions on a light background.
 $color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
+$font-application-l-overline-color: $color-application-primary !default;
+$font-application-s-overline-color: $color-application-primary !default;
 
 $tokens: (
   'color': (
@@ -1212,7 +1214,8 @@ $tokens: (
           'letter-spacing': $font-application-s-overline-letter-spacing,
           'text-transform': $font-application-s-overline-text-transform,
           'sup-size': $font-application-s-overline-sup-size,
-          'sup-offset': $font-application-s-overline-sup-offset
+          'sup-offset': $font-application-s-overline-sup-offset,
+          'color': $font-application-s-overline-color
         )
       ),
       'l': (
@@ -1344,7 +1347,8 @@ $tokens: (
           'letter-spacing': $font-application-l-overline-letter-spacing,
           'text-transform': $font-application-l-overline-text-transform,
           'sup-size': $font-application-l-overline-sup-size,
-          'sup-offset': $font-application-l-overline-sup-offset
+          'sup-offset': $font-application-l-overline-sup-offset,
+          'color': $font-application-l-overline-color
         )
       )
     ),

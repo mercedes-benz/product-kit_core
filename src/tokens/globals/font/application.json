@@ -130,7 +130,8 @@
           "letter-spacing": { "value": "{size.letter-spacing.m}" },
           "text-transform": { "value": "none" },
           "sup-size": { "value": "{size.sup.font.xxs}" },
-          "sup-offset": { "value": "{size.sup.offset.11xl}" }
+          "sup-offset": { "value": "{size.sup.offset.11xl}" },
+          "color": { "value": "{color.application.primary}" }
         }
       },
       "l": {
@@ -262,7 +263,8 @@
           "letter-spacing": { "value": "{size.letter-spacing.m}" },
           "text-transform": { "value": "none" },
           "sup-size": { "value": "{size.sup.font.xxs}" },
-          "sup-offset": { "value": "{size.sup.offset.11xl}" }
+          "sup-offset": { "value": "{size.sup.offset.11xl}" },
+          "color": { "value": "{color.application.primary}" }
         }
       }
     }
