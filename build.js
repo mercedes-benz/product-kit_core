@@ -2,7 +2,7 @@
 const StyleDictionaryPackage = require('style-dictionary')
 const fs = require('fs-extra')
 
-const brands = [`hot`, `mbti`]
+const brands = [`hot`, `mbti`, `mbtm`]
 const platforms = [`web`]
 const modes = [`light`, `dark`]
 const transforms = [`attribute/cti`, `color/hex`, `name/cti/kebab`, `size/px`]
@@ -13,12 +13,13 @@ const transforms_js = [`attribute/cti`, `color/hex`, `name/cti/camel`, `size/px`
 // to make sure they are ✨clean✨
 platforms.map(function (platform) {
     const exportPath = `exports/${platform}/styles/`
-    console.log(`\n\ncleaning ${exportPath}...`)
+    console.log(`\n\n🧹 cleaning ${exportPath}...`)
     fs.removeSync(exportPath);
+    console.log(`\n✅ cleaning done`)
 })
 
 
-console.log('Build started...')
+console.log('\n\nBuild started...')
 
 brands.map(function (brand) {
     platforms.map(function (platform) {
