@@ -10,15 +10,15 @@
         "comment": "The primary variant color is used for actions on a light background."
       },
       "secondary": {
-        "value": "{color.brand.blackcurrant.300}",
+        "value": "{color.base.blackcurrant.300}",
         "comment": "The secondary color is used to indicate selection controls, floating actions or overline text."
       },
       "tertiary": {
-        "value": "{color.brand.deluge.300}",
+        "value": "{color.base.deluge.300}",
         "comment": "The tertiary color is used to colorize information graphics."
       },
       "quaternary": {
-        "value": "{color.brand.lividbrown.200}",
+        "value": "{color.base.lividbrown.200}",
         "comment": "The quaternary color is used to colorize information graphics."
       },
       "background": {

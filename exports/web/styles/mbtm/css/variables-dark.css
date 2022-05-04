@@ -3,7 +3,7 @@
  * Generated on Wed, 04 May 2022 12:29:55 GMT
  */
 
-:root {
+.dark {
   --layout-column-3x: 12; /* The most amount of columns in a layout. Used for laptop or desktop screen sizes. */
   --layout-column-2x: 8; /* The amount of columns used for tablet screen sizes. */
   --layout-column-1x: 4; /* The least amount of columns in a layout. Used for phone screen sizes. */
@@ -252,6 +252,16 @@
   --color-base-neutral-50: #f4f4f4;
   --color-base-black: #000000;
   --color-base-white: #ffffff;
+  --color-brand-blue-900: #3f5d81;
+  --color-brand-blue-800: #4d7ca5;
+  --color-brand-blue-700: #538dba;
+  --color-brand-blue-600: #5ca0ce;
+  --color-brand-blue-500: #64aedc;
+  --color-brand-blue-400: #6bbae2;
+  --color-brand-blue-300: #7ac6e7;
+  --color-brand-blue-200: #97d6ef;
+  --color-brand-blue-100: #bde6f6;
+  --color-brand-blue-50: #e5f6fb;
   --layout-application-platform-compact-xxl-column-amount: var(--layout-column-3x);
   --layout-application-platform-compact-xxl-gutter-size: var(--size-gutter-xl);
   --layout-application-platform-compact-xxl-screen-min-width: var(--size-screen-platform-xxl);
@@ -345,12 +355,18 @@
   --opacity-application-surface-low: 0.38; /* The opacity value for surfaces that should appear disabled or inactive. */
   --opacity-application-surface-medium: 0.74; /* The opacity value for surfaces with a medium emphasis. */
   --opacity-application-surface-high: 1; /* The opacity value for surfaces with a high emphasis. */
+  --opacity-application-text-constrast-low: 0.38; /* The opacity value for disabled text on a colored or light background. */
+  --opacity-application-text-constrast-medium: 0.74; /* The opacity value for medium emphasis text on a colored or light background. */
+  --opacity-application-text-constrast-high: 1; /* The opacity value for error text or normal text on a colored or light background. */
   --opacity-application-text-contrast-low: 0.38; /* The opacity value for disabled text on a colored or dark background. */
   --opacity-application-text-contrast-medium: 0.74; /* The opacity value for medium emphasis text on a colored or dark background. */
   --opacity-application-text-contrast-high: 1; /* The opacity value for error text or normal text on a colored or dark background. */
   --opacity-application-text-low: 0.38; /* The opacity value for disabled text. */
   --opacity-application-text-medium: 0.6; /* The opacity value for medium emphasis text or helper text. */
   --opacity-application-text-high: 1; /* The opacity value for normal text or helper text with a high emphasis. */
+  --opacity-application-icon-constrast-low: 0.38; /* The opacity value for inactive or disabled icons on a colored or light background. */
+  --opacity-application-icon-constrast-medium: 0.74; /* The opacity value for icons with a medium emphasis on a colored or light background. */
+  --opacity-application-icon-constrast-high: 1; /* The opacity value for icons with a high emphasis on a colored or light background. */
   --opacity-application-icon-contrast-low: 0.38; /* The opacity value for inactive or disabled icons on a colored or dark background. */
   --opacity-application-icon-contrast-medium: 0.74; /* The opacity value for icons with a medium emphasis on a colored or dark background. */
   --opacity-application-icon-contrast-high: 1; /* The opacity value for icons with a high emphasis on a colored or dark background. */
@@ -629,26 +645,36 @@
   --color-base-neutral-contrast-200: var(--color-base-black);
   --color-base-neutral-contrast-100: var(--color-base-black);
   --color-base-neutral-contrast-50: var(--color-base-black);
-  --color-application-contrast-success: var(--color-base-white); /* The error contrast color is used for elements like text that is displayed on a background with the success color. */
-  --color-application-contrast-error: var(--color-base-white); /* The error contrast color is used for elements like text that is displayed on a background with the error color. */
-  --color-application-contrast-outline: var(--color-base-black); /* The outline contrast color is used for elements like text that is displayed on a background with the outline color. */
-  --color-application-contrast-surface: var(--color-base-black); /* The surface contrast color is used for elements like text that is displayed on a background with the surface color. */
-  --color-application-contrast-background: var(--color-base-black); /* The background contrast color is used for elements like text that is displayed on a background with the background color. */
-  --color-application-contrast-quaternary: var(--color-base-white); /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
-  --color-application-contrast-tertiary: var(--color-base-white); /* The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color. */
-  --color-application-contrast-secondary: var(--color-base-white); /* The secondary contrast color is used for elements like text that is displayed on a background with the secondary color. */
+  --color-brand-blue-contrast-900: var(--color-base-white);
+  --color-brand-blue-contrast-800: var(--color-base-black);
+  --color-brand-blue-contrast-700: var(--color-base-black);
+  --color-brand-blue-contrast-600: var(--color-base-black);
+  --color-brand-blue-contrast-500: var(--color-base-black);
+  --color-brand-blue-contrast-400: var(--color-base-black);
+  --color-brand-blue-contrast-300: var(--color-base-black);
+  --color-brand-blue-contrast-200: var(--color-base-black);
+  --color-brand-blue-contrast-100: var(--color-base-black);
+  --color-brand-blue-contrast-50: var(--color-base-black);
+  --color-application-contrast-success: var(--color-base-black); /* The error contrast color is used for elements like text that is displayed on a background with the success color. */
+  --color-application-contrast-error: var(--color-base-black); /* The error contrast color is used for elements like text that is displayed on a background with the error color. */
+  --color-application-contrast-outline: var(--color-base-white); /* The outline contrast color is used for elements like text that is displayed on a background with the outline color. */
+  --color-application-contrast-surface: var(--color-base-white); /* The surface contrast color is used for elements like text that is displayed on a background with the surface color. */
+  --color-application-contrast-background: var(--color-base-white); /* The background contrast color is used for elements like text that is displayed on a background with the background color. */
+  --color-application-contrast-quaternary: var(--color-base-black); /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
+  --color-application-contrast-tertiary: var(--color-base-black); /* The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color. */
+  --color-application-contrast-secondary: var(--color-base-black); /* The secondary contrast color is used for elements like text that is displayed on a background with the secondary color. */
   --color-application-contrast-primary-variant: var(--color-base-black); /* The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color. */
-  --color-application-contrast-primary: var(--color-base-white); /* The primary contrast color is used for elements like text that is displayed on a background with the primary color. */
-  --color-application-success: var(--color-base-green-500); /* The success color is used for success text. */
-  --color-application-error: var(--color-base-red-500); /* The error color is used for error text. */
-  --color-application-outline: var(--color-base-neutral-200); /* The outline color is used for components with an outline like cards, text fields or buttons. */
-  --color-application-surface: var(--color-base-neutral-50); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
-  --color-application-background: var(--color-base-white); /* The background color is used for the content background. */
-  --color-application-quaternary: var(--color-base-lividbrown-800); /* The quaternary color is used to colorize information graphics. */
-  --color-application-tertiary: var(--color-base-deluge-500); /* The tertiary color is used to colorize information graphics. */
-  --color-application-secondary: var(--color-base-blackcurrant-900); /* The secondary color is used to indicate selection controls, floating actions or overline text. */
-  --color-application-primary-variant: var(--color-base-blue-400); /* The primary variant color is used for actions on a dark background. */
-  --color-application-primary: var(--color-base-blue-500); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
+  --color-application-contrast-primary: var(--color-base-black); /* The primary contrast color is used for elements like text that is displayed on a background with the primary color. */
+  --color-application-success: var(--color-base-green-400); /* The success color is used for success text. */
+  --color-application-error: var(--color-base-red-400); /* The error color is used for error text. */
+  --color-application-outline: var(--color-base-neutral-500); /* The outline color is used for components with an outline like cards, text fields or buttons. */
+  --color-application-surface: var(--color-base-neutral-900); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
+  --color-application-background: var(--color-base-black); /* The background color is used for the content background. */
+  --color-application-quaternary: var(--color-base-lividbrown-200); /* The quaternary color is used to colorize information graphics. */
+  --color-application-tertiary: var(--color-base-deluge-300); /* The tertiary color is used to colorize information graphics. */
+  --color-application-secondary: var(--color-base-blackcurrant-300); /* The secondary color is used to indicate selection controls, floating actions or overline text. */
+  --color-application-primary-variant: var(--color-base-blue-500); /* The primary variant color is used for actions on a light background. */
+  --color-application-primary: var(--color-brand-blue-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
   --font-application-l-overline-color: var(--color-application-primary);
   --font-application-s-overline-color: var(--color-application-primary);
 }

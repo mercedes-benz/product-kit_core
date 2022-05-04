@@ -252,6 +252,16 @@ $color-base-neutral-100: #dbdbdb !default;
 $color-base-neutral-50: #f4f4f4 !default;
 $color-base-black: #000000 !default;
 $color-base-white: #ffffff !default;
+$color-brand-blue-900: #3f5d81 !default;
+$color-brand-blue-800: #4d7ca5 !default;
+$color-brand-blue-700: #538dba !default;
+$color-brand-blue-600: #5ca0ce !default;
+$color-brand-blue-500: #64aedc !default;
+$color-brand-blue-400: #6bbae2 !default;
+$color-brand-blue-300: #7ac6e7 !default;
+$color-brand-blue-200: #97d6ef !default;
+$color-brand-blue-100: #bde6f6 !default;
+$color-brand-blue-50: #e5f6fb !default;
 $layout-application-platform-compact-xxl-column-amount: $layout-column-3x !default;
 $layout-application-platform-compact-xxl-gutter-size: $size-gutter-xl !default;
 $layout-application-platform-compact-xxl-screen-min-width: $size-screen-platform-xxl !default;
@@ -629,6 +639,16 @@ $color-base-neutral-contrast-300: $color-base-black !default;
 $color-base-neutral-contrast-200: $color-base-black !default;
 $color-base-neutral-contrast-100: $color-base-black !default;
 $color-base-neutral-contrast-50: $color-base-black !default;
+$color-brand-blue-contrast-900: $color-base-white !default;
+$color-brand-blue-contrast-800: $color-base-black !default;
+$color-brand-blue-contrast-700: $color-base-black !default;
+$color-brand-blue-contrast-600: $color-base-black !default;
+$color-brand-blue-contrast-500: $color-base-black !default;
+$color-brand-blue-contrast-400: $color-base-black !default;
+$color-brand-blue-contrast-300: $color-base-black !default;
+$color-brand-blue-contrast-200: $color-base-black !default;
+$color-brand-blue-contrast-100: $color-base-black !default;
+$color-brand-blue-contrast-50: $color-base-black !default;
 $color-application-contrast-success: $color-base-white !default; // The error contrast color is used for elements like text that is displayed on a background with the success color.
 $color-application-contrast-error: $color-base-white !default; // The error contrast color is used for elements like text that is displayed on a background with the error color.
 $color-application-contrast-outline: $color-base-black !default; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
@@ -647,8 +667,8 @@ $color-application-background: $color-base-white !default; // The background col
 $color-application-quaternary: $color-base-lividbrown-800 !default; // The quaternary color is used to colorize information graphics.
 $color-application-tertiary: $color-base-deluge-500 !default; // The tertiary color is used to colorize information graphics.
 $color-application-secondary: $color-base-blackcurrant-900 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
-$color-application-primary-variant: $color-base-blue-400 !default; // The primary variant color is used for actions on a dark background.
-$color-application-primary: $color-base-blue-500 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
+$color-application-primary-variant: $color-base-blue-300 !default; // The primary variant color is used for actions on a dark background.
+$color-application-primary: $color-brand-blue-500 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 $font-application-l-overline-color: $color-application-primary !default;
 $font-application-s-overline-color: $color-application-primary !default;
 
@@ -676,6 +696,32 @@ $tokens: (
         'outline': $color-application-contrast-outline,
         'error': $color-application-contrast-error,
         'success': $color-application-contrast-success
+      )
+    ),
+    'brand': (
+      'blue': (
+        '50': $color-brand-blue-50,
+        '100': $color-brand-blue-100,
+        '200': $color-brand-blue-200,
+        '300': $color-brand-blue-300,
+        '400': $color-brand-blue-400,
+        '500': $color-brand-blue-500,
+        '600': $color-brand-blue-600,
+        '700': $color-brand-blue-700,
+        '800': $color-brand-blue-800,
+        '900': $color-brand-blue-900,
+        'contrast': (
+          '50': $color-brand-blue-contrast-50,
+          '100': $color-brand-blue-contrast-100,
+          '200': $color-brand-blue-contrast-200,
+          '300': $color-brand-blue-contrast-300,
+          '400': $color-brand-blue-contrast-400,
+          '500': $color-brand-blue-contrast-500,
+          '600': $color-brand-blue-contrast-600,
+          '700': $color-brand-blue-contrast-700,
+          '800': $color-brand-blue-contrast-800,
+          '900': $color-brand-blue-contrast-900
+        )
       )
     ),
     'base': (

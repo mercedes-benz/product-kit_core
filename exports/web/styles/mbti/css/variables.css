@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 25 Apr 2022 11:36:28 GMT
+ * Generated on Wed, 04 May 2022 12:29:55 GMT
  */
 
 :root {
@@ -130,8 +130,8 @@
   --opacity-base-1: 0.38;
   --font-weight-bold: 700; /* The bold weight of the font. */
   --font-weight-regular: 400; /* The regular weight of the font. */
-  --font-family-platform-text: 'MB Corpo S Text', Arial; /* The brand font family for large headlines. */
-  --font-family-platform-title: 'MB Corpo A Title Cond', Arial; /* The brand font family for large headlines. */
+  --font-family-platform-text: 'MB Corpo S Text Web', Arial; /* The brand font family for large headlines. */
+  --font-family-platform-title: 'MB Corpo A Title Cond Web', Arial; /* The brand font family for large headlines. */
   --font-family-text: 'MB Corpo S Text'; /* The brand font family for large headlines. */
   --font-family-title: 'MB Corpo A Title Cond'; /* The brand font family for large headlines. */
   --font-application-l-overline-text-transform: none;
@@ -160,6 +160,46 @@
   --font-application-s-headline3-text-transform: none;
   --font-application-s-headline2-text-transform: none;
   --font-application-s-headline1-text-transform: none;
+  --color-base-nandor-900: #232c26;
+  --color-base-nandor-800: #444e48;
+  --color-base-nandor-700: #636e67;
+  --color-base-nandor-600: #78827c;
+  --color-base-nandor-500: #a1ada6;
+  --color-base-nandor-400: #bfcac3;
+  --color-base-nandor-300: #e0ece5;
+  --color-base-nandor-200: #e9f5ed;
+  --color-base-nandor-100: #eefaf2;
+  --color-base-nandor-50: #f2fff7;
+  --color-base-lividbrown-900: #4b2534;
+  --color-base-lividbrown-800: #5d3240;
+  --color-base-lividbrown-700: #6e3d4a;
+  --color-base-lividbrown-600: #7f4956;
+  --color-base-lividbrown-500: #8d525f;
+  --color-base-lividbrown-400: #a06b76;
+  --color-base-lividbrown-300: #b4868e;
+  --color-base-lividbrown-200: #cea7af;
+  --color-base-lividbrown-100: #e9c8cd;
+  --color-base-lividbrown-50: #ffe7e8;
+  --color-base-deluge-900: #342e6e;
+  --color-base-deluge-800: #43397c;
+  --color-base-deluge-700: #4c4084;
+  --color-base-deluge-600: #57488d;
+  --color-base-deluge-500: #5e4d93;
+  --color-base-deluge-400: #74679b;
+  --color-base-deluge-300: #8c81ad;
+  --color-base-deluge-200: #aca5c5;
+  --color-base-deluge-100: #cdc8dc;
+  --color-base-deluge-50: #ebe9f0;
+  --color-base-blackcurrant-900: #453552;
+  --color-base-blackcurrant-800: #574261;
+  --color-base-blackcurrant-700: #684d6e;
+  --color-base-blackcurrant-600: #79597e;
+  --color-base-blackcurrant-500: #866389;
+  --color-base-blackcurrant-400: #9a7a9c;
+  --color-base-blackcurrant-300: #ae92b0;
+  --color-base-blackcurrant-200: #c7b1ca;
+  --color-base-blackcurrant-100: #e2cfe2;
+  --color-base-blackcurrant-50: #fce9f7;
   --color-base-yellow-900: #2e2600;
   --color-base-yellow-800: #5d4c00;
   --color-base-yellow-700: #8b7100;
@@ -579,6 +619,46 @@
   --font-application-s-headline1-font-size: var(--size-font-6xl);
   --font-application-s-headline1-font-weight: var(--font-weight-regular);
   --font-application-s-headline1-font-family: var(--font-family-title);
+  --color-base-nandor-contrast-900: var(--color-base-white);
+  --color-base-nandor-contrast-800: var(--color-base-white);
+  --color-base-nandor-contrast-700: var(--color-base-white);
+  --color-base-nandor-contrast-600: var(--color-base-black);
+  --color-base-nandor-contrast-500: var(--color-base-black);
+  --color-base-nandor-contrast-400: var(--color-base-black);
+  --color-base-nandor-contrast-300: var(--color-base-black);
+  --color-base-nandor-contrast-200: var(--color-base-black);
+  --color-base-nandor-contrast-100: var(--color-base-black);
+  --color-base-nandor-contrast-50: var(--color-base-black);
+  --color-base-lividbrown-contrast-900: var(--color-base-white);
+  --color-base-lividbrown-contrast-800: var(--color-base-white);
+  --color-base-lividbrown-contrast-700: var(--color-base-white);
+  --color-base-lividbrown-contrast-600: var(--color-base-white);
+  --color-base-lividbrown-contrast-500: var(--color-base-white);
+  --color-base-lividbrown-contrast-400: var(--color-base-black);
+  --color-base-lividbrown-contrast-300: var(--color-base-black);
+  --color-base-lividbrown-contrast-200: var(--color-base-black);
+  --color-base-lividbrown-contrast-100: var(--color-base-black);
+  --color-base-lividbrown-contrast-50: var(--color-base-black);
+  --color-base-deluge-contrast-900: var(--color-base-white);
+  --color-base-deluge-contrast-800: var(--color-base-white);
+  --color-base-deluge-contrast-700: var(--color-base-white);
+  --color-base-deluge-contrast-600: var(--color-base-white);
+  --color-base-deluge-contrast-500: var(--color-base-white);
+  --color-base-deluge-contrast-400: var(--color-base-white);
+  --color-base-deluge-contrast-300: var(--color-base-black);
+  --color-base-deluge-contrast-200: var(--color-base-black);
+  --color-base-deluge-contrast-100: var(--color-base-black);
+  --color-base-deluge-contrast-50: var(--color-base-black);
+  --color-base-blackcurrant-contrast-900: var(--color-base-white);
+  --color-base-blackcurrant-contrast-800: var(--color-base-white);
+  --color-base-blackcurrant-contrast-700: var(--color-base-white);
+  --color-base-blackcurrant-contrast-600: var(--color-base-white);
+  --color-base-blackcurrant-contrast-500: var(--color-base-white);
+  --color-base-blackcurrant-contrast-400: var(--color-base-black);
+  --color-base-blackcurrant-contrast-300: var(--color-base-black);
+  --color-base-blackcurrant-contrast-200: var(--color-base-black);
+  --color-base-blackcurrant-contrast-100: var(--color-base-black);
+  --color-base-blackcurrant-contrast-50: var(--color-base-black);
   --color-base-yellow-contrast-900: var(--color-base-white);
   --color-base-yellow-contrast-800: var(--color-base-white);
   --color-base-yellow-contrast-700: var(--color-base-white);

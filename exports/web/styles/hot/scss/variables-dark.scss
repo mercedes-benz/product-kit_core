@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 25 Apr 2022 11:36:28 GMT
+ * Generated on Wed, 04 May 2022 12:29:55 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -130,8 +130,8 @@ $opacity-base-2: 0.6 !default;
 $opacity-base-1: 0.38 !default;
 $font-weight-bold: 700 !default; // The bold weight of the font.
 $font-weight-regular: 400 !default; // The regular weight of the font.
-$font-family-platform-text: 'MB Corpo S Text', Arial !default; // The brand font family for large headlines.
-$font-family-platform-title: 'MB Corpo A Title Cond', Arial !default; // The brand font family for large headlines.
+$font-family-platform-text: 'MB Corpo S Text Web', Arial !default; // The brand font family for large headlines.
+$font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The brand font family for large headlines.
 $font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
 $font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
 $font-application-l-overline-text-transform: none !default;
@@ -160,6 +160,46 @@ $font-application-s-headline4-text-transform: none !default;
 $font-application-s-headline3-text-transform: none !default;
 $font-application-s-headline2-text-transform: none !default;
 $font-application-s-headline1-text-transform: none !default;
+$color-base-nandor-900: #232c26 !default;
+$color-base-nandor-800: #444e48 !default;
+$color-base-nandor-700: #636e67 !default;
+$color-base-nandor-600: #78827c !default;
+$color-base-nandor-500: #a1ada6 !default;
+$color-base-nandor-400: #bfcac3 !default;
+$color-base-nandor-300: #e0ece5 !default;
+$color-base-nandor-200: #e9f5ed !default;
+$color-base-nandor-100: #eefaf2 !default;
+$color-base-nandor-50: #f2fff7 !default;
+$color-base-lividbrown-900: #4b2534 !default;
+$color-base-lividbrown-800: #5d3240 !default;
+$color-base-lividbrown-700: #6e3d4a !default;
+$color-base-lividbrown-600: #7f4956 !default;
+$color-base-lividbrown-500: #8d525f !default;
+$color-base-lividbrown-400: #a06b76 !default;
+$color-base-lividbrown-300: #b4868e !default;
+$color-base-lividbrown-200: #cea7af !default;
+$color-base-lividbrown-100: #e9c8cd !default;
+$color-base-lividbrown-50: #ffe7e8 !default;
+$color-base-deluge-900: #342e6e !default;
+$color-base-deluge-800: #43397c !default;
+$color-base-deluge-700: #4c4084 !default;
+$color-base-deluge-600: #57488d !default;
+$color-base-deluge-500: #5e4d93 !default;
+$color-base-deluge-400: #74679b !default;
+$color-base-deluge-300: #8c81ad !default;
+$color-base-deluge-200: #aca5c5 !default;
+$color-base-deluge-100: #cdc8dc !default;
+$color-base-deluge-50: #ebe9f0 !default;
+$color-base-blackcurrant-900: #453552 !default;
+$color-base-blackcurrant-800: #574261 !default;
+$color-base-blackcurrant-700: #684d6e !default;
+$color-base-blackcurrant-600: #79597e !default;
+$color-base-blackcurrant-500: #866389 !default;
+$color-base-blackcurrant-400: #9a7a9c !default;
+$color-base-blackcurrant-300: #ae92b0 !default;
+$color-base-blackcurrant-200: #c7b1ca !default;
+$color-base-blackcurrant-100: #e2cfe2 !default;
+$color-base-blackcurrant-50: #fce9f7 !default;
 $color-base-yellow-900: #2e2600 !default;
 $color-base-yellow-800: #5d4c00 !default;
 $color-base-yellow-700: #8b7100 !default;
@@ -212,46 +252,6 @@ $color-base-neutral-100: #dbdbdb !default;
 $color-base-neutral-50: #f4f4f4 !default;
 $color-base-black: #000000 !default;
 $color-base-white: #ffffff !default;
-$color-brand-nandor-900: #232c26 !default;
-$color-brand-nandor-800: #444e48 !default;
-$color-brand-nandor-700: #636e67 !default;
-$color-brand-nandor-600: #78827c !default;
-$color-brand-nandor-500: #a1ada6 !default;
-$color-brand-nandor-400: #bfcac3 !default;
-$color-brand-nandor-300: #e0ece5 !default;
-$color-brand-nandor-200: #e9f5ed !default;
-$color-brand-nandor-100: #eefaf2 !default;
-$color-brand-nandor-50: #f2fff7 !default;
-$color-brand-lividbrown-900: #4b2534 !default;
-$color-brand-lividbrown-800: #5d3240 !default;
-$color-brand-lividbrown-700: #6e3d4a !default;
-$color-brand-lividbrown-600: #7f4956 !default;
-$color-brand-lividbrown-500: #8d525f !default;
-$color-brand-lividbrown-400: #a06b76 !default;
-$color-brand-lividbrown-300: #b4868e !default;
-$color-brand-lividbrown-200: #cea7af !default;
-$color-brand-lividbrown-100: #e9c8cd !default;
-$color-brand-lividbrown-50: #ffe7e8 !default;
-$color-brand-deluge-900: #342e6e !default;
-$color-brand-deluge-800: #43397c !default;
-$color-brand-deluge-700: #4c4084 !default;
-$color-brand-deluge-600: #57488d !default;
-$color-brand-deluge-500: #5e4d93 !default;
-$color-brand-deluge-400: #74679b !default;
-$color-brand-deluge-300: #8c81ad !default;
-$color-brand-deluge-200: #aca5c5 !default;
-$color-brand-deluge-100: #cdc8dc !default;
-$color-brand-deluge-50: #ebe9f0 !default;
-$color-brand-blackcurrant-900: #453552 !default;
-$color-brand-blackcurrant-800: #574261 !default;
-$color-brand-blackcurrant-700: #684d6e !default;
-$color-brand-blackcurrant-600: #79597e !default;
-$color-brand-blackcurrant-500: #866389 !default;
-$color-brand-blackcurrant-400: #9a7a9c !default;
-$color-brand-blackcurrant-300: #ae92b0 !default;
-$color-brand-blackcurrant-200: #c7b1ca !default;
-$color-brand-blackcurrant-100: #e2cfe2 !default;
-$color-brand-blackcurrant-50: #fce9f7 !default;
 $layout-application-platform-compact-xxl-column-amount: $layout-column-3x !default;
 $layout-application-platform-compact-xxl-gutter-size: $size-gutter-xl !default;
 $layout-application-platform-compact-xxl-screen-min-width: $size-screen-platform-xxl !default;
@@ -545,6 +545,46 @@ $font-application-s-headline1-line-height: $size-line-height-4xl !default;
 $font-application-s-headline1-font-size: $size-font-6xl !default;
 $font-application-s-headline1-font-weight: $font-weight-regular !default;
 $font-application-s-headline1-font-family: $font-family-title !default;
+$color-base-nandor-contrast-900: $color-base-white !default;
+$color-base-nandor-contrast-800: $color-base-white !default;
+$color-base-nandor-contrast-700: $color-base-white !default;
+$color-base-nandor-contrast-600: $color-base-black !default;
+$color-base-nandor-contrast-500: $color-base-black !default;
+$color-base-nandor-contrast-400: $color-base-black !default;
+$color-base-nandor-contrast-300: $color-base-black !default;
+$color-base-nandor-contrast-200: $color-base-black !default;
+$color-base-nandor-contrast-100: $color-base-black !default;
+$color-base-nandor-contrast-50: $color-base-black !default;
+$color-base-lividbrown-contrast-900: $color-base-white !default;
+$color-base-lividbrown-contrast-800: $color-base-white !default;
+$color-base-lividbrown-contrast-700: $color-base-white !default;
+$color-base-lividbrown-contrast-600: $color-base-white !default;
+$color-base-lividbrown-contrast-500: $color-base-white !default;
+$color-base-lividbrown-contrast-400: $color-base-black !default;
+$color-base-lividbrown-contrast-300: $color-base-black !default;
+$color-base-lividbrown-contrast-200: $color-base-black !default;
+$color-base-lividbrown-contrast-100: $color-base-black !default;
+$color-base-lividbrown-contrast-50: $color-base-black !default;
+$color-base-deluge-contrast-900: $color-base-white !default;
+$color-base-deluge-contrast-800: $color-base-white !default;
+$color-base-deluge-contrast-700: $color-base-white !default;
+$color-base-deluge-contrast-600: $color-base-white !default;
+$color-base-deluge-contrast-500: $color-base-white !default;
+$color-base-deluge-contrast-400: $color-base-white !default;
+$color-base-deluge-contrast-300: $color-base-black !default;
+$color-base-deluge-contrast-200: $color-base-black !default;
+$color-base-deluge-contrast-100: $color-base-black !default;
+$color-base-deluge-contrast-50: $color-base-black !default;
+$color-base-blackcurrant-contrast-900: $color-base-white !default;
+$color-base-blackcurrant-contrast-800: $color-base-white !default;
+$color-base-blackcurrant-contrast-700: $color-base-white !default;
+$color-base-blackcurrant-contrast-600: $color-base-white !default;
+$color-base-blackcurrant-contrast-500: $color-base-white !default;
+$color-base-blackcurrant-contrast-400: $color-base-black !default;
+$color-base-blackcurrant-contrast-300: $color-base-black !default;
+$color-base-blackcurrant-contrast-200: $color-base-black !default;
+$color-base-blackcurrant-contrast-100: $color-base-black !default;
+$color-base-blackcurrant-contrast-50: $color-base-black !default;
 $color-base-yellow-contrast-900: $color-base-white !default;
 $color-base-yellow-contrast-800: $color-base-white !default;
 $color-base-yellow-contrast-700: $color-base-white !default;
@@ -595,46 +635,6 @@ $color-base-neutral-contrast-300: $color-base-black !default;
 $color-base-neutral-contrast-200: $color-base-black !default;
 $color-base-neutral-contrast-100: $color-base-black !default;
 $color-base-neutral-contrast-50: $color-base-black !default;
-$color-brand-nandor-contrast-900: $color-base-white !default;
-$color-brand-nandor-contrast-800: $color-base-white !default;
-$color-brand-nandor-contrast-700: $color-base-white !default;
-$color-brand-nandor-contrast-600: $color-base-black !default;
-$color-brand-nandor-contrast-500: $color-base-black !default;
-$color-brand-nandor-contrast-400: $color-base-black !default;
-$color-brand-nandor-contrast-300: $color-base-black !default;
-$color-brand-nandor-contrast-200: $color-base-black !default;
-$color-brand-nandor-contrast-100: $color-base-black !default;
-$color-brand-nandor-contrast-50: $color-base-black !default;
-$color-brand-lividbrown-contrast-900: $color-base-white !default;
-$color-brand-lividbrown-contrast-800: $color-base-white !default;
-$color-brand-lividbrown-contrast-700: $color-base-white !default;
-$color-brand-lividbrown-contrast-600: $color-base-white !default;
-$color-brand-lividbrown-contrast-500: $color-base-white !default;
-$color-brand-lividbrown-contrast-400: $color-base-black !default;
-$color-brand-lividbrown-contrast-300: $color-base-black !default;
-$color-brand-lividbrown-contrast-200: $color-base-black !default;
-$color-brand-lividbrown-contrast-100: $color-base-black !default;
-$color-brand-lividbrown-contrast-50: $color-base-black !default;
-$color-brand-deluge-contrast-900: $color-base-white !default;
-$color-brand-deluge-contrast-800: $color-base-white !default;
-$color-brand-deluge-contrast-700: $color-base-white !default;
-$color-brand-deluge-contrast-600: $color-base-white !default;
-$color-brand-deluge-contrast-500: $color-base-white !default;
-$color-brand-deluge-contrast-400: $color-base-white !default;
-$color-brand-deluge-contrast-300: $color-base-black !default;
-$color-brand-deluge-contrast-200: $color-base-black !default;
-$color-brand-deluge-contrast-100: $color-base-black !default;
-$color-brand-deluge-contrast-50: $color-base-black !default;
-$color-brand-blackcurrant-contrast-900: $color-base-white !default;
-$color-brand-blackcurrant-contrast-800: $color-base-white !default;
-$color-brand-blackcurrant-contrast-700: $color-base-white !default;
-$color-brand-blackcurrant-contrast-600: $color-base-white !default;
-$color-brand-blackcurrant-contrast-500: $color-base-white !default;
-$color-brand-blackcurrant-contrast-400: $color-base-black !default;
-$color-brand-blackcurrant-contrast-300: $color-base-black !default;
-$color-brand-blackcurrant-contrast-200: $color-base-black !default;
-$color-brand-blackcurrant-contrast-100: $color-base-black !default;
-$color-brand-blackcurrant-contrast-50: $color-base-black !default;
 $color-application-contrast-success: $color-base-black !default; // The error contrast color is used for elements like text that is displayed on a background with the success color.
 $color-application-contrast-error: $color-base-black !default; // The error contrast color is used for elements like text that is displayed on a background with the error color.
 $color-application-contrast-outline: $color-base-white !default; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
@@ -650,9 +650,9 @@ $color-application-error: $color-base-red-400 !default; // The error color is us
 $color-application-outline: $color-base-neutral-500 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
 $color-application-surface: $color-base-neutral-900 !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
 $color-application-background: $color-base-black !default; // The background color is used for the content background.
-$color-application-quaternary: $color-brand-lividbrown-200 !default; // The quaternary color is used to colorize information graphics.
-$color-application-tertiary: $color-brand-deluge-300 !default; // The tertiary color is used to colorize information graphics.
-$color-application-secondary: $color-brand-blackcurrant-300 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
+$color-application-quaternary: $color-base-lividbrown-200 !default; // The quaternary color is used to colorize information graphics.
+$color-application-tertiary: $color-base-deluge-300 !default; // The tertiary color is used to colorize information graphics.
+$color-application-secondary: $color-base-blackcurrant-300 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
 $color-application-primary-variant: $color-base-blue-500 !default; // The primary variant color is used for actions on a light background.
 $color-application-primary: $color-base-blue-400 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 $font-application-l-overline-color: $color-application-primary !default;
@@ -682,104 +682,6 @@ $tokens: (
         'outline': $color-application-contrast-outline,
         'error': $color-application-contrast-error,
         'success': $color-application-contrast-success
-      )
-    ),
-    'brand': (
-      'blackcurrant': (
-        '50': $color-brand-blackcurrant-50,
-        '100': $color-brand-blackcurrant-100,
-        '200': $color-brand-blackcurrant-200,
-        '300': $color-brand-blackcurrant-300,
-        '400': $color-brand-blackcurrant-400,
-        '500': $color-brand-blackcurrant-500,
-        '600': $color-brand-blackcurrant-600,
-        '700': $color-brand-blackcurrant-700,
-        '800': $color-brand-blackcurrant-800,
-        '900': $color-brand-blackcurrant-900,
-        'contrast': (
-          '50': $color-brand-blackcurrant-contrast-50,
-          '100': $color-brand-blackcurrant-contrast-100,
-          '200': $color-brand-blackcurrant-contrast-200,
-          '300': $color-brand-blackcurrant-contrast-300,
-          '400': $color-brand-blackcurrant-contrast-400,
-          '500': $color-brand-blackcurrant-contrast-500,
-          '600': $color-brand-blackcurrant-contrast-600,
-          '700': $color-brand-blackcurrant-contrast-700,
-          '800': $color-brand-blackcurrant-contrast-800,
-          '900': $color-brand-blackcurrant-contrast-900
-        )
-      ),
-      'deluge': (
-        '50': $color-brand-deluge-50,
-        '100': $color-brand-deluge-100,
-        '200': $color-brand-deluge-200,
-        '300': $color-brand-deluge-300,
-        '400': $color-brand-deluge-400,
-        '500': $color-brand-deluge-500,
-        '600': $color-brand-deluge-600,
-        '700': $color-brand-deluge-700,
-        '800': $color-brand-deluge-800,
-        '900': $color-brand-deluge-900,
-        'contrast': (
-          '50': $color-brand-deluge-contrast-50,
-          '100': $color-brand-deluge-contrast-100,
-          '200': $color-brand-deluge-contrast-200,
-          '300': $color-brand-deluge-contrast-300,
-          '400': $color-brand-deluge-contrast-400,
-          '500': $color-brand-deluge-contrast-500,
-          '600': $color-brand-deluge-contrast-600,
-          '700': $color-brand-deluge-contrast-700,
-          '800': $color-brand-deluge-contrast-800,
-          '900': $color-brand-deluge-contrast-900
-        )
-      ),
-      'lividbrown': (
-        '50': $color-brand-lividbrown-50,
-        '100': $color-brand-lividbrown-100,
-        '200': $color-brand-lividbrown-200,
-        '300': $color-brand-lividbrown-300,
-        '400': $color-brand-lividbrown-400,
-        '500': $color-brand-lividbrown-500,
-        '600': $color-brand-lividbrown-600,
-        '700': $color-brand-lividbrown-700,
-        '800': $color-brand-lividbrown-800,
-        '900': $color-brand-lividbrown-900,
-        'contrast': (
-          '50': $color-brand-lividbrown-contrast-50,
-          '100': $color-brand-lividbrown-contrast-100,
-          '200': $color-brand-lividbrown-contrast-200,
-          '300': $color-brand-lividbrown-contrast-300,
-          '400': $color-brand-lividbrown-contrast-400,
-          '500': $color-brand-lividbrown-contrast-500,
-          '600': $color-brand-lividbrown-contrast-600,
-          '700': $color-brand-lividbrown-contrast-700,
-          '800': $color-brand-lividbrown-contrast-800,
-          '900': $color-brand-lividbrown-contrast-900
-        )
-      ),
-      'nandor': (
-        '50': $color-brand-nandor-50,
-        '100': $color-brand-nandor-100,
-        '200': $color-brand-nandor-200,
-        '300': $color-brand-nandor-300,
-        '400': $color-brand-nandor-400,
-        '500': $color-brand-nandor-500,
-        '600': $color-brand-nandor-600,
-        '700': $color-brand-nandor-700,
-        '800': $color-brand-nandor-800,
-        '900': $color-brand-nandor-900,
-        'contrast': (
-          '50': $color-brand-nandor-contrast-50,
-          '100': $color-brand-nandor-contrast-100,
-          '200': $color-brand-nandor-contrast-200,
-          '300': $color-brand-nandor-contrast-300,
-          '400': $color-brand-nandor-contrast-400,
-          '500': $color-brand-nandor-contrast-500,
-          '600': $color-brand-nandor-contrast-600,
-          '700': $color-brand-nandor-contrast-700,
-          '800': $color-brand-nandor-contrast-800,
-          '900': $color-brand-nandor-contrast-900
-        )
       )
     ),
     'base': (
@@ -903,6 +805,102 @@ $tokens: (
           '700': $color-base-yellow-contrast-700,
           '800': $color-base-yellow-contrast-800,
           '900': $color-base-yellow-contrast-900
+        )
+      ),
+      'blackcurrant': (
+        '50': $color-base-blackcurrant-50,
+        '100': $color-base-blackcurrant-100,
+        '200': $color-base-blackcurrant-200,
+        '300': $color-base-blackcurrant-300,
+        '400': $color-base-blackcurrant-400,
+        '500': $color-base-blackcurrant-500,
+        '600': $color-base-blackcurrant-600,
+        '700': $color-base-blackcurrant-700,
+        '800': $color-base-blackcurrant-800,
+        '900': $color-base-blackcurrant-900,
+        'contrast': (
+          '50': $color-base-blackcurrant-contrast-50,
+          '100': $color-base-blackcurrant-contrast-100,
+          '200': $color-base-blackcurrant-contrast-200,
+          '300': $color-base-blackcurrant-contrast-300,
+          '400': $color-base-blackcurrant-contrast-400,
+          '500': $color-base-blackcurrant-contrast-500,
+          '600': $color-base-blackcurrant-contrast-600,
+          '700': $color-base-blackcurrant-contrast-700,
+          '800': $color-base-blackcurrant-contrast-800,
+          '900': $color-base-blackcurrant-contrast-900
+        )
+      ),
+      'deluge': (
+        '50': $color-base-deluge-50,
+        '100': $color-base-deluge-100,
+        '200': $color-base-deluge-200,
+        '300': $color-base-deluge-300,
+        '400': $color-base-deluge-400,
+        '500': $color-base-deluge-500,
+        '600': $color-base-deluge-600,
+        '700': $color-base-deluge-700,
+        '800': $color-base-deluge-800,
+        '900': $color-base-deluge-900,
+        'contrast': (
+          '50': $color-base-deluge-contrast-50,
+          '100': $color-base-deluge-contrast-100,
+          '200': $color-base-deluge-contrast-200,
+          '300': $color-base-deluge-contrast-300,
+          '400': $color-base-deluge-contrast-400,
+          '500': $color-base-deluge-contrast-500,
+          '600': $color-base-deluge-contrast-600,
+          '700': $color-base-deluge-contrast-700,
+          '800': $color-base-deluge-contrast-800,
+          '900': $color-base-deluge-contrast-900
+        )
+      ),
+      'lividbrown': (
+        '50': $color-base-lividbrown-50,
+        '100': $color-base-lividbrown-100,
+        '200': $color-base-lividbrown-200,
+        '300': $color-base-lividbrown-300,
+        '400': $color-base-lividbrown-400,
+        '500': $color-base-lividbrown-500,
+        '600': $color-base-lividbrown-600,
+        '700': $color-base-lividbrown-700,
+        '800': $color-base-lividbrown-800,
+        '900': $color-base-lividbrown-900,
+        'contrast': (
+          '50': $color-base-lividbrown-contrast-50,
+          '100': $color-base-lividbrown-contrast-100,
+          '200': $color-base-lividbrown-contrast-200,
+          '300': $color-base-lividbrown-contrast-300,
+          '400': $color-base-lividbrown-contrast-400,
+          '500': $color-base-lividbrown-contrast-500,
+          '600': $color-base-lividbrown-contrast-600,
+          '700': $color-base-lividbrown-contrast-700,
+          '800': $color-base-lividbrown-contrast-800,
+          '900': $color-base-lividbrown-contrast-900
+        )
+      ),
+      'nandor': (
+        '50': $color-base-nandor-50,
+        '100': $color-base-nandor-100,
+        '200': $color-base-nandor-200,
+        '300': $color-base-nandor-300,
+        '400': $color-base-nandor-400,
+        '500': $color-base-nandor-500,
+        '600': $color-base-nandor-600,
+        '700': $color-base-nandor-700,
+        '800': $color-base-nandor-800,
+        '900': $color-base-nandor-900,
+        'contrast': (
+          '50': $color-base-nandor-contrast-50,
+          '100': $color-base-nandor-contrast-100,
+          '200': $color-base-nandor-contrast-200,
+          '300': $color-base-nandor-contrast-300,
+          '400': $color-base-nandor-contrast-400,
+          '500': $color-base-nandor-contrast-500,
+          '600': $color-base-nandor-contrast-600,
+          '700': $color-base-nandor-contrast-700,
+          '800': $color-base-nandor-contrast-800,
+          '900': $color-base-nandor-contrast-900
         )
       )
     )
