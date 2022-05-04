@@ -1,0 +1,14 @@
+{
+  "font": {
+    "weight": {
+      "regular": {
+        "value": "400",
+        "comment": "The regular weight of the font."
+      },
+      "bold": {
+        "value": "700",
+        "comment": "The bold weight of the font."
+      }
+    }
+  }
+}
