@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 04 May 2022 12:29:55 GMT
+ * Generated on Mon, 09 May 2022 12:40:14 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -647,7 +647,7 @@ $color-application-background: $color-base-white !default; // The background col
 $color-application-quaternary: $color-base-lividbrown-800 !default; // The quaternary color is used to colorize information graphics.
 $color-application-tertiary: $color-base-deluge-500 !default; // The tertiary color is used to colorize information graphics.
 $color-application-secondary: $color-base-blackcurrant-900 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
-$color-application-primary-variant: $color-base-blue-400 !default; // The primary variant color is used for actions on a dark background.
+$color-application-primary-variant: $color-base-blue-500 !default; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
 $color-application-primary: $color-base-blue-500 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 $font-application-l-overline-color: $color-application-primary !default;
 $font-application-s-overline-color: $color-application-primary !default;

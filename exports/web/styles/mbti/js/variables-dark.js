@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 04 May 2022 12:29:55 GMT
+ * Generated on Mon, 09 May 2022 12:40:14 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-export const colorApplicationPrimaryVariant = "#fcb540"; // The primary variant color is used for actions on a light background.
+export const colorApplicationPrimaryVariant = "#996e00"; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
 export const colorApplicationSecondary = "#8c81ad"; // The secondary color is used to indicate selection controls, floating actions or overline text.
 export const colorApplicationTertiary = "#91a094"; // The tertiary color is used to colorize information graphics.
 export const colorApplicationQuaternary = "#cea7af"; // The quaternary color is used to colorize information graphics.
@@ -183,6 +183,26 @@ export const colorBrandGreenContrast600 = "#000000";
 export const colorBrandGreenContrast700 = "#000000";
 export const colorBrandGreenContrast800 = "#ffffff";
 export const colorBrandGreenContrast900 = "#ffffff";
+export const colorBrandYellow50 = "#fff9e4";
+export const colorBrandYellow100 = "#fff0bd";
+export const colorBrandYellow200 = "#fee792";
+export const colorBrandYellow300 = "#fbdd66";
+export const colorBrandYellow400 = "#f7d643";
+export const colorBrandYellow500 = "#f4cf16";
+export const colorBrandYellow600 = "#e4be14";
+export const colorBrandYellow700 = "#cfa90d";
+export const colorBrandYellow800 = "#bb9308";
+export const colorBrandYellow900 = "#996e00";
+export const colorBrandYellowContrast50 = "#000000";
+export const colorBrandYellowContrast100 = "#000000";
+export const colorBrandYellowContrast200 = "#000000";
+export const colorBrandYellowContrast300 = "#000000";
+export const colorBrandYellowContrast400 = "#000000";
+export const colorBrandYellowContrast500 = "#000000";
+export const colorBrandYellowContrast600 = "#000000";
+export const colorBrandYellowContrast700 = "#000000";
+export const colorBrandYellowContrast800 = "#000000";
+export const colorBrandYellowContrast900 = "#ffffff";
 export const colorBaseWhite = "#ffffff";
 export const colorBaseBlack = "#000000";
 export const colorBaseNeutral50 = "#f4f4f4";

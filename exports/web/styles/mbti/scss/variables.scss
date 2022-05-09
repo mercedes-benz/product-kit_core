@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 04 May 2022 12:29:55 GMT
+ * Generated on Mon, 09 May 2022 12:40:14 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -252,6 +252,16 @@ $color-base-neutral-100: #dbdbdb !default;
 $color-base-neutral-50: #f4f4f4 !default;
 $color-base-black: #000000 !default;
 $color-base-white: #ffffff !default;
+$color-brand-yellow-900: #996e00 !default;
+$color-brand-yellow-800: #bb9308 !default;
+$color-brand-yellow-700: #cfa90d !default;
+$color-brand-yellow-600: #e4be14 !default;
+$color-brand-yellow-500: #f4cf16 !default;
+$color-brand-yellow-400: #f7d643 !default;
+$color-brand-yellow-300: #fbdd66 !default;
+$color-brand-yellow-200: #fee792 !default;
+$color-brand-yellow-100: #fff0bd !default;
+$color-brand-yellow-50: #fff9e4 !default;
 $color-brand-green-900: #006307 !default;
 $color-brand-green-800: #008220 !default;
 $color-brand-green-700: #00932c !default;
@@ -709,6 +719,16 @@ $color-base-neutral-contrast-300: $color-base-black !default;
 $color-base-neutral-contrast-200: $color-base-black !default;
 $color-base-neutral-contrast-100: $color-base-black !default;
 $color-base-neutral-contrast-50: $color-base-black !default;
+$color-brand-yellow-contrast-900: $color-base-white !default;
+$color-brand-yellow-contrast-800: $color-base-black !default;
+$color-brand-yellow-contrast-700: $color-base-black !default;
+$color-brand-yellow-contrast-600: $color-base-black !default;
+$color-brand-yellow-contrast-500: $color-base-black !default;
+$color-brand-yellow-contrast-400: $color-base-black !default;
+$color-brand-yellow-contrast-300: $color-base-black !default;
+$color-brand-yellow-contrast-200: $color-base-black !default;
+$color-brand-yellow-contrast-100: $color-base-black !default;
+$color-brand-yellow-contrast-50: $color-base-black !default;
 $color-brand-green-contrast-900: $color-base-white !default;
 $color-brand-green-contrast-800: $color-base-white !default;
 $color-brand-green-contrast-700: $color-base-black !default;
@@ -807,8 +827,8 @@ $color-application-background: $color-base-white !default; // The background col
 $color-application-quaternary: $color-brand-lividbrown-600 !default; // The quaternary color is used to colorize information graphics.
 $color-application-tertiary: $color-brand-xanadu-600 !default; // The tertiary color is used to colorize information graphics.
 $color-application-secondary: $color-brand-deluge-500 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
-$color-application-primary-variant: $color-brand-goldentainoi-300 !default; // The primary variant color is used for actions on a dark background.
-$color-application-primary: $color-brand-goldentainoi-600 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
+$color-application-primary-variant: $color-brand-yellow-900 !default; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
+$color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 $font-application-l-overline-color: $color-application-primary !default;
 $font-application-s-overline-color: $color-application-primary !default;
 
@@ -1029,6 +1049,30 @@ $tokens: (
           '700': $color-brand-green-contrast-700,
           '800': $color-brand-green-contrast-800,
           '900': $color-brand-green-contrast-900
+        )
+      ),
+      'yellow': (
+        '50': $color-brand-yellow-50,
+        '100': $color-brand-yellow-100,
+        '200': $color-brand-yellow-200,
+        '300': $color-brand-yellow-300,
+        '400': $color-brand-yellow-400,
+        '500': $color-brand-yellow-500,
+        '600': $color-brand-yellow-600,
+        '700': $color-brand-yellow-700,
+        '800': $color-brand-yellow-800,
+        '900': $color-brand-yellow-900,
+        'contrast': (
+          '50': $color-brand-yellow-contrast-50,
+          '100': $color-brand-yellow-contrast-100,
+          '200': $color-brand-yellow-contrast-200,
+          '300': $color-brand-yellow-contrast-300,
+          '400': $color-brand-yellow-contrast-400,
+          '500': $color-brand-yellow-contrast-500,
+          '600': $color-brand-yellow-contrast-600,
+          '700': $color-brand-yellow-contrast-700,
+          '800': $color-brand-yellow-contrast-800,
+          '900': $color-brand-yellow-contrast-900
         )
       )
     ),
