@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 04 May 2022 12:29:55 GMT
+ * Generated on Mon, 09 May 2022 12:40:14 GMT
  */
 
-export const colorApplicationPrimary = "#1998fc"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-export const colorApplicationPrimaryVariant = "#0078d6"; // The primary variant color is used for actions on a light background.
+export const colorApplicationPrimary = "#0078d6"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
+export const colorApplicationPrimaryVariant = "#0078d6"; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
 export const colorApplicationSecondary = "#ae92b0"; // The secondary color is used to indicate selection controls, floating actions or overline text.
 export const colorApplicationTertiary = "#8c81ad"; // The tertiary color is used to colorize information graphics.
 export const colorApplicationQuaternary = "#cea7af"; // The quaternary color is used to colorize information graphics.
@@ -309,7 +309,7 @@ export const fontApplicationSOverlineLetterSpacing = "0.2px";
 export const fontApplicationSOverlineTextTransform = "none";
 export const fontApplicationSOverlineSupSize = "9px";
 export const fontApplicationSOverlineSupOffset = "-8.1px";
-export const fontApplicationSOverlineColor = "#1998fc";
+export const fontApplicationSOverlineColor = "#0078d6";
 export const fontApplicationLHeadline1FontFamily = "'MB Corpo A Title Cond'";
 export const fontApplicationLHeadline1FontWeight = "400";
 export const fontApplicationLHeadline1FontSize = "72px";
@@ -414,7 +414,7 @@ export const fontApplicationLOverlineLetterSpacing = "0.2px";
 export const fontApplicationLOverlineTextTransform = "none";
 export const fontApplicationLOverlineSupSize = "9px";
 export const fontApplicationLOverlineSupOffset = "-8.1px";
-export const fontApplicationLOverlineColor = "#1998fc";
+export const fontApplicationLOverlineColor = "#0078d6";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.
 export const fontFamilyText = "'MB Corpo S Text'"; // The brand font family for large headlines.
 export const fontFamilyPlatformTitle = "'MB Corpo A Title Cond Web', Arial"; // The brand font family for large headlines.

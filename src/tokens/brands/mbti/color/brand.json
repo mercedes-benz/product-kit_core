@@ -192,6 +192,30 @@
           "800": { "value": "{color.base.white}" },
           "900": { "value": "{color.base.white}" }
         }
+      },
+      "yellow": {
+        "50": { "value": "#fff9e4" },
+        "100": { "value": "#fff0bd" },
+        "200": { "value": "#fee792" },
+        "300": { "value": "#fbdd66" },
+        "400": { "value": "#f7d643" },
+        "500": { "value": "#f4cf16" },
+        "600": { "value": "#e4be14" },
+        "700": { "value": "#cfa90d" },
+        "800": { "value": "#bb9308" },
+        "900": { "value": "#996e00" },
+        "contrast": {
+          "50": { "value": "{color.base.black}" },
+          "100": { "value": "{color.base.black}" },
+          "200": { "value": "{color.base.black}" },
+          "300": { "value": "{color.base.black}" },
+          "400": { "value": "{color.base.black}" },
+          "500": { "value": "{color.base.black}" },
+          "600": { "value": "{color.base.black}" },
+          "700": { "value": "{color.base.black}" },
+          "800": { "value": "{color.base.black}" },
+          "900": { "value": "{color.base.white}" }
+        }
       }
     }
   }
