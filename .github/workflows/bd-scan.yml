@@ -22,7 +22,9 @@ on:
       projectname:
         type: string
         required: true
-
+    secrets:
+      BLACKDUCK_API_TOKEN:
+        required: true
 
 jobs:
   build:
