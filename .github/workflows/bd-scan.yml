@@ -53,6 +53,7 @@ jobs:
       - name: 🔀 Rename notices
         run: for f in ./notices/product_kit*.txt; do mv "$f" 3RD_PARTY_LICENSES.txt; done
       - id: outputting
+        name: Outputting Notices File
         run: echo ::set-output name=notices::$(cat 3RD_PARTY_LICENSES.txt)
 #      - name: ☁ Commit Changes
 #        uses: EndBug/add-and-commit@v7
