@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 May 2022 06:57:56 GMT
+ * Generated on Wed, 11 May 2022 08:55:20 GMT
  */
 
 :root {
@@ -817,7 +817,7 @@
   --color-application-contrast-quaternary: var(--color-base-white); /* The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color. */
   --color-application-contrast-tertiary: var(--color-base-white); /* The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color. */
   --color-application-contrast-secondary: var(--color-base-white); /* The secondary contrast color is used for elements like text that is displayed on a background with the secondary color. */
-  --color-application-contrast-primary-variant: var(--color-base-black); /* The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color. */
+  --color-application-contrast-primary-variant: var(--color-base-white); /* The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color. */
   --color-application-contrast-primary: var(--color-base-black); /* The primary contrast color is used for elements like text that is displayed on a background with the primary color. */
   --color-application-success: var(--color-brand-green-800); /* The success color is used for success text. */
   --color-application-error: var(--color-brand-red-700); /* The error color is used for error text. */

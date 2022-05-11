@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 May 2022 06:57:56 GMT
+ * Generated on Wed, 11 May 2022 08:55:20 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -14,7 +14,7 @@ export const colorApplicationOutline = "#b8beca"; // The outline color is used f
 export const colorApplicationError = "#e30613"; // The error color is used for error text.
 export const colorApplicationSuccess = "#008220"; // The success color is used for success text.
 export const colorApplicationContrastPrimary = "#000000"; // The primary contrast color is used for elements like text that is displayed on a background with the primary color.
-export const colorApplicationContrastPrimaryVariant = "#000000"; // The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color.
+export const colorApplicationContrastPrimaryVariant = "#ffffff"; // The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color.
 export const colorApplicationContrastSecondary = "#ffffff"; // The secondary contrast color is used for elements like text that is displayed on a background with the secondary color.
 export const colorApplicationContrastTertiary = "#ffffff"; // The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color.
 export const colorApplicationContrastQuaternary = "#ffffff"; // The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color.
