@@ -1,5 +1,13 @@
 name: Sechub Scan
 on:
+  workflow_call:
+    secrets:
+      SECHUB_SERVER:
+        required: true
+      SECHUB_APITOKEN:
+        required: true
+      SECHUB_USERID:
+        required: true
   workflow_dispatch:
     secrets:
       SECHUB_SERVER:
