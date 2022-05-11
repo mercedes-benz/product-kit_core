@@ -1,0 +1,13 @@
+{
+  "component": {
+    "switch": {
+      "primary": {
+        "selected": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        }
+      }
+    }
+  }
+}

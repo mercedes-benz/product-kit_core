@@ -1,0 +1,38 @@
+{
+  "component": {
+    "button": {
+      "outlined": {
+        "primary": {
+          "default": {
+            "text": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "icon": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "text": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "icon": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

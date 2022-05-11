@@ -1,0 +1,13 @@
+{
+  "component": {
+    "slider": {
+      "primary": {
+        "thumb": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        }
+      }
+    }
+  }
+}

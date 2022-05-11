@@ -1,0 +1,20 @@
+{
+  "component": {
+    "chip": {
+      "outlined": {
+        "primary": {
+          "text": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          },
+          "icon": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

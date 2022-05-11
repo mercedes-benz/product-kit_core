@@ -1,0 +1,39 @@
+{
+  "component": {
+    "select": {
+      "outlined": {
+        "primary": {
+          "focused": {
+            "label": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "focused": {
+            "label": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      },
+      "filled": {
+        "primary": {
+          "focused": {
+            "label": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
