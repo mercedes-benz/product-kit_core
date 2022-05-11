@@ -1,0 +1,13 @@
+{
+  "component": {
+    "link": {
+      "primary": {
+        "default": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        }
+      }
+    }
+  }
+}
