@@ -1,4 +1,4 @@
-name: SecHub Scan
+name: Sechub Scan
 on:
   workflow_dispatch:
     secrets:
