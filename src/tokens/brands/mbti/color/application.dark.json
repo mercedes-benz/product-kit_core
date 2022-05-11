@@ -6,7 +6,7 @@
         "comment": "The primary color is used to indicate primary actions, selected elements or as background color for app bars."
       },
       "primary-variant": {
-        "value": "{color.brand.yellow.900}",
+        "value": "{color.brand.goldentainoi.300}",
         "comment": "The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio."
       },
       "secondary": {

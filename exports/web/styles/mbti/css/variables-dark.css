@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 May 2022 14:33:15 GMT
+ * Generated on Wed, 11 May 2022 06:57:56 GMT
  */
 
 .dark {
@@ -833,7 +833,7 @@
   --color-application-quaternary: var(--color-brand-lividbrown-200); /* The quaternary color is used to colorize information graphics. */
   --color-application-tertiary: var(--color-brand-xanadu-300); /* The tertiary color is used to colorize information graphics. */
   --color-application-secondary: var(--color-brand-deluge-300); /* The secondary color is used to indicate selection controls, floating actions or overline text. */
-  --color-application-primary-variant: var(--color-brand-yellow-900); /* The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio. */
+  --color-application-primary-variant: var(--color-brand-goldentainoi-300); /* The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio. */
   --color-application-primary: var(--color-brand-goldentainoi-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
   --font-application-l-overline-color: var(--color-application-primary);
   --font-application-s-overline-color: var(--color-application-primary);

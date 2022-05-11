@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 May 2022 14:33:15 GMT
+ * Generated on Wed, 11 May 2022 06:57:57 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-export const colorApplicationPrimaryVariant = "#996e00"; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
+export const colorApplicationPrimaryVariant = "#ffd56b"; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
 export const colorApplicationSecondary = "#8c81ad"; // The secondary color is used to indicate selection controls, floating actions or overline text.
 export const colorApplicationTertiary = "#91a094"; // The tertiary color is used to colorize information graphics.
 export const colorApplicationQuaternary = "#cea7af"; // The quaternary color is used to colorize information graphics.
