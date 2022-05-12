@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 May 2022 08:12:37 GMT
+ * Generated on Thu, 12 May 2022 08:06:31 GMT
  */
 
 .dark {
@@ -833,7 +833,7 @@
   --color-application-quaternary: var(--color-brand-lividbrown-200); /* The quaternary color is used to colorize information graphics. */
   --color-application-tertiary: var(--color-brand-xanadu-300); /* The tertiary color is used to colorize information graphics. */
   --color-application-secondary: var(--color-brand-deluge-300); /* The secondary color is used to indicate selection controls, floating actions or overline text. */
-  --color-application-primary-variant: var(--color-brand-yellow-300); /* The primary variant color is used for text and icons to ensure an accessible contrast ratio. */
+  --color-application-primary-variant: var(--color-brand-goldentainoi-300); /* The primary variant color is used for text and icons to ensure an accessible contrast ratio. */
   --color-application-primary: var(--color-brand-goldentainoi-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
   --font-application-l-overline-color: var(--color-application-primary);
   --font-application-s-overline-color: var(--color-application-primary);
@@ -848,10 +848,15 @@
   --component-select-text-primary-focused-label-color: var(--color-application-primary-variant);
   --component-select-outlined-primary-focused-label-color: var(--color-application-primary-variant);
   --component-radio-primary-selected-color: var(--color-application-primary-variant);
+  --component-link-primary-default-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-icon-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-text-color: var(--color-application-primary-variant);
   --component-checkbox-primary-intermediate-color: var(--color-application-primary-variant);
   --component-checkbox-primary-checked-color: var(--color-application-primary-variant);
+  --component-button-icon-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-button-icon-primary-default-text-color: var(--color-application-primary-variant);
+  --component-button-plain-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-button-plain-primary-default-text-color: var(--color-application-primary-variant);
   --component-button-text-primary-default-icon-color: var(--color-application-primary-variant);
   --component-button-text-primary-default-text-color: var(--color-application-primary-variant);
   --component-button-outlined-primary-default-icon-color: var(--color-application-primary-variant);

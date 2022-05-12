@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 11 May 2022 08:12:37 GMT
+ * Generated on Thu, 12 May 2022 08:06:31 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -833,7 +833,7 @@ $color-application-background: $color-base-black !default; // The background col
 $color-application-quaternary: $color-brand-lividbrown-200 !default; // The quaternary color is used to colorize information graphics.
 $color-application-tertiary: $color-brand-xanadu-300 !default; // The tertiary color is used to colorize information graphics.
 $color-application-secondary: $color-brand-deluge-300 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
-$color-application-primary-variant: $color-brand-yellow-300 !default; // The primary variant color is used for text and icons to ensure an accessible contrast ratio.
+$color-application-primary-variant: $color-brand-goldentainoi-300 !default; // The primary variant color is used for text and icons to ensure an accessible contrast ratio.
 $color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 $font-application-l-overline-color: $color-application-primary !default;
 $font-application-s-overline-color: $color-application-primary !default;
@@ -848,10 +848,15 @@ $component-select-filled-primary-focused-label-color: $color-application-primary
 $component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-radio-primary-selected-color: $color-application-primary-variant !default;
+$component-link-primary-default-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-icon-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
 $component-checkbox-primary-intermediate-color: $color-application-primary-variant !default;
 $component-checkbox-primary-checked-color: $color-application-primary-variant !default;
+$component-button-icon-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-icon-primary-default-text-color: $color-application-primary-variant !default;
+$component-button-plain-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-plain-primary-default-text-color: $color-application-primary-variant !default;
 $component-button-text-primary-default-icon-color: $color-application-primary-variant !default;
 $component-button-text-primary-default-text-color: $color-application-primary-variant !default;
 $component-button-outlined-primary-default-icon-color: $color-application-primary-variant !default;
@@ -1347,6 +1352,30 @@ $tokens: (
             )
           )
         )
+      ),
+      'plain': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-plain-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-plain-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'icon': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-icon-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-icon-primary-default-icon-color
+            )
+          )
+        )
       )
     ),
     'checkbox': (
@@ -1368,6 +1397,13 @@ $tokens: (
           'icon': (
             'color': $component-chip-outlined-primary-icon-color
           )
+        )
+      )
+    ),
+    'link': (
+      'primary': (
+        'default': (
+          'color': $component-link-primary-default-color
         )
       )
     ),

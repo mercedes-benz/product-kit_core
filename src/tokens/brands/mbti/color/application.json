@@ -47,7 +47,7 @@
           "comment": "The primary contrast color is used for elements like text that is displayed on a background with the primary color."
         },
         "primary-variant": {
-          "value": "{color.base.black}",
+          "value": "{color.base.white}",
           "comment": "The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color."
         },
         "secondary": {

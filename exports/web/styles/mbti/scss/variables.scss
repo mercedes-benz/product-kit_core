@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 11 May 2022 08:12:37 GMT
+ * Generated on Thu, 12 May 2022 08:06:30 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -817,7 +817,7 @@ $color-application-contrast-background: $color-base-black !default; // The backg
 $color-application-contrast-quaternary: $color-base-white !default; // The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color.
 $color-application-contrast-tertiary: $color-base-white !default; // The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color.
 $color-application-contrast-secondary: $color-base-white !default; // The secondary contrast color is used for elements like text that is displayed on a background with the secondary color.
-$color-application-contrast-primary-variant: $color-base-black !default; // The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color.
+$color-application-contrast-primary-variant: $color-base-white !default; // The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color.
 $color-application-contrast-primary: $color-base-black !default; // The primary contrast color is used for elements like text that is displayed on a background with the primary color.
 $color-application-success: $color-brand-green-800 !default; // The success color is used for success text.
 $color-application-error: $color-brand-red-700 !default; // The error color is used for error text.
@@ -842,10 +842,15 @@ $component-select-filled-primary-focused-label-color: $color-application-primary
 $component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-radio-primary-selected-color: $color-application-primary-variant !default;
+$component-link-primary-default-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-icon-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
 $component-checkbox-primary-intermediate-color: $color-application-primary-variant !default;
 $component-checkbox-primary-checked-color: $color-application-primary-variant !default;
+$component-button-icon-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-icon-primary-default-text-color: $color-application-primary-variant !default;
+$component-button-plain-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-plain-primary-default-text-color: $color-application-primary-variant !default;
 $component-button-text-primary-default-icon-color: $color-application-primary-variant !default;
 $component-button-text-primary-default-text-color: $color-application-primary-variant !default;
 $component-button-outlined-primary-default-icon-color: $color-application-primary-variant !default;
@@ -1341,6 +1346,30 @@ $tokens: (
             )
           )
         )
+      ),
+      'plain': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-plain-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-plain-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'icon': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-icon-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-icon-primary-default-icon-color
+            )
+          )
+        )
       )
     ),
     'checkbox': (
@@ -1362,6 +1391,13 @@ $tokens: (
           'icon': (
             'color': $component-chip-outlined-primary-icon-color
           )
+        )
+      )
+    ),
+    'link': (
+      'primary': (
+        'default': (
+          'color': $component-link-primary-default-color
         )
       )
     ),
