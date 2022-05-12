@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 12 May 2022 08:06:30 GMT
+ * Generated on Thu, 12 May 2022 08:43:18 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -836,12 +836,17 @@ $component-toggle-button-primary-selected-text-color: $color-application-primary
 $component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
+$component-switch-primary-selected-background: $color-application-primary !default;
 $component-switch-primary-selected-color: $color-application-primary-variant !default;
+$component-slider-primary-background-color: $color-application-primary !default;
+$component-slider-primary-main-color: $color-application-primary-variant !default;
+$component-slider-primary-label-color: $color-application-primary-variant !default;
 $component-slider-primary-thumb-color: $color-application-primary-variant !default;
 $component-select-filled-primary-focused-label-color: $color-application-primary-variant !default;
 $component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-radio-primary-selected-color: $color-application-primary-variant !default;
+$component-progress-primary-main-color: $color-application-primary-variant !default;
 $component-link-primary-default-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-icon-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
@@ -855,6 +860,11 @@ $component-button-text-primary-default-icon-color: $color-application-primary-va
 $component-button-text-primary-default-text-color: $color-application-primary-variant !default;
 $component-button-outlined-primary-default-icon-color: $color-application-primary-variant !default;
 $component-button-outlined-primary-default-text-color: $color-application-primary-variant !default;
+$component-alert-text-primary-default-background-color: $color-application-primary !default;
+$component-alert-text-primary-default-icon-color: $color-application-primary-variant !default;
+$component-alert-text-primary-default-text-color: $color-application-primary-variant !default;
+$component-alert-outlined-primary-default-icon-color: $color-application-primary-variant !default;
+$component-alert-outlined-primary-default-text-color: $color-application-primary-variant !default;
 
 $tokens: (
   'color': (
@@ -1322,6 +1332,35 @@ $tokens: (
     )
   ),
   'component': (
+    'alert': (
+      'outlined': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-alert-outlined-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-alert-outlined-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'text': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-alert-text-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-alert-text-primary-default-icon-color
+            ),
+            'background': (
+              'color': $component-alert-text-primary-default-background-color
+            )
+          )
+        )
+      )
+    ),
     'button': (
       'outlined': (
         'primary': (
@@ -1401,6 +1440,13 @@ $tokens: (
         )
       )
     ),
+    'progress': (
+      'primary': (
+        'main': (
+          'color': $component-progress-primary-main-color
+        )
+      )
+    ),
     'radio': (
       'primary': (
         'selected': (
@@ -1441,13 +1487,23 @@ $tokens: (
       'primary': (
         'thumb': (
           'color': $component-slider-primary-thumb-color
+        ),
+        'label': (
+          'color': $component-slider-primary-label-color
+        ),
+        'main': (
+          'color': $component-slider-primary-main-color
+        ),
+        'background': (
+          'color': $component-slider-primary-background-color
         )
       )
     ),
     'switch': (
       'primary': (
         'selected': (
-          'color': $component-switch-primary-selected-color
+          'color': $component-switch-primary-selected-color,
+          'background': $component-switch-primary-selected-background
         )
       )
     ),

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 May 2022 08:06:31 GMT
+ * Generated on Thu, 12 May 2022 08:43:18 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -385,6 +385,11 @@ export const colorBaseNandorContrast600 = "#000000";
 export const colorBaseNandorContrast700 = "#ffffff";
 export const colorBaseNandorContrast800 = "#ffffff";
 export const colorBaseNandorContrast900 = "#ffffff";
+export const componentAlertOutlinedPrimaryDefaultTextColor = "#996e00";
+export const componentAlertOutlinedPrimaryDefaultIconColor = "#996e00";
+export const componentAlertTextPrimaryDefaultTextColor = "#996e00";
+export const componentAlertTextPrimaryDefaultIconColor = "#996e00";
+export const componentAlertTextPrimaryDefaultBackgroundColor = "#ffd56b";
 export const componentButtonOutlinedPrimaryDefaultTextColor = "#996e00";
 export const componentButtonOutlinedPrimaryDefaultIconColor = "#996e00";
 export const componentButtonTextPrimaryDefaultTextColor = "#996e00";
@@ -398,12 +403,17 @@ export const componentCheckboxPrimaryIntermediateColor = "#996e00";
 export const componentChipOutlinedPrimaryTextColor = "#996e00";
 export const componentChipOutlinedPrimaryIconColor = "#996e00";
 export const componentLinkPrimaryDefaultColor = "#996e00";
+export const componentProgressPrimaryMainColor = "#996e00";
 export const componentRadioPrimarySelectedColor = "#996e00";
 export const componentSelectOutlinedPrimaryFocusedLabelColor = "#996e00";
 export const componentSelectTextPrimaryFocusedLabelColor = "#996e00";
 export const componentSelectFilledPrimaryFocusedLabelColor = "#996e00";
 export const componentSliderPrimaryThumbColor = "#996e00";
+export const componentSliderPrimaryLabelColor = "#996e00";
+export const componentSliderPrimaryMainColor = "#996e00";
+export const componentSliderPrimaryBackgroundColor = "#ffd56b";
 export const componentSwitchPrimarySelectedColor = "#996e00";
+export const componentSwitchPrimarySelectedBackground = "#ffd56b";
 export const componentTextfieldOutlinedPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldTextPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#996e00";
