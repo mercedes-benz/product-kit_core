@@ -1,13 +1,10 @@
 {
   "component": {
-    "switch": {
+    "progress": {
       "primary": {
-        "selected": {
+        "main": {
           "color": {
             "value": "{color.application.primary-variant}"
-          },
-          "background": {
-            "value": "{color.application.primary}"
           }
         }
       }

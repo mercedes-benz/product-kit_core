@@ -6,6 +6,21 @@
           "color": {
             "value": "{color.application.primary-variant}"
           }
+        },
+        "label": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "main": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "background": {
+          "color": {
+            "value": "{color.application.primary}"
+          }
         }
       }
     }
