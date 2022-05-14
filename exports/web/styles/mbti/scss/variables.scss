@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 12 May 2022 08:43:18 GMT
+ * Generated on Sat, 14 May 2022 21:42:02 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -836,6 +836,8 @@ $component-toggle-button-primary-selected-text-color: $color-application-primary
 $component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
+$component-tab-primary-selected-icon-color: $color-application-primary-variant !default;
+$component-tab-primary-selected-text-color: $color-application-primary-variant !default;
 $component-switch-primary-selected-background: $color-application-primary !default;
 $component-switch-primary-selected-color: $color-application-primary-variant !default;
 $component-slider-primary-background-color: $color-application-primary !default;
@@ -846,8 +848,12 @@ $component-select-filled-primary-focused-label-color: $color-application-primary
 $component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-radio-primary-selected-color: $color-application-primary-variant !default;
-$component-progress-primary-main-color: $color-application-primary-variant !default;
+$component-progress-linear-determinate-primary-color: $color-application-primary-variant !default;
+$component-progress-linear-indeterminate-primary-color: $color-application-primary-variant !default;
+$component-progress-circular-determinate-primary-color: $color-application-primary-variant !default;
+$component-progress-circular-indeterminate-primary-color: $color-application-primary-variant !default;
 $component-link-primary-default-color: $color-application-primary-variant !default;
+$component-icon-primary-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-icon-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
 $component-checkbox-primary-intermediate-color: $color-application-primary-variant !default;
@@ -1433,6 +1439,11 @@ $tokens: (
         )
       )
     ),
+    'icon': (
+      'primary': (
+        'color': $component-icon-primary-color
+      )
+    ),
     'link': (
       'primary': (
         'default': (
@@ -1441,9 +1452,28 @@ $tokens: (
       )
     ),
     'progress': (
-      'primary': (
-        'main': (
-          'color': $component-progress-primary-main-color
+      'circular': (
+        'indeterminate': (
+          'primary': (
+            'color': $component-progress-circular-indeterminate-primary-color
+          )
+        ),
+        'determinate': (
+          'primary': (
+            'color': $component-progress-circular-determinate-primary-color
+          )
+        )
+      ),
+      'linear': (
+        'indeterminate': (
+          'primary': (
+            'color': $component-progress-linear-indeterminate-primary-color
+          )
+        ),
+        'determinate': (
+          'primary': (
+            'color': $component-progress-linear-determinate-primary-color
+          )
         )
       )
     ),
@@ -1504,6 +1534,18 @@ $tokens: (
         'selected': (
           'color': $component-switch-primary-selected-color,
           'background': $component-switch-primary-selected-background
+        )
+      )
+    ),
+    'tab': (
+      'primary': (
+        'selected': (
+          'text': (
+            'color': $component-tab-primary-selected-text-color
+          ),
+          'icon': (
+            'color': $component-tab-primary-selected-icon-color
+          )
         )
       )
     ),

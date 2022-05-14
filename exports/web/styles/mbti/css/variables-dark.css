@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 May 2022 08:43:18 GMT
+ * Generated on Sat, 14 May 2022 21:42:02 GMT
  */
 
 .dark {
@@ -842,6 +842,8 @@
   --component-textfield-filled-primary-focused-label-color: var(--color-application-primary-variant);
   --component-textfield-text-primary-focused-label-color: var(--color-application-primary-variant);
   --component-textfield-outlined-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-tab-primary-selected-icon-color: var(--color-application-primary-variant);
+  --component-tab-primary-selected-text-color: var(--color-application-primary-variant);
   --component-switch-primary-selected-background: var(--color-application-primary);
   --component-switch-primary-selected-color: var(--color-application-primary-variant);
   --component-slider-primary-background-color: var(--color-application-primary);
@@ -852,8 +854,12 @@
   --component-select-text-primary-focused-label-color: var(--color-application-primary-variant);
   --component-select-outlined-primary-focused-label-color: var(--color-application-primary-variant);
   --component-radio-primary-selected-color: var(--color-application-primary-variant);
-  --component-progress-primary-main-color: var(--color-application-primary-variant);
+  --component-progress-linear-determinate-primary-color: var(--color-application-primary-variant);
+  --component-progress-linear-indeterminate-primary-color: var(--color-application-primary-variant);
+  --component-progress-circular-determinate-primary-color: var(--color-application-primary-variant);
+  --component-progress-circular-indeterminate-primary-color: var(--color-application-primary-variant);
   --component-link-primary-default-color: var(--color-application-primary-variant);
+  --component-icon-primary-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-icon-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-text-color: var(--color-application-primary-variant);
   --component-checkbox-primary-intermediate-color: var(--color-application-primary-variant);
