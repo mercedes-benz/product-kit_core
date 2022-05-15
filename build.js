@@ -2,6 +2,7 @@
 const StyleDictionaryPackage = require('style-dictionary')
 const fs = require('fs-extra')
 
+const distDirName = 'dist'
 const brands = [`hot`, `mbti`, `mbtm`]
 const platforms = [`web`]
 const modes = [`light`, `dark`]
@@ -12,7 +13,7 @@ const transforms_js = [`attribute/cti`, `color/hex`, `name/cti/camel`, `size/px`
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
 platforms.map(function (platform) {
-    const exportPath = `exports/${platform}/styles/`
+    const exportPath = `${distDirName}/${platform}/styles/`
     console.log(`\n\n🧹 cleaning ${exportPath}...`)
     fs.removeSync(exportPath);
     console.log(`\n✅ cleaning done`)
@@ -23,7 +24,7 @@ console.log('\n\nBuild started...')
 
 brands.map(function (brand) {
     platforms.map(function (platform) {
-        const exportPath = `exports/${platform}/styles/`
+        const exportPath = `${distDirName}/${platform}/styles/`
 
         console.log(`\n\n☀️ Building ${brand} light mode for platform ${platform} ...`)
         const StyleDictionaryLight = StyleDictionaryPackage.extend(getStyleDictionaryLightConfig(brand, platform, exportPath))
