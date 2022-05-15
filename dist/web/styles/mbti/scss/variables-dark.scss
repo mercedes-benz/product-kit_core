@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 20:47:16 GMT
+ * Generated on Sun, 15 May 2022 20:52:05 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -9,41 +9,41 @@ $layout-column-2x: 8 !default; // The amount of columns used for tablet screen s
 $layout-column-1x: 4 !default; // The least amount of columns in a layout. Used for phone screen sizes.
 $layout-application-compact-xxl-spacing-scale: xxl !default;
 $layout-application-compact-xxl-typography-scale: l !default;
-$layout-application-compact-xxl-max-width: 1680px !default;
-$layout-application-compact-xxl-width: 86% !default;
+$layout-application-compact-xxl-content-max-width: 1680px !default;
+$layout-application-compact-xxl-content-width: 86% !default;
 $layout-application-compact-xl-spacing-scale: xl !default;
 $layout-application-compact-xl-typography-scale: l !default;
-$layout-application-compact-xl-width: 86% !default;
+$layout-application-compact-xl-content-width: 86% !default;
 $layout-application-compact-l-spacing-scale: l !default;
 $layout-application-compact-l-typography-scale: l !default;
-$layout-application-compact-l-width: 86% !default;
+$layout-application-compact-l-content-width: 86% !default;
 $layout-application-compact-m-spacing-scale: m !default;
 $layout-application-compact-m-typography-scale: s !default;
-$layout-application-compact-m-width: 86% !default;
+$layout-application-compact-m-content-width: 86% !default;
 $layout-application-compact-s-spacing-scale: s !default;
 $layout-application-compact-s-typography-scale: s !default;
-$layout-application-compact-s-width: 90% !default;
+$layout-application-compact-s-content-width: 90% !default;
 $layout-application-compact-xs-spacing-scale: xs !default;
 $layout-application-compact-xs-typography-scale: s !default;
-$layout-application-compact-xs-width: 90% !default;
+$layout-application-compact-xs-content-width: 90% !default;
 $layout-application-wide-xxl-spacing-scale: xxl !default;
 $layout-application-wide-xxl-typography-scale: l !default;
-$layout-application-wide-xxl-width: 86% !default;
+$layout-application-wide-xxl-content-width: 86% !default;
 $layout-application-wide-xl-spacing-scale: xl !default;
 $layout-application-wide-xl-typography-scale: l !default;
-$layout-application-wide-xl-width: 86% !default;
+$layout-application-wide-xl-content-width: 86% !default;
 $layout-application-wide-l-spacing-scale: l !default;
 $layout-application-wide-l-typography-scale: l !default;
-$layout-application-wide-l-width: 86% !default;
+$layout-application-wide-l-content-width: 86% !default;
 $layout-application-wide-m-spacing-scale: m !default;
 $layout-application-wide-m-typography-scale: s !default;
-$layout-application-wide-m-width: 86% !default;
+$layout-application-wide-m-content-width: 86% !default;
 $layout-application-wide-s-spacing-scale: s !default;
 $layout-application-wide-s-typography-scale: s !default;
-$layout-application-wide-s-width: 90% !default;
+$layout-application-wide-s-content-width: 90% !default;
 $layout-application-wide-xs-spacing-scale: xs !default;
 $layout-application-wide-xs-typography-scale: s !default;
-$layout-application-wide-xs-width: 90% !default;
+$layout-application-wide-xs-content-width: 90% !default;
 $size-screen-platform-xxl: 1440px !default;
 $size-screen-platform-xl: 1280px !default;
 $size-screen-platform-l: 1024px !default;
@@ -1813,7 +1813,7 @@ $tokens: (
           'screen-min-width': $layout-application-wide-xs-screen-min-width,
           'gutter-size': $layout-application-wide-xs-gutter-size,
           'column-amount': $layout-application-wide-xs-column-amount,
-          'width': $layout-application-wide-xs-width,
+          'content-width': $layout-application-wide-xs-content-width,
           'typography-scale': $layout-application-wide-xs-typography-scale,
           'spacing-scale': $layout-application-wide-xs-spacing-scale
         ),
@@ -1821,7 +1821,7 @@ $tokens: (
           'screen-min-width': $layout-application-wide-s-screen-min-width,
           'gutter-size': $layout-application-wide-s-gutter-size,
           'column-amount': $layout-application-wide-s-column-amount,
-          'width': $layout-application-wide-s-width,
+          'content-width': $layout-application-wide-s-content-width,
           'typography-scale': $layout-application-wide-s-typography-scale,
           'spacing-scale': $layout-application-wide-s-spacing-scale
         ),
@@ -1829,7 +1829,7 @@ $tokens: (
           'screen-min-width': $layout-application-wide-m-screen-min-width,
           'gutter-size': $layout-application-wide-m-gutter-size,
           'column-amount': $layout-application-wide-m-column-amount,
-          'width': $layout-application-wide-m-width,
+          'content-width': $layout-application-wide-m-content-width,
           'typography-scale': $layout-application-wide-m-typography-scale,
           'spacing-scale': $layout-application-wide-m-spacing-scale
         ),
@@ -1837,7 +1837,7 @@ $tokens: (
           'screen-min-width': $layout-application-wide-l-screen-min-width,
           'gutter-size': $layout-application-wide-l-gutter-size,
           'column-amount': $layout-application-wide-l-column-amount,
-          'width': $layout-application-wide-l-width,
+          'content-width': $layout-application-wide-l-content-width,
           'typography-scale': $layout-application-wide-l-typography-scale,
           'spacing-scale': $layout-application-wide-l-spacing-scale
         ),
@@ -1845,7 +1845,7 @@ $tokens: (
           'screen-min-width': $layout-application-wide-xl-screen-min-width,
           'gutter-size': $layout-application-wide-xl-gutter-size,
           'column-amount': $layout-application-wide-xl-column-amount,
-          'width': $layout-application-wide-xl-width,
+          'content-width': $layout-application-wide-xl-content-width,
           'typography-scale': $layout-application-wide-xl-typography-scale,
           'spacing-scale': $layout-application-wide-xl-spacing-scale
         ),
@@ -1853,7 +1853,7 @@ $tokens: (
           'screen-min-width': $layout-application-wide-xxl-screen-min-width,
           'gutter-size': $layout-application-wide-xxl-gutter-size,
           'column-amount': $layout-application-wide-xxl-column-amount,
-          'width': $layout-application-wide-xxl-width,
+          'content-width': $layout-application-wide-xxl-content-width,
           'typography-scale': $layout-application-wide-xxl-typography-scale,
           'spacing-scale': $layout-application-wide-xxl-spacing-scale
         )
@@ -1863,7 +1863,7 @@ $tokens: (
           'screen-min-width': $layout-application-compact-xs-screen-min-width,
           'gutter-size': $layout-application-compact-xs-gutter-size,
           'column-amount': $layout-application-compact-xs-column-amount,
-          'width': $layout-application-compact-xs-width,
+          'content-width': $layout-application-compact-xs-content-width,
           'typography-scale': $layout-application-compact-xs-typography-scale,
           'spacing-scale': $layout-application-compact-xs-spacing-scale
         ),
@@ -1871,7 +1871,7 @@ $tokens: (
           'screen-min-width': $layout-application-compact-s-screen-min-width,
           'gutter-size': $layout-application-compact-s-gutter-size,
           'column-amount': $layout-application-compact-s-column-amount,
-          'width': $layout-application-compact-s-width,
+          'content-width': $layout-application-compact-s-content-width,
           'typography-scale': $layout-application-compact-s-typography-scale,
           'spacing-scale': $layout-application-compact-s-spacing-scale
         ),
@@ -1879,7 +1879,7 @@ $tokens: (
           'screen-min-width': $layout-application-compact-m-screen-min-width,
           'gutter-size': $layout-application-compact-m-gutter-size,
           'column-amount': $layout-application-compact-m-column-amount,
-          'width': $layout-application-compact-m-width,
+          'content-width': $layout-application-compact-m-content-width,
           'typography-scale': $layout-application-compact-m-typography-scale,
           'spacing-scale': $layout-application-compact-m-spacing-scale
         ),
@@ -1887,7 +1887,7 @@ $tokens: (
           'screen-min-width': $layout-application-compact-l-screen-min-width,
           'gutter-size': $layout-application-compact-l-gutter-size,
           'column-amount': $layout-application-compact-l-column-amount,
-          'width': $layout-application-compact-l-width,
+          'content-width': $layout-application-compact-l-content-width,
           'typography-scale': $layout-application-compact-l-typography-scale,
           'spacing-scale': $layout-application-compact-l-spacing-scale
         ),
@@ -1895,7 +1895,7 @@ $tokens: (
           'screen-min-width': $layout-application-compact-xl-screen-min-width,
           'gutter-size': $layout-application-compact-xl-gutter-size,
           'column-amount': $layout-application-compact-xl-column-amount,
-          'width': $layout-application-compact-xl-width,
+          'content-width': $layout-application-compact-xl-content-width,
           'typography-scale': $layout-application-compact-xl-typography-scale,
           'spacing-scale': $layout-application-compact-xl-spacing-scale
         ),
@@ -1903,8 +1903,8 @@ $tokens: (
           'screen-min-width': $layout-application-compact-xxl-screen-min-width,
           'gutter-size': $layout-application-compact-xxl-gutter-size,
           'column-amount': $layout-application-compact-xxl-column-amount,
-          'width': $layout-application-compact-xxl-width,
-          'max-width': $layout-application-compact-xxl-max-width,
+          'content-width': $layout-application-compact-xxl-content-width,
+          'content-max-width': $layout-application-compact-xxl-content-max-width,
           'typography-scale': $layout-application-compact-xxl-typography-scale,
           'spacing-scale': $layout-application-compact-xxl-spacing-scale
         )

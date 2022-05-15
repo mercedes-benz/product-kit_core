@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 20:47:17 GMT
+ * Generated on Sun, 15 May 2022 20:52:05 GMT
  */
 
 :root {
@@ -9,41 +9,41 @@
   --layout-column-1x: 4; /* The least amount of columns in a layout. Used for phone screen sizes. */
   --layout-application-compact-xxl-spacing-scale: xxl;
   --layout-application-compact-xxl-typography-scale: l;
-  --layout-application-compact-xxl-max-width: 1680px;
-  --layout-application-compact-xxl-width: 86%;
+  --layout-application-compact-xxl-content-max-width: 1680px;
+  --layout-application-compact-xxl-content-width: 86%;
   --layout-application-compact-xl-spacing-scale: xl;
   --layout-application-compact-xl-typography-scale: l;
-  --layout-application-compact-xl-width: 86%;
+  --layout-application-compact-xl-content-width: 86%;
   --layout-application-compact-l-spacing-scale: l;
   --layout-application-compact-l-typography-scale: l;
-  --layout-application-compact-l-width: 86%;
+  --layout-application-compact-l-content-width: 86%;
   --layout-application-compact-m-spacing-scale: m;
   --layout-application-compact-m-typography-scale: s;
-  --layout-application-compact-m-width: 86%;
+  --layout-application-compact-m-content-width: 86%;
   --layout-application-compact-s-spacing-scale: s;
   --layout-application-compact-s-typography-scale: s;
-  --layout-application-compact-s-width: 90%;
+  --layout-application-compact-s-content-width: 90%;
   --layout-application-compact-xs-spacing-scale: xs;
   --layout-application-compact-xs-typography-scale: s;
-  --layout-application-compact-xs-width: 90%;
+  --layout-application-compact-xs-content-width: 90%;
   --layout-application-wide-xxl-spacing-scale: xxl;
   --layout-application-wide-xxl-typography-scale: l;
-  --layout-application-wide-xxl-width: 86%;
+  --layout-application-wide-xxl-content-width: 86%;
   --layout-application-wide-xl-spacing-scale: xl;
   --layout-application-wide-xl-typography-scale: l;
-  --layout-application-wide-xl-width: 86%;
+  --layout-application-wide-xl-content-width: 86%;
   --layout-application-wide-l-spacing-scale: l;
   --layout-application-wide-l-typography-scale: l;
-  --layout-application-wide-l-width: 86%;
+  --layout-application-wide-l-content-width: 86%;
   --layout-application-wide-m-spacing-scale: m;
   --layout-application-wide-m-typography-scale: s;
-  --layout-application-wide-m-width: 86%;
+  --layout-application-wide-m-content-width: 86%;
   --layout-application-wide-s-spacing-scale: s;
   --layout-application-wide-s-typography-scale: s;
-  --layout-application-wide-s-width: 90%;
+  --layout-application-wide-s-content-width: 90%;
   --layout-application-wide-xs-spacing-scale: xs;
   --layout-application-wide-xs-typography-scale: s;
-  --layout-application-wide-xs-width: 90%;
+  --layout-application-wide-xs-content-width: 90%;
   --size-screen-platform-xxl: 1440px;
   --size-screen-platform-xl: 1280px;
   --size-screen-platform-l: 1024px;
