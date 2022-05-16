@@ -10,7 +10,7 @@ const modes = [`light`, `dark`]
 
 const colorTransform = (token) => {
   const { value, modify } = token
-  const { type, amount } = modify[0]
+  const { type, amount } = modify
 
   if (type !== 'alpha') return value
 
