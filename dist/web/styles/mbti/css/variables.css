@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 11:28:35 GMT
+ * Generated on Mon, 16 May 2022 15:08:14 GMT
  */
 
 :root {
@@ -865,7 +865,9 @@
   --component-progress-circular-indeterminate-primary-color: var(--color-application-primary-variant);
   --component-link-primary-default-color: var(--color-application-primary-variant);
   --component-icon-primary-color: var(--color-application-primary-variant);
-  --component-chip-outlined-primary-icon-color: var(--color-application-primary-variant);
+  --component-chip-outlined-primary-delete-icon-hover-color: var(--color-application-primary-variant);
+  --component-chip-outlined-primary-delete-icon-default-color: rgba(153, 110, 0, 0.6);
+  --component-chip-outlined-primary-icon-default-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-text-color: var(--color-application-primary-variant);
   --component-checkbox-primary-intermediate-color: var(--color-application-primary-variant);
   --component-checkbox-primary-checked-color: var(--color-application-primary-variant);

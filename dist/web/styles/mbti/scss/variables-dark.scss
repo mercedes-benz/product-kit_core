@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 11:28:35 GMT
+ * Generated on Mon, 16 May 2022 15:08:14 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -871,7 +871,9 @@ $component-progress-circular-determinate-primary-color: $color-application-prima
 $component-progress-circular-indeterminate-primary-color: $color-application-primary-variant !default;
 $component-link-primary-default-color: $color-application-primary-variant !default;
 $component-icon-primary-color: $color-application-primary-variant !default;
-$component-chip-outlined-primary-icon-color: $color-application-primary-variant !default;
+$component-chip-outlined-primary-delete-icon-hover-color: $color-application-primary-variant !default;
+$component-chip-outlined-primary-delete-icon-default-color: rgba(255, 213, 107, 0.6) !default;
+$component-chip-outlined-primary-icon-default-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
 $component-checkbox-primary-intermediate-color: $color-application-primary-variant !default;
 $component-checkbox-primary-checked-color: $color-application-primary-variant !default;
@@ -1451,7 +1453,17 @@ $tokens: (
             'color': $component-chip-outlined-primary-text-color
           ),
           'icon': (
-            'color': $component-chip-outlined-primary-icon-color
+            'default': (
+              'color': $component-chip-outlined-primary-icon-default-color
+            )
+          ),
+          'delete-icon': (
+            'default': (
+              'color': $component-chip-outlined-primary-delete-icon-default-color
+            ),
+            'hover': (
+              'color': $component-chip-outlined-primary-delete-icon-hover-color
+            )
           )
         )
       )

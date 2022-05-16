@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 11:28:35 GMT
+ * Generated on Mon, 16 May 2022 15:08:14 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -401,7 +401,9 @@ export const componentButtonIconPrimaryDefaultIconColor = "#996e00";
 export const componentCheckboxPrimaryCheckedColor = "#996e00";
 export const componentCheckboxPrimaryIntermediateColor = "#996e00";
 export const componentChipOutlinedPrimaryTextColor = "#996e00";
-export const componentChipOutlinedPrimaryIconColor = "#996e00";
+export const componentChipOutlinedPrimaryIconDefaultColor = "#996e00";
+export const componentChipOutlinedPrimaryDeleteIconDefaultColor = "rgba(153, 110, 0, 0.6)";
+export const componentChipOutlinedPrimaryDeleteIconHoverColor = "#996e00";
 export const componentIconPrimaryColor = "#996e00";
 export const componentLinkPrimaryDefaultColor = "#996e00";
 export const componentProgressCircularIndeterminatePrimaryColor = "#996e00";
