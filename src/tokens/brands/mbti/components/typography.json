@@ -1,0 +1,11 @@
+{
+  "component": {
+    "typography": {
+      "overline": {
+        "color": {
+          "value": "{color.application.primary-variant}"
+        }
+      }
+    }
+  }
+}

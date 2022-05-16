@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 21:18:28 GMT
+ * Generated on Mon, 16 May 2022 11:28:35 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -847,8 +847,7 @@ $color-application-tertiary: $color-brand-xanadu-300 !default; // The tertiary c
 $color-application-secondary: $color-brand-deluge-300 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
 $color-application-primary-variant: $color-brand-goldentainoi-300 !default; // The primary variant color is used for text and icons to ensure an accessible contrast ratio.
 $color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-$font-application-l-overline-color: $color-application-primary !default;
-$font-application-s-overline-color: $color-application-primary !default;
+$component-typography-overline-color: $color-application-primary-variant !default;
 $component-toggle-button-primary-selected-icon-color: $color-application-primary-variant !default;
 $component-toggle-button-primary-selected-text-color: $color-application-primary-variant !default;
 $component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
@@ -1607,6 +1606,11 @@ $tokens: (
           )
         )
       )
+    ),
+    'typography': (
+      'overline': (
+        'color': $component-typography-overline-color
+      )
     )
   ),
   'font': (
@@ -1752,8 +1756,7 @@ $tokens: (
           'letter-spacing': $font-application-s-overline-letter-spacing,
           'text-transform': $font-application-s-overline-text-transform,
           'sup-size': $font-application-s-overline-sup-size,
-          'sup-offset': $font-application-s-overline-sup-offset,
-          'color': $font-application-s-overline-color
+          'sup-offset': $font-application-s-overline-sup-offset
         )
       ),
       'l': (
@@ -1885,8 +1888,7 @@ $tokens: (
           'letter-spacing': $font-application-l-overline-letter-spacing,
           'text-transform': $font-application-l-overline-text-transform,
           'sup-size': $font-application-l-overline-sup-size,
-          'sup-offset': $font-application-l-overline-sup-offset,
-          'color': $font-application-l-overline-color
+          'sup-offset': $font-application-l-overline-sup-offset
         )
       )
     )

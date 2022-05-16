@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 21:18:28 GMT
+ * Generated on Mon, 16 May 2022 11:28:35 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -425,6 +425,7 @@ export const componentTextfieldTextPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#996e00";
 export const componentToggleButtonPrimarySelectedTextColor = "#996e00";
 export const componentToggleButtonPrimarySelectedIconColor = "#996e00";
+export const componentTypographyOverlineColor = "#996e00";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.
 export const fontFamilyText = "'MB Corpo S Text'"; // The brand font family for large headlines.
 export const fontFamilyPlatformTitle = "'MB Corpo A Title Cond Web', Arial"; // The brand font family for large headlines.
@@ -535,7 +536,6 @@ export const fontApplicationSOverlineLetterSpacing = "0.2px";
 export const fontApplicationSOverlineTextTransform = "uppercase";
 export const fontApplicationSOverlineSupSize = "9px";
 export const fontApplicationSOverlineSupOffset = "-8.1px";
-export const fontApplicationSOverlineColor = "#ffd56b";
 export const fontApplicationLHeadline1FontFamily = "'MB Corpo A Title Cond Web', Arial";
 export const fontApplicationLHeadline1FontWeight = "400";
 export const fontApplicationLHeadline1FontSize = "72px";
@@ -640,7 +640,6 @@ export const fontApplicationLOverlineLetterSpacing = "0.2px";
 export const fontApplicationLOverlineTextTransform = "uppercase";
 export const fontApplicationLOverlineSupSize = "9px";
 export const fontApplicationLOverlineSupOffset = "-8.1px";
-export const fontApplicationLOverlineColor = "#ffd56b";
 export const opacityApplicationIconHigh = 1; // The opacity value for icons with a high emphasis.
 export const opacityApplicationIconMedium = 0.6; // The opacity value for icons with a medium emphasis.
 export const opacityApplicationIconLow = 0.38; // The opacity value for inactive or disabled icons.
