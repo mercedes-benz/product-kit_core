@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 May 2022 08:43:18 GMT
+ * Generated on Tue, 17 May 2022 11:51:31 GMT
  */
 
 .dark {
@@ -598,8 +598,8 @@
   --color-base-yellow-contrast-900: var(--color-base-white);
   --color-base-yellow-contrast-800: var(--color-base-white);
   --color-base-yellow-contrast-700: var(--color-base-white);
-  --color-base-yellow-contrast-600: var(--color-base-white);
-  --color-base-yellow-contrast-500: var(--color-base-white);
+  --color-base-yellow-contrast-600: var(--color-base-black);
+  --color-base-yellow-contrast-500: var(--color-base-black);
   --color-base-yellow-contrast-400: var(--color-base-black);
   --color-base-yellow-contrast-300: var(--color-base-black);
   --color-base-yellow-contrast-200: var(--color-base-black);
