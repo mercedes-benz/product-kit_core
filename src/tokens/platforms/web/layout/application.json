@@ -6,7 +6,8 @@
           "screen-min-width": { "value": "{size.screen.platform.xs}" },
           "gutter-size": { "value": "{size.gutter.s}" },
           "column-amount": { "value": "{layout.column.1x}" },
-          "body-max-size": { "value": "90%" },
+          "content-width": { "value": "90%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "s" },
           "spacing-scale": { "value": "xs" }
         },
@@ -14,7 +15,8 @@
           "screen-min-width": { "value": "{size.screen.platform.s}" },
           "gutter-size": { "value": "{size.gutter.s}" },
           "column-amount": { "value": "{layout.column.2x}" },
-          "body-max-size": { "value": "90%" },
+          "content-width": { "value": "90%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "s" },
           "spacing-scale": { "value": "s" }
         },
@@ -22,7 +24,8 @@
           "screen-min-width": { "value": "{size.screen.platform.m}" },
           "gutter-size": { "value": "{size.gutter.m}" },
           "column-amount": { "value": "{layout.column.2x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "s" },
           "spacing-scale": { "value": "m" }
         },
@@ -30,7 +33,8 @@
           "screen-min-width": { "value": "{size.screen.platform.l}" },
           "gutter-size": { "value": "{size.gutter.m}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "l" },
           "spacing-scale": { "value": "l" }
         },
@@ -38,7 +42,8 @@
           "screen-min-width": { "value": "{size.screen.platform.xl}" },
           "gutter-size": { "value": "{size.gutter.l}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "l" },
           "spacing-scale": { "value": "xl" }
         },
@@ -46,7 +51,8 @@
           "screen-min-width": { "value": "{size.screen.platform.xxl}" },
           "gutter-size": { "value": "{size.gutter.xl}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "l" },
           "spacing-scale": { "value": "xxl" }
         }
@@ -56,7 +62,8 @@
           "screen-min-width": { "value": "{size.screen.platform.xs}" },
           "gutter-size": { "value": "{size.gutter.s}" },
           "column-amount": { "value": "{layout.column.1x}" },
-          "body-max-size": { "value": "90%" },
+          "content-width": { "value": "90%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "s" },
           "spacing-scale": { "value": "xs" }
         },
@@ -64,7 +71,8 @@
           "screen-min-width": { "value": "{size.screen.platform.s}" },
           "gutter-size": { "value": "{size.gutter.s}" },
           "column-amount": { "value": "{layout.column.2x}" },
-          "body-max-size": { "value": "90%" },
+          "content-width": { "value": "90%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "s" },
           "spacing-scale": { "value": "s" }
         },
@@ -72,7 +80,8 @@
           "screen-min-width": { "value": "{size.screen.platform.m}" },
           "gutter-size": { "value": "{size.gutter.m}" },
           "column-amount": { "value": "{layout.column.2x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "s" },
           "spacing-scale": { "value": "m" }
         },
@@ -80,7 +89,8 @@
           "screen-min-width": { "value": "{size.screen.platform.l}" },
           "gutter-size": { "value": "{size.gutter.m}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "l" },
           "spacing-scale": { "value": "l" }
         },
@@ -88,7 +98,8 @@
           "screen-min-width": { "value": "{size.screen.platform.xl}" },
           "gutter-size": { "value": "{size.gutter.l}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "86%" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "none" },
           "typography-scale": { "value": "l" },
           "spacing-scale": { "value": "xl" }
         },
@@ -96,7 +107,8 @@
           "screen-min-width": { "value": "{size.screen.platform.xxl}" },
           "gutter-size": { "value": "{size.gutter.xl}" },
           "column-amount": { "value": "{layout.column.3x}" },
-          "body-max-size": { "value": "1680px" },
+          "content-width": { "value": "86%" },
+          "content-max-width": { "value": "1680px" },
           "typography-scale": { "value": "l" },
           "spacing-scale": { "value": "xxl" }
         }

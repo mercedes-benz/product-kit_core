@@ -1,0 +1,20 @@
+{
+  "component": {
+    "tab": {
+      "primary": {
+        "selected": {
+          "text": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          },
+          "icon": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -9,8 +9,26 @@
             }
           },
           "icon": {
-            "color": {
-              "value": "{color.application.primary-variant}"
+            "default": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          },
+          "delete-icon": {
+            "default": {
+              "color": {
+                "value": "{color.application.primary-variant}",
+                "modify": {
+                  "type": "alpha",
+                  "amount": "{opacity.application.icon.medium}"
+                }
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
             }
           }
         }

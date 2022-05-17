@@ -1,0 +1,11 @@
+{
+  "component": {
+    "icon": {
+      "primary": {
+        "color": {
+          "value": "{color.application.primary-variant}"
+        }
+      }
+    }
+  }
+}

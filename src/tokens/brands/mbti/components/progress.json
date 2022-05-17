@@ -1,10 +1,35 @@
 {
   "component": {
     "progress": {
-      "primary": {
-        "main": {
-          "color": {
-            "value": "{color.application.primary-variant}"
+      "circular": {
+        "indeterminate": {
+          "primary": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        },
+        "determinate": {
+          "primary": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        }
+      },
+      "linear": {
+        "indeterminate": {
+          "primary": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        },
+        "determinate": {
+          "primary": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
           }
         }
       }
