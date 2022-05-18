@@ -9,12 +9,12 @@ Product Kit Core provides design tokens according to the Daimler TSS styleguide.
 
 You can use the export to apply the styling by yourself or use one of the following implementations:
 
-* [Tailwind](https://github.com/daimler/product-kit_tailwind)
-* [React](https://github.com/daimler/product-kit_react)
-* [Angular](https://github.com/daimler/product-kit_angular)
+* [Tailwind](https://github.com/mercedes-benz/product-kit_tailwind)
+* [React](https://github.com/mercedes-benz/product-kit_react)
+* [Angular](https://github.com/mercedes-benz/product-kit_angular)
 * [Vue](https://github.com/mercedes-benz/product-kit_vue)
 
-The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/Daimler/product-kit_core/issues) or provide a pull request with the desired export.
+The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/mercedes-benz/product-kit_core/issues) or provide a pull request with the desired export.
 
 ## Usage
 
@@ -37,7 +37,7 @@ If you want to contribute to this project, please read the [contributing guide](
 
 ## Code of Conduct
 
-Please read our [Code of Conduct](https://github.com/Daimler/daimler-foss/blob/master/CODE_OF_CONDUCT.md) as it is our base for interaction.
+Please read our [Code of Conduct](https://github.com/mercedes-benz/daimler-foss/blob/master/CODE_OF_CONDUCT.md) as it is our base for interaction.
 
 ## License
 
