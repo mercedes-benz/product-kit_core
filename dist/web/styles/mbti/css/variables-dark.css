@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 16:02:28 GMT
+ * Generated on Wed, 18 May 2022 11:07:31 GMT
  */
 
 .dark {
@@ -690,8 +690,8 @@
   --color-base-yellow-contrast-900: var(--color-base-white);
   --color-base-yellow-contrast-800: var(--color-base-white);
   --color-base-yellow-contrast-700: var(--color-base-white);
-  --color-base-yellow-contrast-600: var(--color-base-white);
-  --color-base-yellow-contrast-500: var(--color-base-white);
+  --color-base-yellow-contrast-600: var(--color-base-black);
+  --color-base-yellow-contrast-500: var(--color-base-black);
   --color-base-yellow-contrast-400: var(--color-base-black);
   --color-base-yellow-contrast-300: var(--color-base-black);
   --color-base-yellow-contrast-200: var(--color-base-black);
@@ -840,7 +840,7 @@
   --color-application-success: var(--color-brand-green-400); /* The success color is used for success text. */
   --color-application-error: var(--color-brand-red-300); /* The error color is used for error text. */
   --color-application-outline: var(--color-brand-neutral-500); /* The outline color is used for components with an outline like cards, text fields or buttons. */
-  --color-application-surface: var(--color-brand-deepblue-900); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
+  --color-application-surface: var(--color-base-black); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
   --color-application-background: var(--color-base-black); /* The background color is used for the content background. */
   --color-application-quaternary: var(--color-brand-lividbrown-200); /* The quaternary color is used to colorize information graphics. */
   --color-application-tertiary: var(--color-brand-xanadu-300); /* The tertiary color is used to colorize information graphics. */

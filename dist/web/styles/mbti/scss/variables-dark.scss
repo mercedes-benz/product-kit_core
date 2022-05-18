@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 16:02:28 GMT
+ * Generated on Wed, 18 May 2022 11:07:31 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -690,8 +690,8 @@ $color-base-blackcurrant-contrast-50: $color-base-black !default;
 $color-base-yellow-contrast-900: $color-base-white !default;
 $color-base-yellow-contrast-800: $color-base-white !default;
 $color-base-yellow-contrast-700: $color-base-white !default;
-$color-base-yellow-contrast-600: $color-base-white !default;
-$color-base-yellow-contrast-500: $color-base-white !default;
+$color-base-yellow-contrast-600: $color-base-black !default;
+$color-base-yellow-contrast-500: $color-base-black !default;
 $color-base-yellow-contrast-400: $color-base-black !default;
 $color-base-yellow-contrast-300: $color-base-black !default;
 $color-base-yellow-contrast-200: $color-base-black !default;
@@ -840,7 +840,7 @@ $color-application-contrast-primary: $color-base-black !default; // The primary 
 $color-application-success: $color-brand-green-400 !default; // The success color is used for success text.
 $color-application-error: $color-brand-red-300 !default; // The error color is used for error text.
 $color-application-outline: $color-brand-neutral-500 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
-$color-application-surface: $color-brand-deepblue-900 !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
+$color-application-surface: $color-base-black !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
 $color-application-background: $color-base-black !default; // The background color is used for the content background.
 $color-application-quaternary: $color-brand-lividbrown-200 !default; // The quaternary color is used to colorize information graphics.
 $color-application-tertiary: $color-brand-xanadu-300 !default; // The tertiary color is used to colorize information graphics.

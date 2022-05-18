@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 May 2022 16:02:29 GMT
+ * Generated on Wed, 18 May 2022 11:07:31 GMT
  */
 
 export const colorApplicationPrimary = "#64aedc"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -140,8 +140,8 @@ export const colorBaseYellowContrast100 = "#000000";
 export const colorBaseYellowContrast200 = "#000000";
 export const colorBaseYellowContrast300 = "#000000";
 export const colorBaseYellowContrast400 = "#000000";
-export const colorBaseYellowContrast500 = "#ffffff";
-export const colorBaseYellowContrast600 = "#ffffff";
+export const colorBaseYellowContrast500 = "#000000";
+export const colorBaseYellowContrast600 = "#000000";
 export const colorBaseYellowContrast700 = "#ffffff";
 export const colorBaseYellowContrast800 = "#ffffff";
 export const colorBaseYellowContrast900 = "#ffffff";
