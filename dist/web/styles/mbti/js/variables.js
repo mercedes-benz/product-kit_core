@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 17 May 2022 11:51:31 GMT
+ * Generated on Wed, 18 May 2022 11:07:31 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -9,7 +9,7 @@ export const colorApplicationSecondary = "#5e4d93"; // The secondary color is us
 export const colorApplicationTertiary = "#576a5b"; // The tertiary color is used to colorize information graphics.
 export const colorApplicationQuaternary = "#7f4956"; // The quaternary color is used to colorize information graphics.
 export const colorApplicationBackground = "#ffffff"; // The background color is used for the content background.
-export const colorApplicationSurface = "#eeeff3"; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
+export const colorApplicationSurface = "#ffffff"; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
 export const colorApplicationOutline = "#b8beca"; // The outline color is used for components with an outline like cards, text fields or buttons.
 export const colorApplicationError = "#e30613"; // The error color is used for error text.
 export const colorApplicationSuccess = "#008220"; // The success color is used for success text.

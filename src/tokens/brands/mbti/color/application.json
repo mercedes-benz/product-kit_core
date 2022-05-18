@@ -26,7 +26,7 @@
         "comment": "The background color is used for the content background."
       },
       "surface": {
-        "value": "{color.brand.neutral.50}",
+        "value": "{color.base.white}",
         "comment": "The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips."
       },
       "outline": {
