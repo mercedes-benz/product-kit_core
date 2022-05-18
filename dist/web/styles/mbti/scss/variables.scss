@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 18 May 2022 11:07:31 GMT
+ * Generated on Wed, 18 May 2022 16:26:53 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -859,10 +859,13 @@ $component-select-filled-primary-focused-label-color: $color-application-primary
 $component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-radio-primary-selected-color: $color-application-primary-variant !default;
-$component-progress-linear-determinate-primary-color: $color-application-primary-variant !default;
-$component-progress-linear-indeterminate-primary-color: $color-application-primary-variant !default;
+$component-progress-linear-buffer-primary-bar1-color: $color-application-primary-variant !default;
+$component-progress-linear-determinate-primary-bar1-color: $color-application-primary-variant !default;
+$component-progress-linear-indeterminate-primary-bar2-color: $color-application-primary-variant !default;
+$component-progress-linear-indeterminate-primary-bar1-color: $color-application-primary-variant !default;
 $component-progress-circular-determinate-primary-color: $color-application-primary-variant !default;
 $component-progress-circular-indeterminate-primary-color: $color-application-primary-variant !default;
+$component-pagination-outlined-primary-item-selected-color: $color-application-primary-variant !default;
 $component-link-primary-default-color: $color-application-primary-variant !default;
 $component-icon-primary-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-delete-icon-hover-color: $color-application-primary-variant !default;
@@ -1474,6 +1477,17 @@ $tokens: (
         )
       )
     ),
+    'pagination': (
+      'outlined': (
+        'primary': (
+          'item': (
+            'selected': (
+              'color': $component-pagination-outlined-primary-item-selected-color
+            )
+          )
+        )
+      )
+    ),
     'progress': (
       'circular': (
         'indeterminate': (
@@ -1490,12 +1504,26 @@ $tokens: (
       'linear': (
         'indeterminate': (
           'primary': (
-            'color': $component-progress-linear-indeterminate-primary-color
+            'bar1': (
+              'color': $component-progress-linear-indeterminate-primary-bar1-color
+            ),
+            'bar2': (
+              'color': $component-progress-linear-indeterminate-primary-bar2-color
+            )
           )
         ),
         'determinate': (
           'primary': (
-            'color': $component-progress-linear-determinate-primary-color
+            'bar1': (
+              'color': $component-progress-linear-determinate-primary-bar1-color
+            )
+          )
+        ),
+        'buffer': (
+          'primary': (
+            'bar1': (
+              'color': $component-progress-linear-buffer-primary-bar1-color
+            )
           )
         )
       )

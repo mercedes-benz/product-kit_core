@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 May 2022 11:07:31 GMT
+ * Generated on Wed, 18 May 2022 16:26:54 GMT
  */
 
 .dark {
@@ -865,10 +865,13 @@
   --component-select-text-primary-focused-label-color: var(--color-application-primary-variant);
   --component-select-outlined-primary-focused-label-color: var(--color-application-primary-variant);
   --component-radio-primary-selected-color: var(--color-application-primary-variant);
-  --component-progress-linear-determinate-primary-color: var(--color-application-primary-variant);
-  --component-progress-linear-indeterminate-primary-color: var(--color-application-primary-variant);
+  --component-progress-linear-buffer-primary-bar1-color: var(--color-application-primary-variant);
+  --component-progress-linear-determinate-primary-bar1-color: var(--color-application-primary-variant);
+  --component-progress-linear-indeterminate-primary-bar2-color: var(--color-application-primary-variant);
+  --component-progress-linear-indeterminate-primary-bar1-color: var(--color-application-primary-variant);
   --component-progress-circular-determinate-primary-color: var(--color-application-primary-variant);
   --component-progress-circular-indeterminate-primary-color: var(--color-application-primary-variant);
+  --component-pagination-outlined-primary-item-selected-color: var(--color-application-primary-variant);
   --component-link-primary-default-color: var(--color-application-primary-variant);
   --component-icon-primary-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-delete-icon-hover-color: var(--color-application-primary-variant);
