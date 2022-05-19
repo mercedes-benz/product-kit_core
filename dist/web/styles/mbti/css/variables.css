@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 20:38:02 GMT
+ * Generated on Thu, 19 May 2022 21:23:02 GMT
  */
 
 :root {
@@ -172,6 +172,7 @@
   --font-family-platform-title: 'MB Corpo A Title Cond Web', Arial; /* The brand font family for large headlines. */
   --font-family-text: 'MB Corpo S Text'; /* The brand font family for large headlines. */
   --font-family-title: 'MB Corpo A Title Cond'; /* The brand font family for large headlines. */
+  --component-switch-primary-selected-disabled-color: #c1ab73;
   --color-base-nandor-900: #232c26;
   --color-base-nandor-800: #444e48;
   --color-base-nandor-700: #636e67;
@@ -849,7 +850,7 @@
   --component-textfield-outlined-primary-focused-label-color: var(--color-application-primary-variant);
   --component-tab-primary-selected-icon-color: var(--color-application-primary-variant);
   --component-tab-primary-selected-text-color: var(--color-application-primary-variant);
-  --component-switch-primary-selected-background: var(--color-application-primary);
+  --component-switch-primary-selected-background: var(--color-application-primary-variant);
   --component-switch-primary-selected-color: var(--color-application-primary-variant);
   --component-slider-primary-background-color: var(--color-application-primary);
   --component-slider-primary-main-color: var(--color-application-primary-variant);

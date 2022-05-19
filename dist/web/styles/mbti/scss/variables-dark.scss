@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 20:38:02 GMT
+ * Generated on Thu, 19 May 2022 21:23:02 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -172,6 +172,7 @@ $font-family-platform-text: 'MB Corpo S Text Web', Arial !default; // The brand 
 $font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The brand font family for large headlines.
 $font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
 $font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
+$component-switch-primary-selected-disabled-color: #c1ab73 !default;
 $color-base-nandor-900: #232c26 !default;
 $color-base-nandor-800: #444e48 !default;
 $color-base-nandor-700: #636e67 !default;
@@ -855,7 +856,7 @@ $component-textfield-text-primary-focused-label-color: $color-application-primar
 $component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-tab-primary-selected-icon-color: $color-application-primary-variant !default;
 $component-tab-primary-selected-text-color: $color-application-primary-variant !default;
-$component-switch-primary-selected-background: $color-application-primary !default;
+$component-switch-primary-selected-background: $color-application-primary-variant !default;
 $component-switch-primary-selected-color: $color-application-primary-variant !default;
 $component-slider-primary-background-color: $color-application-primary !default;
 $component-slider-primary-main-color: $color-application-primary-variant !default;
@@ -1620,7 +1621,10 @@ $tokens: (
       'primary': (
         'selected': (
           'color': $component-switch-primary-selected-color,
-          'background': $component-switch-primary-selected-background
+          'background': $component-switch-primary-selected-background,
+          'disabled': (
+            'color': $component-switch-primary-selected-disabled-color
+          )
         )
       )
     ),
