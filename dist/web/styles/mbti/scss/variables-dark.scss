@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 21:23:02 GMT
+ * Generated on Thu, 19 May 2022 22:06:13 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -854,8 +854,9 @@ $component-toggle-button-primary-selected-text-color: $color-application-primary
 $component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
-$component-tab-primary-selected-icon-color: $color-application-primary-variant !default;
-$component-tab-primary-selected-text-color: $color-application-primary-variant !default;
+$component-tabs-indicator-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-selected-icon-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-selected-text-color: $color-application-primary-variant !default;
 $component-switch-primary-selected-background: $color-application-primary-variant !default;
 $component-switch-primary-selected-color: $color-application-primary-variant !default;
 $component-slider-primary-background-color: $color-application-primary !default;
@@ -1628,16 +1629,21 @@ $tokens: (
         )
       )
     ),
-    'tab': (
-      'primary': (
-        'selected': (
-          'text': (
-            'color': $component-tab-primary-selected-text-color
-          ),
-          'icon': (
-            'color': $component-tab-primary-selected-icon-color
+    'tabs': (
+      'item': (
+        'primary': (
+          'selected': (
+            'text': (
+              'color': $component-tabs-item-primary-selected-text-color
+            ),
+            'icon': (
+              'color': $component-tabs-item-primary-selected-icon-color
+            )
           )
         )
+      ),
+      'indicator': (
+        'color': $component-tabs-indicator-color
       )
     ),
     'textfield': (

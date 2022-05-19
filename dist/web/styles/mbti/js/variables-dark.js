@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 21:23:02 GMT
+ * Generated on Thu, 19 May 2022 22:06:13 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -429,8 +429,9 @@ export const componentSliderPrimaryBackgroundColor = "#ffd56b";
 export const componentSwitchPrimarySelectedColor = "#ffd56b";
 export const componentSwitchPrimarySelectedBackground = "#ffd56b";
 export const componentSwitchPrimarySelectedDisabledColor = "#c1ab73";
-export const componentTabPrimarySelectedTextColor = "#ffd56b";
-export const componentTabPrimarySelectedIconColor = "#ffd56b";
+export const componentTabsItemPrimarySelectedTextColor = "#ffd56b";
+export const componentTabsItemPrimarySelectedIconColor = "#ffd56b";
+export const componentTabsIndicatorColor = "#ffd56b";
 export const componentTextfieldOutlinedPrimaryFocusedLabelColor = "#ffd56b";
 export const componentTextfieldTextPrimaryFocusedLabelColor = "#ffd56b";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#ffd56b";

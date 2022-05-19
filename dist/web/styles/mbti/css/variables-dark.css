@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 21:23:02 GMT
+ * Generated on Thu, 19 May 2022 22:06:13 GMT
  */
 
 .dark {
@@ -854,8 +854,9 @@
   --component-textfield-filled-primary-focused-label-color: var(--color-application-primary-variant);
   --component-textfield-text-primary-focused-label-color: var(--color-application-primary-variant);
   --component-textfield-outlined-primary-focused-label-color: var(--color-application-primary-variant);
-  --component-tab-primary-selected-icon-color: var(--color-application-primary-variant);
-  --component-tab-primary-selected-text-color: var(--color-application-primary-variant);
+  --component-tabs-indicator-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-selected-icon-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-selected-text-color: var(--color-application-primary-variant);
   --component-switch-primary-selected-background: var(--color-application-primary-variant);
   --component-switch-primary-selected-color: var(--color-application-primary-variant);
   --component-slider-primary-background-color: var(--color-application-primary);
