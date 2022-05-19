@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 18 May 2022 16:26:53 GMT
+ * Generated on Thu, 19 May 2022 20:38:02 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -855,8 +855,11 @@ $component-slider-primary-background-color: $color-application-primary !default;
 $component-slider-primary-main-color: $color-application-primary-variant !default;
 $component-slider-primary-label-color: $color-application-primary-variant !default;
 $component-slider-primary-thumb-color: $color-application-primary-variant !default;
+$component-select-filled-primary-focused-border-color: $color-application-primary-variant !default;
 $component-select-filled-primary-focused-label-color: $color-application-primary-variant !default;
+$component-select-text-primary-focused-border-color: $color-application-primary-variant !default;
 $component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
+$component-select-outlined-primary-focused-border-color: $color-application-primary-variant !default;
 $component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
 $component-radio-primary-selected-color: $color-application-primary-variant !default;
 $component-progress-linear-buffer-primary-bar1-color: $color-application-primary-variant !default;
@@ -866,6 +869,8 @@ $component-progress-linear-indeterminate-primary-bar1-color: $color-application-
 $component-progress-circular-determinate-primary-color: $color-application-primary-variant !default;
 $component-progress-circular-indeterminate-primary-color: $color-application-primary-variant !default;
 $component-pagination-outlined-primary-item-selected-color: $color-application-primary-variant !default;
+$component-menu-item-primary-selected-hover-background-color: rgba(153, 110, 0, 0.12) !default;
+$component-menu-item-primary-selected-background-color: rgba(153, 110, 0, 0.08) !default;
 $component-link-primary-default-color: $color-application-primary-variant !default;
 $component-icon-primary-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-delete-icon-hover-color: $color-application-primary-variant !default;
@@ -1477,6 +1482,22 @@ $tokens: (
         )
       )
     ),
+    'menu': (
+      'item': (
+        'primary': (
+          'selected': (
+            'background': (
+              'color': $component-menu-item-primary-selected-background-color
+            ),
+            'hover': (
+              'background': (
+                'color': $component-menu-item-primary-selected-hover-background-color
+              )
+            )
+          )
+        )
+      )
+    ),
     'pagination': (
       'outlined': (
         'primary': (
@@ -1541,6 +1562,9 @@ $tokens: (
           'focused': (
             'label': (
               'color': $component-select-outlined-primary-focused-label-color
+            ),
+            'border': (
+              'color': $component-select-outlined-primary-focused-border-color
             )
           )
         )
@@ -1550,6 +1574,9 @@ $tokens: (
           'focused': (
             'label': (
               'color': $component-select-text-primary-focused-label-color
+            ),
+            'border': (
+              'color': $component-select-text-primary-focused-border-color
             )
           )
         )
@@ -1559,6 +1586,9 @@ $tokens: (
           'focused': (
             'label': (
               'color': $component-select-filled-primary-focused-label-color
+            ),
+            'border': (
+              'color': $component-select-filled-primary-focused-border-color
             )
           )
         )

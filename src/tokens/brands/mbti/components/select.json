@@ -8,6 +8,11 @@
               "color": {
                 "value": "{color.application.primary-variant}"
               }
+            },
+            "border": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
             }
           }
         }
@@ -19,6 +24,11 @@
               "color": {
                 "value": "{color.application.primary-variant}"
               }
+            },
+            "border": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
             }
           }
         }
@@ -27,6 +37,11 @@
         "primary": {
           "focused": {
             "label": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "border": {
               "color": {
                 "value": "{color.application.primary-variant}"
               }
