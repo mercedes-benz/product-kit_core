@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 22:06:13 GMT
+ * Generated on Fri, 20 May 2022 13:16:22 GMT
  */
 
 .dark {
@@ -849,6 +849,8 @@
   --color-application-primary-variant: var(--color-brand-goldentainoi-300); /* The primary variant color is used for text and icons to ensure an accessible contrast ratio. */
   --color-application-primary: var(--color-brand-goldentainoi-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
   --component-typography-overline-color: var(--color-application-primary-variant);
+  --component-toggle-button-primary-selected-hover-background-color: rgba(255, 213, 107, 0.12);
+  --component-toggle-button-primary-selected-background-color: rgba(255, 213, 107, 0.08);
   --component-toggle-button-primary-selected-icon-color: var(--color-application-primary-variant);
   --component-toggle-button-primary-selected-text-color: var(--color-application-primary-variant);
   --component-textfield-filled-primary-focused-label-color: var(--color-application-primary-variant);

@@ -12,6 +12,26 @@
             "color": {
               "value": "{color.application.primary-variant}"
             }
+          },
+          "background": {
+            "color": {
+              "value": "{color.application.primary-variant}",
+              "modify": {
+                "type": "alpha",
+                "amount": "0.08"
+              }
+            }
+          },
+          "hover": {
+            "background": {
+              "color": {
+                "value": "{color.application.primary-variant}",
+                "modify": {
+                  "type": "alpha",
+                  "amount": "0.12"
+                }
+              }
+            }
           }
         }
       }

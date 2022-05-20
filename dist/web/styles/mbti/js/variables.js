@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 May 2022 22:06:13 GMT
+ * Generated on Fri, 20 May 2022 13:16:22 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -437,6 +437,8 @@ export const componentTextfieldTextPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#996e00";
 export const componentToggleButtonPrimarySelectedTextColor = "#996e00";
 export const componentToggleButtonPrimarySelectedIconColor = "#996e00";
+export const componentToggleButtonPrimarySelectedBackgroundColor = "rgba(153, 110, 0, 0.08)";
+export const componentToggleButtonPrimarySelectedHoverBackgroundColor = "rgba(153, 110, 0, 0.12)";
 export const componentTypographyOverlineColor = "#996e00";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.
 export const fontFamilyText = "'MB Corpo S Text'"; // The brand font family for large headlines.
