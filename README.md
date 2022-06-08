@@ -1,20 +1,19 @@
 <!-- SPDX-License-Identifier: MIT --->
-<!-- © Daimler TSS GmbH --->
-# ![Product Kit Core Logo](https://github.com/mercedes-benz/product-kit_core/raw/main/docs/images/productkit_core_github_logo.png)
+# ![Product Kit Core Logo](https://github.com/mercedes-benz/product-kit_core/raw/main/docs/images/pk_core_title_image.png)
 
 ![license](https://img.shields.io/badge/license-MIT-38de03e?style=flat)
 [![npm](https://img.shields.io/npm/v/@daimler/productkit-core)](https://www.npmjs.com/package/@daimler/productkit-core)
 
-Product Kit Core provides design tokens according to the Daimler TSS styleguide. These tokens are used to create an export that can be used on web platforms using material design. The export is created with a build tool that is called [Style Dictionary](https://github.com/amzn/style-dictionary).
+Product Kit Core provides design tokens according to the Mercedes-Benz Tech Innovation styleguide. These tokens are used to create an export that can be used on web platforms using material design. The export is created with a build tool that is called [Style Dictionary](https://github.com/amzn/style-dictionary).
 
 You can use the export to apply the styling by yourself or use one of the following implementations:
 
-* [Tailwind](https://github.com/daimler/product-kit_tailwind)
-* [React](https://github.com/daimler/product-kit_react)
-* [Angular](https://github.com/daimler/product-kit_angular)
+* [Tailwind](https://github.com/mercedes-benz/product-kit_tailwind)
+* [React](https://github.com/mercedes-benz/product-kit_react)
+* [Angular](https://github.com/mercedes-benz/product-kit_angular)
 * [Vue](https://github.com/mercedes-benz/product-kit_vue)
 
-The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/Daimler/product-kit_core/issues) or provide a pull request with the desired export.
+The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/mercedes-benz/product-kit_core/issues) or provide a pull request with the desired export.
 
 ## Usage
 
