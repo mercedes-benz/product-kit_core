@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 20:52:04 GMT
+ * Generated on Fri, 20 May 2022 13:16:22 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -13,36 +13,47 @@ $layout-application-compact-xxl-content-max-width: 1680px !default;
 $layout-application-compact-xxl-content-width: 86% !default;
 $layout-application-compact-xl-spacing-scale: xl !default;
 $layout-application-compact-xl-typography-scale: l !default;
+$layout-application-compact-xl-content-max-width: none !default;
 $layout-application-compact-xl-content-width: 86% !default;
 $layout-application-compact-l-spacing-scale: l !default;
 $layout-application-compact-l-typography-scale: l !default;
+$layout-application-compact-l-content-max-width: none !default;
 $layout-application-compact-l-content-width: 86% !default;
 $layout-application-compact-m-spacing-scale: m !default;
 $layout-application-compact-m-typography-scale: s !default;
+$layout-application-compact-m-content-max-width: none !default;
 $layout-application-compact-m-content-width: 86% !default;
 $layout-application-compact-s-spacing-scale: s !default;
 $layout-application-compact-s-typography-scale: s !default;
+$layout-application-compact-s-content-max-width: none !default;
 $layout-application-compact-s-content-width: 90% !default;
 $layout-application-compact-xs-spacing-scale: xs !default;
 $layout-application-compact-xs-typography-scale: s !default;
+$layout-application-compact-xs-content-max-width: none !default;
 $layout-application-compact-xs-content-width: 90% !default;
 $layout-application-wide-xxl-spacing-scale: xxl !default;
 $layout-application-wide-xxl-typography-scale: l !default;
+$layout-application-wide-xxl-content-max-width: none !default;
 $layout-application-wide-xxl-content-width: 86% !default;
 $layout-application-wide-xl-spacing-scale: xl !default;
 $layout-application-wide-xl-typography-scale: l !default;
+$layout-application-wide-xl-content-max-width: none !default;
 $layout-application-wide-xl-content-width: 86% !default;
 $layout-application-wide-l-spacing-scale: l !default;
 $layout-application-wide-l-typography-scale: l !default;
+$layout-application-wide-l-content-max-width: none !default;
 $layout-application-wide-l-content-width: 86% !default;
 $layout-application-wide-m-spacing-scale: m !default;
 $layout-application-wide-m-typography-scale: s !default;
+$layout-application-wide-m-content-max-width: none !default;
 $layout-application-wide-m-content-width: 86% !default;
 $layout-application-wide-s-spacing-scale: s !default;
 $layout-application-wide-s-typography-scale: s !default;
+$layout-application-wide-s-content-max-width: none !default;
 $layout-application-wide-s-content-width: 90% !default;
 $layout-application-wide-xs-spacing-scale: xs !default;
 $layout-application-wide-xs-typography-scale: s !default;
+$layout-application-wide-xs-content-max-width: none !default;
 $layout-application-wide-xs-content-width: 90% !default;
 $size-screen-platform-xxl: 1440px !default;
 $size-screen-platform-xl: 1280px !default;
@@ -129,12 +140,6 @@ $opacity-base-4: 1 !default;
 $opacity-base-3: 0.74 !default;
 $opacity-base-2: 0.6 !default;
 $opacity-base-1: 0.38 !default;
-$font-weight-bold: 700 !default; // The bold weight of the font.
-$font-weight-regular: 400 !default; // The regular weight of the font.
-$font-family-platform-text: 'MB Corpo S Text Web', Arial !default; // The brand font family for large headlines.
-$font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The brand font family for large headlines.
-$font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
-$font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
 $font-application-l-overline-text-transform: uppercase !default;
 $font-application-l-caption-text-transform: none !default;
 $font-application-l-button-text-transform: none !default;
@@ -161,6 +166,12 @@ $font-application-s-headline4-text-transform: none !default;
 $font-application-s-headline3-text-transform: none !default;
 $font-application-s-headline2-text-transform: none !default;
 $font-application-s-headline1-text-transform: none !default;
+$font-weight-bold: 700 !default; // The bold weight of the font.
+$font-weight-regular: 400 !default; // The regular weight of the font.
+$font-family-platform-text: 'MB Corpo S Text Web', Arial !default; // The brand font family for large headlines.
+$font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The brand font family for large headlines.
+$font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
+$font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
 $color-base-nandor-900: #232c26 !default;
 $color-base-nandor-800: #444e48 !default;
 $color-base-nandor-700: #636e67 !default;
@@ -370,182 +381,182 @@ $font-application-l-overline-letter-spacing: $size-letter-spacing-m !default;
 $font-application-l-overline-line-height: $size-font-xs !default;
 $font-application-l-overline-font-size: $size-font-xs !default;
 $font-application-l-overline-font-weight: $font-weight-bold !default;
-$font-application-l-overline-font-family: $font-family-text !default;
+$font-application-l-overline-font-family: $font-family-platform-text !default;
 $font-application-l-caption-sup-offset: $size-sup-offset-12xl !default;
 $font-application-l-caption-sup-size: $size-sup-font-xxs !default;
 $font-application-l-caption-letter-spacing: $size-letter-spacing-l !default;
 $font-application-l-caption-line-height: $size-font-xxs !default;
 $font-application-l-caption-font-size: $size-font-xxs !default;
 $font-application-l-caption-font-weight: $font-weight-regular !default;
-$font-application-l-caption-font-family: $font-family-text !default;
+$font-application-l-caption-font-family: $font-family-platform-text !default;
 $font-application-l-button-sup-offset: $size-sup-offset-8xl !default;
 $font-application-l-button-sup-size: $size-sup-font-xxs !default;
 $font-application-l-button-letter-spacing: $size-letter-spacing-xl !default;
 $font-application-l-button-line-height: $size-font-s !default;
 $font-application-l-button-font-size: $size-font-s !default;
 $font-application-l-button-font-weight: $font-weight-bold !default;
-$font-application-l-button-font-family: $font-family-text !default;
+$font-application-l-button-font-family: $font-family-platform-text !default;
 $font-application-l-body2-sup-offset: $size-sup-offset-8xl !default;
 $font-application-l-body2-sup-size: $size-sup-font-xxs !default;
 $font-application-l-body2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-body2-line-height: $size-font-s !default;
 $font-application-l-body2-font-size: $size-font-s !default;
 $font-application-l-body2-font-weight: $font-weight-regular !default;
-$font-application-l-body2-font-family: $font-family-text !default;
+$font-application-l-body2-font-family: $font-family-platform-text !default;
 $font-application-l-body1-sup-offset: $size-sup-offset-6xl !default;
 $font-application-l-body1-sup-size: $size-sup-font-xxs !default;
 $font-application-l-body1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-body1-line-height: $size-font-m !default;
 $font-application-l-body1-font-size: $size-font-m !default;
 $font-application-l-body1-font-weight: $font-weight-regular !default;
-$font-application-l-body1-font-family: $font-family-text !default;
+$font-application-l-body1-font-family: $font-family-platform-text !default;
 $font-application-l-subtitle2-sup-offset: $size-sup-offset-4xl !default;
 $font-application-l-subtitle2-sup-size: $size-sup-font-xxs !default;
 $font-application-l-subtitle2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-subtitle2-line-height: $size-font-m !default;
 $font-application-l-subtitle2-font-size: $size-font-m !default;
 $font-application-l-subtitle2-font-weight: $font-weight-regular !default;
-$font-application-l-subtitle2-font-family: $font-family-text !default;
+$font-application-l-subtitle2-font-family: $font-family-platform-text !default;
 $font-application-l-subtitle1-sup-offset: $size-sup-offset-xxl !default;
 $font-application-l-subtitle1-sup-size: $size-sup-font-xxs !default;
 $font-application-l-subtitle1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-subtitle1-line-height: $size-font-l !default;
 $font-application-l-subtitle1-font-size: $size-font-l !default;
 $font-application-l-subtitle1-font-weight: $font-weight-regular !default;
-$font-application-l-subtitle1-font-family: $font-family-text !default;
+$font-application-l-subtitle1-font-family: $font-family-platform-text !default;
 $font-application-l-headline6-sup-offset: $size-sup-offset-4xl !default;
 $font-application-l-headline6-sup-size: $size-sup-font-xxs !default;
 $font-application-l-headline6-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline6-line-height: $size-font-l !default;
 $font-application-l-headline6-font-size: $size-font-l !default;
 $font-application-l-headline6-font-weight: $font-weight-bold !default;
-$font-application-l-headline6-font-family: $font-family-text !default;
+$font-application-l-headline6-font-family: $font-family-platform-text !default;
 $font-application-l-headline5-sup-offset: $size-sup-offset-xxl !default;
 $font-application-l-headline5-sup-size: $size-sup-font-xxs !default;
 $font-application-l-headline5-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline5-line-height: $size-font-xl !default;
 $font-application-l-headline5-font-size: $size-font-xl !default;
 $font-application-l-headline5-font-weight: $font-weight-bold !default;
-$font-application-l-headline5-font-family: $font-family-text !default;
+$font-application-l-headline5-font-family: $font-family-platform-text !default;
 $font-application-l-headline4-sup-offset: $size-sup-offset-l !default;
 $font-application-l-headline4-sup-size: $size-sup-font-s !default;
 $font-application-l-headline4-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline4-line-height: $size-font-4xl !default;
 $font-application-l-headline4-font-size: $size-font-4xl !default;
 $font-application-l-headline4-font-weight: $font-weight-regular !default;
-$font-application-l-headline4-font-family: $font-family-title !default;
+$font-application-l-headline4-font-family: $font-family-platform-title !default;
 $font-application-l-headline3-sup-offset: $size-sup-offset-xs !default;
 $font-application-l-headline3-sup-size: $size-sup-font-xl !default;
 $font-application-l-headline3-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline3-line-height: $size-font-6xl !default;
 $font-application-l-headline3-font-size: $size-font-6xl !default;
 $font-application-l-headline3-font-weight: $font-weight-regular !default;
-$font-application-l-headline3-font-family: $font-family-title !default;
+$font-application-l-headline3-font-family: $font-family-platform-title !default;
 $font-application-l-headline2-sup-offset: $size-sup-offset-xxs !default;
 $font-application-l-headline2-sup-size: $size-sup-font-xxl !default;
 $font-application-l-headline2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline2-line-height: $size-font-7xl !default;
 $font-application-l-headline2-font-size: $size-font-7xl !default;
 $font-application-l-headline2-font-weight: $font-weight-regular !default;
-$font-application-l-headline2-font-family: $font-family-title !default;
+$font-application-l-headline2-font-family: $font-family-platform-title !default;
 $font-application-l-headline1-sup-offset: $size-sup-offset-3xs !default;
 $font-application-l-headline1-sup-size: $size-sup-font-4xl !default;
 $font-application-l-headline1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline1-line-height: $size-font-8xl !default;
 $font-application-l-headline1-font-size: $size-font-8xl !default;
 $font-application-l-headline1-font-weight: $font-weight-regular !default;
-$font-application-l-headline1-font-family: $font-family-title !default;
+$font-application-l-headline1-font-family: $font-family-platform-title !default;
 $font-application-s-overline-sup-offset: $size-sup-offset-11xl !default;
 $font-application-s-overline-sup-size: $size-sup-font-xxs !default;
 $font-application-s-overline-letter-spacing: $size-letter-spacing-m !default;
 $font-application-s-overline-line-height: $size-font-xxs !default;
 $font-application-s-overline-font-size: $size-font-xxs !default;
 $font-application-s-overline-font-weight: $font-weight-bold !default;
-$font-application-s-overline-font-family: $font-family-text !default;
+$font-application-s-overline-font-family: $font-family-platform-text !default;
 $font-application-s-caption-sup-offset: $size-sup-offset-12xl !default;
 $font-application-s-caption-sup-size: $size-sup-font-xxs !default;
 $font-application-s-caption-letter-spacing: $size-letter-spacing-l !default;
 $font-application-s-caption-line-height: $size-font-xxs !default;
 $font-application-s-caption-font-size: $size-font-xxs !default;
 $font-application-s-caption-font-weight: $font-weight-regular !default;
-$font-application-s-caption-font-family: $font-family-text !default;
+$font-application-s-caption-font-family: $font-family-platform-text !default;
 $font-application-s-button-sup-offset: $size-sup-offset-8xl !default;
 $font-application-s-button-sup-size: $size-sup-font-xxs !default;
 $font-application-s-button-letter-spacing: $size-letter-spacing-xl !default;
 $font-application-s-button-line-height: $size-font-s !default;
 $font-application-s-button-font-size: $size-font-s !default;
 $font-application-s-button-font-weight: $font-weight-bold !default;
-$font-application-s-button-font-family: $font-family-text !default;
+$font-application-s-button-font-family: $font-family-platform-text !default;
 $font-application-s-body2-sup-offset: $size-sup-offset-10xl !default;
 $font-application-s-body2-sup-size: $size-sup-font-xxs !default;
 $font-application-s-body2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-body2-line-height: $size-font-xs !default;
 $font-application-s-body2-font-size: $size-font-xs !default;
 $font-application-s-body2-font-weight: $font-weight-regular !default;
-$font-application-s-body2-font-family: $font-family-text !default;
+$font-application-s-body2-font-family: $font-family-platform-text !default;
 $font-application-s-body1-sup-offset: $size-sup-offset-7xl !default;
 $font-application-s-body1-sup-size: $size-sup-font-xxs !default;
 $font-application-s-body1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-body1-line-height: $size-font-s !default;
 $font-application-s-body1-font-size: $size-font-s !default;
 $font-application-s-body1-font-weight: $font-weight-regular !default;
-$font-application-s-body1-font-family: $font-family-text !default;
+$font-application-s-body1-font-family: $font-family-platform-text !default;
 $font-application-s-subtitle2-sup-offset: $size-sup-offset-5xl !default;
 $font-application-s-subtitle2-sup-size: $size-sup-font-xxs !default;
 $font-application-s-subtitle2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-subtitle2-line-height: $size-font-s !default;
 $font-application-s-subtitle2-font-size: $size-font-s !default;
 $font-application-s-subtitle2-font-weight: $font-weight-regular !default;
-$font-application-s-subtitle2-font-family: $font-family-text !default;
+$font-application-s-subtitle2-font-family: $font-family-platform-text !default;
 $font-application-s-subtitle1-sup-offset: $size-sup-offset-3xl !default;
 $font-application-s-subtitle1-sup-size: $size-sup-font-xxs !default;
 $font-application-s-subtitle1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-subtitle1-line-height: $size-font-m !default;
 $font-application-s-subtitle1-font-size: $size-font-m !default;
 $font-application-s-subtitle1-font-weight: $font-weight-regular !default;
-$font-application-s-subtitle1-font-family: $font-family-text !default;
+$font-application-s-subtitle1-font-family: $font-family-platform-text !default;
 $font-application-s-headline6-sup-offset: $size-sup-offset-5xl !default;
 $font-application-s-headline6-sup-size: $size-sup-font-xxs !default;
 $font-application-s-headline6-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline6-line-height: $size-font-m !default;
 $font-application-s-headline6-font-size: $size-font-m !default;
 $font-application-s-headline6-font-weight: $font-weight-bold !default;
-$font-application-s-headline6-font-family: $font-family-text !default;
+$font-application-s-headline6-font-family: $font-family-platform-text !default;
 $font-application-s-headline5-sup-offset: $size-sup-offset-3xl !default;
 $font-application-s-headline5-sup-size: $size-sup-font-xxs !default;
 $font-application-s-headline5-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline5-line-height: $size-font-l !default;
 $font-application-s-headline5-font-size: $size-font-l !default;
 $font-application-s-headline5-font-weight: $font-weight-bold !default;
-$font-application-s-headline5-font-family: $font-family-text !default;
+$font-application-s-headline5-font-family: $font-family-platform-text !default;
 $font-application-s-headline4-sup-offset: $size-sup-offset-xxl !default;
 $font-application-s-headline4-sup-size: $size-sup-font-xxs !default;
 $font-application-s-headline4-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline4-line-height: $size-font-xxl !default;
 $font-application-s-headline4-font-size: $size-font-xxl !default;
 $font-application-s-headline4-font-weight: $font-weight-regular !default;
-$font-application-s-headline4-font-family: $font-family-title !default;
+$font-application-s-headline4-font-family: $font-family-platform-title !default;
 $font-application-s-headline3-sup-offset: $size-sup-offset-l !default;
 $font-application-s-headline3-sup-size: $size-sup-font-xs !default;
 $font-application-s-headline3-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline3-line-height: $size-font-3xl !default;
 $font-application-s-headline3-font-size: $size-font-3xl !default;
 $font-application-s-headline3-font-weight: $font-weight-regular !default;
-$font-application-s-headline3-font-family: $font-family-title !default;
+$font-application-s-headline3-font-family: $font-family-platform-title !default;
 $font-application-s-headline2-sup-offset: $size-sup-offset-m !default;
 $font-application-s-headline2-sup-size: $size-sup-font-m !default;
 $font-application-s-headline2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline2-line-height: $size-font-5xl !default;
 $font-application-s-headline2-font-size: $size-font-5xl !default;
 $font-application-s-headline2-font-weight: $font-weight-regular !default;
-$font-application-s-headline2-font-family: $font-family-title !default;
+$font-application-s-headline2-font-family: $font-family-platform-title !default;
 $font-application-s-headline1-sup-offset: $size-sup-offset-s !default;
 $font-application-s-headline1-sup-size: $size-sup-font-3xl !default;
 $font-application-s-headline1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline1-line-height: $size-font-6xl !default;
 $font-application-s-headline1-font-size: $size-font-6xl !default;
 $font-application-s-headline1-font-weight: $font-weight-regular !default;
-$font-application-s-headline1-font-family: $font-family-title !default;
+$font-application-s-headline1-font-family: $font-family-platform-title !default;
 $color-base-nandor-contrast-900: $color-base-white !default;
 $color-base-nandor-contrast-800: $color-base-white !default;
 $color-base-nandor-contrast-700: $color-base-white !default;
@@ -589,8 +600,8 @@ $color-base-blackcurrant-contrast-50: $color-base-black !default;
 $color-base-yellow-contrast-900: $color-base-white !default;
 $color-base-yellow-contrast-800: $color-base-white !default;
 $color-base-yellow-contrast-700: $color-base-white !default;
-$color-base-yellow-contrast-600: $color-base-white !default;
-$color-base-yellow-contrast-500: $color-base-white !default;
+$color-base-yellow-contrast-600: $color-base-black !default;
+$color-base-yellow-contrast-500: $color-base-black !default;
 $color-base-yellow-contrast-400: $color-base-black !default;
 $color-base-yellow-contrast-300: $color-base-black !default;
 $color-base-yellow-contrast-200: $color-base-black !default;
@@ -656,8 +667,6 @@ $color-application-tertiary: $color-base-deluge-300 !default; // The tertiary co
 $color-application-secondary: $color-base-blackcurrant-300 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
 $color-application-primary-variant: $color-base-blue-500 !default; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
 $color-application-primary: $color-base-blue-500 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-$font-application-l-overline-color: $color-application-primary !default;
-$font-application-s-overline-color: $color-application-primary !default;
 
 $tokens: (
   'color': (
@@ -907,6 +916,18 @@ $tokens: (
     )
   ),
   'font': (
+    'family': (
+      'title': $font-family-title,
+      'text': $font-family-text,
+      'platform': (
+        'title': $font-family-platform-title,
+        'text': $font-family-platform-text
+      )
+    ),
+    'weight': (
+      'regular': $font-weight-regular,
+      'bold': $font-weight-bold
+    ),
     'application': (
       's': (
         'headline1': (
@@ -1037,8 +1058,7 @@ $tokens: (
           'letter-spacing': $font-application-s-overline-letter-spacing,
           'text-transform': $font-application-s-overline-text-transform,
           'sup-size': $font-application-s-overline-sup-size,
-          'sup-offset': $font-application-s-overline-sup-offset,
-          'color': $font-application-s-overline-color
+          'sup-offset': $font-application-s-overline-sup-offset
         )
       ),
       'l': (
@@ -1170,22 +1190,9 @@ $tokens: (
           'letter-spacing': $font-application-l-overline-letter-spacing,
           'text-transform': $font-application-l-overline-text-transform,
           'sup-size': $font-application-l-overline-sup-size,
-          'sup-offset': $font-application-l-overline-sup-offset,
-          'color': $font-application-l-overline-color
+          'sup-offset': $font-application-l-overline-sup-offset
         )
       )
-    ),
-    'family': (
-      'title': $font-family-title,
-      'text': $font-family-text,
-      'platform': (
-        'title': $font-family-platform-title,
-        'text': $font-family-platform-text
-      )
-    ),
-    'weight': (
-      'regular': $font-weight-regular,
-      'bold': $font-weight-bold
     )
   ),
   'opacity': (
@@ -1416,6 +1423,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-xs-gutter-size,
           'column-amount': $layout-application-wide-xs-column-amount,
           'content-width': $layout-application-wide-xs-content-width,
+          'content-max-width': $layout-application-wide-xs-content-max-width,
           'typography-scale': $layout-application-wide-xs-typography-scale,
           'spacing-scale': $layout-application-wide-xs-spacing-scale
         ),
@@ -1424,6 +1432,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-s-gutter-size,
           'column-amount': $layout-application-wide-s-column-amount,
           'content-width': $layout-application-wide-s-content-width,
+          'content-max-width': $layout-application-wide-s-content-max-width,
           'typography-scale': $layout-application-wide-s-typography-scale,
           'spacing-scale': $layout-application-wide-s-spacing-scale
         ),
@@ -1432,6 +1441,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-m-gutter-size,
           'column-amount': $layout-application-wide-m-column-amount,
           'content-width': $layout-application-wide-m-content-width,
+          'content-max-width': $layout-application-wide-m-content-max-width,
           'typography-scale': $layout-application-wide-m-typography-scale,
           'spacing-scale': $layout-application-wide-m-spacing-scale
         ),
@@ -1440,6 +1450,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-l-gutter-size,
           'column-amount': $layout-application-wide-l-column-amount,
           'content-width': $layout-application-wide-l-content-width,
+          'content-max-width': $layout-application-wide-l-content-max-width,
           'typography-scale': $layout-application-wide-l-typography-scale,
           'spacing-scale': $layout-application-wide-l-spacing-scale
         ),
@@ -1448,6 +1459,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-xl-gutter-size,
           'column-amount': $layout-application-wide-xl-column-amount,
           'content-width': $layout-application-wide-xl-content-width,
+          'content-max-width': $layout-application-wide-xl-content-max-width,
           'typography-scale': $layout-application-wide-xl-typography-scale,
           'spacing-scale': $layout-application-wide-xl-spacing-scale
         ),
@@ -1456,6 +1468,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-xxl-gutter-size,
           'column-amount': $layout-application-wide-xxl-column-amount,
           'content-width': $layout-application-wide-xxl-content-width,
+          'content-max-width': $layout-application-wide-xxl-content-max-width,
           'typography-scale': $layout-application-wide-xxl-typography-scale,
           'spacing-scale': $layout-application-wide-xxl-spacing-scale
         )
@@ -1466,6 +1479,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-xs-gutter-size,
           'column-amount': $layout-application-compact-xs-column-amount,
           'content-width': $layout-application-compact-xs-content-width,
+          'content-max-width': $layout-application-compact-xs-content-max-width,
           'typography-scale': $layout-application-compact-xs-typography-scale,
           'spacing-scale': $layout-application-compact-xs-spacing-scale
         ),
@@ -1474,6 +1488,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-s-gutter-size,
           'column-amount': $layout-application-compact-s-column-amount,
           'content-width': $layout-application-compact-s-content-width,
+          'content-max-width': $layout-application-compact-s-content-max-width,
           'typography-scale': $layout-application-compact-s-typography-scale,
           'spacing-scale': $layout-application-compact-s-spacing-scale
         ),
@@ -1482,6 +1497,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-m-gutter-size,
           'column-amount': $layout-application-compact-m-column-amount,
           'content-width': $layout-application-compact-m-content-width,
+          'content-max-width': $layout-application-compact-m-content-max-width,
           'typography-scale': $layout-application-compact-m-typography-scale,
           'spacing-scale': $layout-application-compact-m-spacing-scale
         ),
@@ -1490,6 +1506,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-l-gutter-size,
           'column-amount': $layout-application-compact-l-column-amount,
           'content-width': $layout-application-compact-l-content-width,
+          'content-max-width': $layout-application-compact-l-content-max-width,
           'typography-scale': $layout-application-compact-l-typography-scale,
           'spacing-scale': $layout-application-compact-l-spacing-scale
         ),
@@ -1498,6 +1515,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-xl-gutter-size,
           'column-amount': $layout-application-compact-xl-column-amount,
           'content-width': $layout-application-compact-xl-content-width,
+          'content-max-width': $layout-application-compact-xl-content-max-width,
           'typography-scale': $layout-application-compact-xl-typography-scale,
           'spacing-scale': $layout-application-compact-xl-spacing-scale
         ),

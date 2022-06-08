@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 20:52:05 GMT
+ * Generated on Fri, 20 May 2022 13:16:22 GMT
  */
 
 .dark {
@@ -13,36 +13,47 @@
   --layout-application-compact-xxl-content-width: 86%;
   --layout-application-compact-xl-spacing-scale: xl;
   --layout-application-compact-xl-typography-scale: l;
+  --layout-application-compact-xl-content-max-width: none;
   --layout-application-compact-xl-content-width: 86%;
   --layout-application-compact-l-spacing-scale: l;
   --layout-application-compact-l-typography-scale: l;
+  --layout-application-compact-l-content-max-width: none;
   --layout-application-compact-l-content-width: 86%;
   --layout-application-compact-m-spacing-scale: m;
   --layout-application-compact-m-typography-scale: s;
+  --layout-application-compact-m-content-max-width: none;
   --layout-application-compact-m-content-width: 86%;
   --layout-application-compact-s-spacing-scale: s;
   --layout-application-compact-s-typography-scale: s;
+  --layout-application-compact-s-content-max-width: none;
   --layout-application-compact-s-content-width: 90%;
   --layout-application-compact-xs-spacing-scale: xs;
   --layout-application-compact-xs-typography-scale: s;
+  --layout-application-compact-xs-content-max-width: none;
   --layout-application-compact-xs-content-width: 90%;
   --layout-application-wide-xxl-spacing-scale: xxl;
   --layout-application-wide-xxl-typography-scale: l;
+  --layout-application-wide-xxl-content-max-width: none;
   --layout-application-wide-xxl-content-width: 86%;
   --layout-application-wide-xl-spacing-scale: xl;
   --layout-application-wide-xl-typography-scale: l;
+  --layout-application-wide-xl-content-max-width: none;
   --layout-application-wide-xl-content-width: 86%;
   --layout-application-wide-l-spacing-scale: l;
   --layout-application-wide-l-typography-scale: l;
+  --layout-application-wide-l-content-max-width: none;
   --layout-application-wide-l-content-width: 86%;
   --layout-application-wide-m-spacing-scale: m;
   --layout-application-wide-m-typography-scale: s;
+  --layout-application-wide-m-content-max-width: none;
   --layout-application-wide-m-content-width: 86%;
   --layout-application-wide-s-spacing-scale: s;
   --layout-application-wide-s-typography-scale: s;
+  --layout-application-wide-s-content-max-width: none;
   --layout-application-wide-s-content-width: 90%;
   --layout-application-wide-xs-spacing-scale: xs;
   --layout-application-wide-xs-typography-scale: s;
+  --layout-application-wide-xs-content-max-width: none;
   --layout-application-wide-xs-content-width: 90%;
   --size-screen-platform-xxl: 1440px;
   --size-screen-platform-xl: 1280px;
@@ -129,12 +140,6 @@
   --opacity-base-3: 0.74;
   --opacity-base-2: 0.6;
   --opacity-base-1: 0.38;
-  --font-weight-bold: 700; /* The bold weight of the font. */
-  --font-weight-regular: 400; /* The regular weight of the font. */
-  --font-family-platform-text: 'MB Corpo S Text Web', Arial; /* The brand font family for large headlines. */
-  --font-family-platform-title: 'MB Corpo A Title Cond Web', Arial; /* The brand font family for large headlines. */
-  --font-family-text: 'MB Corpo S Text'; /* The brand font family for large headlines. */
-  --font-family-title: 'MB Corpo A Title Cond'; /* The brand font family for large headlines. */
   --font-application-l-overline-text-transform: uppercase;
   --font-application-l-caption-text-transform: none;
   --font-application-l-button-text-transform: none;
@@ -161,6 +166,13 @@
   --font-application-s-headline3-text-transform: none;
   --font-application-s-headline2-text-transform: none;
   --font-application-s-headline1-text-transform: none;
+  --font-weight-bold: 700; /* The bold weight of the font. */
+  --font-weight-regular: 400; /* The regular weight of the font. */
+  --font-family-platform-text: 'MB Corpo S Text Web', Arial; /* The brand font family for large headlines. */
+  --font-family-platform-title: 'MB Corpo A Title Cond Web', Arial; /* The brand font family for large headlines. */
+  --font-family-text: 'MB Corpo S Text'; /* The brand font family for large headlines. */
+  --font-family-title: 'MB Corpo A Title Cond'; /* The brand font family for large headlines. */
+  --component-switch-primary-selected-disabled-color: #c1ab73;
   --color-base-nandor-900: #232c26;
   --color-base-nandor-800: #444e48;
   --color-base-nandor-700: #636e67;
@@ -460,182 +472,182 @@
   --font-application-l-overline-line-height: var(--size-font-xs);
   --font-application-l-overline-font-size: var(--size-font-xs);
   --font-application-l-overline-font-weight: var(--font-weight-bold);
-  --font-application-l-overline-font-family: var(--font-family-text);
+  --font-application-l-overline-font-family: var(--font-family-platform-text);
   --font-application-l-caption-sup-offset: var(--size-sup-offset-12xl);
   --font-application-l-caption-sup-size: var(--size-sup-font-xxs);
   --font-application-l-caption-letter-spacing: var(--size-letter-spacing-l);
   --font-application-l-caption-line-height: var(--size-font-xxs);
   --font-application-l-caption-font-size: var(--size-font-xxs);
   --font-application-l-caption-font-weight: var(--font-weight-regular);
-  --font-application-l-caption-font-family: var(--font-family-text);
+  --font-application-l-caption-font-family: var(--font-family-platform-text);
   --font-application-l-button-sup-offset: var(--size-sup-offset-8xl);
   --font-application-l-button-sup-size: var(--size-sup-font-xxs);
   --font-application-l-button-letter-spacing: var(--size-letter-spacing-xl);
   --font-application-l-button-line-height: var(--size-font-s);
   --font-application-l-button-font-size: var(--size-font-s);
   --font-application-l-button-font-weight: var(--font-weight-bold);
-  --font-application-l-button-font-family: var(--font-family-text);
+  --font-application-l-button-font-family: var(--font-family-platform-text);
   --font-application-l-body2-sup-offset: var(--size-sup-offset-8xl);
   --font-application-l-body2-sup-size: var(--size-sup-font-xxs);
   --font-application-l-body2-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-body2-line-height: var(--size-font-s);
   --font-application-l-body2-font-size: var(--size-font-s);
   --font-application-l-body2-font-weight: var(--font-weight-regular);
-  --font-application-l-body2-font-family: var(--font-family-text);
+  --font-application-l-body2-font-family: var(--font-family-platform-text);
   --font-application-l-body1-sup-offset: var(--size-sup-offset-6xl);
   --font-application-l-body1-sup-size: var(--size-sup-font-xxs);
   --font-application-l-body1-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-body1-line-height: var(--size-font-m);
   --font-application-l-body1-font-size: var(--size-font-m);
   --font-application-l-body1-font-weight: var(--font-weight-regular);
-  --font-application-l-body1-font-family: var(--font-family-text);
+  --font-application-l-body1-font-family: var(--font-family-platform-text);
   --font-application-l-subtitle2-sup-offset: var(--size-sup-offset-4xl);
   --font-application-l-subtitle2-sup-size: var(--size-sup-font-xxs);
   --font-application-l-subtitle2-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-subtitle2-line-height: var(--size-font-m);
   --font-application-l-subtitle2-font-size: var(--size-font-m);
   --font-application-l-subtitle2-font-weight: var(--font-weight-regular);
-  --font-application-l-subtitle2-font-family: var(--font-family-text);
+  --font-application-l-subtitle2-font-family: var(--font-family-platform-text);
   --font-application-l-subtitle1-sup-offset: var(--size-sup-offset-xxl);
   --font-application-l-subtitle1-sup-size: var(--size-sup-font-xxs);
   --font-application-l-subtitle1-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-subtitle1-line-height: var(--size-font-l);
   --font-application-l-subtitle1-font-size: var(--size-font-l);
   --font-application-l-subtitle1-font-weight: var(--font-weight-regular);
-  --font-application-l-subtitle1-font-family: var(--font-family-text);
+  --font-application-l-subtitle1-font-family: var(--font-family-platform-text);
   --font-application-l-headline6-sup-offset: var(--size-sup-offset-4xl);
   --font-application-l-headline6-sup-size: var(--size-sup-font-xxs);
   --font-application-l-headline6-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-headline6-line-height: var(--size-font-l);
   --font-application-l-headline6-font-size: var(--size-font-l);
   --font-application-l-headline6-font-weight: var(--font-weight-bold);
-  --font-application-l-headline6-font-family: var(--font-family-text);
+  --font-application-l-headline6-font-family: var(--font-family-platform-text);
   --font-application-l-headline5-sup-offset: var(--size-sup-offset-xxl);
   --font-application-l-headline5-sup-size: var(--size-sup-font-xxs);
   --font-application-l-headline5-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-headline5-line-height: var(--size-font-xl);
   --font-application-l-headline5-font-size: var(--size-font-xl);
   --font-application-l-headline5-font-weight: var(--font-weight-bold);
-  --font-application-l-headline5-font-family: var(--font-family-text);
+  --font-application-l-headline5-font-family: var(--font-family-platform-text);
   --font-application-l-headline4-sup-offset: var(--size-sup-offset-l);
   --font-application-l-headline4-sup-size: var(--size-sup-font-s);
   --font-application-l-headline4-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-headline4-line-height: var(--size-font-4xl);
   --font-application-l-headline4-font-size: var(--size-font-4xl);
   --font-application-l-headline4-font-weight: var(--font-weight-regular);
-  --font-application-l-headline4-font-family: var(--font-family-title);
+  --font-application-l-headline4-font-family: var(--font-family-platform-title);
   --font-application-l-headline3-sup-offset: var(--size-sup-offset-xs);
   --font-application-l-headline3-sup-size: var(--size-sup-font-xl);
   --font-application-l-headline3-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-headline3-line-height: var(--size-font-6xl);
   --font-application-l-headline3-font-size: var(--size-font-6xl);
   --font-application-l-headline3-font-weight: var(--font-weight-regular);
-  --font-application-l-headline3-font-family: var(--font-family-title);
+  --font-application-l-headline3-font-family: var(--font-family-platform-title);
   --font-application-l-headline2-sup-offset: var(--size-sup-offset-xxs);
   --font-application-l-headline2-sup-size: var(--size-sup-font-xxl);
   --font-application-l-headline2-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-headline2-line-height: var(--size-font-7xl);
   --font-application-l-headline2-font-size: var(--size-font-7xl);
   --font-application-l-headline2-font-weight: var(--font-weight-regular);
-  --font-application-l-headline2-font-family: var(--font-family-title);
+  --font-application-l-headline2-font-family: var(--font-family-platform-title);
   --font-application-l-headline1-sup-offset: var(--size-sup-offset-3xs);
   --font-application-l-headline1-sup-size: var(--size-sup-font-4xl);
   --font-application-l-headline1-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-headline1-line-height: var(--size-font-8xl);
   --font-application-l-headline1-font-size: var(--size-font-8xl);
   --font-application-l-headline1-font-weight: var(--font-weight-regular);
-  --font-application-l-headline1-font-family: var(--font-family-title);
+  --font-application-l-headline1-font-family: var(--font-family-platform-title);
   --font-application-s-overline-sup-offset: var(--size-sup-offset-11xl);
   --font-application-s-overline-sup-size: var(--size-sup-font-xxs);
   --font-application-s-overline-letter-spacing: var(--size-letter-spacing-m);
   --font-application-s-overline-line-height: var(--size-font-xxs);
   --font-application-s-overline-font-size: var(--size-font-xxs);
   --font-application-s-overline-font-weight: var(--font-weight-bold);
-  --font-application-s-overline-font-family: var(--font-family-text);
+  --font-application-s-overline-font-family: var(--font-family-platform-text);
   --font-application-s-caption-sup-offset: var(--size-sup-offset-12xl);
   --font-application-s-caption-sup-size: var(--size-sup-font-xxs);
   --font-application-s-caption-letter-spacing: var(--size-letter-spacing-l);
   --font-application-s-caption-line-height: var(--size-font-xxs);
   --font-application-s-caption-font-size: var(--size-font-xxs);
   --font-application-s-caption-font-weight: var(--font-weight-regular);
-  --font-application-s-caption-font-family: var(--font-family-text);
+  --font-application-s-caption-font-family: var(--font-family-platform-text);
   --font-application-s-button-sup-offset: var(--size-sup-offset-8xl);
   --font-application-s-button-sup-size: var(--size-sup-font-xxs);
   --font-application-s-button-letter-spacing: var(--size-letter-spacing-xl);
   --font-application-s-button-line-height: var(--size-font-s);
   --font-application-s-button-font-size: var(--size-font-s);
   --font-application-s-button-font-weight: var(--font-weight-bold);
-  --font-application-s-button-font-family: var(--font-family-text);
+  --font-application-s-button-font-family: var(--font-family-platform-text);
   --font-application-s-body2-sup-offset: var(--size-sup-offset-10xl);
   --font-application-s-body2-sup-size: var(--size-sup-font-xxs);
   --font-application-s-body2-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-body2-line-height: var(--size-font-xs);
   --font-application-s-body2-font-size: var(--size-font-xs);
   --font-application-s-body2-font-weight: var(--font-weight-regular);
-  --font-application-s-body2-font-family: var(--font-family-text);
+  --font-application-s-body2-font-family: var(--font-family-platform-text);
   --font-application-s-body1-sup-offset: var(--size-sup-offset-7xl);
   --font-application-s-body1-sup-size: var(--size-sup-font-xxs);
   --font-application-s-body1-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-body1-line-height: var(--size-font-s);
   --font-application-s-body1-font-size: var(--size-font-s);
   --font-application-s-body1-font-weight: var(--font-weight-regular);
-  --font-application-s-body1-font-family: var(--font-family-text);
+  --font-application-s-body1-font-family: var(--font-family-platform-text);
   --font-application-s-subtitle2-sup-offset: var(--size-sup-offset-5xl);
   --font-application-s-subtitle2-sup-size: var(--size-sup-font-xxs);
   --font-application-s-subtitle2-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-subtitle2-line-height: var(--size-font-s);
   --font-application-s-subtitle2-font-size: var(--size-font-s);
   --font-application-s-subtitle2-font-weight: var(--font-weight-regular);
-  --font-application-s-subtitle2-font-family: var(--font-family-text);
+  --font-application-s-subtitle2-font-family: var(--font-family-platform-text);
   --font-application-s-subtitle1-sup-offset: var(--size-sup-offset-3xl);
   --font-application-s-subtitle1-sup-size: var(--size-sup-font-xxs);
   --font-application-s-subtitle1-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-subtitle1-line-height: var(--size-font-m);
   --font-application-s-subtitle1-font-size: var(--size-font-m);
   --font-application-s-subtitle1-font-weight: var(--font-weight-regular);
-  --font-application-s-subtitle1-font-family: var(--font-family-text);
+  --font-application-s-subtitle1-font-family: var(--font-family-platform-text);
   --font-application-s-headline6-sup-offset: var(--size-sup-offset-5xl);
   --font-application-s-headline6-sup-size: var(--size-sup-font-xxs);
   --font-application-s-headline6-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-headline6-line-height: var(--size-font-m);
   --font-application-s-headline6-font-size: var(--size-font-m);
   --font-application-s-headline6-font-weight: var(--font-weight-bold);
-  --font-application-s-headline6-font-family: var(--font-family-text);
+  --font-application-s-headline6-font-family: var(--font-family-platform-text);
   --font-application-s-headline5-sup-offset: var(--size-sup-offset-3xl);
   --font-application-s-headline5-sup-size: var(--size-sup-font-xxs);
   --font-application-s-headline5-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-headline5-line-height: var(--size-font-l);
   --font-application-s-headline5-font-size: var(--size-font-l);
   --font-application-s-headline5-font-weight: var(--font-weight-bold);
-  --font-application-s-headline5-font-family: var(--font-family-text);
+  --font-application-s-headline5-font-family: var(--font-family-platform-text);
   --font-application-s-headline4-sup-offset: var(--size-sup-offset-xxl);
   --font-application-s-headline4-sup-size: var(--size-sup-font-xxs);
   --font-application-s-headline4-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-headline4-line-height: var(--size-font-xxl);
   --font-application-s-headline4-font-size: var(--size-font-xxl);
   --font-application-s-headline4-font-weight: var(--font-weight-regular);
-  --font-application-s-headline4-font-family: var(--font-family-title);
+  --font-application-s-headline4-font-family: var(--font-family-platform-title);
   --font-application-s-headline3-sup-offset: var(--size-sup-offset-l);
   --font-application-s-headline3-sup-size: var(--size-sup-font-xs);
   --font-application-s-headline3-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-headline3-line-height: var(--size-font-3xl);
   --font-application-s-headline3-font-size: var(--size-font-3xl);
   --font-application-s-headline3-font-weight: var(--font-weight-regular);
-  --font-application-s-headline3-font-family: var(--font-family-title);
+  --font-application-s-headline3-font-family: var(--font-family-platform-title);
   --font-application-s-headline2-sup-offset: var(--size-sup-offset-m);
   --font-application-s-headline2-sup-size: var(--size-sup-font-m);
   --font-application-s-headline2-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-headline2-line-height: var(--size-font-5xl);
   --font-application-s-headline2-font-size: var(--size-font-5xl);
   --font-application-s-headline2-font-weight: var(--font-weight-regular);
-  --font-application-s-headline2-font-family: var(--font-family-title);
+  --font-application-s-headline2-font-family: var(--font-family-platform-title);
   --font-application-s-headline1-sup-offset: var(--size-sup-offset-s);
   --font-application-s-headline1-sup-size: var(--size-sup-font-3xl);
   --font-application-s-headline1-letter-spacing: var(--size-letter-spacing-s);
   --font-application-s-headline1-line-height: var(--size-font-6xl);
   --font-application-s-headline1-font-size: var(--size-font-6xl);
   --font-application-s-headline1-font-weight: var(--font-weight-regular);
-  --font-application-s-headline1-font-family: var(--font-family-title);
+  --font-application-s-headline1-font-family: var(--font-family-platform-title);
   --color-base-nandor-contrast-900: var(--color-base-white);
   --color-base-nandor-contrast-800: var(--color-base-white);
   --color-base-nandor-contrast-700: var(--color-base-white);
@@ -679,8 +691,8 @@
   --color-base-yellow-contrast-900: var(--color-base-white);
   --color-base-yellow-contrast-800: var(--color-base-white);
   --color-base-yellow-contrast-700: var(--color-base-white);
-  --color-base-yellow-contrast-600: var(--color-base-white);
-  --color-base-yellow-contrast-500: var(--color-base-white);
+  --color-base-yellow-contrast-600: var(--color-base-black);
+  --color-base-yellow-contrast-500: var(--color-base-black);
   --color-base-yellow-contrast-400: var(--color-base-black);
   --color-base-yellow-contrast-300: var(--color-base-black);
   --color-base-yellow-contrast-200: var(--color-base-black);
@@ -829,13 +841,65 @@
   --color-application-success: var(--color-brand-green-400); /* The success color is used for success text. */
   --color-application-error: var(--color-brand-red-300); /* The error color is used for error text. */
   --color-application-outline: var(--color-brand-neutral-500); /* The outline color is used for components with an outline like cards, text fields or buttons. */
-  --color-application-surface: var(--color-brand-deepblue-900); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
+  --color-application-surface: var(--color-base-black); /* The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips. */
   --color-application-background: var(--color-base-black); /* The background color is used for the content background. */
   --color-application-quaternary: var(--color-brand-lividbrown-200); /* The quaternary color is used to colorize information graphics. */
   --color-application-tertiary: var(--color-brand-xanadu-300); /* The tertiary color is used to colorize information graphics. */
   --color-application-secondary: var(--color-brand-deluge-300); /* The secondary color is used to indicate selection controls, floating actions or overline text. */
-  --color-application-primary-variant: var(--color-brand-goldentainoi-300); /* The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio. */
+  --color-application-primary-variant: var(--color-brand-goldentainoi-300); /* The primary variant color is used for text and icons to ensure an accessible contrast ratio. */
   --color-application-primary: var(--color-brand-goldentainoi-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
-  --font-application-l-overline-color: var(--color-application-primary);
-  --font-application-s-overline-color: var(--color-application-primary);
+  --component-typography-overline-color: var(--color-application-primary-variant);
+  --component-toggle-button-primary-selected-hover-background-color: rgba(255, 213, 107, 0.12);
+  --component-toggle-button-primary-selected-background-color: rgba(255, 213, 107, 0.08);
+  --component-toggle-button-primary-selected-icon-color: var(--color-application-primary-variant);
+  --component-toggle-button-primary-selected-text-color: var(--color-application-primary-variant);
+  --component-textfield-filled-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-textfield-text-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-textfield-outlined-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-tabs-indicator-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-selected-icon-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-selected-text-color: var(--color-application-primary-variant);
+  --component-switch-primary-selected-background: var(--color-application-primary-variant);
+  --component-switch-primary-selected-color: var(--color-application-primary-variant);
+  --component-slider-primary-background-color: var(--color-application-primary);
+  --component-slider-primary-main-color: var(--color-application-primary-variant);
+  --component-slider-primary-label-color: var(--color-application-primary-variant);
+  --component-slider-primary-thumb-color: var(--color-application-primary-variant);
+  --component-select-filled-primary-focused-border-color: var(--color-application-primary-variant);
+  --component-select-filled-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-select-text-primary-focused-border-color: var(--color-application-primary-variant);
+  --component-select-text-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-select-outlined-primary-focused-border-color: var(--color-application-primary-variant);
+  --component-select-outlined-primary-focused-label-color: var(--color-application-primary-variant);
+  --component-radio-primary-selected-color: var(--color-application-primary-variant);
+  --component-progress-linear-buffer-primary-bar1-color: var(--color-application-primary-variant);
+  --component-progress-linear-determinate-primary-bar1-color: var(--color-application-primary-variant);
+  --component-progress-linear-indeterminate-primary-bar2-color: var(--color-application-primary-variant);
+  --component-progress-linear-indeterminate-primary-bar1-color: var(--color-application-primary-variant);
+  --component-progress-circular-determinate-primary-color: var(--color-application-primary-variant);
+  --component-progress-circular-indeterminate-primary-color: var(--color-application-primary-variant);
+  --component-pagination-outlined-primary-item-selected-color: var(--color-application-primary-variant);
+  --component-menu-item-primary-selected-hover-background-color: rgba(255, 213, 107, 0.12);
+  --component-menu-item-primary-selected-background-color: rgba(255, 213, 107, 0.08);
+  --component-link-primary-default-color: var(--color-application-primary-variant);
+  --component-icon-primary-color: var(--color-application-primary-variant);
+  --component-chip-outlined-primary-delete-icon-hover-color: var(--color-application-primary-variant);
+  --component-chip-outlined-primary-delete-icon-default-color: rgba(255, 213, 107, 0.6);
+  --component-chip-outlined-primary-icon-default-color: var(--color-application-primary-variant);
+  --component-chip-outlined-primary-text-color: var(--color-application-primary-variant);
+  --component-checkbox-primary-intermediate-color: var(--color-application-primary-variant);
+  --component-checkbox-primary-checked-color: var(--color-application-primary-variant);
+  --component-button-icon-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-button-icon-primary-default-text-color: var(--color-application-primary-variant);
+  --component-button-plain-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-button-plain-primary-default-text-color: var(--color-application-primary-variant);
+  --component-button-text-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-button-text-primary-default-text-color: var(--color-application-primary-variant);
+  --component-button-outlined-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-button-outlined-primary-default-text-color: var(--color-application-primary-variant);
+  --component-alert-text-primary-default-background-color: var(--color-application-primary);
+  --component-alert-text-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-alert-text-primary-default-text-color: var(--color-application-primary-variant);
+  --component-alert-outlined-primary-default-icon-color: var(--color-application-primary-variant);
+  --component-alert-outlined-primary-default-text-color: var(--color-application-primary-variant);
 }

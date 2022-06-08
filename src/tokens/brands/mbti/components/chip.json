@@ -1,0 +1,38 @@
+{
+  "component": {
+    "chip": {
+      "outlined": {
+        "primary": {
+          "text": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          },
+          "icon": {
+            "default": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          },
+          "delete-icon": {
+            "default": {
+              "color": {
+                "value": "{color.application.primary-variant}",
+                "modify": {
+                  "type": "alpha",
+                  "amount": "{opacity.application.icon.medium}"
+                }
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "component": {
+    "pagination": {
+      "outlined": {
+        "primary": {
+          "item": {
+            "selected": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 20:52:04 GMT
+ * Generated on Fri, 20 May 2022 13:16:22 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -13,36 +13,47 @@ $layout-application-compact-xxl-content-max-width: 1680px !default;
 $layout-application-compact-xxl-content-width: 86% !default;
 $layout-application-compact-xl-spacing-scale: xl !default;
 $layout-application-compact-xl-typography-scale: l !default;
+$layout-application-compact-xl-content-max-width: none !default;
 $layout-application-compact-xl-content-width: 86% !default;
 $layout-application-compact-l-spacing-scale: l !default;
 $layout-application-compact-l-typography-scale: l !default;
+$layout-application-compact-l-content-max-width: none !default;
 $layout-application-compact-l-content-width: 86% !default;
 $layout-application-compact-m-spacing-scale: m !default;
 $layout-application-compact-m-typography-scale: s !default;
+$layout-application-compact-m-content-max-width: none !default;
 $layout-application-compact-m-content-width: 86% !default;
 $layout-application-compact-s-spacing-scale: s !default;
 $layout-application-compact-s-typography-scale: s !default;
+$layout-application-compact-s-content-max-width: none !default;
 $layout-application-compact-s-content-width: 90% !default;
 $layout-application-compact-xs-spacing-scale: xs !default;
 $layout-application-compact-xs-typography-scale: s !default;
+$layout-application-compact-xs-content-max-width: none !default;
 $layout-application-compact-xs-content-width: 90% !default;
 $layout-application-wide-xxl-spacing-scale: xxl !default;
 $layout-application-wide-xxl-typography-scale: l !default;
+$layout-application-wide-xxl-content-max-width: none !default;
 $layout-application-wide-xxl-content-width: 86% !default;
 $layout-application-wide-xl-spacing-scale: xl !default;
 $layout-application-wide-xl-typography-scale: l !default;
+$layout-application-wide-xl-content-max-width: none !default;
 $layout-application-wide-xl-content-width: 86% !default;
 $layout-application-wide-l-spacing-scale: l !default;
 $layout-application-wide-l-typography-scale: l !default;
+$layout-application-wide-l-content-max-width: none !default;
 $layout-application-wide-l-content-width: 86% !default;
 $layout-application-wide-m-spacing-scale: m !default;
 $layout-application-wide-m-typography-scale: s !default;
+$layout-application-wide-m-content-max-width: none !default;
 $layout-application-wide-m-content-width: 86% !default;
 $layout-application-wide-s-spacing-scale: s !default;
 $layout-application-wide-s-typography-scale: s !default;
+$layout-application-wide-s-content-max-width: none !default;
 $layout-application-wide-s-content-width: 90% !default;
 $layout-application-wide-xs-spacing-scale: xs !default;
 $layout-application-wide-xs-typography-scale: s !default;
+$layout-application-wide-xs-content-max-width: none !default;
 $layout-application-wide-xs-content-width: 90% !default;
 $size-screen-platform-xxl: 1440px !default;
 $size-screen-platform-xl: 1280px !default;
@@ -129,12 +140,6 @@ $opacity-base-4: 1 !default;
 $opacity-base-3: 0.74 !default;
 $opacity-base-2: 0.6 !default;
 $opacity-base-1: 0.38 !default;
-$font-weight-bold: 700 !default; // The bold weight of the font.
-$font-weight-regular: 400 !default; // The regular weight of the font.
-$font-family-platform-text: 'MB Corpo S Text Web', Arial !default; // The brand font family for large headlines.
-$font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The brand font family for large headlines.
-$font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
-$font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
 $font-application-l-overline-text-transform: uppercase !default;
 $font-application-l-caption-text-transform: none !default;
 $font-application-l-button-text-transform: none !default;
@@ -161,6 +166,13 @@ $font-application-s-headline4-text-transform: none !default;
 $font-application-s-headline3-text-transform: none !default;
 $font-application-s-headline2-text-transform: none !default;
 $font-application-s-headline1-text-transform: none !default;
+$font-weight-bold: 700 !default; // The bold weight of the font.
+$font-weight-regular: 400 !default; // The regular weight of the font.
+$font-family-platform-text: 'MB Corpo S Text Web', Arial !default; // The brand font family for large headlines.
+$font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The brand font family for large headlines.
+$font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
+$font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
+$component-switch-primary-selected-disabled-color: #c1ab73 !default;
 $color-base-nandor-900: #232c26 !default;
 $color-base-nandor-800: #444e48 !default;
 $color-base-nandor-700: #636e67 !default;
@@ -454,182 +466,182 @@ $font-application-l-overline-letter-spacing: $size-letter-spacing-m !default;
 $font-application-l-overline-line-height: $size-font-xs !default;
 $font-application-l-overline-font-size: $size-font-xs !default;
 $font-application-l-overline-font-weight: $font-weight-bold !default;
-$font-application-l-overline-font-family: $font-family-text !default;
+$font-application-l-overline-font-family: $font-family-platform-text !default;
 $font-application-l-caption-sup-offset: $size-sup-offset-12xl !default;
 $font-application-l-caption-sup-size: $size-sup-font-xxs !default;
 $font-application-l-caption-letter-spacing: $size-letter-spacing-l !default;
 $font-application-l-caption-line-height: $size-font-xxs !default;
 $font-application-l-caption-font-size: $size-font-xxs !default;
 $font-application-l-caption-font-weight: $font-weight-regular !default;
-$font-application-l-caption-font-family: $font-family-text !default;
+$font-application-l-caption-font-family: $font-family-platform-text !default;
 $font-application-l-button-sup-offset: $size-sup-offset-8xl !default;
 $font-application-l-button-sup-size: $size-sup-font-xxs !default;
 $font-application-l-button-letter-spacing: $size-letter-spacing-xl !default;
 $font-application-l-button-line-height: $size-font-s !default;
 $font-application-l-button-font-size: $size-font-s !default;
 $font-application-l-button-font-weight: $font-weight-bold !default;
-$font-application-l-button-font-family: $font-family-text !default;
+$font-application-l-button-font-family: $font-family-platform-text !default;
 $font-application-l-body2-sup-offset: $size-sup-offset-8xl !default;
 $font-application-l-body2-sup-size: $size-sup-font-xxs !default;
 $font-application-l-body2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-body2-line-height: $size-font-s !default;
 $font-application-l-body2-font-size: $size-font-s !default;
 $font-application-l-body2-font-weight: $font-weight-regular !default;
-$font-application-l-body2-font-family: $font-family-text !default;
+$font-application-l-body2-font-family: $font-family-platform-text !default;
 $font-application-l-body1-sup-offset: $size-sup-offset-6xl !default;
 $font-application-l-body1-sup-size: $size-sup-font-xxs !default;
 $font-application-l-body1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-body1-line-height: $size-font-m !default;
 $font-application-l-body1-font-size: $size-font-m !default;
 $font-application-l-body1-font-weight: $font-weight-regular !default;
-$font-application-l-body1-font-family: $font-family-text !default;
+$font-application-l-body1-font-family: $font-family-platform-text !default;
 $font-application-l-subtitle2-sup-offset: $size-sup-offset-4xl !default;
 $font-application-l-subtitle2-sup-size: $size-sup-font-xxs !default;
 $font-application-l-subtitle2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-subtitle2-line-height: $size-font-m !default;
 $font-application-l-subtitle2-font-size: $size-font-m !default;
 $font-application-l-subtitle2-font-weight: $font-weight-regular !default;
-$font-application-l-subtitle2-font-family: $font-family-text !default;
+$font-application-l-subtitle2-font-family: $font-family-platform-text !default;
 $font-application-l-subtitle1-sup-offset: $size-sup-offset-xxl !default;
 $font-application-l-subtitle1-sup-size: $size-sup-font-xxs !default;
 $font-application-l-subtitle1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-subtitle1-line-height: $size-font-l !default;
 $font-application-l-subtitle1-font-size: $size-font-l !default;
 $font-application-l-subtitle1-font-weight: $font-weight-regular !default;
-$font-application-l-subtitle1-font-family: $font-family-text !default;
+$font-application-l-subtitle1-font-family: $font-family-platform-text !default;
 $font-application-l-headline6-sup-offset: $size-sup-offset-4xl !default;
 $font-application-l-headline6-sup-size: $size-sup-font-xxs !default;
 $font-application-l-headline6-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline6-line-height: $size-font-l !default;
 $font-application-l-headline6-font-size: $size-font-l !default;
 $font-application-l-headline6-font-weight: $font-weight-bold !default;
-$font-application-l-headline6-font-family: $font-family-text !default;
+$font-application-l-headline6-font-family: $font-family-platform-text !default;
 $font-application-l-headline5-sup-offset: $size-sup-offset-xxl !default;
 $font-application-l-headline5-sup-size: $size-sup-font-xxs !default;
 $font-application-l-headline5-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline5-line-height: $size-font-xl !default;
 $font-application-l-headline5-font-size: $size-font-xl !default;
 $font-application-l-headline5-font-weight: $font-weight-bold !default;
-$font-application-l-headline5-font-family: $font-family-text !default;
+$font-application-l-headline5-font-family: $font-family-platform-text !default;
 $font-application-l-headline4-sup-offset: $size-sup-offset-l !default;
 $font-application-l-headline4-sup-size: $size-sup-font-s !default;
 $font-application-l-headline4-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline4-line-height: $size-font-4xl !default;
 $font-application-l-headline4-font-size: $size-font-4xl !default;
 $font-application-l-headline4-font-weight: $font-weight-regular !default;
-$font-application-l-headline4-font-family: $font-family-title !default;
+$font-application-l-headline4-font-family: $font-family-platform-title !default;
 $font-application-l-headline3-sup-offset: $size-sup-offset-xs !default;
 $font-application-l-headline3-sup-size: $size-sup-font-xl !default;
 $font-application-l-headline3-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline3-line-height: $size-font-6xl !default;
 $font-application-l-headline3-font-size: $size-font-6xl !default;
 $font-application-l-headline3-font-weight: $font-weight-regular !default;
-$font-application-l-headline3-font-family: $font-family-title !default;
+$font-application-l-headline3-font-family: $font-family-platform-title !default;
 $font-application-l-headline2-sup-offset: $size-sup-offset-xxs !default;
 $font-application-l-headline2-sup-size: $size-sup-font-xxl !default;
 $font-application-l-headline2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline2-line-height: $size-font-7xl !default;
 $font-application-l-headline2-font-size: $size-font-7xl !default;
 $font-application-l-headline2-font-weight: $font-weight-regular !default;
-$font-application-l-headline2-font-family: $font-family-title !default;
+$font-application-l-headline2-font-family: $font-family-platform-title !default;
 $font-application-l-headline1-sup-offset: $size-sup-offset-3xs !default;
 $font-application-l-headline1-sup-size: $size-sup-font-4xl !default;
 $font-application-l-headline1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-headline1-line-height: $size-font-8xl !default;
 $font-application-l-headline1-font-size: $size-font-8xl !default;
 $font-application-l-headline1-font-weight: $font-weight-regular !default;
-$font-application-l-headline1-font-family: $font-family-title !default;
+$font-application-l-headline1-font-family: $font-family-platform-title !default;
 $font-application-s-overline-sup-offset: $size-sup-offset-11xl !default;
 $font-application-s-overline-sup-size: $size-sup-font-xxs !default;
 $font-application-s-overline-letter-spacing: $size-letter-spacing-m !default;
 $font-application-s-overline-line-height: $size-font-xxs !default;
 $font-application-s-overline-font-size: $size-font-xxs !default;
 $font-application-s-overline-font-weight: $font-weight-bold !default;
-$font-application-s-overline-font-family: $font-family-text !default;
+$font-application-s-overline-font-family: $font-family-platform-text !default;
 $font-application-s-caption-sup-offset: $size-sup-offset-12xl !default;
 $font-application-s-caption-sup-size: $size-sup-font-xxs !default;
 $font-application-s-caption-letter-spacing: $size-letter-spacing-l !default;
 $font-application-s-caption-line-height: $size-font-xxs !default;
 $font-application-s-caption-font-size: $size-font-xxs !default;
 $font-application-s-caption-font-weight: $font-weight-regular !default;
-$font-application-s-caption-font-family: $font-family-text !default;
+$font-application-s-caption-font-family: $font-family-platform-text !default;
 $font-application-s-button-sup-offset: $size-sup-offset-8xl !default;
 $font-application-s-button-sup-size: $size-sup-font-xxs !default;
 $font-application-s-button-letter-spacing: $size-letter-spacing-xl !default;
 $font-application-s-button-line-height: $size-font-s !default;
 $font-application-s-button-font-size: $size-font-s !default;
 $font-application-s-button-font-weight: $font-weight-bold !default;
-$font-application-s-button-font-family: $font-family-text !default;
+$font-application-s-button-font-family: $font-family-platform-text !default;
 $font-application-s-body2-sup-offset: $size-sup-offset-10xl !default;
 $font-application-s-body2-sup-size: $size-sup-font-xxs !default;
 $font-application-s-body2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-body2-line-height: $size-font-xs !default;
 $font-application-s-body2-font-size: $size-font-xs !default;
 $font-application-s-body2-font-weight: $font-weight-regular !default;
-$font-application-s-body2-font-family: $font-family-text !default;
+$font-application-s-body2-font-family: $font-family-platform-text !default;
 $font-application-s-body1-sup-offset: $size-sup-offset-7xl !default;
 $font-application-s-body1-sup-size: $size-sup-font-xxs !default;
 $font-application-s-body1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-body1-line-height: $size-font-s !default;
 $font-application-s-body1-font-size: $size-font-s !default;
 $font-application-s-body1-font-weight: $font-weight-regular !default;
-$font-application-s-body1-font-family: $font-family-text !default;
+$font-application-s-body1-font-family: $font-family-platform-text !default;
 $font-application-s-subtitle2-sup-offset: $size-sup-offset-5xl !default;
 $font-application-s-subtitle2-sup-size: $size-sup-font-xxs !default;
 $font-application-s-subtitle2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-subtitle2-line-height: $size-font-s !default;
 $font-application-s-subtitle2-font-size: $size-font-s !default;
 $font-application-s-subtitle2-font-weight: $font-weight-regular !default;
-$font-application-s-subtitle2-font-family: $font-family-text !default;
+$font-application-s-subtitle2-font-family: $font-family-platform-text !default;
 $font-application-s-subtitle1-sup-offset: $size-sup-offset-3xl !default;
 $font-application-s-subtitle1-sup-size: $size-sup-font-xxs !default;
 $font-application-s-subtitle1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-subtitle1-line-height: $size-font-m !default;
 $font-application-s-subtitle1-font-size: $size-font-m !default;
 $font-application-s-subtitle1-font-weight: $font-weight-regular !default;
-$font-application-s-subtitle1-font-family: $font-family-text !default;
+$font-application-s-subtitle1-font-family: $font-family-platform-text !default;
 $font-application-s-headline6-sup-offset: $size-sup-offset-5xl !default;
 $font-application-s-headline6-sup-size: $size-sup-font-xxs !default;
 $font-application-s-headline6-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline6-line-height: $size-font-m !default;
 $font-application-s-headline6-font-size: $size-font-m !default;
 $font-application-s-headline6-font-weight: $font-weight-bold !default;
-$font-application-s-headline6-font-family: $font-family-text !default;
+$font-application-s-headline6-font-family: $font-family-platform-text !default;
 $font-application-s-headline5-sup-offset: $size-sup-offset-3xl !default;
 $font-application-s-headline5-sup-size: $size-sup-font-xxs !default;
 $font-application-s-headline5-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline5-line-height: $size-font-l !default;
 $font-application-s-headline5-font-size: $size-font-l !default;
 $font-application-s-headline5-font-weight: $font-weight-bold !default;
-$font-application-s-headline5-font-family: $font-family-text !default;
+$font-application-s-headline5-font-family: $font-family-platform-text !default;
 $font-application-s-headline4-sup-offset: $size-sup-offset-xxl !default;
 $font-application-s-headline4-sup-size: $size-sup-font-xxs !default;
 $font-application-s-headline4-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline4-line-height: $size-font-xxl !default;
 $font-application-s-headline4-font-size: $size-font-xxl !default;
 $font-application-s-headline4-font-weight: $font-weight-regular !default;
-$font-application-s-headline4-font-family: $font-family-title !default;
+$font-application-s-headline4-font-family: $font-family-platform-title !default;
 $font-application-s-headline3-sup-offset: $size-sup-offset-l !default;
 $font-application-s-headline3-sup-size: $size-sup-font-xs !default;
 $font-application-s-headline3-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline3-line-height: $size-font-3xl !default;
 $font-application-s-headline3-font-size: $size-font-3xl !default;
 $font-application-s-headline3-font-weight: $font-weight-regular !default;
-$font-application-s-headline3-font-family: $font-family-title !default;
+$font-application-s-headline3-font-family: $font-family-platform-title !default;
 $font-application-s-headline2-sup-offset: $size-sup-offset-m !default;
 $font-application-s-headline2-sup-size: $size-sup-font-m !default;
 $font-application-s-headline2-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline2-line-height: $size-font-5xl !default;
 $font-application-s-headline2-font-size: $size-font-5xl !default;
 $font-application-s-headline2-font-weight: $font-weight-regular !default;
-$font-application-s-headline2-font-family: $font-family-title !default;
+$font-application-s-headline2-font-family: $font-family-platform-title !default;
 $font-application-s-headline1-sup-offset: $size-sup-offset-s !default;
 $font-application-s-headline1-sup-size: $size-sup-font-3xl !default;
 $font-application-s-headline1-letter-spacing: $size-letter-spacing-s !default;
 $font-application-s-headline1-line-height: $size-font-6xl !default;
 $font-application-s-headline1-font-size: $size-font-6xl !default;
 $font-application-s-headline1-font-weight: $font-weight-regular !default;
-$font-application-s-headline1-font-family: $font-family-title !default;
+$font-application-s-headline1-font-family: $font-family-platform-title !default;
 $color-base-nandor-contrast-900: $color-base-white !default;
 $color-base-nandor-contrast-800: $color-base-white !default;
 $color-base-nandor-contrast-700: $color-base-white !default;
@@ -673,8 +685,8 @@ $color-base-blackcurrant-contrast-50: $color-base-black !default;
 $color-base-yellow-contrast-900: $color-base-white !default;
 $color-base-yellow-contrast-800: $color-base-white !default;
 $color-base-yellow-contrast-700: $color-base-white !default;
-$color-base-yellow-contrast-600: $color-base-white !default;
-$color-base-yellow-contrast-500: $color-base-white !default;
+$color-base-yellow-contrast-600: $color-base-black !default;
+$color-base-yellow-contrast-500: $color-base-black !default;
 $color-base-yellow-contrast-400: $color-base-black !default;
 $color-base-yellow-contrast-300: $color-base-black !default;
 $color-base-yellow-contrast-200: $color-base-black !default;
@@ -823,15 +835,67 @@ $color-application-contrast-primary: $color-base-black !default; // The primary 
 $color-application-success: $color-brand-green-800 !default; // The success color is used for success text.
 $color-application-error: $color-brand-red-700 !default; // The error color is used for error text.
 $color-application-outline: $color-brand-neutral-200 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
-$color-application-surface: $color-brand-neutral-50 !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
+$color-application-surface: $color-base-white !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
 $color-application-background: $color-base-white !default; // The background color is used for the content background.
 $color-application-quaternary: $color-brand-lividbrown-600 !default; // The quaternary color is used to colorize information graphics.
 $color-application-tertiary: $color-brand-xanadu-600 !default; // The tertiary color is used to colorize information graphics.
 $color-application-secondary: $color-brand-deluge-500 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
 $color-application-primary-variant: $color-brand-yellow-900 !default; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
 $color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-$font-application-l-overline-color: $color-application-primary !default;
-$font-application-s-overline-color: $color-application-primary !default;
+$component-typography-overline-color: $color-application-primary-variant !default;
+$component-toggle-button-primary-selected-hover-background-color: rgba(153, 110, 0, 0.12) !default;
+$component-toggle-button-primary-selected-background-color: rgba(153, 110, 0, 0.08) !default;
+$component-toggle-button-primary-selected-icon-color: $color-application-primary-variant !default;
+$component-toggle-button-primary-selected-text-color: $color-application-primary-variant !default;
+$component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
+$component-textfield-text-primary-focused-label-color: $color-application-primary-variant !default;
+$component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
+$component-tabs-indicator-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-selected-icon-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-selected-text-color: $color-application-primary-variant !default;
+$component-switch-primary-selected-background: $color-application-primary-variant !default;
+$component-switch-primary-selected-color: $color-application-primary-variant !default;
+$component-slider-primary-background-color: $color-application-primary !default;
+$component-slider-primary-main-color: $color-application-primary-variant !default;
+$component-slider-primary-label-color: $color-application-primary-variant !default;
+$component-slider-primary-thumb-color: $color-application-primary-variant !default;
+$component-select-filled-primary-focused-border-color: $color-application-primary-variant !default;
+$component-select-filled-primary-focused-label-color: $color-application-primary-variant !default;
+$component-select-text-primary-focused-border-color: $color-application-primary-variant !default;
+$component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
+$component-select-outlined-primary-focused-border-color: $color-application-primary-variant !default;
+$component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
+$component-radio-primary-selected-color: $color-application-primary-variant !default;
+$component-progress-linear-buffer-primary-bar1-color: $color-application-primary-variant !default;
+$component-progress-linear-determinate-primary-bar1-color: $color-application-primary-variant !default;
+$component-progress-linear-indeterminate-primary-bar2-color: $color-application-primary-variant !default;
+$component-progress-linear-indeterminate-primary-bar1-color: $color-application-primary-variant !default;
+$component-progress-circular-determinate-primary-color: $color-application-primary-variant !default;
+$component-progress-circular-indeterminate-primary-color: $color-application-primary-variant !default;
+$component-pagination-outlined-primary-item-selected-color: $color-application-primary-variant !default;
+$component-menu-item-primary-selected-hover-background-color: rgba(153, 110, 0, 0.12) !default;
+$component-menu-item-primary-selected-background-color: rgba(153, 110, 0, 0.08) !default;
+$component-link-primary-default-color: $color-application-primary-variant !default;
+$component-icon-primary-color: $color-application-primary-variant !default;
+$component-chip-outlined-primary-delete-icon-hover-color: $color-application-primary-variant !default;
+$component-chip-outlined-primary-delete-icon-default-color: rgba(153, 110, 0, 0.6) !default;
+$component-chip-outlined-primary-icon-default-color: $color-application-primary-variant !default;
+$component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
+$component-checkbox-primary-intermediate-color: $color-application-primary-variant !default;
+$component-checkbox-primary-checked-color: $color-application-primary-variant !default;
+$component-button-icon-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-icon-primary-default-text-color: $color-application-primary-variant !default;
+$component-button-plain-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-plain-primary-default-text-color: $color-application-primary-variant !default;
+$component-button-text-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-text-primary-default-text-color: $color-application-primary-variant !default;
+$component-button-outlined-primary-default-icon-color: $color-application-primary-variant !default;
+$component-button-outlined-primary-default-text-color: $color-application-primary-variant !default;
+$component-alert-text-primary-default-background-color: $color-application-primary !default;
+$component-alert-text-primary-default-icon-color: $color-application-primary-variant !default;
+$component-alert-text-primary-default-text-color: $color-application-primary-variant !default;
+$component-alert-outlined-primary-default-icon-color: $color-application-primary-variant !default;
+$component-alert-outlined-primary-default-text-color: $color-application-primary-variant !default;
 
 $tokens: (
   'color': (
@@ -1298,7 +1362,354 @@ $tokens: (
       )
     )
   ),
+  'component': (
+    'alert': (
+      'outlined': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-alert-outlined-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-alert-outlined-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'text': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-alert-text-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-alert-text-primary-default-icon-color
+            ),
+            'background': (
+              'color': $component-alert-text-primary-default-background-color
+            )
+          )
+        )
+      )
+    ),
+    'button': (
+      'outlined': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-outlined-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-outlined-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'text': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-text-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-text-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'plain': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-plain-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-plain-primary-default-icon-color
+            )
+          )
+        )
+      ),
+      'icon': (
+        'primary': (
+          'default': (
+            'text': (
+              'color': $component-button-icon-primary-default-text-color
+            ),
+            'icon': (
+              'color': $component-button-icon-primary-default-icon-color
+            )
+          )
+        )
+      )
+    ),
+    'checkbox': (
+      'primary': (
+        'checked': (
+          'color': $component-checkbox-primary-checked-color
+        ),
+        'intermediate': (
+          'color': $component-checkbox-primary-intermediate-color
+        )
+      )
+    ),
+    'chip': (
+      'outlined': (
+        'primary': (
+          'text': (
+            'color': $component-chip-outlined-primary-text-color
+          ),
+          'icon': (
+            'default': (
+              'color': $component-chip-outlined-primary-icon-default-color
+            )
+          ),
+          'delete-icon': (
+            'default': (
+              'color': $component-chip-outlined-primary-delete-icon-default-color
+            ),
+            'hover': (
+              'color': $component-chip-outlined-primary-delete-icon-hover-color
+            )
+          )
+        )
+      )
+    ),
+    'icon': (
+      'primary': (
+        'color': $component-icon-primary-color
+      )
+    ),
+    'link': (
+      'primary': (
+        'default': (
+          'color': $component-link-primary-default-color
+        )
+      )
+    ),
+    'menu': (
+      'item': (
+        'primary': (
+          'selected': (
+            'background': (
+              'color': $component-menu-item-primary-selected-background-color
+            ),
+            'hover': (
+              'background': (
+                'color': $component-menu-item-primary-selected-hover-background-color
+              )
+            )
+          )
+        )
+      )
+    ),
+    'pagination': (
+      'outlined': (
+        'primary': (
+          'item': (
+            'selected': (
+              'color': $component-pagination-outlined-primary-item-selected-color
+            )
+          )
+        )
+      )
+    ),
+    'progress': (
+      'circular': (
+        'indeterminate': (
+          'primary': (
+            'color': $component-progress-circular-indeterminate-primary-color
+          )
+        ),
+        'determinate': (
+          'primary': (
+            'color': $component-progress-circular-determinate-primary-color
+          )
+        )
+      ),
+      'linear': (
+        'indeterminate': (
+          'primary': (
+            'bar1': (
+              'color': $component-progress-linear-indeterminate-primary-bar1-color
+            ),
+            'bar2': (
+              'color': $component-progress-linear-indeterminate-primary-bar2-color
+            )
+          )
+        ),
+        'determinate': (
+          'primary': (
+            'bar1': (
+              'color': $component-progress-linear-determinate-primary-bar1-color
+            )
+          )
+        ),
+        'buffer': (
+          'primary': (
+            'bar1': (
+              'color': $component-progress-linear-buffer-primary-bar1-color
+            )
+          )
+        )
+      )
+    ),
+    'radio': (
+      'primary': (
+        'selected': (
+          'color': $component-radio-primary-selected-color
+        )
+      )
+    ),
+    'select': (
+      'outlined': (
+        'primary': (
+          'focused': (
+            'label': (
+              'color': $component-select-outlined-primary-focused-label-color
+            ),
+            'border': (
+              'color': $component-select-outlined-primary-focused-border-color
+            )
+          )
+        )
+      ),
+      'text': (
+        'primary': (
+          'focused': (
+            'label': (
+              'color': $component-select-text-primary-focused-label-color
+            ),
+            'border': (
+              'color': $component-select-text-primary-focused-border-color
+            )
+          )
+        )
+      ),
+      'filled': (
+        'primary': (
+          'focused': (
+            'label': (
+              'color': $component-select-filled-primary-focused-label-color
+            ),
+            'border': (
+              'color': $component-select-filled-primary-focused-border-color
+            )
+          )
+        )
+      )
+    ),
+    'slider': (
+      'primary': (
+        'thumb': (
+          'color': $component-slider-primary-thumb-color
+        ),
+        'label': (
+          'color': $component-slider-primary-label-color
+        ),
+        'main': (
+          'color': $component-slider-primary-main-color
+        ),
+        'background': (
+          'color': $component-slider-primary-background-color
+        )
+      )
+    ),
+    'switch': (
+      'primary': (
+        'selected': (
+          'color': $component-switch-primary-selected-color,
+          'background': $component-switch-primary-selected-background,
+          'disabled': (
+            'color': $component-switch-primary-selected-disabled-color
+          )
+        )
+      )
+    ),
+    'tabs': (
+      'item': (
+        'primary': (
+          'selected': (
+            'text': (
+              'color': $component-tabs-item-primary-selected-text-color
+            ),
+            'icon': (
+              'color': $component-tabs-item-primary-selected-icon-color
+            )
+          )
+        )
+      ),
+      'indicator': (
+        'color': $component-tabs-indicator-color
+      )
+    ),
+    'textfield': (
+      'outlined': (
+        'primary': (
+          'focused': (
+            'label': (
+              'color': $component-textfield-outlined-primary-focused-label-color
+            )
+          )
+        )
+      ),
+      'text': (
+        'primary': (
+          'focused': (
+            'label': (
+              'color': $component-textfield-text-primary-focused-label-color
+            )
+          )
+        )
+      ),
+      'filled': (
+        'primary': (
+          'focused': (
+            'label': (
+              'color': $component-textfield-filled-primary-focused-label-color
+            )
+          )
+        )
+      )
+    ),
+    'toggle-button': (
+      'primary': (
+        'selected': (
+          'text': (
+            'color': $component-toggle-button-primary-selected-text-color
+          ),
+          'icon': (
+            'color': $component-toggle-button-primary-selected-icon-color
+          ),
+          'background': (
+            'color': $component-toggle-button-primary-selected-background-color
+          ),
+          'hover': (
+            'background': (
+              'color': $component-toggle-button-primary-selected-hover-background-color
+            )
+          )
+        )
+      )
+    ),
+    'typography': (
+      'overline': (
+        'color': $component-typography-overline-color
+      )
+    )
+  ),
   'font': (
+    'family': (
+      'title': $font-family-title,
+      'text': $font-family-text,
+      'platform': (
+        'title': $font-family-platform-title,
+        'text': $font-family-platform-text
+      )
+    ),
+    'weight': (
+      'regular': $font-weight-regular,
+      'bold': $font-weight-bold
+    ),
     'application': (
       's': (
         'headline1': (
@@ -1429,8 +1840,7 @@ $tokens: (
           'letter-spacing': $font-application-s-overline-letter-spacing,
           'text-transform': $font-application-s-overline-text-transform,
           'sup-size': $font-application-s-overline-sup-size,
-          'sup-offset': $font-application-s-overline-sup-offset,
-          'color': $font-application-s-overline-color
+          'sup-offset': $font-application-s-overline-sup-offset
         )
       ),
       'l': (
@@ -1562,22 +1972,9 @@ $tokens: (
           'letter-spacing': $font-application-l-overline-letter-spacing,
           'text-transform': $font-application-l-overline-text-transform,
           'sup-size': $font-application-l-overline-sup-size,
-          'sup-offset': $font-application-l-overline-sup-offset,
-          'color': $font-application-l-overline-color
+          'sup-offset': $font-application-l-overline-sup-offset
         )
       )
-    ),
-    'family': (
-      'title': $font-family-title,
-      'text': $font-family-text,
-      'platform': (
-        'title': $font-family-platform-title,
-        'text': $font-family-platform-text
-      )
-    ),
-    'weight': (
-      'regular': $font-weight-regular,
-      'bold': $font-weight-bold
     )
   ),
   'opacity': (
@@ -1798,6 +2195,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-xs-gutter-size,
           'column-amount': $layout-application-wide-xs-column-amount,
           'content-width': $layout-application-wide-xs-content-width,
+          'content-max-width': $layout-application-wide-xs-content-max-width,
           'typography-scale': $layout-application-wide-xs-typography-scale,
           'spacing-scale': $layout-application-wide-xs-spacing-scale
         ),
@@ -1806,6 +2204,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-s-gutter-size,
           'column-amount': $layout-application-wide-s-column-amount,
           'content-width': $layout-application-wide-s-content-width,
+          'content-max-width': $layout-application-wide-s-content-max-width,
           'typography-scale': $layout-application-wide-s-typography-scale,
           'spacing-scale': $layout-application-wide-s-spacing-scale
         ),
@@ -1814,6 +2213,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-m-gutter-size,
           'column-amount': $layout-application-wide-m-column-amount,
           'content-width': $layout-application-wide-m-content-width,
+          'content-max-width': $layout-application-wide-m-content-max-width,
           'typography-scale': $layout-application-wide-m-typography-scale,
           'spacing-scale': $layout-application-wide-m-spacing-scale
         ),
@@ -1822,6 +2222,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-l-gutter-size,
           'column-amount': $layout-application-wide-l-column-amount,
           'content-width': $layout-application-wide-l-content-width,
+          'content-max-width': $layout-application-wide-l-content-max-width,
           'typography-scale': $layout-application-wide-l-typography-scale,
           'spacing-scale': $layout-application-wide-l-spacing-scale
         ),
@@ -1830,6 +2231,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-xl-gutter-size,
           'column-amount': $layout-application-wide-xl-column-amount,
           'content-width': $layout-application-wide-xl-content-width,
+          'content-max-width': $layout-application-wide-xl-content-max-width,
           'typography-scale': $layout-application-wide-xl-typography-scale,
           'spacing-scale': $layout-application-wide-xl-spacing-scale
         ),
@@ -1838,6 +2240,7 @@ $tokens: (
           'gutter-size': $layout-application-wide-xxl-gutter-size,
           'column-amount': $layout-application-wide-xxl-column-amount,
           'content-width': $layout-application-wide-xxl-content-width,
+          'content-max-width': $layout-application-wide-xxl-content-max-width,
           'typography-scale': $layout-application-wide-xxl-typography-scale,
           'spacing-scale': $layout-application-wide-xxl-spacing-scale
         )
@@ -1848,6 +2251,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-xs-gutter-size,
           'column-amount': $layout-application-compact-xs-column-amount,
           'content-width': $layout-application-compact-xs-content-width,
+          'content-max-width': $layout-application-compact-xs-content-max-width,
           'typography-scale': $layout-application-compact-xs-typography-scale,
           'spacing-scale': $layout-application-compact-xs-spacing-scale
         ),
@@ -1856,6 +2260,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-s-gutter-size,
           'column-amount': $layout-application-compact-s-column-amount,
           'content-width': $layout-application-compact-s-content-width,
+          'content-max-width': $layout-application-compact-s-content-max-width,
           'typography-scale': $layout-application-compact-s-typography-scale,
           'spacing-scale': $layout-application-compact-s-spacing-scale
         ),
@@ -1864,6 +2269,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-m-gutter-size,
           'column-amount': $layout-application-compact-m-column-amount,
           'content-width': $layout-application-compact-m-content-width,
+          'content-max-width': $layout-application-compact-m-content-max-width,
           'typography-scale': $layout-application-compact-m-typography-scale,
           'spacing-scale': $layout-application-compact-m-spacing-scale
         ),
@@ -1872,6 +2278,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-l-gutter-size,
           'column-amount': $layout-application-compact-l-column-amount,
           'content-width': $layout-application-compact-l-content-width,
+          'content-max-width': $layout-application-compact-l-content-max-width,
           'typography-scale': $layout-application-compact-l-typography-scale,
           'spacing-scale': $layout-application-compact-l-spacing-scale
         ),
@@ -1880,6 +2287,7 @@ $tokens: (
           'gutter-size': $layout-application-compact-xl-gutter-size,
           'column-amount': $layout-application-compact-xl-column-amount,
           'content-width': $layout-application-compact-xl-content-width,
+          'content-max-width': $layout-application-compact-xl-content-max-width,
           'typography-scale': $layout-application-compact-xl-typography-scale,
           'spacing-scale': $layout-application-compact-xl-spacing-scale
         ),
