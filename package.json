@@ -1,7 +1,7 @@
 {
   "name": "@daimler/productkit-core",
-  "version": "1.3.2",
-  "description": "Product Kit Core provides design tokens according to the Daimler TSS styleguide",
+  "version": "2.0.0",
+  "description": "Product Kit Core provides design tokens according to the Mercedes-Benz Tech Innovation styleguide",
   "scripts": {
     "build": "node ./build.js"
   },

@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file.
 
+# 2.0.0
+
+## Changes
+### General
+* Removed Daimler TSS styleguide and tokens
+* Integrated new Home of Tech styleguide with the following brands:
+    * Home of Tech (HoT)
+    * Mercedes-Benz Tech Innovation (MBTI)
+    * Mercedes-Benz Tech Motion (MBTM)
+* Removed Source Sans Pro and Source Code Pro as primary fonts
+    * Primary font for FOSS projects is now Arial
+
+### MBTI
+* Added an accessible `'primary variant'` color 
+* Added tokens for the following components in order to fulfill accessibility requirements:
+    * alert
+    * button
+    * checkbox
+    * chip
+    * icon
+    * link
+    * menu 
+    * pagination
+    * progress
+    * radio 
+    * select
+    * slider
+    * switch
+    * tabs
+    * textfield
+    * toggle button
+    * typography
+
+## Breaking Changes
+* Renamed `export` directory to `dist`
+* Due to the addition of new brands import paths must now include the desired brand (i.e. MBTI)
+* Due to the addition of the new styleguide many tokens are now changed by name or value
+
 # 1.3.2
 
 ### Breaking Changes
