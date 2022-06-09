@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 May 2022 13:16:22 GMT
+ * Generated on Thu, 09 Jun 2022 09:31:47 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -387,6 +387,8 @@ export const colorBaseNandorContrast800 = "#ffffff";
 export const colorBaseNandorContrast900 = "#ffffff";
 export const componentAlertOutlinedPrimaryDefaultTextColor = "#ffd56b";
 export const componentAlertOutlinedPrimaryDefaultIconColor = "#ffd56b";
+export const componentAlertOutlinedPrimaryDefaultOutlineColor = "#ffd56b";
+export const componentAlertOutlinedPrimaryDefaultOutlineBorderWidth = "1px";
 export const componentAlertTextPrimaryDefaultTextColor = "#ffd56b";
 export const componentAlertTextPrimaryDefaultIconColor = "#ffd56b";
 export const componentAlertTextPrimaryDefaultBackgroundColor = "#ffd56b";
@@ -399,7 +401,7 @@ export const componentButtonPlainPrimaryDefaultIconColor = "#ffd56b";
 export const componentButtonIconPrimaryDefaultTextColor = "#ffd56b";
 export const componentButtonIconPrimaryDefaultIconColor = "#ffd56b";
 export const componentCheckboxPrimaryCheckedColor = "#ffd56b";
-export const componentCheckboxPrimaryIntermediateColor = "#ffd56b";
+export const componentCheckboxPrimaryIndeterminateColor = "#ffd56b";
 export const componentChipOutlinedPrimaryTextColor = "#ffd56b";
 export const componentChipOutlinedPrimaryIconDefaultColor = "#ffd56b";
 export const componentChipOutlinedPrimaryDeleteIconDefaultColor = "rgba(255, 213, 107, 0.6)";
@@ -423,7 +425,8 @@ export const componentSelectTextPrimaryFocusedBorderColor = "#ffd56b";
 export const componentSelectFilledPrimaryFocusedLabelColor = "#ffd56b";
 export const componentSelectFilledPrimaryFocusedBorderColor = "#ffd56b";
 export const componentSliderPrimaryThumbColor = "#ffd56b";
-export const componentSliderPrimaryLabelColor = "#ffd56b";
+export const componentSliderPrimaryLabelBackground = "#ffd56b";
+export const componentSliderPrimaryLabelColor = "#000000";
 export const componentSliderPrimaryMainColor = "#ffd56b";
 export const componentSliderPrimaryBackgroundColor = "#ffd56b";
 export const componentSwitchPrimarySelectedColor = "#ffd56b";
@@ -431,14 +434,16 @@ export const componentSwitchPrimarySelectedBackground = "#ffd56b";
 export const componentSwitchPrimarySelectedDisabledColor = "#c1ab73";
 export const componentTabsItemPrimarySelectedTextColor = "#ffd56b";
 export const componentTabsItemPrimarySelectedIconColor = "#ffd56b";
-export const componentTabsIndicatorColor = "#ffd56b";
+export const componentTabsItemPrimarySelectedIndicatorColor = "#ffd56b";
+export const componentTabsItemPrimaryHoverTextColor = "#ffd56b";
+export const componentTabsItemPrimaryHoverIconColor = "#ffd56b";
 export const componentTextfieldOutlinedPrimaryFocusedLabelColor = "#ffd56b";
 export const componentTextfieldTextPrimaryFocusedLabelColor = "#ffd56b";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#ffd56b";
-export const componentToggleButtonPrimarySelectedTextColor = "#ffd56b";
-export const componentToggleButtonPrimarySelectedIconColor = "#ffd56b";
-export const componentToggleButtonPrimarySelectedBackgroundColor = "rgba(255, 213, 107, 0.08)";
-export const componentToggleButtonPrimarySelectedHoverBackgroundColor = "rgba(255, 213, 107, 0.12)";
+export const componentToggleButtonPrimarySelectedTextColor = "#ffffff";
+export const componentToggleButtonPrimarySelectedIconColor = "#ffffff";
+export const componentToggleButtonPrimarySelectedBackgroundColor = "rgba(255, 213, 107, 0.92)";
+export const componentToggleButtonPrimaryHoverBackgroundColor = "rgba(255, 213, 107, 0.12)";
 export const componentTypographyOverlineColor = "#ffd56b";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.
 export const fontFamilyText = "'MB Corpo S Text'"; // The brand font family for large headlines.

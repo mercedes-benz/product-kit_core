@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 May 2022 13:16:22 GMT
+ * Generated on Thu, 09 Jun 2022 09:31:47 GMT
  */
 
 :root {
@@ -173,6 +173,7 @@
   --font-family-text: 'MB Corpo S Text'; /* The brand font family for large headlines. */
   --font-family-title: 'MB Corpo A Title Cond'; /* The brand font family for large headlines. */
   --component-switch-primary-selected-disabled-color: #c1ab73;
+  --component-alert-outlined-primary-default-outline-border-width: 1px;
   --color-base-nandor-900: #232c26;
   --color-base-nandor-800: #444e48;
   --color-base-nandor-700: #636e67;
@@ -843,21 +844,24 @@
   --color-application-primary-variant: var(--color-brand-yellow-900); /* The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio. */
   --color-application-primary: var(--color-brand-goldentainoi-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
   --component-typography-overline-color: var(--color-application-primary-variant);
-  --component-toggle-button-primary-selected-hover-background-color: rgba(153, 110, 0, 0.12);
-  --component-toggle-button-primary-selected-background-color: rgba(153, 110, 0, 0.08);
-  --component-toggle-button-primary-selected-icon-color: var(--color-application-primary-variant);
-  --component-toggle-button-primary-selected-text-color: var(--color-application-primary-variant);
+  --component-toggle-button-primary-hover-background-color: rgba(153, 110, 0, 0.12);
+  --component-toggle-button-primary-selected-background-color: rgba(153, 110, 0, 0.92);
+  --component-toggle-button-primary-selected-icon-color: var(--color-application-contrast-background);
+  --component-toggle-button-primary-selected-text-color: var(--color-application-contrast-background);
   --component-textfield-filled-primary-focused-label-color: var(--color-application-primary-variant);
   --component-textfield-text-primary-focused-label-color: var(--color-application-primary-variant);
   --component-textfield-outlined-primary-focused-label-color: var(--color-application-primary-variant);
-  --component-tabs-indicator-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-hover-icon-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-hover-text-color: var(--color-application-primary-variant);
+  --component-tabs-item-primary-selected-indicator-color: var(--color-application-primary-variant);
   --component-tabs-item-primary-selected-icon-color: var(--color-application-primary-variant);
   --component-tabs-item-primary-selected-text-color: var(--color-application-primary-variant);
   --component-switch-primary-selected-background: var(--color-application-primary-variant);
   --component-switch-primary-selected-color: var(--color-application-primary-variant);
   --component-slider-primary-background-color: var(--color-application-primary);
   --component-slider-primary-main-color: var(--color-application-primary-variant);
-  --component-slider-primary-label-color: var(--color-application-primary-variant);
+  --component-slider-primary-label-color: var(--color-application-contrast-primary-variant);
+  --component-slider-primary-label-background: var(--color-application-primary-variant);
   --component-slider-primary-thumb-color: var(--color-application-primary-variant);
   --component-select-filled-primary-focused-border-color: var(--color-application-primary-variant);
   --component-select-filled-primary-focused-label-color: var(--color-application-primary-variant);
@@ -881,7 +885,7 @@
   --component-chip-outlined-primary-delete-icon-default-color: rgba(153, 110, 0, 0.6);
   --component-chip-outlined-primary-icon-default-color: var(--color-application-primary-variant);
   --component-chip-outlined-primary-text-color: var(--color-application-primary-variant);
-  --component-checkbox-primary-intermediate-color: var(--color-application-primary-variant);
+  --component-checkbox-primary-indeterminate-color: var(--color-application-primary-variant);
   --component-checkbox-primary-checked-color: var(--color-application-primary-variant);
   --component-button-icon-primary-default-icon-color: var(--color-application-primary-variant);
   --component-button-icon-primary-default-text-color: var(--color-application-primary-variant);
@@ -894,6 +898,7 @@
   --component-alert-text-primary-default-background-color: var(--color-application-primary);
   --component-alert-text-primary-default-icon-color: var(--color-application-primary-variant);
   --component-alert-text-primary-default-text-color: var(--color-application-primary-variant);
+  --component-alert-outlined-primary-default-outline-color: var(--color-application-primary-variant);
   --component-alert-outlined-primary-default-icon-color: var(--color-application-primary-variant);
   --component-alert-outlined-primary-default-text-color: var(--color-application-primary-variant);
 }

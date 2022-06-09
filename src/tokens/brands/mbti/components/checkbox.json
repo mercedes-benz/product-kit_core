@@ -7,7 +7,7 @@
             "value": "{color.application.primary-variant}"
           }
         },
-        "intermediate": {
+        "indeterminate": {
           "color": {
             "value": "{color.application.primary-variant}"
           }
