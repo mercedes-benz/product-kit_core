@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Jun 2022 09:31:47 GMT
+ * Generated on Tue, 14 Jun 2022 09:10:15 GMT
  */
 
 :root {
@@ -173,6 +173,7 @@
   --font-family-text: 'MB Corpo S Text'; /* The brand font family for large headlines. */
   --font-family-title: 'MB Corpo A Title Cond'; /* The brand font family for large headlines. */
   --component-switch-primary-selected-disabled-color: #c1ab73;
+  --component-stepper-primary-inactive-border-width: 2px;
   --component-alert-outlined-primary-default-outline-border-width: 1px;
   --color-base-nandor-900: #232c26;
   --color-base-nandor-800: #444e48;
@@ -845,7 +846,7 @@
   --color-application-primary: var(--color-brand-goldentainoi-300); /* The primary color is used to indicate primary actions, selected elements or as background color for app bars. */
   --component-typography-overline-color: var(--color-application-primary-variant);
   --component-toggle-button-primary-hover-background-color: rgba(153, 110, 0, 0.12);
-  --component-toggle-button-primary-selected-background-color: rgba(153, 110, 0, 0.92);
+  --component-toggle-button-primary-selected-background-color: rgba(153, 110, 0, 0.08);
   --component-toggle-button-primary-selected-icon-color: var(--color-application-contrast-background);
   --component-toggle-button-primary-selected-text-color: var(--color-application-contrast-background);
   --component-textfield-filled-primary-focused-label-color: var(--color-application-primary-variant);
@@ -858,6 +859,14 @@
   --component-tabs-item-primary-selected-text-color: var(--color-application-primary-variant);
   --component-switch-primary-selected-background: var(--color-application-primary-variant);
   --component-switch-primary-selected-color: var(--color-application-primary-variant);
+  --component-stepper-primary-icon-color: var(--color-application-contrast-primary-variant);
+  --component-stepper-primary-inactive-border-color: var(--color-application-primary-variant);
+  --component-stepper-primary-inactive-background: var(--color-application-background);
+  --component-stepper-primary-inactive-color: var(--color-application-contrast-background);
+  --component-stepper-primary-active-background: var(--color-application-primary-variant);
+  --component-stepper-primary-active-color: var(--color-application-contrast-primary-variant);
+  --component-stepper-primary-completed-background: var(--color-application-primary-variant);
+  --component-stepper-primary-completed-color: var(--color-application-contrast-primary-variant);
   --component-slider-primary-background-color: var(--color-application-primary);
   --component-slider-primary-main-color: var(--color-application-primary-variant);
   --component-slider-primary-label-color: var(--color-application-contrast-primary-variant);

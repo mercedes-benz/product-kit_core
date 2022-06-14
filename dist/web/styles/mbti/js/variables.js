@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Jun 2022 09:31:47 GMT
+ * Generated on Tue, 14 Jun 2022 09:10:15 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -429,6 +429,15 @@ export const componentSliderPrimaryLabelBackground = "#996e00";
 export const componentSliderPrimaryLabelColor = "#ffffff";
 export const componentSliderPrimaryMainColor = "#996e00";
 export const componentSliderPrimaryBackgroundColor = "#ffd56b";
+export const componentStepperPrimaryCompletedColor = "#ffffff";
+export const componentStepperPrimaryCompletedBackground = "#996e00";
+export const componentStepperPrimaryActiveColor = "#ffffff";
+export const componentStepperPrimaryActiveBackground = "#996e00";
+export const componentStepperPrimaryInactiveColor = "#000000";
+export const componentStepperPrimaryInactiveBackground = "#ffffff";
+export const componentStepperPrimaryInactiveBorderWidth = "2px";
+export const componentStepperPrimaryInactiveBorderColor = "#996e00";
+export const componentStepperPrimaryIconColor = "#ffffff";
 export const componentSwitchPrimarySelectedColor = "#996e00";
 export const componentSwitchPrimarySelectedBackground = "#996e00";
 export const componentSwitchPrimarySelectedDisabledColor = "#c1ab73";
@@ -442,7 +451,7 @@ export const componentTextfieldTextPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#996e00";
 export const componentToggleButtonPrimarySelectedTextColor = "#000000";
 export const componentToggleButtonPrimarySelectedIconColor = "#000000";
-export const componentToggleButtonPrimarySelectedBackgroundColor = "rgba(153, 110, 0, 0.92)";
+export const componentToggleButtonPrimarySelectedBackgroundColor = "rgba(153, 110, 0, 0.08)";
 export const componentToggleButtonPrimaryHoverBackgroundColor = "rgba(153, 110, 0, 0.12)";
 export const componentTypographyOverlineColor = "#996e00";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.

@@ -18,7 +18,7 @@
               "value": "{color.application.primary-variant}",
               "modify": {
                 "type": "alpha",
-                "amount": "0.92"
+                "amount": "0.08"
               }
             }
           }

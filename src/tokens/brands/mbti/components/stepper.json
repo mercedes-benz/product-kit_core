@@ -1,0 +1,45 @@
+{
+  "component": {
+    "stepper": {
+      "primary": {
+        "completed": {
+          "color": {
+            "value": "{color.application.contrast.primary-variant}"
+          },
+          "background": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "active": {
+          "color": {
+            "value": "{color.application.contrast.primary-variant}"
+          },
+          "background": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "inactive": {
+          "color": {
+            "value": "{color.application.contrast.background}"
+          },
+          "background": {
+            "value": "{color.application.background}"
+          },
+          "border": {
+            "width": {
+              "value": "2px"
+            },
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "value": "{color.application.contrast.primary-variant}"
+          }
+        }
+      }
+    }
+  }
+}
