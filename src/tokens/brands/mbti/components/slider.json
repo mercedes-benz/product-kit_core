@@ -8,8 +8,11 @@
           }
         },
         "label": {
-          "color": {
+          "background": {
             "value": "{color.application.primary-variant}"
+          },
+          "color": {
+            "value": "{color.application.contrast.primary-variant}"
           }
         },
         "main": {

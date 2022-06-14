@@ -5,12 +5,12 @@
         "selected": {
           "text": {
             "color": {
-              "value": "{color.application.primary-variant}"
+              "value": "{color.application.contrast.background}"
             }
           },
           "icon": {
             "color": {
-              "value": "{color.application.primary-variant}"
+              "value": "{color.application.contrast.background}"
             }
           },
           "background": {
@@ -21,15 +21,15 @@
                 "amount": "0.08"
               }
             }
-          },
-          "hover": {
-            "background": {
-              "color": {
-                "value": "{color.application.primary-variant}",
-                "modify": {
-                  "type": "alpha",
-                  "amount": "0.12"
-                }
+          }
+        },
+        "hover": {
+          "background": {
+            "color": {
+              "value": "{color.application.primary-variant}",
+              "modify": {
+                "type": "alpha",
+                "amount": "0.12"
               }
             }
           }

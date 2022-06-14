@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Fri, 20 May 2022 13:16:22 GMT
+ * Generated on Tue, 14 Jun 2022 09:10:15 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -173,6 +173,8 @@ $font-family-platform-title: 'MB Corpo A Title Cond Web', Arial !default; // The
 $font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
 $font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
 $component-switch-primary-selected-disabled-color: #c1ab73 !default;
+$component-stepper-primary-inactive-border-width: 2px !default;
+$component-alert-outlined-primary-default-outline-border-width: 1px !default;
 $color-base-nandor-900: #232c26 !default;
 $color-base-nandor-800: #444e48 !default;
 $color-base-nandor-700: #636e67 !default;
@@ -849,21 +851,32 @@ $color-application-secondary: $color-brand-deluge-300 !default; // The secondary
 $color-application-primary-variant: $color-brand-goldentainoi-300 !default; // The primary variant color is used for text and icons to ensure an accessible contrast ratio.
 $color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 $component-typography-overline-color: $color-application-primary-variant !default;
-$component-toggle-button-primary-selected-hover-background-color: rgba(255, 213, 107, 0.12) !default;
+$component-toggle-button-primary-hover-background-color: rgba(255, 213, 107, 0.12) !default;
 $component-toggle-button-primary-selected-background-color: rgba(255, 213, 107, 0.08) !default;
-$component-toggle-button-primary-selected-icon-color: $color-application-primary-variant !default;
-$component-toggle-button-primary-selected-text-color: $color-application-primary-variant !default;
+$component-toggle-button-primary-selected-icon-color: $color-application-contrast-background !default;
+$component-toggle-button-primary-selected-text-color: $color-application-contrast-background !default;
 $component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-text-primary-focused-label-color: $color-application-primary-variant !default;
 $component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
-$component-tabs-indicator-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-hover-icon-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-hover-text-color: $color-application-primary-variant !default;
+$component-tabs-item-primary-selected-indicator-color: $color-application-primary-variant !default;
 $component-tabs-item-primary-selected-icon-color: $color-application-primary-variant !default;
 $component-tabs-item-primary-selected-text-color: $color-application-primary-variant !default;
 $component-switch-primary-selected-background: $color-application-primary-variant !default;
 $component-switch-primary-selected-color: $color-application-primary-variant !default;
+$component-stepper-primary-icon-color: $color-application-contrast-primary-variant !default;
+$component-stepper-primary-inactive-border-color: $color-application-primary-variant !default;
+$component-stepper-primary-inactive-background: $color-application-background !default;
+$component-stepper-primary-inactive-color: $color-application-contrast-background !default;
+$component-stepper-primary-active-background: $color-application-primary-variant !default;
+$component-stepper-primary-active-color: $color-application-contrast-primary-variant !default;
+$component-stepper-primary-completed-background: $color-application-primary-variant !default;
+$component-stepper-primary-completed-color: $color-application-contrast-primary-variant !default;
 $component-slider-primary-background-color: $color-application-primary !default;
 $component-slider-primary-main-color: $color-application-primary-variant !default;
-$component-slider-primary-label-color: $color-application-primary-variant !default;
+$component-slider-primary-label-color: $color-application-contrast-primary-variant !default;
+$component-slider-primary-label-background: $color-application-primary-variant !default;
 $component-slider-primary-thumb-color: $color-application-primary-variant !default;
 $component-select-filled-primary-focused-border-color: $color-application-primary-variant !default;
 $component-select-filled-primary-focused-label-color: $color-application-primary-variant !default;
@@ -887,7 +900,7 @@ $component-chip-outlined-primary-delete-icon-hover-color: $color-application-pri
 $component-chip-outlined-primary-delete-icon-default-color: rgba(255, 213, 107, 0.6) !default;
 $component-chip-outlined-primary-icon-default-color: $color-application-primary-variant !default;
 $component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
-$component-checkbox-primary-intermediate-color: $color-application-primary-variant !default;
+$component-checkbox-primary-indeterminate-color: $color-application-primary-variant !default;
 $component-checkbox-primary-checked-color: $color-application-primary-variant !default;
 $component-button-icon-primary-default-icon-color: $color-application-primary-variant !default;
 $component-button-icon-primary-default-text-color: $color-application-primary-variant !default;
@@ -900,6 +913,7 @@ $component-button-outlined-primary-default-text-color: $color-application-primar
 $component-alert-text-primary-default-background-color: $color-application-primary !default;
 $component-alert-text-primary-default-icon-color: $color-application-primary-variant !default;
 $component-alert-text-primary-default-text-color: $color-application-primary-variant !default;
+$component-alert-outlined-primary-default-outline-color: $color-application-primary-variant !default;
 $component-alert-outlined-primary-default-icon-color: $color-application-primary-variant !default;
 $component-alert-outlined-primary-default-text-color: $color-application-primary-variant !default;
 
@@ -1378,6 +1392,12 @@ $tokens: (
             ),
             'icon': (
               'color': $component-alert-outlined-primary-default-icon-color
+            ),
+            'outline': (
+              'color': $component-alert-outlined-primary-default-outline-color,
+              'border': (
+                'width': $component-alert-outlined-primary-default-outline-border-width
+              )
             )
           )
         )
@@ -1453,8 +1473,8 @@ $tokens: (
         'checked': (
           'color': $component-checkbox-primary-checked-color
         ),
-        'intermediate': (
-          'color': $component-checkbox-primary-intermediate-color
+        'indeterminate': (
+          'color': $component-checkbox-primary-indeterminate-color
         )
       )
     ),
@@ -1610,6 +1630,7 @@ $tokens: (
           'color': $component-slider-primary-thumb-color
         ),
         'label': (
+          'background': $component-slider-primary-label-background,
           'color': $component-slider-primary-label-color
         ),
         'main': (
@@ -1617,6 +1638,29 @@ $tokens: (
         ),
         'background': (
           'color': $component-slider-primary-background-color
+        )
+      )
+    ),
+    'stepper': (
+      'primary': (
+        'completed': (
+          'color': $component-stepper-primary-completed-color,
+          'background': $component-stepper-primary-completed-background
+        ),
+        'active': (
+          'color': $component-stepper-primary-active-color,
+          'background': $component-stepper-primary-active-background
+        ),
+        'inactive': (
+          'color': $component-stepper-primary-inactive-color,
+          'background': $component-stepper-primary-inactive-background,
+          'border': (
+            'width': $component-stepper-primary-inactive-border-width,
+            'color': $component-stepper-primary-inactive-border-color
+          )
+        ),
+        'icon': (
+          'color': $component-stepper-primary-icon-color
         )
       )
     ),
@@ -1640,12 +1684,20 @@ $tokens: (
             ),
             'icon': (
               'color': $component-tabs-item-primary-selected-icon-color
+            ),
+            'indicator': (
+              'color': $component-tabs-item-primary-selected-indicator-color
+            )
+          ),
+          'hover': (
+            'text': (
+              'color': $component-tabs-item-primary-hover-text-color
+            ),
+            'icon': (
+              'color': $component-tabs-item-primary-hover-icon-color
             )
           )
         )
-      ),
-      'indicator': (
-        'color': $component-tabs-indicator-color
       )
     ),
     'textfield': (
@@ -1688,11 +1740,11 @@ $tokens: (
           ),
           'background': (
             'color': $component-toggle-button-primary-selected-background-color
-          ),
-          'hover': (
-            'background': (
-              'color': $component-toggle-button-primary-selected-hover-background-color
-            )
+          )
+        ),
+        'hover': (
+          'background': (
+            'color': $component-toggle-button-primary-hover-background-color
           )
         )
       )

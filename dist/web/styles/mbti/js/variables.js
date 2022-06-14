@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 May 2022 13:16:22 GMT
+ * Generated on Tue, 14 Jun 2022 09:10:15 GMT
  */
 
 export const colorApplicationPrimary = "#ffd56b"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -387,6 +387,8 @@ export const colorBaseNandorContrast800 = "#ffffff";
 export const colorBaseNandorContrast900 = "#ffffff";
 export const componentAlertOutlinedPrimaryDefaultTextColor = "#996e00";
 export const componentAlertOutlinedPrimaryDefaultIconColor = "#996e00";
+export const componentAlertOutlinedPrimaryDefaultOutlineColor = "#996e00";
+export const componentAlertOutlinedPrimaryDefaultOutlineBorderWidth = "1px";
 export const componentAlertTextPrimaryDefaultTextColor = "#996e00";
 export const componentAlertTextPrimaryDefaultIconColor = "#996e00";
 export const componentAlertTextPrimaryDefaultBackgroundColor = "#ffd56b";
@@ -399,7 +401,7 @@ export const componentButtonPlainPrimaryDefaultIconColor = "#996e00";
 export const componentButtonIconPrimaryDefaultTextColor = "#996e00";
 export const componentButtonIconPrimaryDefaultIconColor = "#996e00";
 export const componentCheckboxPrimaryCheckedColor = "#996e00";
-export const componentCheckboxPrimaryIntermediateColor = "#996e00";
+export const componentCheckboxPrimaryIndeterminateColor = "#996e00";
 export const componentChipOutlinedPrimaryTextColor = "#996e00";
 export const componentChipOutlinedPrimaryIconDefaultColor = "#996e00";
 export const componentChipOutlinedPrimaryDeleteIconDefaultColor = "rgba(153, 110, 0, 0.6)";
@@ -423,22 +425,34 @@ export const componentSelectTextPrimaryFocusedBorderColor = "#996e00";
 export const componentSelectFilledPrimaryFocusedLabelColor = "#996e00";
 export const componentSelectFilledPrimaryFocusedBorderColor = "#996e00";
 export const componentSliderPrimaryThumbColor = "#996e00";
-export const componentSliderPrimaryLabelColor = "#996e00";
+export const componentSliderPrimaryLabelBackground = "#996e00";
+export const componentSliderPrimaryLabelColor = "#ffffff";
 export const componentSliderPrimaryMainColor = "#996e00";
 export const componentSliderPrimaryBackgroundColor = "#ffd56b";
+export const componentStepperPrimaryCompletedColor = "#ffffff";
+export const componentStepperPrimaryCompletedBackground = "#996e00";
+export const componentStepperPrimaryActiveColor = "#ffffff";
+export const componentStepperPrimaryActiveBackground = "#996e00";
+export const componentStepperPrimaryInactiveColor = "#000000";
+export const componentStepperPrimaryInactiveBackground = "#ffffff";
+export const componentStepperPrimaryInactiveBorderWidth = "2px";
+export const componentStepperPrimaryInactiveBorderColor = "#996e00";
+export const componentStepperPrimaryIconColor = "#ffffff";
 export const componentSwitchPrimarySelectedColor = "#996e00";
 export const componentSwitchPrimarySelectedBackground = "#996e00";
 export const componentSwitchPrimarySelectedDisabledColor = "#c1ab73";
 export const componentTabsItemPrimarySelectedTextColor = "#996e00";
 export const componentTabsItemPrimarySelectedIconColor = "#996e00";
-export const componentTabsIndicatorColor = "#996e00";
+export const componentTabsItemPrimarySelectedIndicatorColor = "#996e00";
+export const componentTabsItemPrimaryHoverTextColor = "#996e00";
+export const componentTabsItemPrimaryHoverIconColor = "#996e00";
 export const componentTextfieldOutlinedPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldTextPrimaryFocusedLabelColor = "#996e00";
 export const componentTextfieldFilledPrimaryFocusedLabelColor = "#996e00";
-export const componentToggleButtonPrimarySelectedTextColor = "#996e00";
-export const componentToggleButtonPrimarySelectedIconColor = "#996e00";
+export const componentToggleButtonPrimarySelectedTextColor = "#000000";
+export const componentToggleButtonPrimarySelectedIconColor = "#000000";
 export const componentToggleButtonPrimarySelectedBackgroundColor = "rgba(153, 110, 0, 0.08)";
-export const componentToggleButtonPrimarySelectedHoverBackgroundColor = "rgba(153, 110, 0, 0.12)";
+export const componentToggleButtonPrimaryHoverBackgroundColor = "rgba(153, 110, 0, 0.12)";
 export const componentTypographyOverlineColor = "#996e00";
 export const fontFamilyTitle = "'MB Corpo A Title Cond'"; // The brand font family for large headlines.
 export const fontFamilyText = "'MB Corpo S Text'"; // The brand font family for large headlines.

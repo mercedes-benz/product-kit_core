@@ -13,6 +13,16 @@
               "color": {
                 "value": "{color.application.primary-variant}"
               }
+            },
+            "outline": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              },
+              "border": {
+                "width": {
+                  "value": "1px"
+                }
+              }
             }
           }
         }
