@@ -19,11 +19,22 @@ on:
       version:
         type: string
         required: true
-
+    secrets:
+      BLACKDUCK_API_TOKEN:
+        required: true
+      PROJECT_NAME:
+        required: true
+    # Map the workflow outputs to job outputs
+    #outputs:
+      #notices:
+        #description: "The generated notices file"
+        #value: ${{ jobs.build.outputs.output1 }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      output1: ${{ steps.outputting.outputs.notices }}
     steps:
       - name: ☁ Checkout
         uses: actions/checkout@v2
@@ -38,9 +49,12 @@ jobs:
         uses: blackducksoftware/github-action@v2
         with: 
           args: 
-            '--blackduck.url="https://bdscan.i.mercedes-benz.com" --blackduck.api.token="${{ secrets.BLACKDUCK_API_TOKEN }}" --detect.policy.check.fail.on.severities="MAJOR,CRITICAL,BLOCKER" --detect.npm.include.dev.dependencies=true --detect.project.name="product-kit-core" --detect.project.version.name="${{ github.event.inputs.version }}" --detect.project.version.phase=RELEASED --detect.project.version.distribution=OPENSOURCE --detect.notices.report=true --detect.notices.report.path="./notices"'
+            '--blackduck.url="https://bdscan.i.mercedes-benz.com" --blackduck.api.token="${{ secrets.BLACKDUCK_API_TOKEN }}" --detect.policy.check.fail.on.severities="MAJOR,CRITICAL,BLOCKER" --detect.npm.include.dev.dependencies=true --detect.project.name="${{ secrets.PROJECT_NAME }}" --detect.project.version.name="${{ github.event.inputs.version }}" --detect.project.version.phase=RELEASED --detect.project.version.distribution=OPENSOURCE --detect.notices.report=true --detect.notices.report.path="./notices"'
       - name: 🔀 Rename notices
         run: for f in ./notices/product_kit*.txt; do mv "$f" 3RD_PARTY_LICENSES.txt; done
+      #- id: outputting
+        #name: Outputting Notices File
+        #run: echo ::set-output name=notices::$(cat 3RD_PARTY_LICENSES.txt)
       - name: ☁ Commit Changes
         uses: EndBug/add-and-commit@v7
         with:
