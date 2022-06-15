@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file.
     * radio 
     * select
     * slider
+    * stepper
     * switch
     * tabs
     * textfield
