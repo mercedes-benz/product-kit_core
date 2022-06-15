@@ -49,6 +49,12 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
+# security
+/scan
+sechub_report*.json
+sechub_report*.html
+sechub-false-positives*.json
+
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/

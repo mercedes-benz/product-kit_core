@@ -1,0 +1,17 @@
+{
+    "apiVersion": "1.0",
+    "server": "https://sechub.corpinter.net/",
+    "project": "productkit",
+    "user": "te04491",
+    "codeScan": {
+        "fileSystem": {
+            "folders": [
+                "src/",
+                "dist/"
+            ]
+        },
+        "excludes": [
+            "**/docs/**"
+        ]
+    }
+}
