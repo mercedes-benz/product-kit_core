@@ -25,10 +25,10 @@ on:
       PROJECT_NAME:
         required: true
     # Map the workflow outputs to job outputs
-    outputs:
-      notices:
-        description: "The generated notices file"
-        value: ${{ jobs.build.outputs.output1 }}
+    #outputs:
+      #notices:
+        #description: "The generated notices file"
+        #value: ${{ jobs.build.outputs.output1 }}
 
 jobs:
   build:
@@ -52,15 +52,15 @@ jobs:
             '--blackduck.url="https://bdscan.i.mercedes-benz.com" --blackduck.api.token="${{ secrets.BLACKDUCK_API_TOKEN }}" --detect.policy.check.fail.on.severities="MAJOR,CRITICAL,BLOCKER" --detect.npm.include.dev.dependencies=true --detect.project.name="${{ secrets.PROJECT_NAME }}" --detect.project.version.name="${{ github.event.inputs.version }}" --detect.project.version.phase=RELEASED --detect.project.version.distribution=OPENSOURCE --detect.notices.report=true --detect.notices.report.path="./notices"'
       - name: 🔀 Rename notices
         run: for f in ./notices/product_kit*.txt; do mv "$f" 3RD_PARTY_LICENSES.txt; done
-      - id: outputting
-        name: Outputting Notices File
-        run: echo ::set-output name=notices::$(cat 3RD_PARTY_LICENSES.txt)
-#      - name: ☁ Commit Changes
-#        uses: EndBug/add-and-commit@v7
-#        with:
-#          author_name: bd-scan automated script
-#          author_email: ci@automate.bot
-#          message: "Updated 3rd party licenses file to version ${{ github.event.inputs.version }}"
-#          add: "3RD_PARTY_LICENSES.txt"
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #- id: outputting
+        #name: Outputting Notices File
+        #run: echo ::set-output name=notices::$(cat 3RD_PARTY_LICENSES.txt)
+      - name: ☁ Commit Changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: bd-scan automated script
+          author_email: ci@automate.bot
+          message: "Updated 3rd party licenses file to version ${{ github.event.inputs.version }}"
+          add: "3RD_PARTY_LICENSES.txt"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
