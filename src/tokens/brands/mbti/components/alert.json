@@ -1,0 +1,53 @@
+{
+  "component": {
+    "alert": {
+      "outlined": {
+        "primary": {
+          "default": {
+            "text": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "icon": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "outline": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              },
+              "border": {
+                "width": {
+                  "value": "1px"
+                }
+              }
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "text": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "icon": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "background": {
+              "color": {
+                "value": "{color.application.primary}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

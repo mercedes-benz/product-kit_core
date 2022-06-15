@@ -1,0 +1,88 @@
+{
+  "color": {
+    "application": {
+      "primary": {
+        "value": "{color.base.blue.500}",
+        "comment": "The primary color is used to indicate primary actions, selected elements or as background color for app bars."
+      },
+      "primary-variant": {
+        "value": "{color.base.blue.500}",
+        "comment": "The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio."
+      },
+      "secondary": {
+        "value": "{color.base.blackcurrant.900}",
+        "comment": "The secondary color is used to indicate selection controls, floating actions or overline text."
+      },
+      "tertiary": {
+        "value": "{color.base.deluge.500}",
+        "comment": "The tertiary color is used to colorize information graphics."
+      },
+      "quaternary": {
+        "value": "{color.base.lividbrown.800}",
+        "comment": "The quaternary color is used to colorize information graphics."
+      },
+      "background": {
+        "value": "{color.base.white}",
+        "comment": "The background color is used for the content background."
+      },
+      "surface": {
+        "value": "{color.base.neutral.50}",
+        "comment": "The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips."
+      },
+      "outline": {
+        "value": "{color.base.neutral.200}",
+        "comment": "The outline color is used for components with an outline like cards, text fields or buttons."
+      },
+      "error": {
+        "value": "{color.base.red.500}",
+        "comment": "The error color is used for error text."
+      },
+      "success": {
+        "value": "{color.base.green.500}",
+        "comment": "The success color is used for success text."
+      },
+      "contrast": {
+        "primary": {
+          "value": "{color.base.white}",
+          "comment": "The primary contrast color is used for elements like text that is displayed on a background with the primary color."
+        },
+        "primary-variant": {
+          "value": "{color.base.black}",
+          "comment": "The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color."
+        },
+        "secondary": {
+          "value": "{color.base.white}",
+          "comment": "The secondary contrast color is used for elements like text that is displayed on a background with the secondary color."
+        },
+        "tertiary": {
+          "value": "{color.base.white}",
+          "comment": "The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color."
+        },
+        "quaternary": {
+          "value": "{color.base.white}",
+          "comment": "The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color."
+        },
+        "background": {
+          "value": "{color.base.black}",
+          "comment": "The background contrast color is used for elements like text that is displayed on a background with the background color."
+        },
+        "surface": {
+          "value": "{color.base.black}",
+          "comment": "The surface contrast color is used for elements like text that is displayed on a background with the surface color."
+        },
+        "outline": {
+          "value": "{color.base.black}",
+          "comment": "The outline contrast color is used for elements like text that is displayed on a background with the outline color."
+        },
+        "error": {
+          "value": "{color.base.white}",
+          "comment": "The error contrast color is used for elements like text that is displayed on a background with the error color."
+        },
+        "success": {
+          "value": "{color.base.white}",
+          "comment": "The error contrast color is used for elements like text that is displayed on a background with the success color."
+        }
+      }
+    }
+  }
+}

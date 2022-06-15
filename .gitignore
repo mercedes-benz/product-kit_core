@@ -49,6 +49,12 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
+# security
+/scan
+sechub_report*.json
+sechub_report*.html
+sechub-false-positives*.json
+
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -349,3 +355,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# MacOS files
+**/.DS_Store

@@ -1,0 +1,39 @@
+{
+  "component": {
+    "tabs": {
+      "item": {
+        "primary": {
+          "selected": {
+            "text": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "icon": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "indicator": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          },
+          "hover": {
+            "text": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "icon": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "component": {
+    "radio": {
+      "primary": {
+        "selected": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        }
+      }
+    }
+  }
+}

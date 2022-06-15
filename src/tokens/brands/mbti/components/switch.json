@@ -1,0 +1,21 @@
+{
+  "component": {
+    "switch": {
+      "primary": {
+        "selected": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          },
+          "background": {
+            "value": "{color.application.primary-variant}"
+          },
+          "disabled": {
+            "color": {
+              "value": "#c1ab73"
+            }
+          }
+        }
+      }
+    }
+  }
+}

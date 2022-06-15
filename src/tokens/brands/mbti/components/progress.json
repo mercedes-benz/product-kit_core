@@ -1,0 +1,56 @@
+{
+  "component": {
+    "progress": {
+      "circular": {
+        "indeterminate": {
+          "primary": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        },
+        "determinate": {
+          "primary": {
+            "color": {
+              "value": "{color.application.primary-variant}"
+            }
+          }
+        }
+      },
+      "linear": {
+        "indeterminate": {
+          "primary": {
+            "bar1": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            },
+            "bar2": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        },
+        "determinate": {
+          "primary": {
+            "bar1": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        },
+        "buffer": {
+          "primary": {
+            "bar1": {
+              "color": {
+                "value": "{color.application.primary-variant}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

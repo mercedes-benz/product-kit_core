@@ -1,0 +1,18 @@
+{
+  "component": {
+    "checkbox": {
+      "primary": {
+        "checked": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "indeterminate": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        }
+      }
+    }
+  }
+}

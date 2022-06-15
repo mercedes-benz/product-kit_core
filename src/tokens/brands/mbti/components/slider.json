@@ -1,0 +1,31 @@
+{
+  "component": {
+    "slider": {
+      "primary": {
+        "thumb": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "label": {
+          "background": {
+            "value": "{color.application.primary-variant}"
+          },
+          "color": {
+            "value": "{color.application.contrast.primary-variant}"
+          }
+        },
+        "main": {
+          "color": {
+            "value": "{color.application.primary-variant}"
+          }
+        },
+        "background": {
+          "color": {
+            "value": "{color.application.primary}"
+          }
+        }
+      }
+    }
+  }
+}

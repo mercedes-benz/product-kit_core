@@ -1,0 +1,14 @@
+{
+  "font": {
+    "family": {
+      "title": {
+        "value": "'MB Corpo A Title Cond'",
+        "comment": "The brand font family for large headlines."
+      },
+      "text": {
+        "value": "'MB Corpo S Text'",
+        "comment": "The brand font family for large headlines."
+      }
+    }
+  }
+}
