@@ -35,11 +35,19 @@
       },
       "error": {
         "value": "{color.brand.red.700}",
-        "comment": "The error color is used for error text."
+        "comment": "The error color is used for error messages and backgrounds."
       },
       "success": {
         "value": "{color.brand.green.800}",
-        "comment": "The success color is used for success text."
+        "comment": "The success color is used for success messages and backgrounds."
+      },
+      "warning": {
+        "value": "{color.base.yellow.500}",
+        "comment": "The warning color is used for warning messages and backgrounds."
+      },
+      "info": {
+        "value": "{color.base.blue.500}",
+        "comment": "The info color is used for info messages and backgrounds."
       },
       "contrast": {
         "primary": {
@@ -80,7 +88,15 @@
         },
         "success": {
           "value": "{color.base.white}",
-          "comment": "The error contrast color is used for elements like text that is displayed on a background with the success color."
+          "comment": "The success contrast color is used for elements like text that is displayed on a background with the success color."
+        },
+        "warning": {
+          "value": "{color.base.black}",
+          "comment": "The warning contrast color is used for elements like text that is displayed on a background with the warning color."
+        },
+        "info": {
+          "value": "{color.base.white}",
+          "comment": "The info contrast color is used for elements like text that is displayed on a background with the info color."
         }
       }
     }
