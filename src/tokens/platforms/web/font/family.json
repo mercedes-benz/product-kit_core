@@ -3,11 +3,11 @@
     "family": {
       "platform": {
         "title": {
-          "value": "'MB Corpo A Title Cond Web', Arial",
+          "value": "'MB Corpo A Title Cond Web', 'Arial', serif",
           "comment": "The brand font family for large headlines."
         },
         "text": {
-          "value": "'MB Corpo S Text Web', Arial",
+          "value": "'MB Corpo S Text Web', 'Arial', sans-serif",
           "comment": "The brand font family for large headlines."
         }
       }
