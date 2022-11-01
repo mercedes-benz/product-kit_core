@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+# 2.1.0
+
+## Changes
+### Typography
+* Updated font tokens 
+* Added strong variants to subtitle1, subtitle2, body1, body2 and caption styles
+* Removed supscript tokens
+
 # 2.0.0
 
 ## Changes
