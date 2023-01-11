@@ -1,0 +1,31 @@
+{
+    "color": {
+      "brand": {
+        "grey": {
+          "50": { "value": "F8F8F8" },
+          "100": { "value": "E8E8E8" },
+          "200": { "value": "C9C9C9" },
+          "300": { "value": "ADADAD" },
+          "400": { "value": "919191" },
+          "500": { "value": "767676" },
+          "600": { "value": "5C5C5C" },
+          "700": { "value": "424242" },
+          "800": { "value": "262626" },
+          "900": { "value": "0D0D0D" },
+          "contrast": {
+            "50": { "value": "{color.base.black}" },
+            "100": { "value": "{color.base.black}" },
+            "200": { "value": "{color.base.black}" },
+            "300": { "value": "{color.base.black}" },
+            "400": { "value": "{color.base.black}" },
+            "500": { "value": "{color.base.black}" },
+            "600": { "value": "{color.base.white}" },
+            "700": { "value": "{color.base.white}" },
+            "800": { "value": "{color.base.white}" },
+            "900": { "value": "{color.base.white}" }
+          }
+        }
+      }
+    }
+  }
+  
