@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 01 Nov 2022 14:44:14 GMT
+ * Generated on Wed, 25 Jan 2023 14:29:25 GMT
  */
 
 export const colorApplicationPrimary = "#0078d6"; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
@@ -296,7 +296,7 @@ export const fontApplicationSBody2StrongLineHeight = "20px";
 export const fontApplicationSBody2StrongLetterSpacing = "0.2px";
 export const fontApplicationSBody2StrongTextTransform = "none";
 export const fontApplicationSButtonFontFamily = "'MB Corpo S Text Web', 'Arial', sans-serif";
-export const fontApplicationSButtonFontWeight = "400";
+export const fontApplicationSButtonFontWeight = "700";
 export const fontApplicationSButtonFontSize = "16px";
 export const fontApplicationSButtonLineHeight = "normal";
 export const fontApplicationSButtonLetterSpacing = "normal";
@@ -404,7 +404,7 @@ export const fontApplicationLBody2StrongLineHeight = "24px";
 export const fontApplicationLBody2StrongLetterSpacing = "0px";
 export const fontApplicationLBody2StrongTextTransform = "none";
 export const fontApplicationLButtonFontFamily = "'MB Corpo S Text Web', 'Arial', sans-serif";
-export const fontApplicationLButtonFontWeight = "400";
+export const fontApplicationLButtonFontWeight = "700";
 export const fontApplicationLButtonFontSize = "16px";
 export const fontApplicationLButtonLineHeight = "normal";
 export const fontApplicationLButtonLetterSpacing = "normal";

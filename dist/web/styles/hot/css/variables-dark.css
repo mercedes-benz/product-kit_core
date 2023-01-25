@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 01 Nov 2022 14:44:14 GMT
+ * Generated on Wed, 25 Jan 2023 14:29:25 GMT
  */
 
 .dark {
@@ -375,7 +375,7 @@
   --font-application-l-caption-font-weight: var(--font-weight-regular);
   --font-application-l-caption-font-family: var(--font-family-platform-text);
   --font-application-l-button-font-size: var(--size-font-s);
-  --font-application-l-button-font-weight: var(--font-weight-regular);
+  --font-application-l-button-font-weight: var(--font-weight-bold);
   --font-application-l-button-font-family: var(--font-family-platform-text);
   --font-application-l-body2-strong-letter-spacing: var(--size-letter-spacing-s);
   --font-application-l-body2-strong-line-height: var(--size-line-height-xxs);
@@ -463,7 +463,7 @@
   --font-application-s-caption-font-weight: var(--font-weight-regular);
   --font-application-s-caption-font-family: var(--font-family-platform-text);
   --font-application-s-button-font-size: var(--size-font-s);
-  --font-application-s-button-font-weight: var(--font-weight-regular);
+  --font-application-s-button-font-weight: var(--font-weight-bold);
   --font-application-s-button-font-family: var(--font-family-platform-text);
   --font-application-s-body2-strong-letter-spacing: var(--size-letter-spacing-m);
   --font-application-s-body2-strong-line-height: var(--size-line-height-3xs);
