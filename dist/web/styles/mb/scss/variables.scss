@@ -156,9 +156,6 @@ $font-family-platform-text: 'MB Corpo S Text Web', 'Arial', sans-serif !default;
 $font-family-platform-title: 'MB Corpo A Title Cond Web', 'Arial', serif !default;
 $font-family-text: 'MB Corpo S Text' !default; // The brand font family for large headlines.
 $font-family-title: 'MB Corpo A Title Cond' !default; // The brand font family for large headlines.
-$component-switch-primary-selected-disabled-color: #c1ab73 !default;
-$component-stepper-primary-inactive-border-width: 2px !default;
-$component-alert-outlined-primary-default-outline-border-width: 1px !default;
 $color-base-nandor-900: #232c26 !default;
 $color-base-nandor-800: #444e48 !default;
 $color-base-nandor-700: #636e67 !default;
@@ -251,96 +248,16 @@ $color-base-neutral-100: #dbdbdb !default;
 $color-base-neutral-50: #f4f4f4 !default;
 $color-base-black: #000000 !default;
 $color-base-white: #ffffff !default;
-$color-brand-yellow-900: #996e00 !default;
-$color-brand-yellow-800: #bb9308 !default;
-$color-brand-yellow-700: #cfa90d !default;
-$color-brand-yellow-600: #e4be14 !default;
-$color-brand-yellow-500: #f4cf16 !default;
-$color-brand-yellow-400: #f7d643 !default;
-$color-brand-yellow-300: #fbdd66 !default;
-$color-brand-yellow-200: #fee792 !default;
-$color-brand-yellow-100: #fff0bd !default;
-$color-brand-yellow-50: #fff9e4 !default;
-$color-brand-green-900: #006307 !default;
-$color-brand-green-800: #008220 !default;
-$color-brand-green-700: #00932c !default;
-$color-brand-green-600: #13a537 !default;
-$color-brand-green-500: #20b441 !default;
-$color-brand-green-400: #4dc05f !default;
-$color-brand-green-300: #71cb7c !default;
-$color-brand-green-200: #9cd9a2 !default;
-$color-brand-green-100: #c3e8c6 !default;
-$color-brand-green-50: #e6f6e8 !default;
-$color-brand-red-900: #c90000 !default;
-$color-brand-red-800: #d6000b !default;
-$color-brand-red-700: #e30613 !default;
-$color-brand-red-600: #f51d1a !default;
-$color-brand-red-500: #ff2d17 !default;
-$color-brand-red-400: #ff443c !default;
-$color-brand-red-300: #f46a66 !default;
-$color-brand-red-200: #fb9691 !default;
-$color-brand-red-100: #ffcbce !default;
-$color-brand-red-50: #ffeaed !default;
-$color-brand-lividbrown-900: #4b2534 !default;
-$color-brand-lividbrown-800: #5d3240 !default;
-$color-brand-lividbrown-700: #6e3d4a !default;
-$color-brand-lividbrown-600: #7f4956 !default;
-$color-brand-lividbrown-500: #8d525f !default;
-$color-brand-lividbrown-400: #a06b76 !default;
-$color-brand-lividbrown-300: #b4868e !default;
-$color-brand-lividbrown-200: #cea7af !default;
-$color-brand-lividbrown-100: #e9c8cd !default;
-$color-brand-lividbrown-50: #ffe7e8 !default;
-$color-brand-xanadu-900: #252e27 !default;
-$color-brand-xanadu-800: #37433a !default;
-$color-brand-xanadu-700: #47564a !default;
-$color-brand-xanadu-600: #576a5b !default;
-$color-brand-xanadu-500: #637968 !default;
-$color-brand-xanadu-400: #7a8c7e !default;
-$color-brand-xanadu-300: #91a094 !default;
-$color-brand-xanadu-200: #b1bbb2 !default;
-$color-brand-xanadu-100: #d0d6d0 !default;
-$color-brand-xanadu-50: #eceeed !default;
-$color-brand-deluge-900: #342e6e !default;
-$color-brand-deluge-800: #43397c !default;
-$color-brand-deluge-700: #4c4084 !default;
-$color-brand-deluge-600: #57488d !default;
-$color-brand-deluge-500: #5e4d93 !default;
-$color-brand-deluge-400: #74679b !default;
-$color-brand-deluge-300: #8c81ad !default;
-$color-brand-deluge-200: #aca5c5 !default;
-$color-brand-deluge-100: #cdc8dc !default;
-$color-brand-deluge-50: #ebe9f0 !default;
-$color-brand-deepblue-900: #061a38 !default;
-$color-brand-deepblue-800: #0b2950 !default;
-$color-brand-deepblue-700: #11325c !default;
-$color-brand-deepblue-600: #1a3b66 !default;
-$color-brand-deepblue-500: #20426e !default;
-$color-brand-deepblue-400: #445b80 !default;
-$color-brand-deepblue-300: #647694 !default;
-$color-brand-deepblue-200: #8d9cb2 !default;
-$color-brand-deepblue-100: #b9c3d1 !default;
-$color-brand-deepblue-50: #e4e7ec !default;
-$color-brand-goldentainoi-900: #f67730 !default;
-$color-brand-goldentainoi-800: #f89438 !default;
-$color-brand-goldentainoi-700: #faa33c !default;
-$color-brand-goldentainoi-600: #fcb540 !default;
-$color-brand-goldentainoi-500: #fec245 !default;
-$color-brand-goldentainoi-400: #fecb54 !default;
-$color-brand-goldentainoi-300: #ffd56b !default;
-$color-brand-goldentainoi-200: #ffe092 !default;
-$color-brand-goldentainoi-100: #ffecbc !default;
-$color-brand-goldentainoi-50: #fff8e5 !default;
-$color-brand-neutral-900: #2e333d !default;
-$color-brand-neutral-800: #414855 !default;
-$color-brand-neutral-700: #515b6b !default;
-$color-brand-neutral-600: #626e82 !default;
-$color-brand-neutral-500: #707d93 !default;
-$color-brand-neutral-400: #8690a3 !default;
-$color-brand-neutral-300: #9ba4b5 !default;
-$color-brand-neutral-200: #b8beca !default;
-$color-brand-neutral-100: #d3d8e0 !default;
-$color-brand-neutral-50: #eeeff3 !default;
+$color-brand-grey-900: #0d0d0d !default;
+$color-brand-grey-800: #262626 !default;
+$color-brand-grey-700: #424242 !default;
+$color-brand-grey-600: #5c5c5c !default;
+$color-brand-grey-500: #767676 !default;
+$color-brand-grey-400: #919191 !default;
+$color-brand-grey-300: #adadad !default;
+$color-brand-grey-200: #c9c9c9 !default;
+$color-brand-grey-100: #e8e8e8 !default;
+$color-brand-grey-50: #f8f8f8 !default;
 $layout-application-compact-xxl-column-amount: $layout-column-3x !default;
 $layout-application-compact-xxl-gutter-size: $size-gutter-xl !default;
 $layout-application-compact-xxl-screen-min-width: $size-screen-platform-xxl !default;
@@ -712,182 +629,36 @@ $color-base-neutral-contrast-300: $color-base-black !default;
 $color-base-neutral-contrast-200: $color-base-black !default;
 $color-base-neutral-contrast-100: $color-base-black !default;
 $color-base-neutral-contrast-50: $color-base-black !default;
-$color-brand-yellow-contrast-900: $color-base-white !default;
-$color-brand-yellow-contrast-800: $color-base-black !default;
-$color-brand-yellow-contrast-700: $color-base-black !default;
-$color-brand-yellow-contrast-600: $color-base-black !default;
-$color-brand-yellow-contrast-500: $color-base-black !default;
-$color-brand-yellow-contrast-400: $color-base-black !default;
-$color-brand-yellow-contrast-300: $color-base-black !default;
-$color-brand-yellow-contrast-200: $color-base-black !default;
-$color-brand-yellow-contrast-100: $color-base-black !default;
-$color-brand-yellow-contrast-50: $color-base-black !default;
-$color-brand-green-contrast-900: $color-base-white !default;
-$color-brand-green-contrast-800: $color-base-white !default;
-$color-brand-green-contrast-700: $color-base-black !default;
-$color-brand-green-contrast-600: $color-base-black !default;
-$color-brand-green-contrast-500: $color-base-black !default;
-$color-brand-green-contrast-400: $color-base-black !default;
-$color-brand-green-contrast-300: $color-base-black !default;
-$color-brand-green-contrast-200: $color-base-black !default;
-$color-brand-green-contrast-100: $color-base-black !default;
-$color-brand-green-contrast-50: $color-base-black !default;
-$color-brand-red-contrast-900: $color-base-white !default;
-$color-brand-red-contrast-800: $color-base-white !default;
-$color-brand-red-contrast-700: $color-base-white !default;
-$color-brand-red-contrast-600: $color-base-black !default;
-$color-brand-red-contrast-500: $color-base-black !default;
-$color-brand-red-contrast-400: $color-base-black !default;
-$color-brand-red-contrast-300: $color-base-black !default;
-$color-brand-red-contrast-200: $color-base-black !default;
-$color-brand-red-contrast-100: $color-base-black !default;
-$color-brand-red-contrast-50: $color-base-black !default;
-$color-brand-lividbrown-contrast-900: $color-base-white !default;
-$color-brand-lividbrown-contrast-800: $color-base-white !default;
-$color-brand-lividbrown-contrast-700: $color-base-white !default;
-$color-brand-lividbrown-contrast-600: $color-base-white !default;
-$color-brand-lividbrown-contrast-500: $color-base-white !default;
-$color-brand-lividbrown-contrast-400: $color-base-black !default;
-$color-brand-lividbrown-contrast-300: $color-base-black !default;
-$color-brand-lividbrown-contrast-200: $color-base-black !default;
-$color-brand-lividbrown-contrast-100: $color-base-black !default;
-$color-brand-lividbrown-contrast-50: $color-base-black !default;
-$color-brand-xanadu-contrast-900: $color-base-white !default;
-$color-brand-xanadu-contrast-800: $color-base-white !default;
-$color-brand-xanadu-contrast-700: $color-base-white !default;
-$color-brand-xanadu-contrast-600: $color-base-white !default;
-$color-brand-xanadu-contrast-500: $color-base-white !default;
-$color-brand-xanadu-contrast-400: $color-base-black !default;
-$color-brand-xanadu-contrast-300: $color-base-black !default;
-$color-brand-xanadu-contrast-200: $color-base-black !default;
-$color-brand-xanadu-contrast-100: $color-base-black !default;
-$color-brand-xanadu-contrast-50: $color-base-black !default;
-$color-brand-deluge-contrast-900: $color-base-white !default;
-$color-brand-deluge-contrast-800: $color-base-white !default;
-$color-brand-deluge-contrast-700: $color-base-white !default;
-$color-brand-deluge-contrast-600: $color-base-white !default;
-$color-brand-deluge-contrast-500: $color-base-white !default;
-$color-brand-deluge-contrast-400: $color-base-white !default;
-$color-brand-deluge-contrast-300: $color-base-black !default;
-$color-brand-deluge-contrast-200: $color-base-black !default;
-$color-brand-deluge-contrast-100: $color-base-black !default;
-$color-brand-deluge-contrast-50: $color-base-black !default;
-$color-brand-deepblue-contrast-900: $color-base-white !default;
-$color-brand-deepblue-contrast-800: $color-base-white !default;
-$color-brand-deepblue-contrast-700: $color-base-white !default;
-$color-brand-deepblue-contrast-600: $color-base-white !default;
-$color-brand-deepblue-contrast-500: $color-base-white !default;
-$color-brand-deepblue-contrast-400: $color-base-white !default;
-$color-brand-deepblue-contrast-300: $color-base-white !default;
-$color-brand-deepblue-contrast-200: $color-base-black !default;
-$color-brand-deepblue-contrast-100: $color-base-black !default;
-$color-brand-deepblue-contrast-50: $color-base-black !default;
-$color-brand-goldentainoi-contrast-900: $color-base-black !default;
-$color-brand-goldentainoi-contrast-800: $color-base-black !default;
-$color-brand-goldentainoi-contrast-700: $color-base-black !default;
-$color-brand-goldentainoi-contrast-600: $color-base-black !default;
-$color-brand-goldentainoi-contrast-500: $color-base-black !default;
-$color-brand-goldentainoi-contrast-400: $color-base-black !default;
-$color-brand-goldentainoi-contrast-300: $color-base-black !default;
-$color-brand-goldentainoi-contrast-200: $color-base-black !default;
-$color-brand-goldentainoi-contrast-100: $color-base-black !default;
-$color-brand-goldentainoi-contrast-50: $color-base-black !default;
-$color-brand-neutral-contrast-900: $color-base-white !default;
-$color-brand-neutral-contrast-800: $color-base-white !default;
-$color-brand-neutral-contrast-700: $color-base-white !default;
-$color-brand-neutral-contrast-600: $color-base-white !default;
-$color-brand-neutral-contrast-500: $color-base-black !default;
-$color-brand-neutral-contrast-400: $color-base-black !default;
-$color-brand-neutral-contrast-300: $color-base-black !default;
-$color-brand-neutral-contrast-200: $color-base-black !default;
-$color-brand-neutral-contrast-100: $color-base-black !default;
-$color-brand-neutral-contrast-50: $color-base-black !default;
+$color-brand-grey-contrast-900: $color-base-white !default;
+$color-brand-grey-contrast-800: $color-base-white !default;
+$color-brand-grey-contrast-700: $color-base-white !default;
+$color-brand-grey-contrast-600: $color-base-white !default;
+$color-brand-grey-contrast-500: $color-base-black !default;
+$color-brand-grey-contrast-400: $color-base-black !default;
+$color-brand-grey-contrast-300: $color-base-black !default;
+$color-brand-grey-contrast-200: $color-base-black !default;
+$color-brand-grey-contrast-100: $color-base-black !default;
+$color-brand-grey-contrast-50: $color-base-black !default;
 $color-application-contrast-success: $color-base-white !default; // The error contrast color is used for elements like text that is displayed on a background with the success color.
 $color-application-contrast-error: $color-base-white !default; // The error contrast color is used for elements like text that is displayed on a background with the error color.
-$color-application-contrast-outline: $color-base-black !default; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
+$color-application-contrast-outline: $color-base-white !default; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
 $color-application-contrast-surface: $color-base-black !default; // The surface contrast color is used for elements like text that is displayed on a background with the surface color.
 $color-application-contrast-background: $color-base-black !default; // The background contrast color is used for elements like text that is displayed on a background with the background color.
 $color-application-contrast-quaternary: $color-base-white !default; // The quaternary contrast color is used for elements like text that is displayed on a background with the quaternary color.
 $color-application-contrast-tertiary: $color-base-white !default; // The tertiary contrast color is used for elements like text that is displayed on a background with the tertiary color.
 $color-application-contrast-secondary: $color-base-white !default; // The secondary contrast color is used for elements like text that is displayed on a background with the secondary color.
 $color-application-contrast-primary-variant: $color-base-white !default; // The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color.
-$color-application-contrast-primary: $color-base-black !default; // The primary contrast color is used for elements like text that is displayed on a background with the primary color.
-$color-application-success: $color-brand-green-800 !default; // The success color is used for success text.
-$color-application-error: $color-brand-red-700 !default; // The error color is used for error text.
-$color-application-outline: $color-brand-neutral-200 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
+$color-application-contrast-primary: $color-base-white !default; // The primary contrast color is used for elements like text that is displayed on a background with the primary color.
+$color-application-success: $color-base-green-500 !default; // The success color is used for success text.
+$color-application-error: $color-base-red-500 !default; // The error color is used for error text.
+$color-application-outline: $color-base-red-600 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
 $color-application-surface: $color-base-white !default; // The surface color is used as the background color for cards, text fields, sheets, dialogs, menus and chips.
 $color-application-background: $color-base-white !default; // The background color is used for the content background.
-$color-application-quaternary: $color-brand-lividbrown-600 !default; // The quaternary color is used to colorize information graphics.
-$color-application-tertiary: $color-brand-xanadu-600 !default; // The tertiary color is used to colorize information graphics.
-$color-application-secondary: $color-brand-deluge-500 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
-$color-application-primary-variant: $color-brand-yellow-900 !default; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
-$color-application-primary: $color-brand-goldentainoi-300 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
-$component-typography-overline-color: $color-application-primary-variant !default;
-$component-toggle-button-primary-hover-background-color: rgba(153, 110, 0, 0.12) !default;
-$component-toggle-button-primary-selected-background-color: rgba(153, 110, 0, 0.08) !default;
-$component-toggle-button-primary-selected-icon-color: $color-application-contrast-background !default;
-$component-toggle-button-primary-selected-text-color: $color-application-contrast-background !default;
-$component-textfield-filled-primary-focused-label-color: $color-application-primary-variant !default;
-$component-textfield-text-primary-focused-label-color: $color-application-primary-variant !default;
-$component-textfield-outlined-primary-focused-label-color: $color-application-primary-variant !default;
-$component-tabs-item-primary-hover-icon-color: $color-application-primary-variant !default;
-$component-tabs-item-primary-hover-text-color: $color-application-primary-variant !default;
-$component-tabs-item-primary-selected-indicator-color: $color-application-primary-variant !default;
-$component-tabs-item-primary-selected-icon-color: $color-application-primary-variant !default;
-$component-tabs-item-primary-selected-text-color: $color-application-primary-variant !default;
-$component-switch-primary-selected-background: $color-application-primary-variant !default;
-$component-switch-primary-selected-color: $color-application-primary-variant !default;
-$component-stepper-primary-icon-color: $color-application-contrast-primary-variant !default;
-$component-stepper-primary-inactive-border-color: $color-application-primary-variant !default;
-$component-stepper-primary-inactive-background: $color-application-background !default;
-$component-stepper-primary-inactive-color: $color-application-contrast-background !default;
-$component-stepper-primary-active-background: $color-application-primary-variant !default;
-$component-stepper-primary-active-color: $color-application-contrast-primary-variant !default;
-$component-stepper-primary-completed-background: $color-application-primary-variant !default;
-$component-stepper-primary-completed-color: $color-application-contrast-primary-variant !default;
-$component-slider-primary-background-color: $color-application-primary !default;
-$component-slider-primary-main-color: $color-application-primary-variant !default;
-$component-slider-primary-label-color: $color-application-contrast-primary-variant !default;
-$component-slider-primary-label-background: $color-application-primary-variant !default;
-$component-slider-primary-thumb-color: $color-application-primary-variant !default;
-$component-select-filled-primary-focused-border-color: $color-application-primary-variant !default;
-$component-select-filled-primary-focused-label-color: $color-application-primary-variant !default;
-$component-select-text-primary-focused-border-color: $color-application-primary-variant !default;
-$component-select-text-primary-focused-label-color: $color-application-primary-variant !default;
-$component-select-outlined-primary-focused-border-color: $color-application-primary-variant !default;
-$component-select-outlined-primary-focused-label-color: $color-application-primary-variant !default;
-$component-radio-primary-selected-color: $color-application-primary-variant !default;
-$component-progress-linear-buffer-primary-bar1-color: $color-application-primary-variant !default;
-$component-progress-linear-determinate-primary-bar1-color: $color-application-primary-variant !default;
-$component-progress-linear-indeterminate-primary-bar2-color: $color-application-primary-variant !default;
-$component-progress-linear-indeterminate-primary-bar1-color: $color-application-primary-variant !default;
-$component-progress-circular-determinate-primary-color: $color-application-primary-variant !default;
-$component-progress-circular-indeterminate-primary-color: $color-application-primary-variant !default;
-$component-pagination-outlined-primary-item-selected-color: $color-application-primary-variant !default;
-$component-menu-item-primary-selected-hover-background-color: rgba(153, 110, 0, 0.12) !default;
-$component-menu-item-primary-selected-background-color: rgba(153, 110, 0, 0.08) !default;
-$component-link-primary-default-color: $color-application-primary-variant !default;
-$component-icon-primary-color: $color-application-primary-variant !default;
-$component-chip-outlined-primary-delete-icon-hover-color: $color-application-primary-variant !default;
-$component-chip-outlined-primary-delete-icon-default-color: rgba(153, 110, 0, 0.6) !default;
-$component-chip-outlined-primary-icon-default-color: $color-application-primary-variant !default;
-$component-chip-outlined-primary-text-color: $color-application-primary-variant !default;
-$component-checkbox-primary-indeterminate-color: $color-application-primary-variant !default;
-$component-checkbox-primary-checked-color: $color-application-primary-variant !default;
-$component-button-icon-primary-default-icon-color: $color-application-primary-variant !default;
-$component-button-icon-primary-default-text-color: $color-application-primary-variant !default;
-$component-button-plain-primary-default-icon-color: $color-application-primary-variant !default;
-$component-button-plain-primary-default-text-color: $color-application-primary-variant !default;
-$component-button-text-primary-default-icon-color: $color-application-primary-variant !default;
-$component-button-text-primary-default-text-color: $color-application-primary-variant !default;
-$component-button-outlined-primary-default-icon-color: $color-application-primary-variant !default;
-$component-button-outlined-primary-default-text-color: $color-application-primary-variant !default;
-$component-alert-text-primary-default-background-color: $color-application-primary !default;
-$component-alert-text-primary-default-icon-color: $color-application-primary-variant !default;
-$component-alert-text-primary-default-text-color: $color-application-primary-variant !default;
-$component-alert-outlined-primary-default-outline-color: $color-application-primary-variant !default;
-$component-alert-outlined-primary-default-icon-color: $color-application-primary-variant !default;
-$component-alert-outlined-primary-default-text-color: $color-application-primary-variant !default;
+$color-application-quaternary: $color-base-blue-500 !default; // The quaternary color is used to colorize information graphics.
+$color-application-tertiary: $color-base-blue-500 !default; // The tertiary color is used to colorize information graphics.
+$color-application-secondary: $color-base-blue-500 !default; // The secondary color is used to indicate selection controls, floating actions or overline text.
+$color-application-primary-variant: $color-base-blue-500 !default; // The primary variant color is used for text and icons on a light background to ensure an accessible contrast ratio.
+$color-application-primary: $color-base-blue-500 !default; // The primary color is used to indicate primary actions, selected elements or as background color for app bars.
 
 $tokens: (
   'color': (
@@ -916,220 +687,28 @@ $tokens: (
       )
     ),
     'brand': (
-      'neutral': (
-        '50': $color-brand-neutral-50,
-        '100': $color-brand-neutral-100,
-        '200': $color-brand-neutral-200,
-        '300': $color-brand-neutral-300,
-        '400': $color-brand-neutral-400,
-        '500': $color-brand-neutral-500,
-        '600': $color-brand-neutral-600,
-        '700': $color-brand-neutral-700,
-        '800': $color-brand-neutral-800,
-        '900': $color-brand-neutral-900,
+      'grey': (
+        '50': $color-brand-grey-50,
+        '100': $color-brand-grey-100,
+        '200': $color-brand-grey-200,
+        '300': $color-brand-grey-300,
+        '400': $color-brand-grey-400,
+        '500': $color-brand-grey-500,
+        '600': $color-brand-grey-600,
+        '700': $color-brand-grey-700,
+        '800': $color-brand-grey-800,
+        '900': $color-brand-grey-900,
         'contrast': (
-          '50': $color-brand-neutral-contrast-50,
-          '100': $color-brand-neutral-contrast-100,
-          '200': $color-brand-neutral-contrast-200,
-          '300': $color-brand-neutral-contrast-300,
-          '400': $color-brand-neutral-contrast-400,
-          '500': $color-brand-neutral-contrast-500,
-          '600': $color-brand-neutral-contrast-600,
-          '700': $color-brand-neutral-contrast-700,
-          '800': $color-brand-neutral-contrast-800,
-          '900': $color-brand-neutral-contrast-900
-        )
-      ),
-      'goldentainoi': (
-        '50': $color-brand-goldentainoi-50,
-        '100': $color-brand-goldentainoi-100,
-        '200': $color-brand-goldentainoi-200,
-        '300': $color-brand-goldentainoi-300,
-        '400': $color-brand-goldentainoi-400,
-        '500': $color-brand-goldentainoi-500,
-        '600': $color-brand-goldentainoi-600,
-        '700': $color-brand-goldentainoi-700,
-        '800': $color-brand-goldentainoi-800,
-        '900': $color-brand-goldentainoi-900,
-        'contrast': (
-          '50': $color-brand-goldentainoi-contrast-50,
-          '100': $color-brand-goldentainoi-contrast-100,
-          '200': $color-brand-goldentainoi-contrast-200,
-          '300': $color-brand-goldentainoi-contrast-300,
-          '400': $color-brand-goldentainoi-contrast-400,
-          '500': $color-brand-goldentainoi-contrast-500,
-          '600': $color-brand-goldentainoi-contrast-600,
-          '700': $color-brand-goldentainoi-contrast-700,
-          '800': $color-brand-goldentainoi-contrast-800,
-          '900': $color-brand-goldentainoi-contrast-900
-        )
-      ),
-      'deepblue': (
-        '50': $color-brand-deepblue-50,
-        '100': $color-brand-deepblue-100,
-        '200': $color-brand-deepblue-200,
-        '300': $color-brand-deepblue-300,
-        '400': $color-brand-deepblue-400,
-        '500': $color-brand-deepblue-500,
-        '600': $color-brand-deepblue-600,
-        '700': $color-brand-deepblue-700,
-        '800': $color-brand-deepblue-800,
-        '900': $color-brand-deepblue-900,
-        'contrast': (
-          '50': $color-brand-deepblue-contrast-50,
-          '100': $color-brand-deepblue-contrast-100,
-          '200': $color-brand-deepblue-contrast-200,
-          '300': $color-brand-deepblue-contrast-300,
-          '400': $color-brand-deepblue-contrast-400,
-          '500': $color-brand-deepblue-contrast-500,
-          '600': $color-brand-deepblue-contrast-600,
-          '700': $color-brand-deepblue-contrast-700,
-          '800': $color-brand-deepblue-contrast-800,
-          '900': $color-brand-deepblue-contrast-900
-        )
-      ),
-      'deluge': (
-        '50': $color-brand-deluge-50,
-        '100': $color-brand-deluge-100,
-        '200': $color-brand-deluge-200,
-        '300': $color-brand-deluge-300,
-        '400': $color-brand-deluge-400,
-        '500': $color-brand-deluge-500,
-        '600': $color-brand-deluge-600,
-        '700': $color-brand-deluge-700,
-        '800': $color-brand-deluge-800,
-        '900': $color-brand-deluge-900,
-        'contrast': (
-          '50': $color-brand-deluge-contrast-50,
-          '100': $color-brand-deluge-contrast-100,
-          '200': $color-brand-deluge-contrast-200,
-          '300': $color-brand-deluge-contrast-300,
-          '400': $color-brand-deluge-contrast-400,
-          '500': $color-brand-deluge-contrast-500,
-          '600': $color-brand-deluge-contrast-600,
-          '700': $color-brand-deluge-contrast-700,
-          '800': $color-brand-deluge-contrast-800,
-          '900': $color-brand-deluge-contrast-900
-        )
-      ),
-      'xanadu': (
-        '50': $color-brand-xanadu-50,
-        '100': $color-brand-xanadu-100,
-        '200': $color-brand-xanadu-200,
-        '300': $color-brand-xanadu-300,
-        '400': $color-brand-xanadu-400,
-        '500': $color-brand-xanadu-500,
-        '600': $color-brand-xanadu-600,
-        '700': $color-brand-xanadu-700,
-        '800': $color-brand-xanadu-800,
-        '900': $color-brand-xanadu-900,
-        'contrast': (
-          '50': $color-brand-xanadu-contrast-50,
-          '100': $color-brand-xanadu-contrast-100,
-          '200': $color-brand-xanadu-contrast-200,
-          '300': $color-brand-xanadu-contrast-300,
-          '400': $color-brand-xanadu-contrast-400,
-          '500': $color-brand-xanadu-contrast-500,
-          '600': $color-brand-xanadu-contrast-600,
-          '700': $color-brand-xanadu-contrast-700,
-          '800': $color-brand-xanadu-contrast-800,
-          '900': $color-brand-xanadu-contrast-900
-        )
-      ),
-      'lividbrown': (
-        '50': $color-brand-lividbrown-50,
-        '100': $color-brand-lividbrown-100,
-        '200': $color-brand-lividbrown-200,
-        '300': $color-brand-lividbrown-300,
-        '400': $color-brand-lividbrown-400,
-        '500': $color-brand-lividbrown-500,
-        '600': $color-brand-lividbrown-600,
-        '700': $color-brand-lividbrown-700,
-        '800': $color-brand-lividbrown-800,
-        '900': $color-brand-lividbrown-900,
-        'contrast': (
-          '50': $color-brand-lividbrown-contrast-50,
-          '100': $color-brand-lividbrown-contrast-100,
-          '200': $color-brand-lividbrown-contrast-200,
-          '300': $color-brand-lividbrown-contrast-300,
-          '400': $color-brand-lividbrown-contrast-400,
-          '500': $color-brand-lividbrown-contrast-500,
-          '600': $color-brand-lividbrown-contrast-600,
-          '700': $color-brand-lividbrown-contrast-700,
-          '800': $color-brand-lividbrown-contrast-800,
-          '900': $color-brand-lividbrown-contrast-900
-        )
-      ),
-      'red': (
-        '50': $color-brand-red-50,
-        '100': $color-brand-red-100,
-        '200': $color-brand-red-200,
-        '300': $color-brand-red-300,
-        '400': $color-brand-red-400,
-        '500': $color-brand-red-500,
-        '600': $color-brand-red-600,
-        '700': $color-brand-red-700,
-        '800': $color-brand-red-800,
-        '900': $color-brand-red-900,
-        'contrast': (
-          '50': $color-brand-red-contrast-50,
-          '100': $color-brand-red-contrast-100,
-          '200': $color-brand-red-contrast-200,
-          '300': $color-brand-red-contrast-300,
-          '400': $color-brand-red-contrast-400,
-          '500': $color-brand-red-contrast-500,
-          '600': $color-brand-red-contrast-600,
-          '700': $color-brand-red-contrast-700,
-          '800': $color-brand-red-contrast-800,
-          '900': $color-brand-red-contrast-900
-        )
-      ),
-      'green': (
-        '50': $color-brand-green-50,
-        '100': $color-brand-green-100,
-        '200': $color-brand-green-200,
-        '300': $color-brand-green-300,
-        '400': $color-brand-green-400,
-        '500': $color-brand-green-500,
-        '600': $color-brand-green-600,
-        '700': $color-brand-green-700,
-        '800': $color-brand-green-800,
-        '900': $color-brand-green-900,
-        'contrast': (
-          '50': $color-brand-green-contrast-50,
-          '100': $color-brand-green-contrast-100,
-          '200': $color-brand-green-contrast-200,
-          '300': $color-brand-green-contrast-300,
-          '400': $color-brand-green-contrast-400,
-          '500': $color-brand-green-contrast-500,
-          '600': $color-brand-green-contrast-600,
-          '700': $color-brand-green-contrast-700,
-          '800': $color-brand-green-contrast-800,
-          '900': $color-brand-green-contrast-900
-        )
-      ),
-      'yellow': (
-        '50': $color-brand-yellow-50,
-        '100': $color-brand-yellow-100,
-        '200': $color-brand-yellow-200,
-        '300': $color-brand-yellow-300,
-        '400': $color-brand-yellow-400,
-        '500': $color-brand-yellow-500,
-        '600': $color-brand-yellow-600,
-        '700': $color-brand-yellow-700,
-        '800': $color-brand-yellow-800,
-        '900': $color-brand-yellow-900,
-        'contrast': (
-          '50': $color-brand-yellow-contrast-50,
-          '100': $color-brand-yellow-contrast-100,
-          '200': $color-brand-yellow-contrast-200,
-          '300': $color-brand-yellow-contrast-300,
-          '400': $color-brand-yellow-contrast-400,
-          '500': $color-brand-yellow-contrast-500,
-          '600': $color-brand-yellow-contrast-600,
-          '700': $color-brand-yellow-contrast-700,
-          '800': $color-brand-yellow-contrast-800,
-          '900': $color-brand-yellow-contrast-900
+          '50': $color-brand-grey-contrast-50,
+          '100': $color-brand-grey-contrast-100,
+          '200': $color-brand-grey-contrast-200,
+          '300': $color-brand-grey-contrast-300,
+          '400': $color-brand-grey-contrast-400,
+          '500': $color-brand-grey-contrast-500,
+          '600': $color-brand-grey-contrast-600,
+          '700': $color-brand-grey-contrast-700,
+          '800': $color-brand-grey-contrast-800,
+          '900': $color-brand-grey-contrast-900
         )
       )
     ),
@@ -1351,379 +930,6 @@ $tokens: (
           '800': $color-base-nandor-contrast-800,
           '900': $color-base-nandor-contrast-900
         )
-      )
-    )
-  ),
-  'component': (
-    'alert': (
-      'outlined': (
-        'primary': (
-          'default': (
-            'text': (
-              'color': $component-alert-outlined-primary-default-text-color
-            ),
-            'icon': (
-              'color': $component-alert-outlined-primary-default-icon-color
-            ),
-            'outline': (
-              'color': $component-alert-outlined-primary-default-outline-color,
-              'border': (
-                'width': $component-alert-outlined-primary-default-outline-border-width
-              )
-            )
-          )
-        )
-      ),
-      'text': (
-        'primary': (
-          'default': (
-            'text': (
-              'color': $component-alert-text-primary-default-text-color
-            ),
-            'icon': (
-              'color': $component-alert-text-primary-default-icon-color
-            ),
-            'background': (
-              'color': $component-alert-text-primary-default-background-color
-            )
-          )
-        )
-      )
-    ),
-    'button': (
-      'outlined': (
-        'primary': (
-          'default': (
-            'text': (
-              'color': $component-button-outlined-primary-default-text-color
-            ),
-            'icon': (
-              'color': $component-button-outlined-primary-default-icon-color
-            )
-          )
-        )
-      ),
-      'text': (
-        'primary': (
-          'default': (
-            'text': (
-              'color': $component-button-text-primary-default-text-color
-            ),
-            'icon': (
-              'color': $component-button-text-primary-default-icon-color
-            )
-          )
-        )
-      ),
-      'plain': (
-        'primary': (
-          'default': (
-            'text': (
-              'color': $component-button-plain-primary-default-text-color
-            ),
-            'icon': (
-              'color': $component-button-plain-primary-default-icon-color
-            )
-          )
-        )
-      ),
-      'icon': (
-        'primary': (
-          'default': (
-            'text': (
-              'color': $component-button-icon-primary-default-text-color
-            ),
-            'icon': (
-              'color': $component-button-icon-primary-default-icon-color
-            )
-          )
-        )
-      )
-    ),
-    'checkbox': (
-      'primary': (
-        'checked': (
-          'color': $component-checkbox-primary-checked-color
-        ),
-        'indeterminate': (
-          'color': $component-checkbox-primary-indeterminate-color
-        )
-      )
-    ),
-    'chip': (
-      'outlined': (
-        'primary': (
-          'text': (
-            'color': $component-chip-outlined-primary-text-color
-          ),
-          'icon': (
-            'default': (
-              'color': $component-chip-outlined-primary-icon-default-color
-            )
-          ),
-          'delete-icon': (
-            'default': (
-              'color': $component-chip-outlined-primary-delete-icon-default-color
-            ),
-            'hover': (
-              'color': $component-chip-outlined-primary-delete-icon-hover-color
-            )
-          )
-        )
-      )
-    ),
-    'icon': (
-      'primary': (
-        'color': $component-icon-primary-color
-      )
-    ),
-    'link': (
-      'primary': (
-        'default': (
-          'color': $component-link-primary-default-color
-        )
-      )
-    ),
-    'menu': (
-      'item': (
-        'primary': (
-          'selected': (
-            'background': (
-              'color': $component-menu-item-primary-selected-background-color
-            ),
-            'hover': (
-              'background': (
-                'color': $component-menu-item-primary-selected-hover-background-color
-              )
-            )
-          )
-        )
-      )
-    ),
-    'pagination': (
-      'outlined': (
-        'primary': (
-          'item': (
-            'selected': (
-              'color': $component-pagination-outlined-primary-item-selected-color
-            )
-          )
-        )
-      )
-    ),
-    'progress': (
-      'circular': (
-        'indeterminate': (
-          'primary': (
-            'color': $component-progress-circular-indeterminate-primary-color
-          )
-        ),
-        'determinate': (
-          'primary': (
-            'color': $component-progress-circular-determinate-primary-color
-          )
-        )
-      ),
-      'linear': (
-        'indeterminate': (
-          'primary': (
-            'bar1': (
-              'color': $component-progress-linear-indeterminate-primary-bar1-color
-            ),
-            'bar2': (
-              'color': $component-progress-linear-indeterminate-primary-bar2-color
-            )
-          )
-        ),
-        'determinate': (
-          'primary': (
-            'bar1': (
-              'color': $component-progress-linear-determinate-primary-bar1-color
-            )
-          )
-        ),
-        'buffer': (
-          'primary': (
-            'bar1': (
-              'color': $component-progress-linear-buffer-primary-bar1-color
-            )
-          )
-        )
-      )
-    ),
-    'radio': (
-      'primary': (
-        'selected': (
-          'color': $component-radio-primary-selected-color
-        )
-      )
-    ),
-    'select': (
-      'outlined': (
-        'primary': (
-          'focused': (
-            'label': (
-              'color': $component-select-outlined-primary-focused-label-color
-            ),
-            'border': (
-              'color': $component-select-outlined-primary-focused-border-color
-            )
-          )
-        )
-      ),
-      'text': (
-        'primary': (
-          'focused': (
-            'label': (
-              'color': $component-select-text-primary-focused-label-color
-            ),
-            'border': (
-              'color': $component-select-text-primary-focused-border-color
-            )
-          )
-        )
-      ),
-      'filled': (
-        'primary': (
-          'focused': (
-            'label': (
-              'color': $component-select-filled-primary-focused-label-color
-            ),
-            'border': (
-              'color': $component-select-filled-primary-focused-border-color
-            )
-          )
-        )
-      )
-    ),
-    'slider': (
-      'primary': (
-        'thumb': (
-          'color': $component-slider-primary-thumb-color
-        ),
-        'label': (
-          'background': $component-slider-primary-label-background,
-          'color': $component-slider-primary-label-color
-        ),
-        'main': (
-          'color': $component-slider-primary-main-color
-        ),
-        'background': (
-          'color': $component-slider-primary-background-color
-        )
-      )
-    ),
-    'stepper': (
-      'primary': (
-        'completed': (
-          'color': $component-stepper-primary-completed-color,
-          'background': $component-stepper-primary-completed-background
-        ),
-        'active': (
-          'color': $component-stepper-primary-active-color,
-          'background': $component-stepper-primary-active-background
-        ),
-        'inactive': (
-          'color': $component-stepper-primary-inactive-color,
-          'background': $component-stepper-primary-inactive-background,
-          'border': (
-            'width': $component-stepper-primary-inactive-border-width,
-            'color': $component-stepper-primary-inactive-border-color
-          )
-        ),
-        'icon': (
-          'color': $component-stepper-primary-icon-color
-        )
-      )
-    ),
-    'switch': (
-      'primary': (
-        'selected': (
-          'color': $component-switch-primary-selected-color,
-          'background': $component-switch-primary-selected-background,
-          'disabled': (
-            'color': $component-switch-primary-selected-disabled-color
-          )
-        )
-      )
-    ),
-    'tabs': (
-      'item': (
-        'primary': (
-          'selected': (
-            'text': (
-              'color': $component-tabs-item-primary-selected-text-color
-            ),
-            'icon': (
-              'color': $component-tabs-item-primary-selected-icon-color
-            ),
-            'indicator': (
-              'color': $component-tabs-item-primary-selected-indicator-color
-            )
-          ),
-          'hover': (
-            'text': (
-              'color': $component-tabs-item-primary-hover-text-color
-            ),
-            'icon': (
-              'color': $component-tabs-item-primary-hover-icon-color
-            )
-          )
-        )
-      )
-    ),
-    'textfield': (
-      'outlined': (
-        'primary': (
-          'focused': (
-            'label': (
-              'color': $component-textfield-outlined-primary-focused-label-color
-            )
-          )
-        )
-      ),
-      'text': (
-        'primary': (
-          'focused': (
-            'label': (
-              'color': $component-textfield-text-primary-focused-label-color
-            )
-          )
-        )
-      ),
-      'filled': (
-        'primary': (
-          'focused': (
-            'label': (
-              'color': $component-textfield-filled-primary-focused-label-color
-            )
-          )
-        )
-      )
-    ),
-    'toggle-button': (
-      'primary': (
-        'selected': (
-          'text': (
-            'color': $component-toggle-button-primary-selected-text-color
-          ),
-          'icon': (
-            'color': $component-toggle-button-primary-selected-icon-color
-          ),
-          'background': (
-            'color': $component-toggle-button-primary-selected-background-color
-          )
-        ),
-        'hover': (
-          'background': (
-            'color': $component-toggle-button-primary-hover-background-color
-          )
-        )
-      )
-    ),
-    'typography': (
-      'overline': (
-        'color': $component-typography-overline-color
       )
     )
   ),
