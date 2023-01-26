@@ -4,7 +4,7 @@ const StyleDictionaryPackage = require('style-dictionary')
 const fs = require('fs-extra')
 
 const distDirName = 'dist'
-const brands = [`hot`, `mbti`, `mbtm`]
+const brands = [`hot`, `mbti`, `mbtm`, 'mb']
 const platforms = [`web`]
 const modes = [`light`, `dark`]
 
