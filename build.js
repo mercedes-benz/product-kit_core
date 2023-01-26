@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 const { hexToRgba } = require('./dist/web/utils/js/color')
 const StyleDictionaryPackage = require('style-dictionary')
+const { formattedVariables } = StyleDictionaryPackage.formatHelpers;
 const fs = require('fs-extra')
 
 const distDirName = 'dist'
@@ -39,6 +40,24 @@ const transforms_js = [
   `name/cti/camel`,
   `size/px`,
 ]
+
+StyleDictionaryPackage.registerFormat({
+  name: 'minifiedCSS',
+  formatter: function({ dictionary, options={} }) {
+
+    const selector = options.selector ? options.selector : `:root`;
+    const { outputReferences } = options;
+    const unminifiedString = `${selector} {\n` + formattedVariables({format: 'css', dictionary, outputReferences}) + `}`;
+    return createMinifiedCSS(unminifiedString)
+
+    function createMinifiedCSS(input) {
+      return input
+        .replaceAll(/\/\*.*?\*\//gm, '') // remove all css comments
+        .replaceAll('\n', '') // remove all line breaks
+        .replaceAll(' ', '') // remove all spaces
+    }
+  }
+});
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -94,6 +113,13 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
           {
             destination: `css/variables.css`,
             format: `css/variables`,
+            options: {
+              outputReferences: true,
+            },
+          },
+          {
+            destination: `css/variables.min.css`,
+            format: `minifiedCSS`,
             options: {
               outputReferences: true,
             },
@@ -159,6 +185,14 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
             options: {
               outputReferences: true,
               selector: `.dark`,
+            },
+          },
+          {
+            destination: `css/variables-dark.min.css`,
+            format: `minifiedCSS`,
+            options: {
+              outputReferences: true,
+              selector: `.dark`
             },
           },
         ],
