@@ -41,6 +41,14 @@
         "value": "{color.base.green.400}",
         "comment": "The success color is used for success text."
       },
+      "info": {
+        "value": "{color.base.blue.500}",
+        "comment": "The error color is used for error text."
+      },
+      "warning": {
+        "value": "{color.base.yellow.500}",
+        "comment": "The success color is used for success text."
+      },
       "contrast": {
         "primary": {
           "value": "{color.base.black}",
@@ -81,6 +89,14 @@
         "success": {
           "value": "{color.base.black}",
           "comment": "The error contrast color is used for elements like text that is displayed on a background with the success color."
+        },
+        "info": {
+          "value": "{color.base.black}",
+          "comment": "The error color is used for error text."
+        },
+        "warning": {
+          "value": "{color.base.black}",
+          "comment": "The success color is used for success text."
         }
       }
     }
