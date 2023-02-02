@@ -2,7 +2,8 @@
 const { hexToRgba } = require('./dist/web/utils/js/color')
 const StyleDictionaryPackage = require('style-dictionary')
 const { formattedVariables } = StyleDictionaryPackage.formatHelpers;
-const fs = require('fs-extra')
+const fs = require('fs-extra');
+const { allTokens } = require('style-dictionary');
 
 const distDirName = 'dist'
 const brands = [`hot`, `mbti`, `mbtm`, 'mb']
@@ -56,6 +57,15 @@ StyleDictionaryPackage.registerFormat({
         .replaceAll('\n', '') // remove all line breaks
         .replaceAll(' ', '') // remove all spaces
     }
+  }
+});
+
+StyleDictionaryPackage.registerFormat({
+  name: 'minifiedJS',
+  formatter: function({ dictionary }) {
+    return 'export const ' + dictionary.allTokens.map(function(token) {
+      return token.name + '=' + JSON.stringify(token.value);
+      });
   }
 });
 
@@ -151,6 +161,10 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
           {
             destination: `js/variables.js`,
             format: `javascript/es6`,
+          },
+          {
+            destination: `js/variables.min.js`,
+            format: `minifiedJS`,
           },
         ],
       },
