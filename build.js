@@ -2,7 +2,8 @@
 const { hexToRgba } = require('./dist/web/utils/js/color')
 const StyleDictionaryPackage = require('style-dictionary')
 const { formattedVariables } = StyleDictionaryPackage.formatHelpers;
-const fs = require('fs-extra')
+const fs = require('fs-extra');
+const { allTokens } = require('style-dictionary');
 
 const distDirName = 'dist'
 const brands = [`hot`, `mbti`, `mbtm`, 'mb']
@@ -59,6 +60,15 @@ StyleDictionaryPackage.registerFormat({
   }
 });
 
+StyleDictionaryPackage.registerFormat({
+  name: 'minifiedJS',
+  formatter: function({ dictionary }) {
+    return  dictionary.allTokens.map(function(token) {
+      return 'export const ' + token.name + '=' + JSON.stringify(token.value) + ';';
+      }).join('');
+  }
+});
+
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
 platforms.map(function (platform) {
@@ -112,13 +122,6 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `css/variables.css`,
-            format: `css/variables`,
-            options: {
-              outputReferences: true,
-            },
-          },
-          {
-            destination: `css/variables.min.css`,
             format: `minifiedCSS`,
             options: {
               outputReferences: true,
@@ -150,7 +153,7 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `js/variables.js`,
-            format: `javascript/es6`,
+            format: `minifiedJS`,
           },
         ],
       },
@@ -181,14 +184,6 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `css/variables-dark.css`,
-            format: `css/variables`,
-            options: {
-              outputReferences: true,
-              selector: `.dark`,
-            },
-          },
-          {
-            destination: `css/variables-dark.min.css`,
             format: `minifiedCSS`,
             options: {
               outputReferences: true,
@@ -221,7 +216,7 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `js/variables-dark.js`,
-            format: `javascript/es6`,
+            format: `minifiedJS`,
           },
         ],
       },
