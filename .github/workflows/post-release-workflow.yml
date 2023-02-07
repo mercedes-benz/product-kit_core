@@ -1,0 +1,10 @@
+name: Post Release Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-checks:
+    uses: mercedes-benz/product-kit_actions/.github/workflows/post-release-workflow.yml@main
