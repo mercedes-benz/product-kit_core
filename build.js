@@ -63,9 +63,9 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerFormat({
   name: 'minifiedJS',
   formatter: function({ dictionary }) {
-    return 'export const ' + dictionary.allTokens.map(function(token) {
-      return token.name + '=' + JSON.stringify(token.value);
-      });
+    return  dictionary.allTokens.map(function(token) {
+      return 'export const ' + token.name + '=' + JSON.stringify(token.value) + ';';
+      }).join('');
   }
 });
 
@@ -122,13 +122,6 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `css/variables.css`,
-            format: `css/variables`,
-            options: {
-              outputReferences: true,
-            },
-          },
-          {
-            destination: `css/variables.min.css`,
             format: `minifiedCSS`,
             options: {
               outputReferences: true,
@@ -160,10 +153,6 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `js/variables.js`,
-            format: `javascript/es6`,
-          },
-          {
-            destination: `js/variables.min.js`,
             format: `minifiedJS`,
           },
         ],
@@ -195,14 +184,6 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `css/variables-dark.css`,
-            format: `css/variables`,
-            options: {
-              outputReferences: true,
-              selector: `.dark`,
-            },
-          },
-          {
-            destination: `css/variables-dark.min.css`,
             format: `minifiedCSS`,
             options: {
               outputReferences: true,
@@ -235,7 +216,7 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `js/variables-dark.js`,
-            format: `javascript/es6`,
+            format: `minifiedJS`,
           },
         ],
       },
