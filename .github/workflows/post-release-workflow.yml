@@ -8,3 +8,5 @@ on:
 jobs:
   run-checks:
     uses: mercedes-benz/product-kit_actions/.github/workflows/post-release-workflow.yml@main
+    secrets:
+      npm-token: ${{ secrets.MBTI_NPM_TOKEN }}
