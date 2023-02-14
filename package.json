@@ -1,5 +1,5 @@
 {
-  "name": "@daimler/productkit-core",
+  "name": "@mercedes-benz/productkit-core",
   "version": "2.2.0",
   "description": "Product Kit Core provides design tokens according to the Mercedes-Benz Tech Innovation styleguide",
   "scripts": {
