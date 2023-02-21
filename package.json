@@ -5,6 +5,9 @@
   "scripts": {
     "build": "node ./build.js"
   },
+  "files": [
+    "dist/web/styles"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mercedes-benz/product-kit_core.git"
