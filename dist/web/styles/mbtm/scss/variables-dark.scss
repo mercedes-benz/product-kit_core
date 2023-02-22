@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Tue, 01 Nov 2022 14:44:14 GMT
+ * Generated on Tue, 07 Feb 2023 15:18:33 GMT
  */
 
 $layout-column-3x: 12 !default; // The most amount of columns in a layout. Used for laptop or desktop screen sizes.
@@ -385,7 +385,7 @@ $font-application-l-caption-font-size: $size-font-xs !default;
 $font-application-l-caption-font-weight: $font-weight-regular !default;
 $font-application-l-caption-font-family: $font-family-platform-text !default;
 $font-application-l-button-font-size: $size-font-s !default;
-$font-application-l-button-font-weight: $font-weight-regular !default;
+$font-application-l-button-font-weight: $font-weight-bold !default;
 $font-application-l-button-font-family: $font-family-platform-text !default;
 $font-application-l-body2-strong-letter-spacing: $size-letter-spacing-s !default;
 $font-application-l-body2-strong-line-height: $size-line-height-xxs !default;
@@ -473,7 +473,7 @@ $font-application-s-caption-font-size: $size-font-xxs !default;
 $font-application-s-caption-font-weight: $font-weight-regular !default;
 $font-application-s-caption-font-family: $font-family-platform-text !default;
 $font-application-s-button-font-size: $size-font-s !default;
-$font-application-s-button-font-weight: $font-weight-regular !default;
+$font-application-s-button-font-weight: $font-weight-bold !default;
 $font-application-s-button-font-family: $font-family-platform-text !default;
 $font-application-s-body2-strong-letter-spacing: $size-letter-spacing-m !default;
 $font-application-s-body2-strong-line-height: $size-line-height-3xs !default;
@@ -645,6 +645,8 @@ $color-brand-blue-contrast-300: $color-base-black !default;
 $color-brand-blue-contrast-200: $color-base-black !default;
 $color-brand-blue-contrast-100: $color-base-black !default;
 $color-brand-blue-contrast-50: $color-base-black !default;
+$color-application-contrast-warning: $color-base-white !default; // The success color is used for success text.
+$color-application-contrast-info: $color-base-white !default; // The error color is used for error text.
 $color-application-contrast-success: $color-base-black !default; // The error contrast color is used for elements like text that is displayed on a background with the success color.
 $color-application-contrast-error: $color-base-black !default; // The error contrast color is used for elements like text that is displayed on a background with the error color.
 $color-application-contrast-outline: $color-base-white !default; // The outline contrast color is used for elements like text that is displayed on a background with the outline color.
@@ -655,6 +657,8 @@ $color-application-contrast-tertiary: $color-base-black !default; // The tertiar
 $color-application-contrast-secondary: $color-base-black !default; // The secondary contrast color is used for elements like text that is displayed on a background with the secondary color.
 $color-application-contrast-primary-variant: $color-base-black !default; // The primary variant contrast color is used for elements like text that is displayed on a background with the primary variant color.
 $color-application-contrast-primary: $color-base-black !default; // The primary contrast color is used for elements like text that is displayed on a background with the primary color.
+$color-application-warning: $color-base-yellow-500 !default; // The success color is used for success text.
+$color-application-info: $color-base-blue-500 !default; // The error color is used for error text.
 $color-application-success: $color-base-green-400 !default; // The success color is used for success text.
 $color-application-error: $color-base-red-400 !default; // The error color is used for error text.
 $color-application-outline: $color-base-neutral-500 !default; // The outline color is used for components with an outline like cards, text fields or buttons.
@@ -679,6 +683,8 @@ $tokens: (
       'outline': $color-application-outline,
       'error': $color-application-error,
       'success': $color-application-success,
+      'info': $color-application-info,
+      'warning': $color-application-warning,
       'contrast': (
         'primary': $color-application-contrast-primary,
         'primary-variant': $color-application-contrast-primary-variant,
@@ -689,7 +695,9 @@ $tokens: (
         'surface': $color-application-contrast-surface,
         'outline': $color-application-contrast-outline,
         'error': $color-application-contrast-error,
-        'success': $color-application-contrast-success
+        'success': $color-application-contrast-success,
+        'info': $color-application-contrast-info,
+        'warning': $color-application-contrast-warning
       )
     ),
     'brand': (

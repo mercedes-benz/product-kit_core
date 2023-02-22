@@ -1,10 +1,13 @@
 {
-  "name": "@daimler/productkit-core",
-  "version": "2.1.0",
+  "name": "@mercedes-benz/productkit-core",
+  "version": "2.2.0",
   "description": "Product Kit Core provides design tokens according to the Mercedes-Benz Tech Innovation styleguide",
   "scripts": {
     "build": "node ./build.js"
   },
+  "files": [
+    "dist/web/styles"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mercedes-benz/product-kit_core.git"

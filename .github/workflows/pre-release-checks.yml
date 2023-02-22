@@ -1,0 +1,15 @@
+
+
+name: Pre Release Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-checks:
+    uses: mercedes-benz/product-kit_actions/.github/workflows/pre-release-checks.yml@main
+    with:
+      npm-package-url: https://unpkg.com/@daimler/productkit-core/package.json
+      black-duck-project-name: product-kit-core

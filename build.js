@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: MIT
 const { hexToRgba } = require('./dist/web/utils/js/color')
 const StyleDictionaryPackage = require('style-dictionary')
-const fs = require('fs-extra')
+const { formattedVariables } = StyleDictionaryPackage.formatHelpers;
+const fs = require('fs-extra');
+const { allTokens } = require('style-dictionary');
 
 const distDirName = 'dist'
-const brands = [`hot`, `mbti`, `mbtm`]
+const brands = [`hot`, `mbti`, `mbtm`, 'mb']
 const platforms = [`web`]
 const modes = [`light`, `dark`]
 
@@ -39,6 +41,33 @@ const transforms_js = [
   `name/cti/camel`,
   `size/px`,
 ]
+
+StyleDictionaryPackage.registerFormat({
+  name: 'minifiedCSS',
+  formatter: function({ dictionary, options={} }) {
+
+    const selector = options.selector ? options.selector : `:root`;
+    const { outputReferences } = options;
+    const unminifiedString = `${selector} {\n` + formattedVariables({format: 'css', dictionary, outputReferences}) + `}`;
+    return createMinifiedCSS(unminifiedString)
+
+    function createMinifiedCSS(input) {
+      return input
+        .replaceAll(/\/\*.*?\*\//gm, '') // remove all css comments
+        .replaceAll('\n', '') // remove all line breaks
+        .replaceAll(' ', '') // remove all spaces
+    }
+  }
+});
+
+StyleDictionaryPackage.registerFormat({
+  name: 'minifiedJS',
+  formatter: function({ dictionary }) {
+    return  dictionary.allTokens.map(function(token) {
+      return 'export const ' + token.name + '=' + JSON.stringify(token.value) + ';';
+      }).join('');
+  }
+});
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -93,7 +122,7 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `css/variables.css`,
-            format: `css/variables`,
+            format: `minifiedCSS`,
             options: {
               outputReferences: true,
             },
@@ -124,7 +153,7 @@ function getStyleDictionaryLightConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `js/variables.js`,
-            format: `javascript/es6`,
+            format: `minifiedJS`,
           },
         ],
       },
@@ -155,10 +184,10 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `css/variables-dark.css`,
-            format: `css/variables`,
+            format: `minifiedCSS`,
             options: {
               outputReferences: true,
-              selector: `.dark`,
+              selector: `.dark`
             },
           },
         ],
@@ -187,7 +216,7 @@ function getStyleDictionaryDarkConfig(brand, platform, exportPath) {
         files: [
           {
             destination: `js/variables-dark.js`,
-            format: `javascript/es6`,
+            format: `minifiedJS`,
           },
         ],
       },

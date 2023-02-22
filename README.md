@@ -3,7 +3,10 @@
 # ![Product Kit Core Logo](./docs/images/pk_core_title_image.png)
 
 ![license](https://img.shields.io/badge/license-MIT-38de03e?style=flat)
-[![npm](https://img.shields.io/npm/v/@daimler/productkit-core)](https://www.npmjs.com/package/@daimler/productkit-core)
+[![npm](https://img.shields.io/npm/v/@mercedes-benz/productkit-core)](https://www.npmjs.com/package/@mercedes-benz/productkit-core)
+
+> **Note** <br>
+> With the release of v2.2.0 and all future versions, product-kit_core is available under the npm scope @mercedes-benz/productkit-core.
 
 Product Kit Core provides design tokens according to the Mercedes-Benz Tech Innovation styleguide. These tokens are used to create an export that can be used on web platforms using material design. The export is created with a build tool that is called [Style Dictionary](https://github.com/amzn/style-dictionary).
 
@@ -23,7 +26,7 @@ _Note that you must have node (and npm) installed._
 You can get the style dictionary for web as package through npm:
 
 ```bash
-npm install @daimler/productkit-core
+npm install @mercedes-benz/productkit-core
 ```
 
 Styles for web can be found in the `dist` directory. Feel free to contribute any missing platforms.
