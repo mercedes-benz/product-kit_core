@@ -1,6 +1,6 @@
 Copyright 2023
 
-[product-kit-core : 2.2.0]
+[product-kit-core : 2.2.1]
 
 Phase: RELEASED
 Distribution: OPENSOURCE
