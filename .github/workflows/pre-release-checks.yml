@@ -11,5 +11,5 @@ jobs:
   run-checks:
     uses: mercedes-benz/product-kit_actions/.github/workflows/pre-release-checks.yml@main
     with:
-      npm-package-url: https://unpkg.com/@daimler/productkit-core/package.json
+      npm-package-url: https://unpkg.com/@mercedes-benz/productkit-core/package.json
       black-duck-project-name: product-kit-core
