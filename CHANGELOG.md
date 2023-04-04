@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.1]
+
+### Fixed
+
+- font-family naming in minified css files
+
 ## [2.2.0]
 
 ### Added
