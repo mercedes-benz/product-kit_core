@@ -55,7 +55,7 @@ StyleDictionaryPackage.registerFormat({
       return input
         .replaceAll(/\/\*.*?\*\//gm, '') // remove all css comments
         .replaceAll('\n', '') // remove all line breaks
-        .replaceAll(' ', '') // remove all spaces
+        .replaceAll('  ', '') // remove all double spaces between css statements
     }
   }
 });
