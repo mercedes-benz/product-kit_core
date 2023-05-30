@@ -13,8 +13,6 @@ Product Kit Core provides design tokens according to the Mercedes-Benz Tech Inno
 You can use the export to apply the styling by yourself or use one of the following implementations:
 
 * [Tailwind](https://github.com/mercedes-benz/product-kit_tailwind)
-* [React](https://github.com/mercedes-benz/product-kit_react)
-* [Angular](https://github.com/mercedes-benz/product-kit_angular)
 * [Vue](https://github.com/mercedes-benz/product-kit_vue)
 
 The export can be extended to support other platforms like iOS or Android. Feel free to open an [issue](https://github.com/mercedes-benz/product-kit_core/issues) or provide a pull request with the desired export.
